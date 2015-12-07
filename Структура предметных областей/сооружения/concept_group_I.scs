@@ -1,0 +1,32 @@
+concept_group_I
+=>nrel_main_idtf:
+	[Группа I ] (* <-lang_ru;; *);
+	[ Group I] (* <-lang_en;; *);
+	[Група I ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Explanation_of_group_I
+	(* 
+	=>nrel_main_idtf:
+		[Пояснение понятия " Группа I"] (* <-lang_ru;; *);
+		[Explanation of group I] (* <-lang_en;; *);
+		[Тлумачэнне паняцця "Група I"] (* <-lang_by;; *);;
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Группа I — сооружения для опирания и размещения оборудования: постаменты под вертикальную и горизонтальную аппаратуру, этажерки.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Група I - збудаванні для опирания і размяшчэння абсталявання: пастаменты пад вертыкальную і гарызантальную апаратуру, этажэркі.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Group I - structures for supporting and placing equipment pedestals under the vertical and horizontal equipment, shelves.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

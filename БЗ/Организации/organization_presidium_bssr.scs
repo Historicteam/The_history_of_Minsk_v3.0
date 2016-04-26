@@ -13,5 +13,4 @@ organization_presidium_bssr
         <- lang_by;;
         *);
         
-<-concept_organization;
 <-concept_political_organization;;

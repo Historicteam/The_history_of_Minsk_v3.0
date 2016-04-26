@@ -13,5 +13,4 @@ organization_city_fire_brigade
         <- lang_by;;
         *);
         
-<-concept_organization;
 <-concept_formal_organization;;

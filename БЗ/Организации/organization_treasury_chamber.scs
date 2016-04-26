@@ -13,5 +13,4 @@ organization_treasury_chamber
         <- lang_by;;
         *);
         
-<-concept_organization;
 <-concept_administrative_organization;;

@@ -6,35 +6,20 @@ The_building_of_the_Jesuit_school
 	[The building of the Jesuit school] (* <- lang_en;; *);
 	[Будынак езуіцкай школы] (* <- lang_by;; *);
 
-<- rrel_key_sc_element: Image_building_Jesuit_school (*
-	=> nrel_main_idtf:
-		[Изображение здания иезуитской школы] (* <- lang_ru;; *);
-		[Image building Jesuit school] (* <- lang_en;; *);
-		[Выява будынка езуіцкай школы] (* <- lang_by;; *);;
-
-	<- sc_illustration;;
-	<= nrel_sc_text_translation: 
-		... (*
-		-> rrel_example: "file://contents//Здание иезуитской школы.jpg" (*
-				=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
-
 <= nrel_temporal_decomposition: 
     {
-	The_building_of_the_Jesuit_school
+	Jesuit_school
         (* 
         => nrel_main_idtf:
-            [Здание иезуитской школы]
+            [Иезуитской школа]
             (*
             <- lang_ru;;
             *);
-            [The building of the Jesuit school]
+            [Jesuit school]
             (*
             <- lang_en;;
             *);
-            [Будынак езуіцкай школы]
+            [Езуіцкай школа]
             (*
             <- lang_by;;
             *);;
@@ -851,4 +836,27 @@ concept_situation->[*organization_of_music_school => nrel_location: The_building
         *);;
     
 *);;
+
+
+Image_building_Jesuit_school 
+=> nrel_main_idtf:
+[Изображение здания иезуитской школы.] (* <- lang_ru;; *);
+[Image building Jesuit school.] (* <- lang_en;; *);
+[Выява будынка езуіцкай школы.] (* <- lang_by;; *);;
+
+
+concept_situation->[*
+The_building_of_the_Jesuit_school <- rrel_key_sc_element: Image_building_Jesuit_school  
+		(*
+			<- sc_illustration;;
+			<= nrel_sc_text_translation: ... 
+		(*
+			->rrel_example: "file://contents//Здание иезуитской школы.jpg"
+		(*
+			=> nrel_format: format_jpg;;
+			*);;
+			*);;
+			*);; 
+*];;
+
 

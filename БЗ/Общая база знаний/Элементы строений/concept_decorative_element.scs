@@ -44,6 +44,12 @@ concept_decorative_element
 -> concept_gable;;
 -> concept_pediment;;
 -> concept_facade;;
+-> concept_garland;;
+-> concept_ornament;;
+-> concept_vault;;
+-> concept_urn;;
+-> concept_dialling_column;;
+-> concept_voluta;;
 *)
 ;;
 

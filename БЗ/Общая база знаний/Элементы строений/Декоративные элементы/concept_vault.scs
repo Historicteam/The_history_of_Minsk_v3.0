@@ -55,6 +55,8 @@ concept_vault
 
 -> concept_arch_vault;;
 -> concept_tunnel_vault;;
+-> concept_groin_vault;;
+-> concept_stellate_vault;;
 
 *)
 

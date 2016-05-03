@@ -1,0 +1,49 @@
+concept_groin_vault
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[крестовый свод](*<- lang_ru;;*);
+[groin vault](*<- lang_en;;*);
+[крыжовы звод](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Крестовый свод — свод, образованный пересечением под прямым углом двух цилиндрических сводов.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Крыжовы звод - звод, палучаны перасячэннем пад прамым вуглом двух цыліндрычных скляпенняў.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/krest.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

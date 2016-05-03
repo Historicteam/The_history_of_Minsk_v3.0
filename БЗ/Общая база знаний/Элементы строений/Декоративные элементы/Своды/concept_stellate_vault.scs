@@ -1,0 +1,49 @@
+concept_stellate_vault
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[звездчатый свод](*<- lang_ru;;*);
+[stellate vault](*<- lang_en;;*);
+[зорчаты звод](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Звездчатый свод — разновидность крестового готического свода, имеющего вспомогательные ребра (нервюры) - лиерны и тьерсероны, с четким выделением диагонального ребра.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Зорчаты звод - разнавіднасць крыжовага гатычнага зводу, які мае дапаможныя рэбры (нервюры) - лиерны і тьерсероны, з выразным вылучэннем дыяганальнага рэбры.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/zvezd.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

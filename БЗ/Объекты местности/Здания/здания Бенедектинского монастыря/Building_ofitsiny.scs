@@ -1,14 +1,14 @@
 Building_ofitsiny
 => nrel_main_idtf:
-	[Здание официны]
+	[Здание официны монастыря Бенедектинок]
 	(*
 	<- lang_ru;;
 	*);
-	[Building ofitsiny]
+	[Building ofitsiny of Benedictine Monastery]
 	(*
 	<- lang_en;;
 	*);
-	[Будынак афіцыны]
+	[Будынак афіцыны кляштара Бенедыктынак]
 	(*
 	<- lang_by;;
 	*);
@@ -21,15 +21,15 @@ Building_ofitsiny
         Building_ofitsiny_of_the_monastery_of_Benedictine
         (* 
         => nrel_main_idtf:
-            [Здание официны монастыря Бенедектинок]
+            [Официна монастыря Бенедектинок]
             (*
             <- lang_ru;;
             *);
-            [Building ofitsiny of Benedictine Monastery]
+            [Ofitsina of Benedictine Monastery]
             (*
             <- lang_en;;
             *);
-            [Будынак афіцыны кляштара Бенедыктынак]
+            [Афіцына кляштара Бенедыктынак]
             (*
             <- lang_by;;
             *);;

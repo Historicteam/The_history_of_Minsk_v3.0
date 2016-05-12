@@ -1,14 +1,14 @@
 Stable
 => nrel_main_idtf:
-	[Конюшня]
+	[Строение конюшни монастыря Бенедектинок]
 	(*
 	<- lang_ru;;
 	*);
-	[Stable]
+	[Stable of the monastery of Benedictine]
 	(*
 	<- lang_en;;
 	*);
-	[Стайня]
+	[Будынак стайні манастыра Бенедыктынак]
 	(*
 	<- lang_by;;
 	*);

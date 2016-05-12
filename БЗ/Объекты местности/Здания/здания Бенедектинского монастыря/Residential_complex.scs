@@ -1,14 +1,14 @@
 Residential_complex
 => nrel_main_idtf:
-	[Здание жилого корпуса]
+	[Здание жилого корпуса монастыря Бенедектинок]
 	(*
 	<- lang_ru;;
 	*);
-	[Residential complex]
+	[Residential complex of the monastery of Benedictine]
 	(*
 	<- lang_en;;
 	*);
-	[Будынак жылога корпуса]
+	[Будынак жылога корпуса кляштара Бенедыктынак]
 	(*
 	<- lang_by;;
 	*);
@@ -22,7 +22,7 @@ Residential_complex
         Residential_complex_of_the_monastery_of_Benedictine
         (* 
         => nrel_main_idtf:
-            [Здание жилого корпуса монастыря Бенедектинок]
+            [Жилой корпус монастыря Бенедектинок]
             (*
             <- lang_ru;;
             *);
@@ -30,7 +30,7 @@ Residential_complex
             (*
             <- lang_en;;
             *);
-            [Будынак жылога корпуса кляштара Бенедыктынак]
+            [Жылы корпус кляштара Бенедыктынак]
             (*
             <- lang_by;;
             *);;
@@ -90,7 +90,7 @@ Residential_complex
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example:[ file://content/mememens35-05.jpg]
+		->rrel_example:"file://contents/mememens3505.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

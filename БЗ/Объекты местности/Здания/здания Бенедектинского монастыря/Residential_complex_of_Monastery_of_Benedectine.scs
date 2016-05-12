@@ -123,10 +123,10 @@ Residential_complex
 		*);;
 	*);;
 
-concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Residential_complex;;*]
+concept_situation->[*organization_of_Monastery_of_Benedectine => nrel_location: Residential_complex;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения монастыря бенедектинок в здании жилого корпуса ](*<-lang_ru;;*);;
+    [Контур периода времени расположения организации монастыря бенедектинок в здании жилого корпуса ](*<-lang_ru;;*);;
   
     => nrel_start_time: ...
         (*
@@ -140,6 +140,46 @@ concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Resi
             => nrel_translation_in_the_Gregorian_calendar: ...
             (*
             -> rrel_year: rrel_decimal: [1871];;
+            *);;
+        *);;
+*);;
+concept_situation->[*organization_Womans_orthodox_community_of_Spaso_Preobrazhensky_monastery => nrel_location: Residential_complex;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения организации Женской православной общины Спасо Преображенского монастыря в здании жилого корпуса ](*<-lang_ru;;*);;
+  
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1647];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1871];;
+            *);;
+        *);;
+*);;
+concept_situation->[*organization_Community_of_Benedectine_Nuns => nrel_location: Residential_complex;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения организации Общин монахинь бенедектинок в здании жилого корпуса ](*<-lang_ru;;*);;
+  
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1871];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1944];;
             *);;
         *);;
 *);;

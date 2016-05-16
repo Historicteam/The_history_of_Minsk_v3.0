@@ -303,24 +303,10 @@ concept_situation->[*organization_oficers_club => nrel_location: the_building_of
         *);;
  *);;    
 
-concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church
-(*  
-        <- sc_illustration;;
-        <= nrel_sc_text_translation: 
-        ... 
-        (*
-            -> rrel_example: "file://contents//Доминиканский костёл 1.jpg"
-            (*
-                => nrel_format: format_jpg;;
-            *);;
-        *);;
-*);;
-*]
+concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church_1;;*]
 (*
-=> nrel_start_time: ...
-                (*
-                <= nrel_time_period: ...
-                    (*
+
+
                         => nrel_start_time: ...
                         (*
                         <-concept_time_point;;
@@ -335,9 +321,96 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
                         <-concept_time_point;;          
                         => nrel_translation_in_the_Gregorian_calendar: ...
                             (*
-                            -> rrel_year: rrel_decimal: [1899];;
+                            -> rrel_year: rrel_decimal: [1920];;
                             *);;
                         *);;
+
+*);;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church_2;;*]
+(*
+
+                        => nrel_start_time: ...
+                        (*
+                        <-concept_time_point;;
+                        => nrel_translation_in_the_Gregorian_calendar: ...
+                            (*
+                            -> rrel_year: rrel_decimal: [1850];;
+                            *);;
+                        *);;
+          
+                        => nrel_finish_time: ...
+                        (*
+                        <-concept_time_point;;          
+                        => nrel_translation_in_the_Gregorian_calendar: ...
+                            (*
+                            -> rrel_year: rrel_decimal: [1920];;
+                            *);;
+                        *);;
+
+*);;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- concept_arch_baroque*;;]
+(*
+=> nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1615];;
                     *);;
                 *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1650];;
+                    *);;
+                *);;
+<<<<<<< HEAD
 *);;
+=======
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+*);;
+
+
+Picture_of_Dominican_Church_1
+
+        <- sc_illustration;
+        <= nrel_sc_text_translation: 
+        ... 
+        (*
+            -> rrel_example: "file://contents//Доминиканский костёл 1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+
+
+Picture_of_Dominican_Church_2
+
+        <- sc_illustration;
+        <= nrel_sc_text_translation: 
+        ... 
+        (*
+            -> rrel_example: "file://contents//Доминиканский костёл 2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+>>>>>>> b706f0a... Fixed monastery

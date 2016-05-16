@@ -1,0 +1,74 @@
+concept_arch_pseudo_russian
+=>nrel_main_idtf:
+	[псевдорусский стиль] (* <-lang_ru;; *);
+	[pseudo-russian style] (* <-lang_en;; *);
+	[псеўдарускі стыль] (* <-lang_by;; *);
+
+=>nrel_idtf:
+	[русский стиль] (* <-lang_ru;; *);
+	[древнерусский стиль] (* <-lang_ru;; *);
+
+=> nrel_start_time: ...	
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1800];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1899];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+=> nrel_finish_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1900];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1950];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Псевдорусский стиль - условное общее наименование нескольких различных по своим идейным истокам эклектических направлений в русской архитектуре XIX — начала XX веков, основанное на использовании традиций древнерусского зодчества и народного искусства, а также ассоциируемых с ними элементов византийской архитектуры.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;

@@ -28,7 +28,7 @@ Hutten_Czapsky_Emerickovich
 <=nrel_student:organization_Imperial_University_of_Dorpat; organization_gymnasium_of_St_Anne;
 
 <=nrel_employee: organization_Ministry_of_Finance_of_the_Russian_Empire;
-<=nrel_mayor:nrel_employee: organization_Minsk_Municipal_Public_Administration;
+<=nrel_mayor:nrel_employee: organization_Minsk_municipal_public_administration;
 <=nrel_founder: organization_Minsk_Municipal_Pawnshop; organization_Minsk_Municipal_Hobo_Shelter; organization_Minsk_Hospital_for_Prostitutes;
 <=nrel_owner: building_of_The_1st_Minsk_Brewery_Olivariya;
 <=nrel_owner: Stankovo_village;
@@ -80,6 +80,7 @@ Hutten_Czapsky_Emerickovich
 
 Image_of_Hutten_Czapsky_Emerickovich
 => nrel_main_idtf: [Изображение Гуттен-Чапского Кароля Эмериковича](*<- lang_ru;;*);
+
 [Image of Hutten-Czapsky Karol' Emerickovich](*<- lang_en;;*);
 
     => nrel_start_time: ...

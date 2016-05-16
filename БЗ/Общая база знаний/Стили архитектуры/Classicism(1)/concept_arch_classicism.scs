@@ -3,6 +3,7 @@ concept_arch_classicism
 	[классицизм] (* <-lang_ru;; *);
 	[сlassicism] (* <-lang_en;; *);
 	[класіцызму] (* <-lang_by;; *);
+
 ->doric_column;
 ->ionic_column;
 ->tuscan_order;

@@ -4,6 +4,20 @@ concept_arch_classical_baroque
 	[classical baroque] (* <-lang_en;; *);
 	[класічнае барока] (* <-lang_by;; *);
 
+<-concept_semicircural_arch;
+<-concept_broken_pediment;
+<-concept_voluta;
+<-concept_dialling_column;
+<-concept_arched_window;
+<-concept_twisted_column;
+<-concept_tunnel_vault;
+<-concept_broken_pediment;
+<-concept_auricular;
+<-concept_ormushl;
+<-concept_rocaille;
+<-concept_rolverk;
+<-concept_strapwork;
+
 <- rrel_key_sc_element: 
 	...
 	(*

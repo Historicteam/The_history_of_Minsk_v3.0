@@ -315,15 +315,6 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
                             -> rrel_year: rrel_decimal: [1800];;
                             *);;
                         *);;
-          
-                        => nrel_finish_time: ...
-                        (*
-                        <-concept_time_point;;          
-                        => nrel_translation_in_the_Gregorian_calendar: ...
-                            (*
-                            -> rrel_year: rrel_decimal: [1920];;
-                            *);;
-                        *);;
 
 *);;
 
@@ -336,15 +327,6 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
                         => nrel_translation_in_the_Gregorian_calendar: ...
                             (*
                             -> rrel_year: rrel_decimal: [1850];;
-                            *);;
-                        *);;
-          
-                        => nrel_finish_time: ...
-                        (*
-                        <-concept_time_point;;          
-                        => nrel_translation_in_the_Gregorian_calendar: ...
-                            (*
-                            -> rrel_year: rrel_decimal: [1920];;
                             *);;
                         *);;
 

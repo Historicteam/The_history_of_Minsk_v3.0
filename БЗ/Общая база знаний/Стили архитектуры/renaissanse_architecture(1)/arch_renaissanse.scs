@@ -1,8 +1,8 @@
-concept_arch_renaissanse
+arch_renaissanse
 =>nrel_main_idtf:
-	[ренессанс] (* <-lang_ru;; *);
-	[renaissanse] (* <-lang_en;; *);
-	[рэнесанс] (* <-lang_by;; *);
+	[Ренессанс] (* <-lang_ru;; *);
+	[Renaissanse] (* <-lang_en;; *);
+	[Рэнесанс] (* <-lang_by;; *);
 
 
 =>nrel_inclusion: concept_semi_circural_arch;

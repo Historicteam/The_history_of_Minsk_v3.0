@@ -1,9 +1,8 @@
-concept_arch_art_deco
+arch_postmodern_architecture
 =>nrel_main_idtf:
-	[Ар-деко] (* <-lang_ru;; *);
-	[Art Deco] (* <-lang_en;; *);
-	[Ар-дэко] (* <-lang_by;; *);
-
+	[Постмодернизм] (* <-lang_ru;; *);
+	[Postmodernism] (* <-lang_en;; *);
+	[Постмадэрнізм] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -14,7 +13,7 @@ concept_arch_art_deco
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1920];;
+                    -> rrel_year: rrel_decimal: [1950];;
                     *);;
                 *);;
           
@@ -23,7 +22,7 @@ concept_arch_art_deco
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1930];;
+                    -> rrel_year: rrel_decimal: [1960];;
                     *);;
                 *);;
             *);;
@@ -38,7 +37,7 @@ concept_arch_art_deco
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1940];;
+                    -> rrel_year: rrel_decimal: [1990];;
                     *);;
                 *);;
           
@@ -47,11 +46,12 @@ concept_arch_art_deco
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1950];;
+                    -> rrel_year: rrel_decimal: [2000];;
                     *);;
                 *);;
             *);;
         *);
+
 
 <- rrel_key_sc_element: 
 	...
@@ -61,37 +61,11 @@ concept_arch_art_deco
 		...
 		(*
 		-> rrel_example:
-		[Ар-деко — стиль, для которого характерно использование геометрических форм, симметрии и стилизованных природных мотивов;]
+		[Постмодернизм - совокупность течений, зародившихся в 1960-х гг., пришедших на смену господствовавшему модернизму.]
 			(*
 			<- lang_ru;;
 			*);;
 
 		*);;
 
-	*);
-
-	<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/Vancouver_Marine_Building_art_deco.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
-
-	<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/Cochise_County_courthouse_art_deco.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
 	*);;

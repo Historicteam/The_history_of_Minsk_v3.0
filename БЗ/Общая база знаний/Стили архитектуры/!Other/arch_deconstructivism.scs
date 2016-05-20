@@ -1,8 +1,8 @@
-concept_arch_deconstructivism
+arch_deconstructivism
 =>nrel_main_idtf:
-	[деконструктивизм] (* <-lang_ru;; *);
-	[deсonstructivism] (* <-lang_en;; *);
-	[дэканструктывізм] (* <-lang_by;; *);
+	[Деконструктивизм] (* <-lang_ru;; *);
+	[Deсonstructivism] (* <-lang_en;; *);
+	[Дэканструктывізм] (* <-lang_by;; *);
 
 
 => nrel_start_time: ...

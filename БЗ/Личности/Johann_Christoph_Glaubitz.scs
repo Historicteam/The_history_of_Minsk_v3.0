@@ -1,0 +1,8 @@
+Johann_Christoph_Glaubitz
+
+<-concept_person;
+
+=> nrel_main_idtf:
+    [Иоганн Криштоф Глаубиц] (* <- lang_ru;; *);
+    [Johann Christoph Glaubitz] (* <- lang_en;; *);
+    [Іаган Крыштоф Глаўбіц] (* <- lang_by;; *);;

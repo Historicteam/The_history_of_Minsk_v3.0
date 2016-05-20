@@ -1,8 +1,8 @@
-concept_arch_gothic
+arch_gothic
 =>nrel_main_idtf:
-	[готический стиль] (* <-lang_ru;; *);
-	[gothic] (* <-lang_en;; *);
-	[гатычны стыль] (* <-lang_by;; *);
+	[Готика] (* <-lang_ru;; *);
+	[Gothic] (* <-lang_en;; *);
+	[Готыка] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -52,8 +52,11 @@ concept_arch_gothic
             *);;
         *);
 
-=>nrel_inclusion: concept_pointed_arch;
-=>nrel_inclusion: concept_flying_buttresses;
+=>nrel_inclusion: 
+concept_pointed_arch;
+concept_flying_buttresses;
+concept_crocket_capital;
+concept_bowl_capital;
 
 
 <- rrel_key_sc_element: 

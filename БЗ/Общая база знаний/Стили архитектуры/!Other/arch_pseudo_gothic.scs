@@ -1,8 +1,8 @@
-concept_arch_bio_tech
+arch_pseudo_gothic
 =>nrel_main_idtf:
-	[био-тек] (* <-lang_ru;; *);
-	[bio-tech] (* <-lang_en;; *);
-	[бія-тэк] (* <-lang_by;; *);
+	[Псевдоготика] (* <-lang_ru;; *);
+	[Pseudo-gothic] (* <-lang_en;; *);
+	[Псеўдаготыка] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -13,7 +13,7 @@ concept_arch_bio_tech
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1920];;
+                    -> rrel_year: rrel_decimal: [1770];;
                     *);;
                 *);;
           
@@ -22,7 +22,7 @@ concept_arch_bio_tech
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1930];;
+                    -> rrel_year: rrel_decimal: [1780];;
                     *);;
                 *);;
             *);;
@@ -37,7 +37,7 @@ concept_arch_bio_tech
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1960];;
+                    -> rrel_year: rrel_decimal: [1800];;
                     *);;
                 *);;
           
@@ -46,7 +46,7 @@ concept_arch_bio_tech
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1970];;
+                    -> rrel_year: rrel_decimal: [1810];;
                     *);;
                 *);;
             *);;
@@ -61,38 +61,42 @@ concept_arch_bio_tech
 		...
 		(*
 		-> rrel_example:
-		[Био-тек или бионика — стиль архитектуры, где выразительность конструкций достигается заимствованием природных форм.]
+		[Псевдоготика - направление в русской архитектуре екатерининской эпохи, основанное на вольном сочетании элементов европейской готики и московского барокко.]
 			(*
 			<- lang_ru;;
 			*);;
 
 		*);;
+*);
 
-	*);
-
-	<- rrel_key_sc_element: ...
+		<- rrel_key_sc_element: 
+	...
 	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
 		...
 		(*
-		->rrel_example: "file://content/Milwaukee-Art-Museum_bio_tech.jpg"
+		-> rrel_example:
+		[Pseudo-gothic - an architectural movement based on the free combination of elements of European Gothic and Moscow baroque]
 			(*
-			=> nrel_format: format_jpg;;
+			<- lang_en;;
 			*);;
+
 		*);;
-	*);
+*);
 
-	<- rrel_key_sc_element: ...
+		<- rrel_key_sc_element: 
+	...
 	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
 		...
 		(*
-		->rrel_example: "file://content/National_Space_Centre_GB_bio_tech.jpg"
+		-> rrel_example:
+		[Псеўдаготыка - кірунак у рускай архітэктуры екацярынінскай эпохі, заснаваны на вольным спалучэнні элементаў еўрапейскай готыкі і маскоўскага барока.]
 			(*
-			=> nrel_format: format_jpg;;
+			<- lang_by;;
 			*);;
+
 		*);;
 	*);;
-

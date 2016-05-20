@@ -1,8 +1,8 @@
-concept_arch_vilnius_baroque
+arch_vilnius_baroque
 =>nrel_main_idtf:
-	[виленское барокко] (* <-lang_ru;; *);
-	[vilnius baroque] (* <-lang_en;; *);
-	[віленскае барока] (* <-lang_by;; *);
+	[Виленское Барокко] (* <-lang_ru;; *);
+	[Vilnius Baroque] (* <-lang_en;; *);
+	[Віленскае Барока] (* <-lang_by;; *);
 
 <- rrel_key_sc_element: 
 	...
@@ -19,6 +19,10 @@ concept_arch_vilnius_baroque
 
 		*);;
 *);
+
+=>nrel_author: Johann_Christoph_Glaubitz;
+
+=>nrel_arch_model: catholic_hurch_st_catherine_vilnius;
 
 ->The_building_of_the_Mariinsky_Cathedral;
 ->building_of_the_church_of_St_Joseph;

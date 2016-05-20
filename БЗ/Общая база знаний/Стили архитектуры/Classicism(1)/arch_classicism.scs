@@ -1,13 +1,21 @@
-concept_arch_classicism
+arch_classicism
 =>nrel_main_idtf:
-	[классицизм] (* <-lang_ru;; *);
-	[сlassicism] (* <-lang_en;; *);
-	[класіцызму] (* <-lang_by;; *);
+	[Классицизм] (* <-lang_ru;; *);
+	[Classicism] (* <-lang_en;; *);
+	[Класіцызм] (* <-lang_by;; *);
 
-->doric_column;
-->ionic_column;
-->tuscan_order;
-->composite_order;
+=>nrel_inclusion:
+concept_doric_column;
+concept_ionic_column;
+concept_tuscan_order;
+concept_composite_order;
+concept_portico;
+concept_pilaster;
+concept_urn;
+concept_garland;
+concept_rosette;
+concept_palmette;
+
 
 <- rrel_key_sc_element: 
 	...

@@ -1,8 +1,8 @@
-concept_arch_constructivism
+arch_eclecticism
 =>nrel_main_idtf:
-	[конструктивизм] (* <-lang_ru;; *);
-	[сonstructivism] (* <-lang_en;; *);
-	[канструктывізм] (* <-lang_by;; *);
+	[Эклектика] (* <-lang_ru;; *);
+	[Eclecticism] (* <-lang_en;; *);
+	[Эклектыка] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -13,7 +13,7 @@ concept_arch_constructivism
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1920];;
+                    -> rrel_year: rrel_decimal: [1830];;
                     *);;
                 *);;
           
@@ -22,7 +22,7 @@ concept_arch_constructivism
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1930];;
+                    -> rrel_year: rrel_decimal: [1840];;
                     *);;
                 *);;
             *);;
@@ -37,7 +37,7 @@ concept_arch_constructivism
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1930];;
+                    -> rrel_year: rrel_decimal: [1890];;
                     *);;
                 *);;
           
@@ -46,7 +46,7 @@ concept_arch_constructivism
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1940];;
+                    -> rrel_year: rrel_decimal: [1900];;
                     *);;
                 *);;
             *);;
@@ -61,44 +61,13 @@ concept_arch_constructivism
 		...
 		(*
 		-> rrel_example:
-		[Конструктивизм — авангардистский метод в  архитектуре, получивший развитие в 1920 — первой половине 1930 годов.]
+		[Эклектыка — архітэктурны стыль, які быў папулярны ў XIX—пач. XX ст., у якім адна праца ўключае элементы з гістарычна папярэдніх стыляў.]
 			(*
-			<- lang_ru;;
+			<- lang_be;;
 			*);;
 
 		*);;
-*);
 
-		<- rrel_key_sc_element: 
-	...
-	(*
-	<-sc_explanation;;
-	<=nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example:
-		[Constructivism - avant-garde trend in architecture, was developed in 1920 - the first half of 1930.]
-			(*
-			<- lang_en;;
-			*);;
-
-		*);;
-*);
-
-		<- rrel_key_sc_element: 
-	...
-	(*
-	<-sc_explanation;;
-	<=nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example:
-		[Канструктывізм - авангардысцкі метад у архітэктуры, які атрымаў развіццё ў 1920 - першай палове 1930 гадоў.]
-			(*
-			<- lang_by;;
-			*);;
-
-		*);;
 	*);
 
 	<- rrel_key_sc_element: ...
@@ -107,7 +76,7 @@ concept_arch_constructivism
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://content/Dom_Cultury_Zueva_constructivism.jpg"
+		->rrel_example: "file://content/Beloselskii_eclectisism.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
@@ -120,10 +89,9 @@ concept_arch_constructivism
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://content/konstr-dom-kulturi-rusakova_constructivism.jpg"
+		->rrel_example: "file://content/pirogovka_clinics_eclectisism.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
 	*);;
-

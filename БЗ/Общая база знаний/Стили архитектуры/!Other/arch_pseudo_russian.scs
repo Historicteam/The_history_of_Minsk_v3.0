@@ -1,10 +1,14 @@
-concept_arch_neo_renaissance
+arch_pseudo_russian
 =>nrel_main_idtf:
-	[нео-ренессанс] (* <-lang_ru;; *);
-	[neo_renaissance] (* <-lang_en;; *);
-	[неа-рэнесанс] (* <-lang_by;; *);
+	[Псевдорусский стиль] (* <-lang_ru;; *);
+	[Pseudo-russian style] (* <-lang_en;; *);
+	[Псеўдарускі стыль] (* <-lang_by;; *);
 
-=> nrel_start_time: ...
+=>nrel_idtf:
+	[Русский стиль] (* <-lang_ru;; *);
+	[Древнерусский стиль] (* <-lang_ru;; *);
+
+=> nrel_start_time: ...	
         (*
         <= nrel_time_period: ...
             (*
@@ -22,7 +26,7 @@ concept_arch_neo_renaissance
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1810];;
+                    -> rrel_year: rrel_decimal: [1899];;
                     *);;
                 *);;
             *);;
@@ -37,7 +41,7 @@ concept_arch_neo_renaissance
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1890];;
+                    -> rrel_year: rrel_decimal: [1900];;
                     *);;
                 *);;
           
@@ -46,7 +50,7 @@ concept_arch_neo_renaissance
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1900];;
+                    -> rrel_year: rrel_decimal: [1950];;
                     *);;
                 *);;
             *);;
@@ -61,11 +65,10 @@ concept_arch_neo_renaissance
 		...
 		(*
 		-> rrel_example:
-		[Неоренессанс — одна из наиболее распространённых форм архитектурной эклектики XIX века, воспроизводившая архитектурные решения времён Возрождения.]
+		[Псевдорусский стиль - условное общее наименование нескольких различных по своим идейным истокам эклектических направлений в русской архитектуре XIX — начала XX веков, основанное на использовании традиций древнерусского зодчества и народного искусства, а также ассоциируемых с ними элементов византийской архитектуры.]
 			(*
 			<- lang_ru;;
 			*);;
 
 		*);;
-
-	*);;
+*);;

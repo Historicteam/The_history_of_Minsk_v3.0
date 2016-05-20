@@ -5,3 +5,15 @@ the_Dominican_monastery_gates
 	[ворота доминиканского монастыря] (* <- lang_ru;; *);
 	[the Dominican monastery gates] (* <- lang_en;; *);
 	[вароты дамініканскага кляштара] (* <- lang_by;; *);;
+
+concept_situation->[*the_Dominican_monastery_gates <- concept_lost_constructions*;;]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1947];;
+        *);;
+    *);;                   
+*);;

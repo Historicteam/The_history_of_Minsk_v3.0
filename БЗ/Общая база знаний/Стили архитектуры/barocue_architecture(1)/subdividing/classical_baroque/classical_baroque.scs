@@ -1,22 +1,23 @@
-concept_arch_classical_baroque
+arch_classical_baroque
 =>nrel_main_idtf:
-	[классическое барокко] (* <-lang_ru;; *);
-	[classical baroque] (* <-lang_en;; *);
-	[класічнае барока] (* <-lang_by;; *);
-
-<-concept_semicircural_arch;
-<-concept_broken_pediment;
-<-concept_voluta;
-<-concept_dialling_column;
-<-concept_arched_window;
-<-concept_twisted_column;
-<-concept_tunnel_vault;
-<-concept_broken_pediment;
-<-concept_auricular;
-<-concept_ormushl;
-<-concept_rocaille;
-<-concept_rolverk;
-<-concept_strapwork;
+	[Классическое Барокко] (* <-lang_ru;; *);
+	[Classical Baroque] (* <-lang_en;; *);
+	[Класічнае Барока] (* <-lang_by;; *);
+	
+=>nrel_inclusion:
+concept_semicircural_arch;
+concept_broken_pediment;
+concept_voluta;
+concept_dialling_column;
+concept_arched_window;
+concept_twisted_column;
+concept_tunnel_vault;
+concept_broken_pediment;
+concept_auricular;
+concept_ormushl;
+concept_rocaille;
+concept_rolverk;
+concept_strapwork;
 
 <- rrel_key_sc_element: 
 	...
@@ -82,4 +83,7 @@ concept_arch_classical_baroque
 
 ->Female_Basilian_Monastery_Building;
 ->The_building_of_the_Dominican_monastery;
-->building_of_church_of_the_Holy_Spirit;;
+
+=>nrel_arch_model: 
+	Santa_Maria_della_Salute;
+	Church_of_the_Gesu;;

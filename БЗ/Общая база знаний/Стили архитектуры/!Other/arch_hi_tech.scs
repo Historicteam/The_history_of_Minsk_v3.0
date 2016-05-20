@@ -1,8 +1,8 @@
-concept_arch_eclecticism
+arch_hi_tech
 =>nrel_main_idtf:
-	[эклектика] (* <-lang_ru;; *);
-	[eclecticism] (* <-lang_en;; *);
-	[эклектыка] (* <-lang_by;; *);
+	[Хай-тек] (* <-lang_ru;; *);
+	[Hi-tech] (* <-lang_en;; *);
+	[Хай-тэк] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -13,7 +13,7 @@ concept_arch_eclecticism
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1830];;
+                    -> rrel_year: rrel_decimal: [1970];;
                     *);;
                 *);;
           
@@ -22,7 +22,7 @@ concept_arch_eclecticism
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1840];;
+                    -> rrel_year: rrel_decimal: [1980];;
                     *);;
                 *);;
             *);;
@@ -37,7 +37,7 @@ concept_arch_eclecticism
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1890];;
+                    -> rrel_year: rrel_decimal: [1980];;
                     *);;
                 *);;
           
@@ -46,7 +46,7 @@ concept_arch_eclecticism
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1900];;
+                    -> rrel_year: rrel_decimal: [1970];;
                     *);;
                 *);;
             *);;
@@ -61,37 +61,11 @@ concept_arch_eclecticism
 		...
 		(*
 		-> rrel_example:
-		[Эклектыка — архітэктурны стыль, які быў папулярны ў XIX—пач. XX ст., у якім адна праца ўключае элементы з гістарычна папярэдніх стыляў.]
+		[Хай-тек - архитектурный стиль, основанный на использовании высоких технологий в проектировании, строительстве и инженерии зданий и сооружений, использовании прямых линий и форм, широком применении стекла, пластика, металла.]
 			(*
-			<- lang_be;;
+			<- lang_ru;;
 			*);;
 
 		*);;
 
-	*);
-
-	<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/Beloselskii_eclectisism.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
-
-	<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/pirogovka_clinics_eclectisism.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
 	*);;

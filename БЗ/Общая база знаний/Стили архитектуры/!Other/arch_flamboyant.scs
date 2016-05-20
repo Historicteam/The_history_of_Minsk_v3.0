@@ -1,8 +1,8 @@
-concept_arch_postmodern_architecture
+arch_flamboyant
 =>nrel_main_idtf:
-	[постмодернизм] (* <-lang_ru;; *);
-	[postmodernism] (* <-lang_en;; *);
-	[постмадэрнізм] (* <-lang_by;; *);
+	[Пламенеющая Готика] (* <-lang_ru;; *);
+	[Flamboyant] (* <-lang_en;; *);
+	[Палымяная Готыка] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -13,7 +13,7 @@ concept_arch_postmodern_architecture
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1950];;
+                    -> rrel_year: rrel_decimal: [1400];;
                     *);;
                 *);;
           
@@ -22,7 +22,7 @@ concept_arch_postmodern_architecture
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1960];;
+                    -> rrel_year: rrel_decimal: [1410];;
                     *);;
                 *);;
             *);;
@@ -37,7 +37,7 @@ concept_arch_postmodern_architecture
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1990];;
+                    -> rrel_year: rrel_decimal: [1490];;
                     *);;
                 *);;
           
@@ -46,7 +46,7 @@ concept_arch_postmodern_architecture
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [2000];;
+                    -> rrel_year: rrel_decimal: [1500];;
                     *);;
                 *);;
             *);;
@@ -61,11 +61,24 @@ concept_arch_postmodern_architecture
 		...
 		(*
 		-> rrel_example:
-		[Постмодернизм - совокупность течений, зародившихся в 1960-х гг., пришедших на смену господствовавшему модернизму.]
+		[Пламенеющая готика - витиеватый стилю поздней готической архитектуры, популярному во Франции, Испании и Португалии в XV веке.]
 			(*
 			<- lang_ru;;
 			*);;
 
 		*);;
+*);
 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Milan_Cathedral_flamboyant.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
 	*);;
+

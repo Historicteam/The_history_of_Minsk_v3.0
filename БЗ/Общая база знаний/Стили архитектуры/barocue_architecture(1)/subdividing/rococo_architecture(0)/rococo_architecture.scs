@@ -1,8 +1,8 @@
 concept_arch_rococo_architecture
 =>nrel_main_idtf:
-	[архитектура рококо] (* <-lang_ru;; *);
-	[rococo architecture] (* <-lang_en;; *);
-	[архітэктура рококо] (* <-lang_by;; *);
+	[Рококо] (* <-lang_ru;; *);
+	[Rococo] (* <-lang_en;; *);
+	[Рококо] (* <-lang_by;; *);
 
 <- rrel_key_sc_element: 
 	...

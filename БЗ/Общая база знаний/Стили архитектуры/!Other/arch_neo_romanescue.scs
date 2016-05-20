@@ -1,8 +1,8 @@
-concept_russian_revival
+arch_neo_romanescue
 =>nrel_main_idtf:
-	[псевдорусский силь] (* <-lang_ru;; *);
-	[russian revival] (* <-lang_en;; *);
-	[псеўдарускі стыль] (* <-lang_by;; *);
+	[Неороманский стиль] (* <-lang_ru;; *);
+	[Neoromanescue] (* <-lang_en;; *);
+	[Неараманскі стыль] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -13,7 +13,7 @@ concept_russian_revival
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1700];;
+                    -> rrel_year: rrel_decimal: [1870];;
                     *);;
                 *);;
           
@@ -22,7 +22,7 @@ concept_russian_revival
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1710];;
+                    -> rrel_year: rrel_decimal: [1880];;
                     *);;
                 *);;
             *);;
@@ -37,7 +37,7 @@ concept_russian_revival
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1790];;
+                    -> rrel_year: rrel_decimal: [1920];;
                     *);;
                 *);;
           
@@ -46,7 +46,7 @@ concept_russian_revival
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1800];;
+                    -> rrel_year: rrel_decimal: [1930];;
                     *);;
                 *);;
             *);;
@@ -61,12 +61,11 @@ concept_russian_revival
 		...
 		(*
 		-> rrel_example:
-		[Псевдорусский стиль - термин, обозначающие направление в русской архитектуре второй половины XIX — начала XX веков, связанное с поиском самобытного национального стиля, до сих пор неточны, а отдельные явления, существовавшие в рамках этого направления, не дифференцированы]
+		[Неороманский стиль - стиль XIX века, основой которого стала романская архитектура XI—XII веков.]
 			(*
 			<- lang_ru;;
 			*);;
 
 		*);;
 
-	*);
-->building_of_church_of_the_Holy_Spirit;;
+	*);;

@@ -1,8 +1,8 @@
-concept_neo_romanticism
+arch_neo_romanticism
 =>nrel_main_idtf:
-	[неоромантизм] (* <-lang_ru;; *);
-	[neoromanticism] (* <-lang_en;; *);
-	[неараматызм] (* <-lang_by;; *);
+	[Неоромантизм] (* <-lang_ru;; *);
+	[Neoromanticism] (* <-lang_en;; *);
+	[Неараматызм] (* <-lang_by;; *);
 
 
 

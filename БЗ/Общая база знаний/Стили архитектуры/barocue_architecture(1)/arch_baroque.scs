@@ -1,8 +1,8 @@
-concept_arch_baroque
+arch_baroque
 =>nrel_main_idtf:
-	[барокко] (* <-lang_ru;; *);
-	[baroque] (* <-lang_en;; *);
-	[барока] (* <-lang_by;; *);
+	[Барокко] (* <-lang_ru;; *);
+	[Baroque] (* <-lang_en;; *);
+	[Барока] (* <-lang_by;; *);
 
 
 <- rrel_key_sc_element: 

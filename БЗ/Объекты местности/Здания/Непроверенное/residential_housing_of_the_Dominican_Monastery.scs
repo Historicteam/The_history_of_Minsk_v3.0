@@ -17,7 +17,7 @@ building_of_residential_housing_of_the_Dominican_Monastery
             (*
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
-                -> rrel_year: rrel_decimal: [1950];;
+                -> rrel_year: rrel_decimal: [1947];;
                 *);;
             *);
 
@@ -125,3 +125,36 @@ concept_situation->[*organization_minsk_catholic_theological_archdiocese_seminar
             *);;
         *);;
  *);;
+
+concept_situation->[*building_of_residential_housing_of_the_Dominican_Monastery <- concept_lost_constructions*;;]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1947];;
+        *);;
+    *);;                   
+*);;
+
+concept_situation->[*building_of_residential_housing_of_the_Dominican_Monastery <- concept_arch_baroque*;;]
+(*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1703];;
+                    *);;
+                *);;
+
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1947];;
+            *);;
+        *);;
+*);;

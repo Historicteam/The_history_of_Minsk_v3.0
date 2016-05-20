@@ -1,0 +1,20 @@
+Church_of_the_Gesu
+
+=>nrel_main_idtf:
+	[Иль-Джезу] (* <-lang_ru;; *);
+	[Church of the Gesu] (* <-lang_en;; *);
+	[Іль-Джэзу] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://contents/Chiesa_gesu_facade.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

@@ -1,8 +1,10 @@
-concept_arch_romanesque_style
+arch_empire_style
 =>nrel_main_idtf:
-	[романский архитектурный стиль] (* <-lang_ru;; *);
-	[romanesque architectural style] (* <-lang_en;; *);
-	[раманскі архітэктурны стыль] (* <-lang_by;; *);
+	[Ампир] (* <-lang_ru;; *);
+	[Empire style] (* <-lang_en;; *);
+	[Ампір] (* <-lang_by;; *);
+
+<-concept_pilaster;
 
 => nrel_start_time: ...
         (*
@@ -13,7 +15,7 @@ concept_arch_romanesque_style
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1000];;
+                    -> rrel_year: rrel_decimal: [1800];;
                     *);;
                 *);;
           
@@ -22,7 +24,7 @@ concept_arch_romanesque_style
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1099];;
+                    -> rrel_year: rrel_decimal: [1810];;
                     *);;
                 *);;
             *);;
@@ -37,7 +39,7 @@ concept_arch_romanesque_style
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1590];;
+                    -> rrel_year: rrel_decimal: [1830];;
                     *);;
                 *);;
           
@@ -46,18 +48,13 @@ concept_arch_romanesque_style
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1600];;
+                    -> rrel_year: rrel_decimal: [1840];;
                     *);;
                 *);;
             *);;
         *);
 
-
-=>nrel_inclusion: concept_semi_circural_arch;
-=>nrel_inclusion: concept_bound_column;
-=>nrel_inclusion: concept_doric_column;
-
-<-rrel_key_sc_element: 
+<- rrel_key_sc_element: 
 	...
 	(*
 	<-sc_explanation;;
@@ -65,14 +62,14 @@ concept_arch_romanesque_style
 		...
 		(*
 		-> rrel_example:
-		[Романский архитектурный стиль - архитектурный стиль, для которого характерны узкие полукруглые окна, полукруглые арки, дорические колонны и массивные контрфорсы.]
+		[Ампир - стиль позднего классицизма в архитектуре, особенность которого заключается в обязательном наличии колонн, пилястров и других классических элементов.]
 			(*
 			<- lang_ru;;
 			*);;
-
 		*);;
 *);
-			<- rrel_key_sc_element: 
+
+<- rrel_key_sc_element: 
 	...
 	(*
 	<-sc_explanation;;
@@ -80,25 +77,30 @@ concept_arch_romanesque_style
 		...
 		(*
 		-> rrel_example:
-		[Romanesque architectural style - architectural style, characterized by narrow semicircular windows, semicircular arches, doric columns and massive buttresses.]
+		[Empire style - the style of late classicism in architecture, a feature of which is the mandatory presence of columns, pilasters and other classical elements.]
 			(*
 			<- lang_en;;
 			*);;
 
 		*);;
 *);
-			<- rrel_key_sc_element: 
+
+<- rrel_key_sc_element: 
 	...
 	(*
 	<-sc_explanation;;
-	<=nrel_sc_text_translation:
+	<=nrel_sc_text_translation: 
 		...
 		(*
 		-> rrel_example:
-		[Раманскі архітэктурны стыль - архітэктурны стыль, для якога характэрныя вузкія паўкруглыя вокны, паўкруглыя аркі, дарыйскія калоны і масіўныя контрфорсы.]
+		[Ампір - асаблівасць якога заключаецца ў абавязковым наяўнасці калон, пілястраў і іншых класічных элементаў.]
 			(*
 			<- lang_by;;
 			*);;
 
 		*);;
-	*);;
+	*);
+
+<-The_restaurant_Potsdam;;
+
+

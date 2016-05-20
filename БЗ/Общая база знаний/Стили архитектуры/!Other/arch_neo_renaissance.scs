@@ -1,8 +1,8 @@
-concept_arch_flamboyant
+arch_neo_renaissance
 =>nrel_main_idtf:
-	[пламенеющая готика] (* <-lang_ru;; *);
-	[flamboyant] (* <-lang_en;; *);
-	[палымяная готыка] (* <-lang_by;; *);
+	[Нео-ренессанс] (* <-lang_ru;; *);
+	[Neorenaissance] (* <-lang_en;; *);
+	[неа-рэнесанс] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -13,7 +13,7 @@ concept_arch_flamboyant
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1400];;
+                    -> rrel_year: rrel_decimal: [1800];;
                     *);;
                 *);;
           
@@ -22,7 +22,7 @@ concept_arch_flamboyant
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1410];;
+                    -> rrel_year: rrel_decimal: [1810];;
                     *);;
                 *);;
             *);;
@@ -37,7 +37,7 @@ concept_arch_flamboyant
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1490];;
+                    -> rrel_year: rrel_decimal: [1890];;
                     *);;
                 *);;
           
@@ -46,7 +46,7 @@ concept_arch_flamboyant
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1500];;
+                    -> rrel_year: rrel_decimal: [1900];;
                     *);;
                 *);;
             *);;
@@ -61,24 +61,11 @@ concept_arch_flamboyant
 		...
 		(*
 		-> rrel_example:
-		[Пламенеющая готика - витиеватый стилю поздней готической архитектуры, популярному во Франции, Испании и Португалии в XV веке.]
+		[Неоренессанс — одна из наиболее распространённых форм архитектурной эклектики XIX века, воспроизводившая архитектурные решения времён Возрождения.]
 			(*
 			<- lang_ru;;
 			*);;
 
 		*);;
-*);
 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/Milan_Cathedral_flamboyant.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
 	*);;
-

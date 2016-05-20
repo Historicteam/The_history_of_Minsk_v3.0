@@ -23,3 +23,15 @@ the_Dominican_monastery_outbuilding_1
                     -> rrel_year: rrel_decimal: [1950];;
                     *);;
                 *);;
+                
+concept_situation->[*the_Dominican_monastery_outbuilding_1 <- concept_lost_constructions*;;]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1947];;
+        *);;
+    *);;                   
+*);;                

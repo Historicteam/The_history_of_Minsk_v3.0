@@ -1,8 +1,8 @@
-concept_arch_expressionism
+russian_revival
 =>nrel_main_idtf:
-	[экспрессионизм] (* <-lang_ru;; *);
-	[expressionism] (* <-lang_en;; *);
-	[экспрэсіянізм] (* <-lang_by;; *);
+	[Псевдорусский силь] (* <-lang_ru;; *);
+	[Russian revival] (* <-lang_en;; *);
+	[Псеўдарускі стыль] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -13,7 +13,7 @@ concept_arch_expressionism
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1910];;
+                    -> rrel_year: rrel_decimal: [1700];;
                     *);;
                 *);;
           
@@ -22,7 +22,7 @@ concept_arch_expressionism
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1920];;
+                    -> rrel_year: rrel_decimal: [1710];;
                     *);;
                 *);;
             *);;
@@ -37,7 +37,7 @@ concept_arch_expressionism
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1920];;
+                    -> rrel_year: rrel_decimal: [1790];;
                     *);;
                 *);;
           
@@ -46,7 +46,7 @@ concept_arch_expressionism
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1930];;
+                    -> rrel_year: rrel_decimal: [1800];;
                     *);;
                 *);;
             *);;
@@ -61,7 +61,7 @@ concept_arch_expressionism
 		...
 		(*
 		-> rrel_example:
-		[Экспрессионизм — архитектура Первой мировой войны, для которой свойственно искажение традиционных архитектурных форм с целью достижения максимального эмоционального эффекта на зрителя. Ядром стиля является художественная экспрессия]
+		[Псевдорусский стиль - термин, обозначающие направление в русской архитектуре второй половины XIX — начала XX веков, связанное с поиском самобытного национального стиля, до сих пор неточны, а отдельные явления, существовавшие в рамках этого направления, не дифференцированы]
 			(*
 			<- lang_ru;;
 			*);;
@@ -69,30 +69,4 @@ concept_arch_expressionism
 		*);;
 
 	*);
-
-	<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/Grundtvig_memorial_church_expressionism.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
-
-	<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/Taut_Glass_Pavilion_exterior_expressionism.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);;
-
+->building_of_church_of_the_Holy_Spirit;;

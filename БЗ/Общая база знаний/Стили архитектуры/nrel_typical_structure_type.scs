@@ -1,0 +1,28 @@
+nrel_typical_structure_type
+
+=> nrel_main_idtf:
+    [характерный тип строения] (* <- lang_ru;; *);
+    [typical type of structure] (* <- lang_en;; *);
+    [характэрны тып будынка] (* <- lang_by;; *);
+
+<-sc_node_norole_relation;
+<-sc_const;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Тип строения, присущий данному архитектурному стилю.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+
+=> nrel_first_domain: concept_architectural_style;;

@@ -1,8 +1,8 @@
-concept_arch_metabolism
+arch_metabolism
 =>nrel_main_idtf:
-	[метаболизм] (* <-lang_ru;; *);
-	[metabolism] (* <-lang_en;; *);
-	[метабалізм] (* <-lang_by;; *);
+	[Метаболизм] (* <-lang_ru;; *);
+	[Metabolism] (* <-lang_en;; *);
+	[Метабалізм] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*

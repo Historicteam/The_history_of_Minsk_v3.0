@@ -1,8 +1,8 @@
-concept_arch_neo_gothic
+arch_neo_gothic
 =>nrel_main_idtf:
-	[неоготика] (* <-lang_ru;; *);
-	[neo-gothic] (* <-lang_en;; *);
-	[неаготыка] (* <-lang_by;; *);
+	[Неоготика] (* <-lang_ru;; *);
+	[Neogothic] (* <-lang_en;; *);
+	[Неаготыка] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*

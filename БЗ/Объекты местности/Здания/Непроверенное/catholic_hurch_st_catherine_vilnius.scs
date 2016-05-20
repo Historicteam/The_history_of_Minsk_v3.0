@@ -1,0 +1,9 @@
+catholic_hurch_st_catherine_vilnius
+<- concept_building;
+
+<- arch_vilnius_baroque;
+
+=> nrel_main_idtf:
+	[Костёл Святой Екатерины] (* <- lang_ru;; *);
+	[Catholic church of St. Catherine] (* <- lang_en;; *);
+	[Касцёл Святой Кацярыны] (* <- lang_by;; *);;

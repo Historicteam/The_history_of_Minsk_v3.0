@@ -1,0 +1,20 @@
+Santa_Maria_della_Salute
+
+=>nrel_main_idtf:
+	[Санта-Мария делла Салюте] (* <-lang_ru;; *);
+	[Santa Maria della Salute] (* <-lang_en;; *);
+	[Санта-Марыя дэла Салютэ] (* <-lang_by;; *);
+
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://contents/Wenecja_Santa_Maria_della_Salute.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

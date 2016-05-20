@@ -245,3 +245,39 @@ complex_of_constructions_Dominican_monastery
         };;
     *)
 };;
+
+concept_situation->[*complex_of_constructions_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Monastery_Complex;;*]
+(*
+
+
+                        => nrel_start_time: ...
+                        (*
+                        <-concept_time_point;;
+                        => nrel_translation_in_the_Gregorian_calendar: ...
+                            (*
+                            -> rrel_year: rrel_decimal: [1703];;
+                            *);;
+                        *);;
+
+        => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1943];;
+            *);;
+        *);;
+
+*);;
+
+Picture_of_Dominican_Monastery_Complex
+
+        <- sc_illustration;
+        <= nrel_sc_text_translation: 
+        ... 
+        (*
+            -> rrel_example: "file://content//Комплекс Доминиканского Монастыря 1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;

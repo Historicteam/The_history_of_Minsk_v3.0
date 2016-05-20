@@ -1,8 +1,8 @@
-concept_arch_modern
+arch_modern
 =>nrel_main_idtf:
-	[модерн] (* <-lang_ru;; *);
-	[modern] (* <-lang_en;; *);
-	[мадэрн] (* <-lang_by;; *);
+	[Модерн] (* <-lang_ru;; *);
+	[Modern] (* <-lang_en;; *);
+	[Мадэрн] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*

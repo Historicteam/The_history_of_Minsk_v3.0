@@ -1,0 +1,28 @@
+nrel_arch_model
+=> nrel_main_idtf:
+    [модель архитектурного стиля] (* <- lang_ru;; *);
+    [architectural style model] (* <- lang_en;; *);
+    [мадэль архітэктурнага стыля] (* <- lang_by;; *);
+
+<-sc_node_norole_relation;
+<-sc_const;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Строение, являющееся наглядным представителем данного архитектурного стиля.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+
+=> nrel_first_domain: concept_architectural_style;
+=> nrel_second_domain: concept_building;;

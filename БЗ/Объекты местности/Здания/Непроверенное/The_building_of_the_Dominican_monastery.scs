@@ -3,13 +3,13 @@ the_building_of_the_Dominican_monastery
 <- concept_terrain_object;
 
 => nrel_main_idtf:
-    [Здание доминиканского костёла Фомы Аквинского] (* <- lang_ru;; *);
-    [The building of the church of the Dominican Thomas Aquinas] (* <- lang_en;; *);
-    [Будынак дамініканскага касцёла Фамы Аквінскага] (* <- lang_by;; *);
+    [Здание костёла Фомы Аквинского] (* <- lang_ru;; *);
+    [The building of the church of the Thomas Aquinas] (* <- lang_en;; *);
+    [Будынак касцёла Фамы Аквінскага] (* <- lang_by;; *);
 
 => nrel_idtf:
     [Здание доминиканского монастыря] (* <- lang_ru;; *);
-    [The building of the Dominican monastery] (* <- lang_en;; *);
+    [The building of the dominican monastery] (* <- lang_en;; *);
     [Будынак дамініканскага кляштара] (* <- lang_by;; *);
 
 <- rrel_key_sc_element: 
@@ -41,8 +41,7 @@ the_building_of_the_Dominican_monastery
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;
+	*);
 
     => nrel_start_time: ...
         (*
@@ -68,7 +67,18 @@ the_building_of_the_Dominican_monastery
             *);;
         *);
 
-
+=>nrel_construction_plan: ...
+(*
+<- sc_illustration;;
+        <= nrel_sc_text_translation:
+        ...
+        (*
+            -> rrel_example: "file://contents//Dominican_Monastery_plan.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+*);
 
     <= nrel_temporal_decomposition:
     {
@@ -316,6 +326,14 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
                             *);;
                         *);;
 
+        => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
 *);;
 
 concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church_2;;*]
@@ -329,6 +347,15 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
                             -> rrel_year: rrel_decimal: [1850];;
                             *);;
                         *);;
+
+        => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
 
 *);;
 
@@ -355,9 +382,6 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- concept_arch_bar
                     -> rrel_year: rrel_decimal: [1650];;
                     *);;
                 *);;
-<<<<<<< HEAD
-*);;
-=======
             *);;
         *);;
     => nrel_finish_time: ...
@@ -365,11 +389,79 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- concept_arch_bar
         <-concept_time_point;;
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
-            -> rrel_year: rrel_decimal: [1920];;
+            -> rrel_year: rrel_decimal: [1947];;
             *);;
         *);;
 *);;
 
+concept_situation->[*the_building_of_the_Dominican_monastery <- concept_ruins*;;]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1943];;
+        *);;
+    *);;        
+
+    => nrel_finish_time: ...
+    (*
+    <-concept_time_point;;
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1947];;
+        *);;
+    *);;           
+*);;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- concept_lost_constructions*;;]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1947];;
+        *);;
+    *);;                   
+*);;                                                  
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- concept_catholic_church*;;]
+(*
+    => nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1615];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1650];;
+                    *);;
+                *);;
+            *);;
+        *);; 
+
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1869];;
+            *);;
+        *);;
+*);;
 
 Picture_of_Dominican_Church_1
 
@@ -383,7 +475,6 @@ Picture_of_Dominican_Church_1
             *);;
         *);;
 
-
 Picture_of_Dominican_Church_2
 
         <- sc_illustration;
@@ -395,4 +486,115 @@ Picture_of_Dominican_Church_2
                 => nrel_format: format_jpg;;
             *);;
         *);;
->>>>>>> b706f0a... Fixed monastery
+
+Picture_of_Dominican_Church_1941_1943
+
+        <- sc_illustration;
+        <= nrel_sc_text_translation: 
+        ... 
+        (*
+            -> rrel_example: "file://contents//Dominican monastery 1941-1943.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+
+Picture_of_Dominican_Church_1914_1920
+
+        <- sc_illustration;
+        <= nrel_sc_text_translation:
+        ...
+        (*
+            -> rrel_example: "file://contents//Dominican Monastery 1914-1920.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church_1941_1943;;*]
+(*
+
+
+                        => nrel_start_time: ...
+                        (*
+                        <-concept_time_point;;
+                        => nrel_translation_in_the_Gregorian_calendar: ...
+                            (*
+                            -> rrel_year: rrel_decimal: [1941];;
+                            *);;
+                        *);;
+
+        => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1943];;
+            *);;
+        *);;
+
+*);;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church_1914_1920;;*]
+(*
+
+
+                        => nrel_start_time: ...
+                        (*
+                        <-concept_time_point;;
+                        => nrel_translation_in_the_Gregorian_calendar: ...
+                            (*
+                            -> rrel_year: rrel_decimal: [1914];;
+                            *);;
+                        *);;
+
+        => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+*);;
+
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- concept_public_building*;;]
+(*
+=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1869];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1918];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- concept_catholic_church*;;]
+(*
+=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1918];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1943];;
+            *);;
+        *);;
+*);;

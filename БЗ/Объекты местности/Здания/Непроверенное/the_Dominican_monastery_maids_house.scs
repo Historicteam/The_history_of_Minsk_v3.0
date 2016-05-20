@@ -5,3 +5,15 @@ the_Dominican_monastery_maids_house
 	[дом для прислуги доминиканского монастыря] (* <- lang_ru;; *);
 	[the Dominican monastery maids house] (* <- lang_en;; *);
 	[дом для прыслугі дамініканскага кляштара] (* <- lang_by;; *);;
+
+concept_situation->[*the_Dominican_monastery_maids_house <- concept_lost_constructions*;;]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1947];;
+        *);;
+    *);;                   
+*);;	

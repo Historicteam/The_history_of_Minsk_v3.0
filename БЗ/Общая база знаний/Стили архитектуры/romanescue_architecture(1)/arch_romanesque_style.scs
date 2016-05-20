@@ -1,8 +1,8 @@
-concept_arch_pseudo_gothic
+arch_romanesque_style
 =>nrel_main_idtf:
-	[псевдоготика] (* <-lang_ru;; *);
-	[pseudo-gothic] (* <-lang_en;; *);
-	[псеўдаготыка] (* <-lang_by;; *);
+	[Романский архитектурный стиль] (* <-lang_ru;; *);
+	[Romanesque architectural style] (* <-lang_en;; *);
+	[Раманскі архітэктурны стыль] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*
@@ -13,7 +13,7 @@ concept_arch_pseudo_gothic
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1770];;
+                    -> rrel_year: rrel_decimal: [1000];;
                     *);;
                 *);;
           
@@ -22,7 +22,7 @@ concept_arch_pseudo_gothic
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1780];;
+                    -> rrel_year: rrel_decimal: [1099];;
                     *);;
                 *);;
             *);;
@@ -37,7 +37,7 @@ concept_arch_pseudo_gothic
                 <-concept_time_point;;
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1800];;
+                    -> rrel_year: rrel_decimal: [1590];;
                     *);;
                 *);;
           
@@ -46,14 +46,18 @@ concept_arch_pseudo_gothic
                 <-concept_time_point;;          
                 => nrel_translation_in_the_Gregorian_calendar: ...
                     (*
-                    -> rrel_year: rrel_decimal: [1810];;
+                    -> rrel_year: rrel_decimal: [1600];;
                     *);;
                 *);;
             *);;
         *);
 
 
-<- rrel_key_sc_element: 
+=>nrel_inclusion: concept_semi_circural_arch;
+=>nrel_inclusion: concept_bound_column;
+=>nrel_inclusion: concept_doric_column;
+
+<-rrel_key_sc_element: 
 	...
 	(*
 	<-sc_explanation;;
@@ -61,15 +65,14 @@ concept_arch_pseudo_gothic
 		...
 		(*
 		-> rrel_example:
-		[Псевдоготика - направление в русской архитектуре екатерининской эпохи, основанное на вольном сочетании элементов европейской готики и московского барокко.]
+		[Романский архитектурный стиль - архитектурный стиль, для которого характерны узкие полукруглые окна, полукруглые арки, дорические колонны и массивные контрфорсы.]
 			(*
 			<- lang_ru;;
 			*);;
 
 		*);;
 *);
-
-		<- rrel_key_sc_element: 
+			<- rrel_key_sc_element: 
 	...
 	(*
 	<-sc_explanation;;
@@ -77,23 +80,22 @@ concept_arch_pseudo_gothic
 		...
 		(*
 		-> rrel_example:
-		[Pseudo-gothic - an architectural movement based on the free combination of elements of European Gothic and Moscow baroque]
+		[Romanesque architectural style - architectural style, characterized by narrow semicircular windows, semicircular arches, doric columns and massive buttresses.]
 			(*
 			<- lang_en;;
 			*);;
 
 		*);;
 *);
-
-		<- rrel_key_sc_element: 
+			<- rrel_key_sc_element: 
 	...
 	(*
 	<-sc_explanation;;
-	<=nrel_sc_text_translation: 
+	<=nrel_sc_text_translation:
 		...
 		(*
 		-> rrel_example:
-		[Псеўдаготыка - кірунак у рускай архітэктуры екацярынінскай эпохі, заснаваны на вольным спалучэнні элементаў еўрапейскай готыкі і маскоўскага барока.]
+		[Раманскі архітэктурны стыль - архітэктурны стыль, для якога характэрныя вузкія паўкруглыя вокны, паўкруглыя аркі, дарыйскія калоны і масіўныя контрфорсы.]
 			(*
 			<- lang_by;;
 			*);;

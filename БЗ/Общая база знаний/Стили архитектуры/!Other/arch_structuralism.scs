@@ -1,8 +1,8 @@
-concept_arch_structuralism
+arch_structuralism
 =>nrel_main_idtf:
-	[структурализм] (* <-lang_ru;; *);
-	[structuralism] (* <-lang_en;; *);
-	[структуралізм] (* <-lang_by;; *);
+	[Структурализм] (* <-lang_ru;; *);
+	[Structuralism] (* <-lang_en;; *);
+	[Структуралізм] (* <-lang_by;; *);
 
 => nrel_start_time: ...
         (*

@@ -1,0 +1,49 @@
+concept_administrative_building
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[административное здание]
+(*
+<- lang_ru;;
+*);
+[administrative building]
+(*
+<- lang_en;;
+*);
+[адміністрацыйны будынак]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Административное здание-здание,принадлежащее государству и выполняющее административную функцию]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Адміністрацыйны будынак-будынак,што належыць дзяржаве і які выконвае адміністрацыйную функцыю]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Administrative building- building owned by the state and perform administrative functions]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

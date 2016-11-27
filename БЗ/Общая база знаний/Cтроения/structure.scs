@@ -1,0 +1,100 @@
+concept_structure
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[строение]
+(*
+<- lang_ru;;
+*);
+[structure]
+(*
+<- lang_en;;
+*);
+
+[будова]
+(*
+<- lang_by;;
+*);
+
+
+<= nrel_subdividing: 
+subdiving_of_content_of_structure
+	(*
+         => nrel_main_idtf:
+         [разбиение по назначению ]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё па змесце]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving of content]
+         (*
+         <- lang_en;;
+         *);;
+
+	-> concept_building;;
+	-> concept_construction;;
+	
+	*);
+	
+	<= nrel_subdividing: 
+subdiving_of_degree_of_safety_of_structure
+	(*
+         => nrel_main_idtf:
+         [разбиение по степени сохранности]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё па ступені захаванасці]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving to degree of safety]
+         (*
+         <- lang_en;;
+         *);;
+
+	-> concept_ruin;;
+	-> concept_recovered_structure;;
+	-> concept_authentic_structure;;
+	-> concept_reconstructed_structure;;
+	-> concept_losted_structure;;
+	
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Строение- взаимное расположение частей, составляющих одно целое, структура чего-либо]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Будова- узаемнае месцаванне частак, складаныя адно цэлае, структура чаго-небудзь]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ Structure- mutual arrangement of parts constituting one piece, something structure]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

@@ -1,0 +1,59 @@
+concept_engineering_construction
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[инженерное сооруже́ние]
+(*
+<- lang_ru;;
+*);
+[engineering construction]
+(*
+<- lang_en;;
+*);
+[інжынернае збудаванне]
+(*
+<- lang_by;;
+*);
+
+<= nrel_subdividing: ...
+(*
+
+	-> concept_bridge;;
+	-> concept_tunnel;;
+	
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Инженерные сооруже́ния — совокупность сооружений и коммуникаций, непосредственно используемых в процессе тепло-, газо-, водоснабжения, водоотведения и вентиляции]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Інжынерныя збудаванні — сукупнасць збудаванняў і камунікацый, што наўпроста выкарыстоўваюцца ў працэсе цяпло-, газа-, водазабеспячэння, водаадвядзення і вентыляцыі]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Engineering structures - a set of structures and communications, directly used in the process of heating, gas, water supply, sanitation and ventilation]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

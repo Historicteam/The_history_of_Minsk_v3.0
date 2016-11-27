@@ -1,0 +1,57 @@
+ concept_urban_object
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[обьект градостоения]
+(*
+<- lang_ru;;
+*);
+[urban object]
+(*
+<- lang_en;;
+*);
+[аб'ект горадабудаўніцтва]
+(*
+<- lang_by;;
+*);
+
+<= nrel_subdividing: ...
+(*
+
+	-> concept_structure;;
+	
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Обьекты градостроения — обьекты ,формируюшие материально-пространственную среду жилой застройки, города, села, пространственно организует ландшафт обширных систем расселения ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Аб'екты горадабудаўніцтва — аб'екты ,што фармуюць матэрыяльна-прасторавае асяроддзе жылой забудовы, горада, сяла, прасторава арганізуе ландшафт шырокіх сістэм рассялення]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Urban objects - objects that form the material and spatial environment of residential development, town, village, spatially organizes vast landscape of settlement systems]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

@@ -1,0 +1,55 @@
+concept_construction
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[сооружение]
+(*
+<- lang_ru;;
+*);
+[construction]
+(*
+<- lang_en;;
+*);
+[збудаванне]
+(*
+<- lang_by;;
+*);
+<= nrel_subdividing: ...
+(*
+
+	-> concept_engineering_construction;;
+	-> concept_hydraulic_construction;;
+	-> concept_fortification_construction;;
+	
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Сооруже́ние — это результат строительной деятельности для осуществления определённых потребительских функций]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Збудаванне — гэта вынік будаўнічай дзейнасці для ажыццяўлення вызначаных спажывецкіх функцый]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Construction -  result of construction activities for the implementation of certain functions of the consumer]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

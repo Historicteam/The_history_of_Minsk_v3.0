@@ -1,0 +1,68 @@
+concept_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[здание]
+(*
+<- lang_ru;;
+*);
+[building]
+(*
+<- lang_en;;
+*);
+[будынак]
+(*
+<- lang_by;;
+*);
+
+<= nrel_subdividing: 
+subdiving_by_use
+	(*
+         => nrel_main_idtf:
+         [разбиение зданий по цели использования]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё будынкаў па мэце выкарыстання]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving of buildings of use]
+         (*
+         <- lang_en;;
+         *);;
+
+	-> concept_administrative_building;;
+	-> concept_residential_building;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ Здание-разновидность наземного строительного сооружения с помещениями, созданного в результате строительной деятельности в целях осуществления определенных потребительских функций]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Будынак— адменнік наземнага будаўнічага збудавання з памяшканнямі, створанага ў выніку будаўнічай дзейнасці з мэтай ажыццяўлення вызначаных спажывецкіх функцый]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Building-ground kind of building structure with the premises established as a result of construction activities for the implementation of certain consumer functions]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

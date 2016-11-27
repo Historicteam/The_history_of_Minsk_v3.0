@@ -1,0 +1,48 @@
+concept_dam
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[плотина]
+(*
+<- lang_ru;;
+*);
+[dam]
+(*
+<- lang_en;;
+*);
+[плаціна]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Плотина — гидротехническое сооружение, перегораживающее водоток для подъёма уровня воды]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Плаціна — гідратэхнічнае збудаванне, што перагароджвае вадацёк для ўздыму роўня вады]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Dam - hydraulic structure, block the water flow of the water level to rise]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

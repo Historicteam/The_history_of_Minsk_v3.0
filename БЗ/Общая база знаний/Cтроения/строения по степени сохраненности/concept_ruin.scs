@@ -1,0 +1,49 @@
+concept_ruin
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[руины]
+(*
+<- lang_ru;;
+*);
+[ruin]
+(*
+<- lang_en;;
+*);
+[руіны]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Руины — останки бывшего здания или постройки]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Руіны — рэшткі былога будынка ці пабудовы]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Ruins - the remains of the former buildings and structures]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

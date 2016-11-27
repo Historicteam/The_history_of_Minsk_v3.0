@@ -1,0 +1,49 @@
+concept_recovered_structure
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[восстановленное строение]
+(*
+<- lang_ru;;
+*);
+[recovered structure]
+(*
+<- lang_en;;
+*);
+[адноўленая будова]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Восстановленное строение — строение,кторое было отстроено на том же самом месте по сохранившимся планам и чертежам]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Адноўленае будова — будова,якое было абноўлена і прыведзена ў эксплуатацыю са спрадвечна вельмі разбуранага стану]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Recovered strucure - a structure that's just been updated and brought into operation from the destroyed state]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

@@ -1,0 +1,59 @@
+concept_hydraulic_construction
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[гидротехническое сооружение]
+(*
+<- lang_ru;;
+*);
+[hydraulic construction]
+(*
+<- lang_en;;
+*);
+[гідратэхнічнае збудаванне]
+(*
+<- lang_by;;
+*);
+
+
+<= nrel_subdividing: ...
+(*
+
+	-> concept_dam;;
+	-> concept_fountain;;
+	-> concept_canal;;
+	
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Гидротехническое сооружение — объект для использования водных ресурсов, а также для борьбы с вредным воздействием вод]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Гідратэхнічнае збудаванне — аб'ект для выкарыстання водных рэсурсаў, а таксама доўжачы змагання са шкодным уплывам вод]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Hydraulic construction - object to the use of water resources as well as to combat the harmful effects of water]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

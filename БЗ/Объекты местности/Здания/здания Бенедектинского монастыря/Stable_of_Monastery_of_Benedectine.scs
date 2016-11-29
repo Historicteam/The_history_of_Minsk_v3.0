@@ -1,14 +1,14 @@
-Building_Brovary
+stable_of_Monastery_of_Benedectine
 => nrel_main_idtf:
-	[Здание бровара]
+	[Строение конюшни монастыря Бенедектинок]
 	(*
 	<- lang_ru;;
 	*);
-	[Building Brovary]
+	[Stable of the monastery of Benedictine]
 	(*
 	<- lang_en;;
 	*);
-	[Будынак бровара]
+	[Будынак стайні манастыра Бенедыктынак]
 	(*
 	<- lang_by;;
 	*);
@@ -19,18 +19,18 @@ Building_Brovary
 
 <= nrel_temporal_decomposition: 
     {
-        Building_Brovary_of_the_monastery_of_Benedictine
+        Stable_of_the_monastery_of_Benedictine
         (* 
         => nrel_main_idtf:
-            [Здание бровара монастыря Бенедектинок]
+            [Конюшня монастыря Бенедектинок]
             (*
             <- lang_ru;;
             *);
-            [Building Brovary of Benedictine Monastery]
+            [Stable of Benedictine Monastery]
             (*
             <- lang_en;;
             *);
-            [Будынак бровара кляштара Бенедыктынак]
+            [Стайня кляштара Бенедыктынак]
             (*
             <- lang_by;;
             *);;
@@ -52,18 +52,18 @@ Building_Brovary
         *);
         
         
-        Building_Brovary_of_Spaso_Preobrazhensky_female_monastery
+        Stable_of_Spaso_Preobrazhensky_female_monastery
         (*
         => nrel_main_idtf:
-            [Здание бровара Спасо-Преоброженского женского монастыря]
+            [Конюшня Спасо-Преоброженского женского монастыря]
             (*
             <- lang_ru;;
             *);
-            [Building Brovary of Spaso Preobrazhensky female monastery]
+            [Stable of Spaso Preobrazhensky female monastery]
             (*
             <- lang_en;;
             *);
-            [Будынак бровара Спаса-Праабражэнскага жаночага манастыра]
+            [Стайня Спаса-Праабражэнскага жаночага манастыра]
             (*
             <- lang_by;;
             *);;
@@ -83,26 +83,31 @@ Building_Brovary
                 *);;
             *);;
         *)
-    };;
+    };
 	
-concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Building_Brovary;;*]
-(*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения монастыря бенедектинок в Здание бровара ](*<-lang_ru;;*);;
-  
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1647];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1871];;
-            *);;
-        *);;
-*);;
+ => nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9050399;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5561731;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
  

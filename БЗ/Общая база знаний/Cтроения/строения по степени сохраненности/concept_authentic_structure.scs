@@ -1,0 +1,49 @@
+concept_authentic_structure
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[аутентичное строение]
+(*
+<- lang_ru;;
+*);
+[authentic structure]
+(*
+<- lang_en;;
+*);
+[аўтэнтычная будова]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Аутентичное строение — строение,которое сохранилось до сегодняшнего времени в первоначальном состоянии]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Аўтэнтычная будова — будова,якое захавалася да сённяшняга часу ў выточным стане]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Authentic structure - structure, which has survived until today in their original state]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

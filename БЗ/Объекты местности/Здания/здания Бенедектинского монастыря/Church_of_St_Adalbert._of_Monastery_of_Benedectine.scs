@@ -1,17 +1,17 @@
-Church_of_St_Adalbert
+church_of_St_Adalbert._of_Monastery_of_Benedectine
 => nrel_main_idtf:
-	[Костел Святого Войцеха]
-	(*
-	<- lang_ru;;
-	*);
-	[Church of St Adalbert]
-	(*
-	<- lang_en;;
-	*);
-	[Касцёл Святога Войцэха]
-	(*
-	<- lang_by;;
-	*);
+	 [Здание костела Святого Войцеха монастыря Бенедектинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Building of church of St Adalbert of the monastery of Benedictine]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак касцёла Святога Войцэха манастыра Бенедыктынак]
+            (*
+            <- lang_by;;
+            *);
 	
 <-concept_building;
 <-concept_terrain_object;
@@ -130,8 +130,24 @@ Church_of_St_Adalbert
 			*);;
 		*);;
 	*);;
-	concept_situation->[Church_of_St_Adalbert <- rrel_key_sc_element: Image_Adalbert_1647_1871;; *]
+
+
+	concept_situation->[* 
+Church_of_St_Adalbert <- rrel_key_sc_element: Image_Adalbert_1647_1871
 (*
+     <- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... 
+(*
+		-> rrel_example: "file://contents/sadalamber1800.jpg" 
+(*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+*);;
+*]
+          (*
+
             => nrel_main_idtf:
 		[Контур периода времени изображения Костела Святого войцеха в 1647-1871] (* <- lang_ru;; *);;
             
@@ -150,7 +166,19 @@ Church_of_St_Adalbert
                 *);;
             *);;
 *);;
-	concept_situation->[Church_of_St_Adalbert <- rrel_key_sc_element: Image_Adalbert_1871_1944;; *]
+concept_situation->[*
+ Church_of_St_Adalbert <- rrel_key_sc_element: Image_Adalbert_1871_1944
+(*
+        <- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents/sadalamber1900.jpg" 
+(*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+*);;
+*]
 (*
             => nrel_main_idtf:
 		[Контур периода времени изображения Костела Святого войцеха в 1871-1944 ] (* <- lang_ru;; *);;

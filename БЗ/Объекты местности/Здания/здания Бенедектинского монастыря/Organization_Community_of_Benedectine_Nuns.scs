@@ -1,0 +1,9 @@
+organization_Community_of_Benedectine_Nuns
+
+<-concept_organization;
+
+=>nrel_main_idtf:
+[Организация Общин монахинь бенедектинок](* <-lang_ru;; *);
+[Organization Community of Benedectine Nuns](* <-lang_en;; *);;
+
+

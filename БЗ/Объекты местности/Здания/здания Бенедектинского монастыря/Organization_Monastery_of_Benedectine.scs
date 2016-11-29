@@ -1,0 +1,9 @@
+organization_Monastery_of_Benedectine
+
+<-concept_organization;
+
+=>nrel_main_idtf:
+[Организация монастыря бенедектинок](* <-lang_ru;; *);
+[Organization of Monastery of Benedectine](* <-lang_en;; *);;
+
+

@@ -66,8 +66,8 @@ complex_of_buildings_of_the_monastery_of_Benedictine
             
         <= nrel_complex_of_buildings_decomposition:
         {
-            Church_of_St_Adalbert;
-            Residential_complex
+            church_of_St_Adalbert_of_Monastery_of_Benedectine;
+            residential_complex_of_Monastery_of_Benedectine
         };;
                 
         *);
@@ -111,11 +111,11 @@ complex_of_buildings_of_the_monastery_of_Benedictine
             
         <= nrel_complex_of_buildings_decomposition:
         {
-        Church_of_St_Adalbert;
-        Residential_complex;
-	    Building_ofitsiny;
-	    Building_Brovary;
-	    Stable
+        church_of_St_Adalbert_of_Monastery_of_Benedectine;
+        residential_complex_of_Monastery_of_Benedectine;
+	    building_ofitsiny_of_Monastery_of_Benedectine;
+	    building_Brovary_of_Monastery_of_Benedectine;
+	    stable_of_Monastery_of_Benedectine
         };;
                 
         *);
@@ -152,11 +152,11 @@ complex_of_buildings_of_the_monastery_of_Benedictine
             *);;
 			<= nrel_complex_of_buildings_decomposition:
         {
-        Church_of_St_Adalbert;
-        Residential_complex;
-	    Building_ofitsiny;
-	    Building_Brovary;
-	    Stable
+        church_of_St_Adalbert_of_Monastery_of_Benedectine;
+        residential_complex_of_Monastery_of_Benedectine;
+	    building_ofitsiny_of_Monastery_of_Benedectine;
+	    building_Brovary_of_Monastery_of_Benedectine;
+	   stable_of_Monastery_of_Benedectine
         };;
             
         *)

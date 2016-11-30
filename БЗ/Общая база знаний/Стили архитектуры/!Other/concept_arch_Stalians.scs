@@ -1,0 +1,47 @@
+concept_arch_Stalians
+=>nrel_main_idtf:
+	[Сталианс] (* <-lang_ru;; *);
+	[Stalians] (* <-lang_en;; *);
+	[Сталіанс] (* <-lang_by;; *);
+
+=> nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1930];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1950];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Ста́линская архитекту́ра (также сталиа́нс) — направление в архитектуре СССР с середины 1930-х до середины 1950-х годов, представляющее собой собой характерный узнаваемый сплав нескольких архитектурных стилей и отличающееся от предшествующих направлений в архитектуре СССР и архитектуры 1930-1950-х годов за рубежом.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);;

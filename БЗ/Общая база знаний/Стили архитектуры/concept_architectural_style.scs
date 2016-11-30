@@ -26,6 +26,8 @@ concept_architectural_style
 <= nrel_subdividing:
 	{
 		concept_arch_romanesque_style;
+		concept_arch_neoclassicism;
+		concept_arch_mavritan;
 		concept_arch_renaissanse;
 		concept_arch_gothic;
 		concept_arch_classicism;

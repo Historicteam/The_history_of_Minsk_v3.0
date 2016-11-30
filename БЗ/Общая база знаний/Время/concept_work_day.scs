@@ -1,0 +1,14 @@
+concept_work_day <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[рабочий день]
+	(*
+	<- lang_ru;;
+	*);
+	[work day]
+	(*
+	<- lang_en;;
+	*);
+	[працоўны дзень]
+	(*
+	<- lang_by;;
+	*);;

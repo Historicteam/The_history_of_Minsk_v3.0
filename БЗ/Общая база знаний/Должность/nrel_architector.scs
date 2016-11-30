@@ -1,0 +1,19 @@
+nrel_architector
+=>nrel_main_idtf:
+	[архитектор*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[architector*] (* <-lang_en;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[Архитектор- челоЮ который занимается разработкой внешнего вида здания.] 					(* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

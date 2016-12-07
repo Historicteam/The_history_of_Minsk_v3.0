@@ -4,6 +4,8 @@ concept_bridge
 <-sc_const;
 <-sc_node_not_relation;
 
+<-concept_engineering_construction;
+
 
 => nrel_main_idtf:
 [мост]

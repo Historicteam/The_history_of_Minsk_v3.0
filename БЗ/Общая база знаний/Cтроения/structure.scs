@@ -4,6 +4,8 @@ concept_structure
 <-sc_const;
 <-sc_node_not_relation;
 
+<-concept_urban_object;
+
 
 => nrel_main_idtf:
 [строение]

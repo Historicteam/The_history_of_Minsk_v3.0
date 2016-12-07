@@ -4,6 +4,8 @@ concept_engineering_construction
 <-sc_const;
 <-sc_node_not_relation;
 
+<-concept_construction;
+
 
 => nrel_main_idtf:
 [инженерное сооруже́ние]
@@ -22,8 +24,8 @@ concept_engineering_construction
 <= nrel_subdividing: ...
 (*
 
-	-> concept_bridge;;
-	-> concept_tunnel;;
+	-> concept_hydraulic_construction;;
+	-> concept_fortification_construction;;
 	
 *);
 

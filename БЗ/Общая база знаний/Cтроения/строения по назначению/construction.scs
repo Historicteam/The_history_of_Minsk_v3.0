@@ -14,14 +14,7 @@ concept_construction
 (*
 <- lang_by;;
 *);
-<= nrel_subdividing: ...
-(*
 
-	-> concept_engineering_construction;;
-	-> concept_hydraulic_construction;;
-	-> concept_fortification_construction;;
-	
-*);
 
 <- rrel_key_sc_element: ...
 (*

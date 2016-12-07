@@ -18,12 +18,6 @@
 <- lang_by;;
 *);
 
-<= nrel_subdividing: ...
-(*
-
-	-> concept_structure;;
-	
-*);
 
 
 <- rrel_key_sc_element: ...

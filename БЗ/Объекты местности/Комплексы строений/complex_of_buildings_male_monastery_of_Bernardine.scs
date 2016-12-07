@@ -1,0 +1,79 @@
+complex_of_constructions_of_the_male_monastery_of_Bernardine
+
+=> nrel_main_idtf:
+    [Комплекс строений монастыря бернардинцев]
+    (*
+    <- lang_ru;;
+    *);
+    [Complex of constructions the male monastery of Bernardine]
+    (*
+    <- lang_en;;
+    *);
+    [Комплекс будынкаў манастыра бернардынаў]
+    (*
+    <- lang_by;;
+    *);
+	
+ <-concept_complex_of_buildings;;               
+       
+    concept_situation->[*
+	complex_of_constructions_of_the_male_monastery_of_Bernardine        
+        <= nrel_complex_of_buildings_decomposition:
+        {
+            building_of_the_wooden_church_of_Bernardine;
+            building_of_the_Convention
+        };;
+	*] (*
+	 => nrel_start_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1630];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1644];;
+                *);;
+            *);;
+	*);;
+            
+   
+	concept_situation->[*
+	complex_of_constructions_of_the_male_monastery_of_Bernardine  
+	 <= nrel_complex_of_buildings_decomposition:
+            {
+            building_of_economic_housing_of_male_Bernardine_monastery;
+            building_of_residential_housing_of_male_Bernardine_monastery;
+            Building_trade_rows;
+            building_of_the_church_of_St_Joseph
+            };;
+	*] (*
+                
+        => nrel_start_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1652];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1860];;
+                *);;
+            *);;
+          *);;  
+
+
+    
+    
+    
+    

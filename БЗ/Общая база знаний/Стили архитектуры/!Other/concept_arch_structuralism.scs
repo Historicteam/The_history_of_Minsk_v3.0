@@ -1,0 +1,46 @@
+concept_arch_structuralism
+=>nrel_main_idtf:
+	[структурализм] (* <-lang_ru;; *);
+	[structuralism] (* <-lang_en;; *);
+	[структуралізм] (* <-lang_by;; *);
+
+=> nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1950];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1960];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Структурализм — направление в модернистской архитектуре, которое пришло на смену интернациональному стилю во второй половине 1950-х гг. и постепенно эволюционировало в различные разновидности постмодернизма.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);;

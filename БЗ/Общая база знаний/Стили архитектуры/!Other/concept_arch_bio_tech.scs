@@ -1,0 +1,98 @@
+concept_arch_bio_tech
+=>nrel_main_idtf:
+	[био-тек] (* <-lang_ru;; *);
+	[bio-tech] (* <-lang_en;; *);
+	[бія-тэк] (* <-lang_by;; *);
+
+=> nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1920];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1930];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+=> nrel_finish_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1960];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1970];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Био-тек или бионика — стиль архитектуры, где выразительность конструкций достигается заимствованием природных форм.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Milwaukee-Art-Museum_bio_tech.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/National_Space_Centre_GB_bio_tech.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

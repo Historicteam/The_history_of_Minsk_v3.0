@@ -1,0 +1,115 @@
+complex_of_buildings_of_the_monastery_of_Benedictine
+
+<-concept_complex_of_buildings;
+=> nrel_main_idtf:
+    [Комплекс строений монастыря бенедиктинок]
+    (*
+    <- lang_ru;;
+    *);
+    [Complex of buildings of the monastery of Benedictine]
+    (*
+    <- lang_en;;
+    *);
+    [Комплекс будынкаў кляштара бенедыкцінак]
+    (*
+    <- lang_by;;
+    *);;
+
+concept_situation->[*
+        complex_of_buildings_of_the_monastery_of_Benedictine        
+	 <= nrel_complex_of_buildings_decomposition:
+        {
+            Church_of_St_Adalbert;
+            Residential_complex
+        };;
+*] (*         
+        => nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    => nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1647];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1682];;
+                        *);;
+                    *);;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+       *);;     
+      
+concept_situation->[*
+      complex_of_buildings_of_the_monastery_of_Benedictine
+	<= nrel_complex_of_buildings_decomposition:
+        {
+        Church_of_St_Adalbert;
+        Residential_complex;
+	    Building_ofitsiny;
+	    Building_Brovary;
+	    Stable
+        };;	
+*] (*             
+        => nrel_start_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1682];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+	*);;
+            
+
+concept_situation->[*          
+	complex_of_buildings_of_the_monastery_of_Benedictine
+	<= nrel_complex_of_buildings_decomposition:
+        {
+        Church_of_St_Adalbert;
+        Residential_complex;
+	    Building_ofitsiny;
+	    Building_Brovary;
+	    Stable
+        };;  
+*] (*
+
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1944];;
+                *);;
+            *);;
+	*);;

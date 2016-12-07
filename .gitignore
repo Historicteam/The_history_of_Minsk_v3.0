@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 kb.bin
 sc-machine
 scp-machine
@@ -7,3 +8,6 @@ ims.ostis.kb_copy
 geometry.drawings
 
 *.*~
+=======
+*.scs~
+>>>>>>> eb0a9b7450afce313fa7942cfa880451fbffc631

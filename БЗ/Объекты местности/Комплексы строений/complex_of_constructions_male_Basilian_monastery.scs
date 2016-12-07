@@ -1,0 +1,96 @@
+complex_of_constructions_male_Basilian_monastery
+<-concept_complex_of_buildings;
+
+=> nrel_main_idtf:
+    [Комплекс строений мужского Базилианского монастыря]
+    (*
+    <- lang_ru;;
+    *);
+    [Complex of constructions of the male Basilian monastery]
+    (*
+    <- lang_en;;
+    *);
+    [Комплекс будынкаў мужчынскага Базыльянскага манастыра]
+    (*
+    <- lang_by;;
+    *);;
+
+
+concept_situation->[*
+	complex_of_constructions_male_Basilian_monastery
+	<= nrel_complex_of_buildings_decomposition:
+        {
+            Male_Basilian_Monastery_Building   
+        };;
+	*] (*
+
+    => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1617];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1634];;
+            *);;
+        *);;
+    *);;
+
+concept_situation->[*       
+        complex_of_constructions_male_Basilian_monastery
+	<= nrel_complex_of_buildings_decomposition:
+        {
+            building_of_church_of_the_Holy_Spirit;
+            Male_Basilian_Monastery_Building   
+        };;
+*](*
+    => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1634];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1641];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*
+	complex_of_constructions_male_Basilian_monastery
+   	<= nrel_complex_of_buildings_decomposition:
+        {
+        building_of_church_of_the_Holy_Spirit;
+        Male_Basilian_Monastery_Building;
+        Female_Basilian_Monastery_Building
+        };;
+*](*
+    => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1641];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1795];;
+            *);;
+        *);;
+*);;

@@ -51,6 +51,6 @@ concept_specific_type_monuments
 	-> concept_treasure;;
 	-> concept_shipwreck;;
 	-> concept_chance_find;;
-	-> concept_flooded_city;;
+	
 	*)
 ;;

@@ -1,0 +1,48 @@
+concept_fountain
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[фонтан]
+(*
+<- lang_ru;;
+*);
+[fountain]
+(*
+<- lang_en;;
+*);
+[фантан]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Фонтан — природное или искусственно созданное явление, заключающееся в истечении жидкости , под действием оказываемого на неё давления]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Фантан — прыродная ці штучна створаная з'ява, што складаецца ў заканчэнні вадкасці , пад дзеяннем робленага на яе ціску]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Fountain - natural or artificially created phenomenon, consisting in after the liquid under the effect of pressure exerted on it]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

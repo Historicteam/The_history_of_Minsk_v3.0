@@ -1,0 +1,49 @@
+concept_reconstructed_structure
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[реконструированное строение]
+(*
+<- lang_ru;;
+*);
+[reconstructed structure]
+(*
+<- lang_en;;
+*);
+[рэканструяваная будова]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Реконструированное строение — строение,которое было обновлено и введено в эксплуатацию из изначально удовлетворительного состояния(по сравнению с восстановленным строением) ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Рэканструяваны будынак — будынак,які быў абноўлен і ўведзен ў эксплуатацыю са спрадвечна здавальняльнага стану(у параўнанні з адноўленым будынкам)]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Reconstructed structure -  structure, which was updated and put into operation in a satisfactory condition (compared with the recovered structure)]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

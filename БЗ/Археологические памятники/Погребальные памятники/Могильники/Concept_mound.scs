@@ -19,7 +19,7 @@ concept_mound
 	(*
 	-> concept_ground_mound;;
 	-> concept_burial_mound;;
-	-> concept_concept_under_burial_mound;;
+	-> concept_under_burial_mound;;
 	*)
 ;
 <- rrel_key_sc_element: ...

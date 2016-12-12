@@ -1,0 +1,9 @@
+organization_Womans_orthodox_community_of_Spaso_Preobrazhensky_monastery
+
+<-concept_organization;
+
+=>nrel_main_idtf:
+[Организация Женской православной общины Спасо-Преображенского монастыря](* <-lang_ru;; *);
+[Organization Womans orthodox community of Spaso Preobrazhensky monastery](* <-lang_en;; *);;
+
+

@@ -1,14 +1,14 @@
 Building_Brovary
 => nrel_main_idtf:
-	[Здание бровара]
+	[Здание бровара монастыря Бенедектинок]
 	(*
 	<- lang_ru;;
 	*);
-	[Building Brovary]
+	[Building Brovary of Benedictine Monastery]
 	(*
 	<- lang_en;;
 	*);
-	[Будынак бровара]
+	[Будынак бровара кляштара Бенедыктынак]
 	(*
 	<- lang_by;;
 	*);
@@ -22,15 +22,15 @@ Building_Brovary
         Building_Brovary_of_the_monastery_of_Benedictine
         (* 
         => nrel_main_idtf:
-            [Здание бровара монастыря Бенедектинок]
+            [Бровар монастыря Бенедектинок]
             (*
             <- lang_ru;;
             *);
-            [Building Brovary of Benedictine Monastery]
+            [Brovar of Benedictine Monastery]
             (*
             <- lang_en;;
             *);
-            [Будынак бровара кляштара Бенедыктынак]
+            [Бровар кляштара Бенедыктынак]
             (*
             <- lang_by;;
             *);;
@@ -88,7 +88,7 @@ Building_Brovary
 concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Building_Brovary;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения монастыря бенедектинок в Здание бровара ](*<-lang_ru;;*);;
+    [Контур периода времени расположения монастыря бенедектинок в Здании бровара ](*<-lang_ru;;*);;
   
     => nrel_start_time: ...
         (*

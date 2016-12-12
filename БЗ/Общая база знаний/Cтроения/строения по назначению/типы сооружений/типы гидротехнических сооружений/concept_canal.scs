@@ -1,0 +1,48 @@
+concept_canal
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[канал]
+(*
+<- lang_ru;;
+*);
+[canal]
+(*
+<- lang_en;;
+*);
+[канал]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Канал — искусственная водная артерия, предназначенная для сокращения водных маршрутов или для перенаправления потока воды]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Канал — штучная водная артэрыя, прызначаная для скарачэння водных маршрутаў ці для перанакіравання струменя вады]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Canal - artificial waterway, designed to reduce water routes, or to redirect the flow of water]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

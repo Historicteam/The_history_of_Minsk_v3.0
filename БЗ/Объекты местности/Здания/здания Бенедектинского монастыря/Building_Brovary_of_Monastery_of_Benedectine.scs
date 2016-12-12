@@ -1,14 +1,14 @@
-Building_ofitsiny
+building_Brovary_of_Monastery_of_Benedectine
 => nrel_main_idtf:
-	[Здание официны]
+	[Здание бровара монастыря Бенедектинок]
 	(*
 	<- lang_ru;;
 	*);
-	[Building ofitsiny]
+	[Building Brovary of Benedictine Monastery]
 	(*
 	<- lang_en;;
 	*);
-	[Будынак афіцыны]
+	[Будынак бровара кляштара Бенедыктынак]
 	(*
 	<- lang_by;;
 	*);
@@ -16,20 +16,21 @@ Building_ofitsiny
 <-concept_building;
 <-concept_terrain_object;
 
+
 <= nrel_temporal_decomposition: 
     {
-        Building_ofitsiny_of_the_monastery_of_Benedictine
+        Building_Brovary_of_the_monastery_of_Benedictine
         (* 
         => nrel_main_idtf:
-            [Здание официны монастыря Бенедектинок]
+            [Бровар монастыря Бенедектинок]
             (*
             <- lang_ru;;
             *);
-            [Building ofitsiny of Benedictine Monastery]
+            [Brovar of Benedictine Monastery]
             (*
             <- lang_en;;
             *);
-            [Будынак афіцыны кляштара Бенедыктынак]
+            [Бровар кляштара Бенедыктынак]
             (*
             <- lang_by;;
             *);;
@@ -51,18 +52,18 @@ Building_ofitsiny
         *);
         
         
-        Building_ofitsiny_of_Spaso_Preobrazhensky_female_monastery
+        Building_Brovary_of_Spaso_Preobrazhensky_female_monastery
         (*
         => nrel_main_idtf:
-            [Здание официны Спасо-Преоброженского женского монастыря]
+            [Здание бровара Спасо-Преоброженского женского монастыря]
             (*
             <- lang_ru;;
             *);
-            [Building ofitsiny of Spaso Preobrazhensky female monastery]
+            [Building Brovary of Spaso Preobrazhensky female monastery]
             (*
             <- lang_en;;
             *);
-            [Будынак афіцыны Спаса-Праабражэнскага жаночага манастыра]
+            [Будынак бровара Спаса-Праабражэнскага жаночага манастыра]
             (*
             <- lang_by;;
             *);;
@@ -82,38 +83,12 @@ Building_ofitsiny
                 *);;
             *);;
         *)
-    };
+    };;
 	
- => nrel_geographical_location: ...
-	(*
-	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
-		(*
-		-> ...
-			(*
-			<- concept_coordinate;;
-			->rrel_latitude: ...
-				(*
-				<=nrel_value: ...
-					(*
-					-> rrel_degree: 53.9050399;;
-					*);;
-				*);;
-			->rrel_longitude: ...
-				(*
-				<=nrel_value: ...
-					(*
-					-> rrel_degree: 27.5561731;;
-					*);;
-				*);;
-			*);;
-		*);;
-*);;
-
-concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Building_ofitsiny;;*]
+concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Building_Brovary;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения монастыря бенедектинок в Здание официны ](*<-lang_ru;;*);;
+    [Контур периода времени расположения монастыря бенедектинок в Здании бровара ](*<-lang_ru;;*);;
   
     => nrel_start_time: ...
         (*
@@ -130,3 +105,4 @@ concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Buil
             *);;
         *);;
 *);;
+ 

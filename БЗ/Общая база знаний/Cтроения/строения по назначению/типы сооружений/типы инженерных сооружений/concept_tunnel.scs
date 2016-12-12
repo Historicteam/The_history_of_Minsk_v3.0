@@ -1,0 +1,49 @@
+concept_tunnel
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[тоннель]
+(*
+<- lang_ru;;
+*);
+[tunnel]
+(*
+<- lang_en;;
+*);
+[тунэль]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Тонне́ль — горизонтальное или наклонное подземное сооружение, длина которого значительно превосходит по размерам ширину и высоту]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Тунэль — гарызантальнае ці нахільнае падземнае збудаванне, даўжыня якога значна перасягае па памерах шырыню і вышыню]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Tunnel - horizontal or inclined underground structure, the length of which far exceeds the size of the width and height]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

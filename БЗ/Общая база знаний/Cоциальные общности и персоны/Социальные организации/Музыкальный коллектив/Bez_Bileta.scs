@@ -1,0 +1,105 @@
+Bez_Bileta
+
+=> nrel_main_idtf:
+	[Без билета]
+	(*
+	<- lang_ru;;
+	*);
+	[без квітка]
+	(*
+	<- lang_en;;
+	*);
+	[Without ticket]
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://bezbileta.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_create: 25_07_1998
+	(*
+	=> nrel_main_idtf:
+		[25 июля 1998]
+		(*
+		<- lang_ru;;
+		*);
+		[July 25, 1998]
+		(*
+		<- lang_en;;
+		*);
+		[25 ліпеня 1998]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+
+=>nrel_place_of_create: the_city_of_Minsk;
+<=nrel_author: song_dance
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Танцуй"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Dance"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Танцуй"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_author: song_afrika
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Африка"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Afrika"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Африка"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_author: song_baikonur66
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Байконур 66"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Baikonur 66"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Байконур 66"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

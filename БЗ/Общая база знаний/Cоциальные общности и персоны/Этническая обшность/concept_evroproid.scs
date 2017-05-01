@@ -1,0 +1,5 @@
+concept_evroproid
+=>nrel_main_idtf:
+	[европеоид] (* <-lang_ru;; *);
+	[europeoid] (* <-lang_en;; *);
+	[европеоид] (* <-lang_by;; *);;

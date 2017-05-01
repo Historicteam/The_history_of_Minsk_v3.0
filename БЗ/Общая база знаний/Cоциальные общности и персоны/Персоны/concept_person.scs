@@ -1,0 +1,42 @@
+concept_person
+=>nrel_main_idtf:
+	[персона] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[person] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[персона] (* <-lang_by;; *);
+=>nrel_idtf:
+	[человек] (* <-lang_ru;; *);
+<=nrel_subdividing:...
+	(*
+	->concept_male;;
+	->concept_woman;;
+	*);;
+concept_person <-rrel_key_sc_element:...
+	
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Персона - понятие, выработанное для отображения социальной природы человека, рассмотрения его как субъекта социокультурной жизни, определения его как носителя индивидуального начала, самораскрывающегося в контексте социальных отношений, общения и предметной деятельности]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(перосна)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_person
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Под «персоной» могут понимать или человеческого индивида как субъекта отношений и сознательной деятельности , или устойчивую систему социально значимых черт, характеризующих индивида как члена того или иного общества или общности. ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Персона, индивид)] (* <-lang_ru;; *);;
+				*);;
+
+concept_person->rrel_example:[Перосна : Музыкант](*<-lang_ru;;*);
+<-sc_const;
+=> nrel_inclusion: 
+	concept_actor;
+	concept_compositor;	
+	concept_producer;
+	concept_paintre;;
+

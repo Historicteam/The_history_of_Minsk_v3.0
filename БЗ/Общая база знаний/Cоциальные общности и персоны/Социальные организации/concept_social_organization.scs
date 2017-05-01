@@ -1,0 +1,34 @@
+concept_social_organization
+	=> nrel_main_idtf: [социальная организация] (* <- lang_ru;; *);
+											[social organization] (* <- lang_en;; *);
+										 [сацыяльная арганізацыя] (* <- lang_by;; *);;
+											
+
+concept_social_organization <-rrel_key_sc_element:...
+	
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Cоциальная организация — установленный в обществе нормативный социальный порядок, а также деятельность, направленная на его поддержание или приведение к нему.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(социальная организация)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_social_organization
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Под организацией понимается некий нормативный порядок, который обеспечивается всей совокупностью регулятивных механизмов и предпринимаемых действий по его поддержанию и приведению к нему. ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(социальная организация, порядок)] (* <-lang_ru;; *);;
+				*);;
+
+concept_social_organization->rrel_example:[Социальная организация:"Музыкальная группа"](*<-lang_ru;;*);
+
+=> nrel_inclusion: 
+	concept_music_band;;
+
+
+
+

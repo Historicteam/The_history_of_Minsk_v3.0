@@ -1,0 +1,120 @@
+Lukashevich_Oleg_Vlaclovich
+=> nrel_main_idtf:
+	[Лукашевич Олег Вацлавович]
+	(*
+	<- lang_ru;;
+	*);
+	[Lukashevich Oleg Vaclavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Лукашэвіч Алег Вацлававіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Lukashevich.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 27_03_1972
+	(*
+	=> nrel_main_idtf:
+		[ 27 марта 1972]
+		(*
+		<- lang_ru;;
+		*);
+		[March 27, 1972]
+		(*
+		<- lang_en;;
+		*);
+		[27 сакавіка 1972]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+=>nrel_place_of_birth: the_city_of_lyachovici
+(*
+	=> nrel_main_idtf:
+		[Ляховичи]
+		(*
+		<- lang_ru;;
+		*);
+		[Lyahovici]
+		(*
+		<- lang_en;;
+		*);
+		[Ляхавичы]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+<=nrel_author: snyato
+	(*
+	=> nrel_main_idtf:
+		[Телевизионный проект "Снято"]
+		(*
+			<- lang_ru;;
+		*);
+		[TV project "shot"]
+		(*
+			<- lang_en;;
+		*);
+		[Тэлевізійны праект "Знята"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_role_in_the: nashe_nasledie
+	(*
+	=> nrel_main_idtf:
+		[Телевизионный проект "Наше наследие"]
+		(*
+			<- lang_ru;;
+		*);
+		[TV project "Our Heritage"]
+		(*
+			<- lang_en;;
+		*);
+		[Тэлевізійны праект "Наша спадчына"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_role_in_the: epohalukashevich
+	(*
+	=> nrel_main_idtf:
+		[Телевизионный проект "Эпоха"]
+		(*
+			<- lang_ru;;
+		*);
+		[Television project "Epoch"]
+		(*
+			<- lang_en;;
+		*);
+		[Тэлевізійны праект "Эпоха"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

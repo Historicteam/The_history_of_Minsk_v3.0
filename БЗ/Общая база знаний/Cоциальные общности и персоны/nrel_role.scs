@@ -1,0 +1,26 @@
+nrel_role_in_the
+=>nrel_main_idtf:
+	[роль*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[role*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[роль*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[квалифицированный специалист, который на профессиональной основе осуществляет актерскую игру в фильмах, театре, спектаклях и тд.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[
+кваліфікаваны спецыяліст, які на прафесійнай аснове ажыццяўляе акцёрскую гульню ў фільмах, тэатры, спектаклях і тд.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

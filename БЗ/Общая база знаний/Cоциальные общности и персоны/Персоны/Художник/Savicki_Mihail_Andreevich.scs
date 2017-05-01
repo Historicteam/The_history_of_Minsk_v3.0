@@ -1,0 +1,135 @@
+Savicki_Mihail_Andreevich
+=> nrel_main_idtf:
+	[Cавицкий Михаил Андреевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Savicki Mihail Andreevich]
+	(*
+	<- lang_en;;
+	*);
+	[Саві́цкі Міхаі́л Андрэ́евіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+
+=>nrel_first_name: name_Mihail;
+
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Savicki.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+<=nrel_author: savickipaintre1
+	(*
+	=> nrel_main_idtf:
+		[Картина:  Отбор]
+		(*
+			<- lang_ru;;
+		*);;
+
+		
+<- rrel_key_sc_element: ...
+(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://paintre_savicki1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+
+
+	
+<=nrel_author: paintresavicki2
+	(*
+	=> nrel_main_idtf:
+		[Свобода]
+		(*
+			<- lang_ru;;
+		*);;
+		
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://paintre_savicki2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+	
+
+
+	
+
+
+
+
+
+=>nrel_date_of_birth: 18_02_1922
+	(*
+	=> nrel_main_idtf:
+		[18 февраля 1922]
+		(*
+		<- lang_ru;;
+		*);
+		[February 18, 1922]
+		(*
+		<- lang_en;;
+		*);
+		[18 лютага 1922]
+
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 08_11_2010
+	(*
+	=> nrel_main_idtf:
+		[8 ноября 2010]
+		(*
+		<- lang_ru;;
+		*);
+		[November 8, 2010]
+		(*
+		<- lang_en;;
+		*);
+		[8 лістапада 2010]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth:the_city_of_zvenyachi;;
+
+
+
+
+
+					
+
+
+

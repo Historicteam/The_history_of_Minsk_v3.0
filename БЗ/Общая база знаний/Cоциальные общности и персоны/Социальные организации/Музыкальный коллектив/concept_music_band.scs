@@ -1,0 +1,31 @@
+concept_music_band
+=> nrel_main_idtf: [Музыкальный коллектив] (* <- lang_ru;; *);
+											[Music band] (* <- lang_en;; *);
+										 [музычны калектыў] (* <- lang_by;; *);;
+											
+
+concept_music_band <-rrel_key_sc_element:...
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Музыкальный коллектив - коллектив людей, объединённых общей целью или работой, которые так или иначе связаны с музыкой. ]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(Музыкальный коллектив)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_music_band
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[В различных музыкальных жанрах и направлениях существуют разные формы классификации коллективов по численности и по характеру.  ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Жанры, коллективы, музыка)] (* <-lang_ru;; *);;
+				*);;
+
+concept_music_band->rrel_example:[Белорусская музыкальная группа "Песняры"](*<-lang_ru;;*);
+=> nrel_inclusion:
+	Bez_Bileta;
+	Lyapis_Trubeckoi;
+	Pesnyari;
+	Dai_dorogu;;

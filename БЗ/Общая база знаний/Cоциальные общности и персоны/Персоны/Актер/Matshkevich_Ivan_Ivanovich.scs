@@ -1,0 +1,120 @@
+Matshkevich_Ivan_Ivanovich
+=> nrel_main_idtf:
+	[Мацкевич Иван Иванович]
+	(*
+	<- lang_ru;;
+	*);
+	[Matskevich Ivan Ivanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Мацкевіч Іван Іванавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Matskevich.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 09_04_1947
+	(*
+	=> nrel_main_idtf:
+		[9 апреля 1947 года]
+		(*
+		<- lang_ru;;
+		*);
+		[April 9, 1947]
+		(*
+		<- lang_en;;
+		*);
+		[9 красавіки 1947 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+=>nrel_place_of_birth: the_village_grabovo
+(*
+	=> nrel_main_idtf:
+		[Деревня Грабово]
+		(*
+		<- lang_ru;;
+		*);
+		[Village Grabovo]
+		(*
+		<- lang_en;;
+		*);
+		[Веска Грабава]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+<=nrel_role_in_the: stepanbulia
+	(*
+	=> nrel_main_idtf:
+		[ Степан Булыга в фильме : "Ненависть"]
+		(*
+			<- lang_ru;;
+		*);
+		[Stepan Bulyga in the film: "Hate"]
+		(*
+			<- lang_en;;
+		*);
+		[Сцяпан Булыга у фільме: "Нянавісць"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_role_in_the: fruzamehanik
+	(*
+	=> nrel_main_idtf:
+		[Mеханик в фильме : "Фруза"]
+		(*
+			<- lang_ru;;
+		*);
+		[Mechanic in the film: "Fruza"]
+		(*
+			<- lang_en;;
+		*);
+		[Механік у фільме: "Фрузы"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_role_in_the: zatichie
+	(*
+	=> nrel_main_idtf:
+		[ Артём Иванов в фильме : "Затишье"]
+		(*
+			<- lang_ru;;
+		*);
+		[Artem Ivanov in the film: "Calm"]
+		(*
+			<- lang_en;;
+		*);
+		[Арцём Іваноў у фільме: "Зацішша"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

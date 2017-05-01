@@ -1,0 +1,31 @@
+concept_producer
+
+=> nrel_main_idtf: [Pежиссер] (* <- lang_ru;; *);
+											[Producer] (* <- lang_en;; *);
+										 [Pэжысёр] (* <- lang_by;; *);;
+
+											
+
+concept_producer <-rrel_key_sc_element:...
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Режиссёр  — творческий работник зрелищных видов искусства: театра, кинематографа, телевидения, цирка, эстрады.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(Режиссер)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_producer
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Назначение режиссуры — создание на основе пьесы, музыкально-драматического произведения или сценария театрального спектакля, эстрадного или циркового представления, фильма. ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(режисура, сценрий, фильмы)] (* <-lang_ru;; *);;
+				*);;
+
+concept_producer->rrel_example:[Лукашевич Олег Влацлович](*<-lang_ru;;*);
+<=nrel_author:concept_film;
+=> nrel_inclusion:
+	Lukashevich_Oleg_Vlaclovich;;

@@ -1,0 +1,34 @@
+concept_nationality01
+	
+=> nrel_main_idtf: [народность] (* <- lang_ru;; *);
+											[nation] (* <- lang_en;; *);
+										 [народнасць] (* <- lang_by;; *);;
+											
+
+concept_nationality01 <-rrel_key_sc_element:...
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Народность — языковую, территориальную, экономическую и культурную общность. ]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(Народность)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_nationality01
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Народность закрепляется на определенной территории.] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Народность, территория)] (* <-lang_ru;; *);;
+				*);;
+
+concept_nationality01->rrel_example:[Славняская народность](*<-lang_ru;;*);
+=> nrel_inclusion:
+	concept_north_nationality;;
+	
+	
+	
+	
+	

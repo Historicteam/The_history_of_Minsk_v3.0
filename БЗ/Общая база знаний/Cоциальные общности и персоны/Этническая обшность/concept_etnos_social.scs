@@ -1,0 +1,32 @@
+concept_etnos_social
+
+=> nrel_main_idtf: [ этническая общность] (* <- lang_ru;; *);
+											[еthnicity] (* <- lang_en;; *);
+										 [этнічная супольнасць] (* <- lang_by;; *);;
+											
+
+concept_etnos_social <-rrel_key_sc_element:...
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Этни́ческая о́бщность — устойчивая социальная группировка людей, исторически возникшая и обладающая общей этничностью.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(Этни́ческая о́бщность)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_etnos_social
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Основным типом этнических общностей считается этнос, более дробные общности называются элементарными или микроэтническими, а общности, объединяющие несколько этносов — макроэтническими.  ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Этнос, микроэтнос, этническая общность)] (* <-lang_ru;; *);;
+				*);;
+
+concept_etnos_social->rrel_example:[Славянская этническая общность](*<-lang_ru;;*);
+=> nrel_inclusion:
+	concept_nation01;
+	concept_nationality01;
+	concept_race01;
+	concept_ethnos01;;

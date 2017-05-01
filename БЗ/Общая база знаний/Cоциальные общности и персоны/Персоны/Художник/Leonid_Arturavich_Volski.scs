@@ -1,0 +1,61 @@
+Leonid_Arturavich_Volski
+=> nrel_main_idtf:
+	[Леонид Артурович Зейдель-Вольский]
+	(*
+	<- lang_ru;;
+	*);
+	[Leonid Arturavich Volski]
+	(*
+	<- lang_en;;
+	*);
+	[Саві́цкі Міхаі́л Андрэ́евіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+
+=>nrel_first_name: name_Mihail;
+
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Volski.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+=>nrel_date_of_birth: 14_06_1965
+	(*
+	=> nrel_main_idtf:
+		[14 сентября 1965]
+		(*
+		<- lang_ru;;
+		*);
+		[September 14, 1965]
+		(*
+		<- lang_en;;
+		*);
+		[14 верасня 1965]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+=>nrel_place_of_birth:the_city_of_minsk;;
+
+
+
+
+
+					
+
+
+

@@ -1,0 +1,45 @@
+subject_area_of_person
+=>nrel_main_idtf:
+	[Предметная область персон] (* <-lang_ru;; *);
+	[Subject area of ​​person] (* <-lang_en;; *);
+	[Прадметная вобласць персон] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Предметная область персон - изучает любые персоны, существующие на данный момент времение] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);
+->rrel_maximum_studied_object_class:concept_person;
+
+
+
+->rrel_explored_relation:nrel_date_of_birth;
+->rrel_explored_relation:nrel_date_of_death;
+->rrel_explored_relation:nrel_place_of_birth;
+->rrel_explored_relation:nrel_author;
+
+
+
+
+->rrel_not_maximum_studied_object_class: concept_actor;
+->rrel_not_maximum_studied_object_class: concept_compositor;
+->rrel_not_maximum_studied_object_class: concept_producer;
+->rrel_not_maximum_studied_object_class: concept_paintre;
+
+     
+      
+      
+
+      
+
+
+
+
+<-sc_node_not_relation;	
+<-sc_const;;

@@ -1,0 +1,5 @@
+concept_negroid
+=>nrel_main_idtf:
+	[негроид] (* <-lang_ru;; *);
+	[negroid] (* <-lang_en;; *);
+	[негроид] (* <-lang_by;; *);;

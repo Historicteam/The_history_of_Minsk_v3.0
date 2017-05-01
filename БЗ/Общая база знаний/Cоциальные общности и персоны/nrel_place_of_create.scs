@@ -1,0 +1,25 @@
+nrel_place_of_create
+=>nrel_main_idtf:
+	[место создания*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[place of creation*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[месца стварэння*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[географическая точка, которая показывает место создания чего либо] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[географическая точка, которая показывает место создания чего либо] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

@@ -1,0 +1,135 @@
+Shirma_Grigori_Romanovich
+=> nrel_main_idtf:
+	[Ширма Григорий Романович]
+	(*
+	<- lang_ru;;
+	*);
+	[Sirma Grigory Romanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Шырма Рыгор Раманавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Shirma.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 08_01_1892
+	(*
+	=> nrel_main_idtf:
+		[8 января 1892]
+		(*
+		<- lang_ru;;
+		*);
+		[January 8, 1892]
+		(*
+		<- lang_en;;
+		*);
+		[8 студзеня 1892]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 23_03_1978
+	(*
+	=> nrel_main_idtf:
+		[23 марта 1978]
+		(*
+		<- lang_ru;;
+		*);
+		[March 23, 1978]
+		(*
+		<- lang_en;;
+		*);
+		[23 сакавіка 1978]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: der_shakuni
+(*
+	=> nrel_main_idtf:
+		[Деревня Шакуны]
+		(*
+		<- lang_ru;;
+		*);
+		[The village of Shakuny]
+		(*
+		<- lang_en;;
+		*);
+		[вёска Шакуны]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_place_of_death: the_city_of_Minsk;
+<=nrel_author: bel_nation_pesni
+	(*
+	=> nrel_main_idtf:
+		[Белорусские народные песни]
+		(*
+			<- lang_ru;;
+		*);
+		[Belarusian folk songs]
+		(*
+			<- lang_en;;
+		*);
+		[Беларускія народныя песні]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_author: the_pessenik_schol
+	(*
+	=> nrel_main_idtf:
+		[Школьный песенник]
+		(*
+			<- lang_ru;;
+		*);
+		[School songbook]
+		(*
+			<- lang_en;;
+		*);
+		[школьны песеннік]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_author: the_blr_rapsodi
+	(*
+	=> nrel_main_idtf:
+		[Белорусская рапсодия]
+		(*
+			<- lang_ru;;
+		*);
+		[Belarusian Rhapsody]
+		(*
+			<- lang_en;;
+		*);
+		[Беларуская рапсодыя]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

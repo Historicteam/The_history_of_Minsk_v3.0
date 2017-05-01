@@ -1,0 +1,32 @@
+concept_actor
+
+=> nrel_main_idtf: [Актер] (* <- lang_ru;; *);
+											[Actor] (* <- lang_en;; *);
+										 [Акцёр] (* <- lang_by;; *);;
+											
+
+concept_actor <-rrel_key_sc_element:...
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Актёр  — исполнитель ролей в спектаклях и кино.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(Актер)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_actor
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Помимо профессиональных актёров, имеющих профессиональное актёрское образование и/или избравших этот род занятий в качестве основного, существуют непрофессиональные актёры. ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Актер, профессия, искусство)] (* <-lang_ru;; *);;
+				*);;
+
+concept_actor->rrel_example:[Актер Беспалый Александр Сергеевич](*<-lang_ru;;*);
+=> nrel_inclusion:
+	Matshkevich_Ivan_Ivanovich;
+	Gostuhin_Vladimir_Vasilievich;
+	Bespali_Aleksandr_Sergeevich;
+	Yankovski_Rostislav_Ivanovich;;

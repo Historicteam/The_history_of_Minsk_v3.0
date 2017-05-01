@@ -1,0 +1,32 @@
+concept_tribe01
+	=> nrel_main_idtf: [племя] (* <- lang_ru;; *);
+											[tribe] (* <- lang_en;; *);
+										 [племя] (* <- lang_by;; *);;
+											
+
+concept_tribe01 <-rrel_key_sc_element:...
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Племя — группа людей, ощущающая между собой родовую близость.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(Племя)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_tribe01
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Племя не обязательно обладает территорией компактного проживания и его претензии на какую-либо территорию не обязательно признаны другими группами. ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Племя, территория, группы)] (* <-lang_ru;; *);;
+				*);;
+
+concept_tribe01->rrel_example:[Арабские племена](*<-lang_ru;;*);
+=> nrel_inclusion:
+	concept_celtic_tribes;
+	concept_arab_tribes;
+	concept_slavic_tribes;;
+	
+	

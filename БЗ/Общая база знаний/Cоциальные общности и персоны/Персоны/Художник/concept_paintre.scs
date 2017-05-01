@@ -1,0 +1,68 @@
+concept_paintre
+	=> nrel_main_idtf: [художник] (* <- lang_ru;; *);
+											[painter] (* <- lang_en;; *);
+										 [мастак] (* <- lang_by;; *);;
+											
+
+concept_paintre <-rrel_key_sc_element:...
+	
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Художник]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(художник)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_paintre
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Художники появились ещё в каменном веке и первоначально они создавали свои изображения (рисунки) на камнях. ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Художник, рисунки)] (* <-lang_ru;; *);;
+				*);;
+
+concept_paintre->rrel_example:[Художник Марк Захарович Шагал](*<-lang_ru;;*);
+<=nrel_author:concept_picture;
+<- rrel_key_sc_element: paintre_social;
+=> nrel_inclusion: 
+	Marc_Zakharovich_Chagall;
+	Leonid_Arturavich_Volski;	
+	Savicki_Mihail_Andreevich;;
+concept_situation->[*concept_paintre <- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://2.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;*]
+(*
+	<- begin_date_1930;;
+	<- completion_date_1935;;			
+*);;
+concept_situation->[*concept_paintre <- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://3.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;*]
+(*
+	<- begin_date_1930;;
+	<- completion_date_1935;;			
+*);;
+
+
+

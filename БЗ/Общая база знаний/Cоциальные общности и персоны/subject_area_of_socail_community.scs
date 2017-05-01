@@ -1,0 +1,47 @@
+subject_area_of_socail_community
+=>nrel_main_idtf:
+	[Предметная область социальных общностей] (* <-lang_ru;; *);
+	[Subject area of ​​social communities] (* <-lang_en;; *);
+	[Прадметная вобласць сацыяльных супольнасцей] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Предметная область социальных общностей - изучает любые социальные общноси, существующие на данный момент времение] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);
+->rrel_maximum_studied_object_class:concept_social_community;
+
+
+
+->rrel_explored_relation:nrel_date_of_create;
+->rrel_explored_relation:nrel_place_of_create;
+->rrel_explored_relation:nrel_inclusion;
+
+
+
+->rrel_not_maximum_studied_object_class: concept_social_strate;
+->rrel_not_maximum_studied_object_class: concept_social_territory;
+->rrel_not_maximum_studied_object_class: concept_social_organization;
+->rrel_not_maximum_studied_object_class: concept_etnos_social;
+
+     
+      
+      
+->rrel_not_maximum_studied_object_class:  concept_social_class01;
+->rrel_not_maximum_studied_object_class: concept_caste01;
+->rrel_not_maximum_studied_object_class:concept_city;
+->rrel_not_maximum_studied_object_class: concept_village;
+      
+      
+->rrel_not_maximum_studied_object_class: concept_quarter01;
+
+
+
+<-sc_node_not_relation;	
+<-sc_const;;

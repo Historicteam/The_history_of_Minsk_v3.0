@@ -31,7 +31,7 @@ concept_educational_institution
 		[Определение понятия "учреждение образования"] (* <-lang_ru;; *);
 		[Definition of the educational institution concept] (* <-lang_en;; *);
 		[Азначэнне паняцця "установа адукацыі"] (* <-lang_by;; *);;
-	<-sc_explanation;;
+	<-sc_definition;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -57,21 +57,23 @@ concept_educational_institution
 			<- lang_by;;
 			*);;
 		*);;
-	*);
+	*);;
 
--> organization_school_of_PR_in_Warsaw;
--> organization_gymnasium_of_St_Anne;
--> organization_Minsk_Municipal_Public_Library_named_after_Pushkin;
--> organization_Imperial_University_of_Dorpat;
--> Communist_Youth_of_Belarus;
--> organization_institute_Warsaw_Music_Institute;
--> organization_Nizhny_Novgorod_Male_Gymnasium;
+subdividing_by_stages
+	=>nrel_main_idtf:
+			[разбиение по ступеням] (* <-lang_ru;; *);;
 
-=>nrel_inclusion:
-	concept_gymnasium;
-	concept_orphanage;
-	concept_university;
-	concept_shelter;;
+
+concept_educational_institution
+	<=nrel_subdividing: subdividing_by_stages
+				(*
+						->	concept_preschool_educational_institution;
+							concept_common_basic_educational_institution;
+							concept_overall_average_educational_institution;
+							concept_primary_professional_educational_institution;
+							concept_specialized_secondary_educational_institution;
+							concept_higher_professional_educational_institution;;
+				*);;
 
 
 

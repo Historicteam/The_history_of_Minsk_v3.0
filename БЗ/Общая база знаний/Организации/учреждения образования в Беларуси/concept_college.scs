@@ -1,0 +1,22 @@
+concept_college
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[колледж]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[колледж - средне-специальное учреждение образования.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

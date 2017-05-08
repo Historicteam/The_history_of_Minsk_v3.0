@@ -11,7 +11,7 @@ concept_cultural_educational_organization
 		[Определение понятия "культурно-просветительская организация"] (* <-lang_ru;; *);
 		[Definition of the cultural educational organization concept] (* <-lang_en;; *);
 		[Азначэнне паняцця "культурна-асветніцкая арганізацыя"] (* <-lang_by;; *);;
-	<- sc_definition;;
+	<- sc_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(* 

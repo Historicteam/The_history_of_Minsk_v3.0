@@ -1,0 +1,17 @@
+concept_housing_and_utilities_enterprise
+=>nrel_main_idtf:
+	[жилищно-коммунальные предприятия] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [жилищно-коммунальные предприятия - название группы отраслей, занимающихся водо-, газо- и электроснабжением бытовых потребителей и частного сектора.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

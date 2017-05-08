@@ -21,7 +21,7 @@ concept_industrial_organization
 			<- lang_by;;
 			*);;
 
-		<- sc_definition;;
+		<- sc_explanation;;
 		<= nrel_sc_text_translation:
 			...
 			(* 

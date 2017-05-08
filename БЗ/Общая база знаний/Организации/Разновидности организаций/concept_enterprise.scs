@@ -1,0 +1,28 @@
+concept_enterprise
+=>nrel_main_idtf:
+	[предприятие] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Предприя́тие — это организация, созданная с целью производства продукции, выполнения работ и оказания услуг с целью получения прибыли. ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<=nrel_subdividing: ...
+		(*
+			-> concept_industrial_enterprise;
+			   concept_agricultural_enterprise;
+			   concept_construction_enterprise;
+			   concept_communication_enterprise;
+			   concept_transport_enterprise;
+			   concept_trade_enterprise;
+			   concept_housing_and_utilities_enterprise;;
+		*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

@@ -1,0 +1,31 @@
+concept_religious_organization
+=>nrel_main_idtf:
+	[религиозная организцаия] (* <-lang_ru;; *);
+	
+<- rrel_key_sc_element: ...
+	(* 
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+
+			...
+			(* 
+			-> rrel_example: [Религиозной организацией признается добровольное объединение граждан, образованное в целях совместного исповедания и распространения веры и в установленном законом порядке зарегистрированное в качестве юридического лица] (* <-lang_ru;; *);; 
+			*);;
+
+	*);
+
+
+<=nrel_subdividing:
+	subdividing_by_territorial_scope_of_activities
+	(*
+		=> nrel_main_idtf:
+			[по территориальной сфере деятельности]
+			(*
+			<- lang_ru;;
+			*);;
+	->concept_local_religious_organization;;
+	->concept_centralized_religious_organization;;
+	*);
+<-concept_non_governmental_organization;
+<-sc_node_not_relation;	
+<-sc_const;;

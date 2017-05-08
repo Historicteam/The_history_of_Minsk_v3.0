@@ -1,0 +1,202 @@
+organization_City_hospital_of_Minsk_charitable_institutions
+=> nrel_main_idtf:
+		[Городская больница Минских богоугодных заведений]
+     (*
+        <- lang_ru;;
+     *);
+
+<- begin_date_1799;
+=> nrel_personal_composition: employees_of_City_hospital_of_Minsk_charitable_institutions;
+<-concept_formal_organization;;
+
+
+employees_of_City_hospital_of_Minsk_charitable_institutions
+=> nrel_main_idtf:
+  [Персональный состав Городской больницы Минских богоугодных заведений]
+    (*
+        <- lang_ru;;
+    *);;
+
+
+concept_situation->[* organization_City_hospital_of_Minsk_charitable_institutions <= nrel_temporal_decomposition: organization_Minsk_provincial_zemstvo_hospital;; *]
+(*
+    <- begin_date_1903;;
+    <- completion_date_1921;;
+
+*);;
+
+organization_Minsk_provincial_zemstvo_hospital
+=> nrel_main_idtf:
+		[Минская губернская земская больница]
+     (*
+        <- lang_ru;;
+     *);;
+
+concept_situation->[* organization_City_hospital_of_Minsk_charitable_institutions <= nrel_temporal_decomposition: organization_2_sovet_hospital;; *]
+(*
+     <- begin_date_1921;;
+     <- completion_date_1936;;
+
+*);;
+
+     organization_2_sovet_hospital
+     => nrel_main_idtf:
+     		[2 советская больница]
+          (*
+             <- lang_ru;;
+          *);;
+
+
+concept_situation->[* organization_City_hospital_of_Minsk_charitable_institutions <= nrel_temporal_decomposition: organization_2_clinic_city_of_Minsk;; *]
+(*
+     <- begin_date_1936;;
+     <- completion_date_1941;;
+*);;
+
+organization_2_clinic_city_of_Minsk
+   => nrel_main_idtf:
+   		[2-ой клинический городок г. Минска]
+        (*
+            <- lang_ru;;
+         *);;
+
+
+concept_situation->[* organization_City_hospital_of_Minsk_charitable_institutions => nrel_location: building_Svyato_Troitskiy_monastir;; *]
+(*
+    <- begin_date_1834;;
+
+*);;
+
+building_Svyato_Troitskiy_monastir
+=> nrel_main_idtf:
+		[Здание Свято- Троицкого униатского монастыря]
+     (*
+        <- lang_ru;;
+     *);
+
+<-concept_building;;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Zdanovich_Ivan_Ustinovich;;*]
+(*
+    <- begin_date_1906;;
+    <- completion_date_1914;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Kodis_F_K;;*]
+(*
+    <- begin_date_1917;;
+    <- completion_date_1920;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Urvanceu_S_F;;*]
+(*
+    <- begin_date_1920;;
+    <- completion_date_1938;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Brun_A_M;;*]
+(*
+    <- begin_date_1938;;
+    <- completion_date_1938;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Shurin_Ivan_Fedorovich;;*]
+(*
+    <- begin_date_1944;;
+    <- completion_date_1938;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Pavluk_K_D;;*]
+(*
+    <- begin_date_1948;;
+    <- completion_date_1958;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Prokopchuk_I_A;;*]
+(*
+    <- begin_date_1948;;
+    <- completion_date_1958;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Tushkevich_Z_R;;*]
+(*
+    <- begin_date_1948;;
+    <- completion_date_1958;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Ryabinina_M_V;;*]
+(*
+    <- begin_date_1948;;
+    <- completion_date_1958;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Golovanovna_Nina_Pavlovna;;*]
+(*
+    <- begin_date_1965;;
+    <- completion_date_1971;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Dorozhko_N_I;;*]
+(*
+    <- begin_date_1971;;
+    <- completion_date_1978;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Perhov_M_P;;*]
+(*
+    <- begin_date_1978;;
+    <- completion_date_1985;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Ribachenko_K_E;;*]
+(*
+    <- begin_date_1978;;
+    <- completion_date_1985;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Balikin_N_K;;*]
+(*
+    <- begin_date_1978;;
+    <- completion_date_1985;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Vdovenko_A_G;;*]
+(*
+    <- begin_date_1978;;
+    <- completion_date_1985;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Drazhin_S_V;;*]
+(*
+    <- begin_date_1978;;
+    <- completion_date_1985;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Urchenko_L_A;;*]
+(*
+    <- begin_date_1978;;
+    <- completion_date_1985;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Gvozdeva_A_A;;*]
+(*
+    <- begin_date_1978;;
+    <- completion_date_1985;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Grozov_B_B;;*]
+(*
+    <- begin_date_1985;;
+    <- completion_date_1987;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Fedorovich_E_N;;*]
+(*
+    <- begin_date_1987;;
+    <- completion_date_1997;;
+*);;
+
+concept_situation->[*employees_of_City_hospital_of_Minsk_charitable_institutions -> rrel_head_hospital: Trishin_L_S;;*]
+(*
+    <- begin_date_1997;;
+*);;

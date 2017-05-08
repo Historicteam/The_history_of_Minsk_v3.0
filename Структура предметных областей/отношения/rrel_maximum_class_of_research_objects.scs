@@ -1,0 +1,10 @@
+rrel_maximum_class_of_research_objects
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[максимальный класс объектов исследования']
+	(*
+	<- lang_ru;;
+	*);;

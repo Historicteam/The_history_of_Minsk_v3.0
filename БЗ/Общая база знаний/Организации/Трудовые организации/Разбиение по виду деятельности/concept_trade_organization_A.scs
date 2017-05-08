@@ -11,7 +11,7 @@ concept_trade_organization
 		[Определение понятия "торговая организация"] (* <-lang_ru;; *);
 		[Definition of the trade organization concept] (* <-lang_en;; *);
 		[Азначэнне паняцця "гандлёвая арганізацыя"] (* <-lang_by;; *);;
-	<- sc_definition;;
+	<- sc_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(* 

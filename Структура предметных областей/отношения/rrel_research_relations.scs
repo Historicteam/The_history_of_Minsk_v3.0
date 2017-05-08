@@ -1,0 +1,10 @@
+rrel_research_relations
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[исследуемые отношения']
+	(*
+	<- lang_ru;;
+	*);;

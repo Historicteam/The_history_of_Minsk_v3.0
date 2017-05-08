@@ -1,0 +1,22 @@
+concept_institute
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[институт]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[институт - высшее специализированное учебное заведение.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

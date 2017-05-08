@@ -1,0 +1,18 @@
+concept_centralized_religious_organization
+=>nrel_main_idtf:
+	[централизованная религиозная организцаия] (* <-lang_ru;; *);
+	
+<- rrel_key_sc_element: ...
+	(* 
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+
+			...
+			(* 
+			-> rrel_example: [Централизованной религиозной организацией признается религиозная организация, состоящая в соответствии со своим уставом не менее чем из трех местных религиозных организаций.] (* <-lang_ru;; *);; 
+			*);;
+
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

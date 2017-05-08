@@ -1,0 +1,224 @@
+organization_In_Bel_Kult
+=> nrel_main_idtf:
+	[Институт белорусской культуры]
+	(*
+	<- lang_ru;;
+	*);
+	[Institute of Belarusian Culture]
+	(*
+	<- lang_en;;
+	*);
+	[Інстытут беларускай культуры]	
+	(*
+	<- lang_by;;
+	*);
+=>nrel_personal_composition: employees_Institute_of_Belarusian_Culture;
+<- begin_date_1922;
+<- concept_formal_organization;
+<- concept_educational_institution;
+<- concept_scientific_organization;;
+
+
+concept_situation->[* organization_In_Bel_Kult<= nrel_temporal_decomposition: organization_Belarusian_Academy_of_Sciences;;*]
+(*
+   <- begin_date_13_10_1928;;
+    <- completion_date_1936;;
+*);;
+
+concept_situation->[* organization_In_Bel_Kult<= nrel_temporal_decomposition: organization_BSSR_Sciences_Academy;;*]
+(*
+   <- begin_date_1936;;
+    <- completion_date_1991;;
+*);;
+
+concept_situation->[* organization_In_Bel_Kult<= nrel_temporal_decomposition: organization_Belarus_Sciences_Academy;;*]
+(*
+   <- begin_date_1991;;
+    <- completion_date_1997;;
+*);;
+
+concept_situation->[* organization_In_Bel_Kult<= nrel_temporal_decomposition: organization_National_Sciences_Academy;;*]
+(*
+   <- begin_date_1997;;
+*);;
+
+
+concept_situation->[* organization_In_Bel_Kult => nrel_location: The_National_Academy_of_Sciences_of_the_BSSR;;*]
+(*
+    <- begin_date_1928;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Ignatouski_Usevolod_Makarovich;;*]
+(*
+    <- begin_date_1929;;
+    <- completion_date_1931;;
+*);;
+
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Gorin_Pavel_Osipovich;;*]
+(*
+    <- begin_date_1931;;
+    <- completion_date_1936;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Surta_Ivan_Zaharovich;;*]
+(*
+    <- begin_date_1936;;
+    <- completion_date_1937;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Goreu_Konstantin_Vasilievich;;*]
+(*
+    <- begin_date_1938;;
+    <- completion_date_1947;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Zhebrak_Anton_Romanovich;;*]
+(*
+    <- begin_date_1947;;
+    <- completion_date_1947;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Grashenkou_Nikolai_Ivanovich;;*]
+(*
+    <- begin_date_1947;;
+    <- completion_date_1951;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Kuprevich_Vasiliy_Feofilovich;;*]
+(*
+    <- begin_date_1952;;
+    <- completion_date_1969;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Borisevich_Nikolai_Aleksandrovich;;*]
+(*
+    <- begin_date_1969;;
+    <- completion_date_1987;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Platonau_Uladzimir_Petrovich;;*]
+(*
+    <- begin_date_1987;;
+    <- completion_date_1991;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Sushenya_Leonid_Mihailovich;;*]
+(*
+    <- begin_date_1992;;
+    <- completion_date_1997;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Voitovich_Aleksandr_Pavlovich;;*]
+(*
+    <- begin_date_1997;;
+    <- completion_date_2000;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president: Myasnikovich_Mihail_Uladzimirovich;;*]
+(*
+    <- begin_date_2000;;
+    <- completion_date_2004;;
+*);;
+
+/*
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_сhairman_of_the_presidium: Myasnikovich_Mihail_Uladzimirovich;;*]
+(*
+    <- begin_date_2004;;
+    <- completion_date_2010;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_сhairman_of_the_presidium: Rusetskiy_Anatoliy_Maksimovich;;*]
+(*
+    <- begin_date_2010;;
+    <- completion_date_2012;;
+*);;
+
+concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_сhairman_of_the_presidium: Gusakou_Uladzimir_Grigorievich;;*]
+(*
+    <- begin_date_2013;;
+*);;
+*/
+
+
+
+organization_Belarusian_Academy_of_Sciences
+=> nrel_main_idtf:
+	[Белорусская Академия наук]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian Academy of sciences]
+	(*
+	<- lang_en;;
+	*);
+	[Беларуская Акадэмія навук]	
+	(*
+	<- lang_by;;
+	*);
+<- concept_formal_organization;
+<- concept_educational_institute;
+<- concept_scientific_organization;;
+
+organization_BSSR_Sciences_Academy
+=> nrel_main_idtf:
+	[Академия наук Белорусской ССР]
+	(*
+	<- lang_ru;;
+	*);
+	[BSSR Sciences Academy]
+	(*
+	<- lang_en;;
+	*);
+	[Акадэмія навук Беларускай ССР]	
+	(*
+	<- lang_by;;
+	*);
+<- concept_formal_organization;
+<- concept_educational_institute;
+<- concept_scientific_organization;;
+
+organization_Belarus_Sciences_Academy
+=> nrel_main_idtf:
+	[Академия наук Беларуси]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarus Sciences Academy]
+	(*
+	<- lang_en;;
+	*);
+	[Акадэмія навук Беларусі]	
+	(*
+	<- lang_by;;
+	*);
+<- concept_formal_organization;
+<- concept_educational_institute;
+<- concept_scientific_organization;;
+
+organization_National_Sciences_Academy
+=> nrel_main_idtf:
+	[Национальная академия наук]
+	(*
+	<- lang_ru;;
+	*);
+	[National academy of sciences]
+	(*
+	<- lang_en;;
+	*);
+	[Нацыянальная акадэмія навук]	
+	(*
+	<- lang_by;;
+	*);
+<- concept_formal_organization;
+<- concept_educational_institute;
+<- concept_scientific_organization;;
+
+
+employees_Institute_of_Belarusian_Culture
+=>nrel_main_idtf:
+[ Персональный состав Института Белорусской Культуры ](*<-lang_ru;;*);;
+
+
+
+

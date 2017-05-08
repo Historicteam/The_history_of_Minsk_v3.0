@@ -1,0 +1,40 @@
+concept_agency
+=>nrel_main_idtf:
+	[учреждение] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Учреждение - это организация, создаваемая для осуществления управленческих, социально- культурных или иных функций некоммерческого характера. В отличие от других некоммерческих организаций учреждение не является собственником своего имущества.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<=nrel_subdividing: ...
+	(*
+		->	concept_administrative_organization;
+			concept_cultural_educational_organization;
+			concept_industrial_organization;
+			concept_medical_organization;
+			concept_scientific_organization;
+			concept_educational_institution;;
+	*);
+
+
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_note;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Например, юридическим лицом является БГУИР, а ФИТУ - не является.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+
+<-sc_node_not_relation;	
+<-sc_const;;

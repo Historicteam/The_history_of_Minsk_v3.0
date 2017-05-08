@@ -1,0 +1,22 @@
+concept_tehnical_college
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[техникум]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[техникум - первоначально в Германии, затем в СССР и некоторых других странах, ныне в России и в некоторых странах бывшего СССР — название типа средних специальных (профессиональных) учебных заведений.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

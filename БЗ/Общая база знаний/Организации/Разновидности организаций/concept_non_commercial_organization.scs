@@ -1,0 +1,16 @@
+concept_non_commercial_organization
+=>nrel_main_idtf:
+	[некоммерческая организация] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Некоммерческая организа́ция — организация, не имеющая в качестве основной цели своей деятельности извлечение прибыли и не распределяющая полученную прибыль между участниками.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;	
+<-sc_const;;

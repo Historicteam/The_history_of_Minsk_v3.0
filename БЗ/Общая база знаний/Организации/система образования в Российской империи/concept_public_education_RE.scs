@@ -1,0 +1,33 @@
+concept_public_education_RE
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[народное образование]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	
+	<-sc_explanation;;
+	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Народное образование делилось на 4 ступени: приходские училища, уездные училища, гимназии, университеты.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+concept_public_education_RE
+	<=nrel_subdividing: ...
+				(*
+						->concept_parish_schools_RE;
+						  concept_county_schools_RE;
+						  concept_gymnasiums_RE;
+						  concept_universities_RE;;
+				*);;

@@ -1,0 +1,5 @@
+Grusha
+=> nrel_main_idtf:
+		[Груша]
+ (* <- lang_ru;; *);
+<- concept_male;;

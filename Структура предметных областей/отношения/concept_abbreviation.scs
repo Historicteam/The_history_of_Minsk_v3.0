@@ -8,7 +8,9 @@ concept_abbreviation
 	<- sc_explanation;;
 	<= nrel_sc_text_translation:
 		...
-		(* аббревиатура - условное сокращение слов на письме.] (* <-lang_ru;; *);;
+		(* 
+			-> rrel_example: [аббревиатура - условное сокращение слов на письме.] 
+						(* <-lang_ru;; *);;
 		*);;
 	*);
 	

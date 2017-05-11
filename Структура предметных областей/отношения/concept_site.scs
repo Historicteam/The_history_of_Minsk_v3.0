@@ -1,9 +1,9 @@
 concept_site
 =>nrel_main_idtf:
-	[адрес сайта] (* <-lang_ru;; *);
+	[адрес сайта]
+		 (* <-lang_ru;; *);
 	
-<- rrel_key_sc_element:
-	...  
+<- rrel_key_sc_element: ...  
 	(* 
 	<- sc_explanation;;
 	<= nrel_sc_text_translation:
@@ -11,5 +11,6 @@ concept_site
 		(* 
 		-> rrel_example: [адрес сайта - уникальная последовательность из латинских букв и цифр, разделяющаяся на три части, принадлежащая определенному сайту.] (* <-lang_ru;; *);;
 		*);;
+	*);
 	
 <-sc_const;;

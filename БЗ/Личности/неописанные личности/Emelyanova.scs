@@ -1,0 +1,5 @@
+Emelyanova
+=> nrel_main_idtf:
+		[Емельянова]
+ (* <- lang_ru;; *);
+<- concept_male;;

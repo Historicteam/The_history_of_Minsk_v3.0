@@ -1,0 +1,5 @@
+Senko
+=> nrel_main_idtf:
+	[Сенко] 
+	(* <- lang_ru;; *);
+<- concept_male;;

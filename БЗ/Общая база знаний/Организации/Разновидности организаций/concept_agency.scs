@@ -24,17 +24,5 @@ concept_agency
 	*);
 
 
-<-rrel_key_sc_element: ...  
-	(* 
-	
-		<- sc_note;;
-		<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [ Например, юридическим лицом является БГУИР, а ФИТУ - не является.] (* <-lang_ru;; *);; 
-		*);;
-	*);
-
-
 <-sc_node_not_relation;	
 <-sc_const;;

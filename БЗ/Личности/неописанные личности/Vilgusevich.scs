@@ -1,0 +1,5 @@
+Vilgusevich
+=> nrel_main_idtf:
+		[Вилгусевич]
+ (* <- lang_ru;; *);
+<- concept_male;;

@@ -1,0 +1,5 @@
+Berezkina
+=> nrel_main_idtf:
+		[Березкина]
+ (* <- lang_ru;; *);
+<- concept_male;;

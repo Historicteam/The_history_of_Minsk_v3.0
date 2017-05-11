@@ -24,7 +24,7 @@ organization_Library_of_the_Institute_of_Belarusian_Culture
 		[Бібліятэка Інстытута беларускай культуры] (* <- lang_by;; *);
 <- begin_date_1925;
 <- completion_date_1929;
-=>nrel_be_founded_in_the_name_of:Mitskevich_Konstantin_Mihailovich;
+=>nrel_be_founded_in_the_name_of: Mickievich_Konstantin_Mikhailovich;
 
 <-concept_library;
 => nrel_personal_composition: employees_Library_of_the_institute_of_Belarusian_Culture;

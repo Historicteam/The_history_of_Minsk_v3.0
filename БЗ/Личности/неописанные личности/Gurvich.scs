@@ -1,0 +1,5 @@
+Gurvich
+=> nrel_main_idtf:
+	[Гурвич] 
+	(* <- lang_ru;; *);
+<- concept_male;;

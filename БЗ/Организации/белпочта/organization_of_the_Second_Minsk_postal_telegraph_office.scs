@@ -1,0 +1,25 @@
+organization_of_the_Second_Minsk_postal_telegraph_office
+=> nrel_main_idtf:
+	[Второе минское почтово-телеграфное отделение]
+	(*
+	<- lang_ru;;
+	*);
+	[Second Minsk postal telegraph office]
+	(*
+	<- lang_en;;
+	*);
+	[Другое мінскае паштова-тэлеграфнае аддзяленне]
+	(*
+	<- lang_by;;
+	*);
+ <- begin_date_1914;
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+
+concept_situation->[* organization_of_the_Second_Minsk_postal_telegraph_office => nrel_location: Proshinskogo_House ;;*]
+  (*
+    <- begin_date_1915;;
+    <- completion_date_1917;;
+*);;
+
+

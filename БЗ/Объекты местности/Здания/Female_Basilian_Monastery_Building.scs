@@ -57,8 +57,9 @@ Female_Basilian_Monastery_Building
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;
+	*);
+
+=> nrel_osm_query: [node(1369959004);];
 
 <- rrel_key_sc_element: ...
 	(*
@@ -87,3 +88,7 @@ Female_Basilian_Monastery_Building
 ;;
 
 
+concept_situation->[*Female_Basilian_Monastery_Building<-concept_arch_classical_baroque;;*]
+(*
+        <- begin_date_1641;;
+ *);; 

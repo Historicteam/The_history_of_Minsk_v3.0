@@ -14,16 +14,10 @@ Minsk_Railway_Station_Building
 	<- lang_en;;
 	*);
 
-=> nrel_openstreetmap:
-	[Minsk_Railway_Station_Building] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
 <-concept_terrain_object;
 <-concept_building;
 
+=> nrel_osm_query: [way(358224860);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

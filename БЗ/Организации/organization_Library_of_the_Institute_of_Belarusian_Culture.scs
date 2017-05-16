@@ -24,10 +24,16 @@ organization_Library_of_the_Institute_of_Belarusian_Culture
 		[Бібліятэка Інстытута беларускай культуры] (* <- lang_by;; *);
 <- begin_date_1925;
 <- completion_date_1929;
+<<<<<<< HEAD
 =>nrel_be_founded_in_the_name_of: Mickievich_Konstantin_Mikhailovich;
 
 <-concept_library;
 => nrel_personal_composition: employees_Library_of_the_institute_of_Belarusian_Culture;
+=======
+=>nrel_be_founded_in_the_name_of:Mitskevich_Konstantin_Mihailovich;
+
+<-concept_library;
+>>>>>>> d41a65908664f3295ad1d7ebb48573899e7711b3
 <-concept_cultural_organization;
 <-concept_educational_institution;
 <-concept_formal_organization;;
@@ -112,6 +118,7 @@ concept_situation->[* organization_Library_of_the_Institute_of_Belarusian_Cultur
 <- completion_date_25_05_1990;;
 *);;
 
+<<<<<<< HEAD
 concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Sereda_Ivan_Nikitovich;;*]
 (*
     <- begin_date_1925;;
@@ -189,5 +196,7 @@ employees_Library_of_the_institute_of_Belarusian_Culture
 		[Персональный состав Библиотеки Института белорусской культуры] (* <- lang_ru;; *);;
 
 
+=======
+>>>>>>> d41a65908664f3295ad1d7ebb48573899e7711b3
 
 

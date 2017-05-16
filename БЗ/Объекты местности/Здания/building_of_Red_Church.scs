@@ -1,12 +1,14 @@
 building_of_Red_Church
 => nrel_main_idtf:
-		[костёл Святого Симеона и Святой Елены] (* <- lang_ru;; *);
-		[сhurch of Saints Simon and Helena] (* <- lang_en;; *);
-		[касцёл Святога Сымона і Святой Алены] (* <- lang_by;; *);
+		[Костёл Святого Симеона и Святой Елены] (* <- lang_ru;; *);
+		[Сhurch of Saints Simon and Helena] (* <- lang_en;; *);
+		[Касцёл Святога Сымона і Святой Алены] (* <- lang_by;; *);
 => nrel_main_idtf:
-		[красный костёл] (* <- lang_ru;; *);
-		[red Church] (* <- lang_en;; *);
-		[чырвоны касцёл)] (* <- lang_by;; *);
+		[Красный костёл] (* <- lang_ru;; *);
+		[Red Church] (* <- lang_en;; *);
+		[Чырвоны касцёл] (* <- lang_by;; *);
+=> nrel_architect:Paizderski_Tomash;
+=> nrel_material:concept_brick;
 <- rrel_key_sc_element:
 	...
 	(*
@@ -19,6 +21,11 @@ building_of_Red_Church
 			(*
 			<- lang_ru;;
 			*);;
+                 -> rrel_example:
+			[Строительство храма началось в 1905 году.  Осенью 1908 года были завершены основные строительные работы, в 1909 году на башню подняты колокола, а 20 сентября 1910 года архиепископ Ключинский освятил храм. Храм был целиком построен из красного кирпича, что принесло ему народное прозвище «Красный костёл»..]
+			(*
+			<- lang_ru;;
+			*);;
 		*);;
 		
 	*);
@@ -28,10 +35,227 @@ building_of_Red_Church
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://content/Костёл Святого Симеона и Святой Елены.png"
+		->rrel_example: "file://content/redchurch.png"
 			(*
 			=> nrel_format: format_png;;
+                        *);;
+		*);;
+
+
+	*);
+
+=> nrel_osm_query: [way(100418249);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.7860, 32.8601]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.7860;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 32.8601;;
+					*);;
+				*);;
 			*);;
 		*);;
 	*);
 <-concept_building;;
+concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
+(*
+    <- begin_date_1908;;
+    <- completion_date_1932;;
+*);;
+concept_situation->[*organization_of_BST_of_working_youth => nrel_location: building_of_Red_Church;;*]
+(*
+    <- begin_date_1934;;
+    <- completion_date_1935;;
+*);;
+concept_situation->[*organization_of_BSSR_temporal_decomposition_State_Polish_Theatre => nrel_location: building_of_Red_Church;;*]
+(*
+    <- begin_date_1934;;
+    <- completion_date_1936;;
+*);;
+concept_situation->[*organization_BSSR_filarmonic => nrel_location: building_of_Red_Church;;*]
+(*
+    <- begin_date_1937;;
+    <- completion_date_1939;;
+*);;
+concept_situation->[*organization_youth_theathre => nrel_location: building_of_Red_Church;;*]
+(*
+    <- begin_date_1938;;
+    <- completion_date_1940;;
+*);;
+concept_situation->[*organization_studio_sb => nrel_location: building_of_Red_Church;;*]
+(*
+    <- begin_date_1937;;
+    <- completion_date_1941;;
+*);;
+concept_situation->[*organization_studio_sb => nrel_location: building_of_Red_Church;;*]
+(*
+
+    <- begin_date_1946;;
+    <- completion_date_1975;;
+*);;
+concept_situation->[*organization_cinema_house => nrel_location: building_of_Red_Church;;*]
+(*
+
+    <- begin_date_1975;;
+    <- completion_date_1990;;
+*);;
+concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
+(*
+
+    <- begin_date_1998;;
+    <- completion_date_2016;;
+*);;
+concept_situation->[*organization_centre_piligrim => nrel_location: building_of_Red_Church;;*]
+(*
+
+    <- begin_date_1992;;
+    <- completion_date_2016;;
+*);;
+concept_situation->[*organization_onemane_theathre => nrel_location: building_of_Red_Church;;*]
+(*
+
+    <- begin_date_1995;;
+    <- completion_date_2016;;
+*);;
+concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
+(*
+    <- begin_date_1910;;
+    <- completion_date_1933;;
+*);;
+concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
+(*
+
+    <- begin_date_1941;;
+    <- completion_date_1946;;
+*);;
+concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
+(*
+
+    <- begin_date_1990;;
+    <- completion_date_2016;;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_vicar:Lisovskiy_Adam;;
+*);;*]
+  (*
+    <- begin_date_1910;;
+    <- completion_date_1911;;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_vicar:Lisovskiy_Adam;;
+->nrel_priest:Lucian_Zhelandkovskiy;;
+*);;*]
+  (*
+    <- begin_date_1911;;
+    <- completion_date_1912;;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_priest:Lucian_Zhelandkovskiy;;
+*);;*]
+  (*
+    <- begin_date_1912;;
+    <- completion_date_1916;;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_vicar:Semaska_Sigismund;;
+->nrel_priest:Lucian_Zhelandkovskiy;;
+*);;*]
+  (*
+    <- begin_date_1916;;
+    <- completion_date_1918;;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_priest:Chmielewski_Yanovich;;
+*);;*]
+  (*
+    <- begin_date_1921;;
+    <- completion_date_1928;;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_priest:Shatsilo_Albin_Albinovich;;
+*);;*]
+  (*
+    <- begin_date_1929;;
+    <- completion_date_1930;;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_priest:Shatsilo_Albin_Albinovich;;
+->nrel_prior:Yaroshevich_Antonovich;;
+*);;*]
+  (*
+    <- begin_date_1930;;
+    <- completion_date_1932;;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Yaroshevich_Antonovich;;
+*);;*]
+  (*
+    <- begin_date_1932;;
+    <- completion_date_1933;;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Stanisla_Glyakovsky;;
+*);;*]
+  (*
+    <- begin_date_1940;;
+    <- completion_date_1941;;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Ignatovich_Zeno;;
+*);;*]
+  (*
+    <- begin_date_1941;;
+    <- completion_date_1944;;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Barisovich_Franzevich;;
+*);;*]
+  (*
+    <- begin_date_1944;;
+    <- completion_date_1944;;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Zavalniuk_Matveevich;;
+*);;*]
+  (*
+    <- begin_date_1990;;
+    <- completion_date_2016;;
+*);;
+
+concept_situation->[*building_of_Red_Church<-concept_arch_neo_romanescue;;*]
+  (*
+    <- begin_date_1908;;
+*);;
+
+

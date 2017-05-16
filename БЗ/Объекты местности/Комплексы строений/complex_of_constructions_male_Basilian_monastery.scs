@@ -24,73 +24,31 @@ concept_situation->[*
         };;
 	*] (*
 
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1617];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1634];;
-            *);;
-        *);;
+    <- begin_date_1617;;
+    <- completion_date_1634;;
     *);;
 
 concept_situation->[*       
         complex_of_constructions_male_Basilian_monastery
 	<= nrel_complex_of_buildings_decomposition:
         {
-            building_of_church_of_the_Holy_Spirit;
+            Peter_and_Paul_Cathedral_Building;
             Male_Basilian_Monastery_Building   
         };;
 *](*
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1634];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1641];;
-            *);;
-        *);;
+    <- begin_date_1634;;
+    <- completion_date_1641;;
 *);;
 
 concept_situation->[*
 	complex_of_constructions_male_Basilian_monastery
    	<= nrel_complex_of_buildings_decomposition:
         {
-        building_of_church_of_the_Holy_Spirit;
+        Peter_and_Paul_Cathedral_Building;
         Male_Basilian_Monastery_Building;
         Female_Basilian_Monastery_Building
         };;
 *](*
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1641];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1795];;
-            *);;
-        *);;
+    <- begin_date_1641;;
+    <- completion_date_1795;;
 *);;

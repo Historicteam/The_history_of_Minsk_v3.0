@@ -12,6 +12,72 @@ organization_Minsk_Male_Gymnasium
 	(*
 	<- lang_by;;
 	*);
-=>nrel_location: Male_Basilian_Monastery_Building;
-<-concept_gymnasium;
-<-concept_educational_institution;;
+
+=> nrel_student: Mikhail_Osipovich_Glushnevich;
+=> nrel_student: Vladimir_Danilovich_Spasovich;
+=> nrel_student:Konstantin_Mihailovich_Jelski;
+=> nrel_student: Tadeusz_Korzon;
+=> nrel_student: Janka_Lucina;
+
+
+<- rrel_key_sc_element: Explanation_Minsk_Male_Gymnasium
+	(*
+	=> nrel_main_idtf:	
+	[Пояснение Минской мужской гимназии]
+	 (* <- lang_ru;; *);
+	[Explanation of the Minsk Male Gymnasium] 
+	(* <- lang_en;; *);
+	[Тлумачэнне Мінскай мужчынскай гімназіі]
+	(* <- lang_by;; *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[Минская мужская гимназия — среднее учебное заведение Российской империи в Минске.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[Minsk male gymnasium - secondary educational institution of the Russian Empire in Minsk.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Мінская мужчынская гімназія - сярэдняя навучальная ўстанова Расійскай імперыі ў Мінску.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);
+<-concept_educational_institution;
+<-concept_gymnasium;;
+
+concept_situation->[* organization_Minsk_Male_Gymnasium => nrel_location: Male_Basilian_Monastery_Building;;*]
+(*
+	=> nrel_main_idtf: 
+	[Контур периода времени расположения Минской мужской гимназии в Здании мужского базилианского монастыря.]	
+		(*
+		<-lang_ru;;
+		*);;
+
+    <- begin_date_1803;;
+    <- completion_date_1844;;
+*);;
+
+concept_situation->[* organization_Minsk_Male_Gymnasium => nrel_location: The_building_of_the_Minsk_Male_Gymnasiume;;*]
+  (*
+    <- begin_date_1844;;
+    <- completion_date_1915;;
+*);;
+
+concept_situation->[* organization_Minsk_Male_Gymnasium => nrel_student: Tomasz_Zan;;*]
+  (*
+    <- begin_date_1805;;
+    <- completion_date_1812;;
+*);;
+   
+
+
+
+
+

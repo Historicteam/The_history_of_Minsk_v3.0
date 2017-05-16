@@ -5,6 +5,8 @@ Building_courtyard_seating
 	[Building courtyard seating] (* <- lang_en;; *);
 	[Будынак гасцінага двара] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(196755410);];
+
 <- rrel_key_sc_element: 
 	...
 	(*
@@ -26,11 +28,9 @@ Building_courtyard_seating
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;
+	*);
 
 <- concept_building;
-<- concept_arch_classicism;
 
 <- rrel_key_sc_element: Image_building_courtyard_seating (*
 	=> nrel_main_idtf:
@@ -56,3 +56,4 @@ Building_courtyard_seating
 			*);;
 		*);;
 	*);;
+

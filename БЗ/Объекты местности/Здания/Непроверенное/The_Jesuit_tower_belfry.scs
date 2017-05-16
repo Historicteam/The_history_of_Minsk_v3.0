@@ -5,6 +5,8 @@ The_Jesuit_tower_belfry
 	[The building of tower-belfry] (* <- lang_en;; *);
 	[Будынак вежы-звоніццы] (* <- lang_by;; *);
 
+
+
 <= nrel_temporal_decomposition: 
     {
 	The_building_of_tower_belfry_Jesuit_monastery
@@ -23,20 +25,8 @@ The_Jesuit_tower_belfry
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1738];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1773];;
-                *);;
-            *);;
+        <- begin_date_1738;;
+        <- completion_date_1773;;
 
 *);
 	The_building_of_fire_tower
@@ -55,43 +45,28 @@ The_Jesuit_tower_belfry
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1852];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1917];;
-                *);;
-            *);;
+        <- begin_date_1852;;
+        <- completion_date_1917;;
 
 *)
 };;
+concept_situation->[*The_Jesuit_tower_belfry<-concept_lost_constructions;;*]
+(*
+	 <- begin_date_1941;;
+    <- completion_date_1942;;
 
+*);;
 concept_situation->[*organization_city_fire_brigade => nrel_location: The_Jesuit_tower_belfry;;*]
 (*
     => nrel_main_idtf: 
     [Контур периода времени расположения городская пожарная команда в здании башни-звонницы](*<-lang_ru;;*);
     [Контур перыяду часу месцавання гарадской пажарная каманды ў будынку вежы-звоніццы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1852];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1917];;
-            *);;
-        *);;
+    <- begin_date_1852;;
+    <- completion_date_1917;;
 *);;
 
+concept_situation->[*The_Jesuit_tower_belfry<-concept_arch_vilnius_baroque;;*]
+(*
+    <- begin_date_1738;;
 
+*);;

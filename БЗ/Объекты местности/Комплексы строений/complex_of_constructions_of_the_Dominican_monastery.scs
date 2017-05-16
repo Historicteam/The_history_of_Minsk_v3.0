@@ -21,40 +21,19 @@ concept_situation->[*
 complex_of_constructions_Dominican_monastery
   <= nrel_complex_of_buildings_decomposition:
         {
-            st_Thomas_Aquinas_church
+            the_building_of_the_Dominican_monastery
         };; 
 *](*
      => nrel_start_time: ...
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1615];;
-                    *);;
-                *);;
+                <- begin_date_1615;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1650];;
-                    *);;
-                *);;
+                <- completion_date_1650;;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1702];;
-            *);;
-        *);;
+    <- completion_date_1702;;
           
 	*);;
 
@@ -63,7 +42,7 @@ concept_situation->[*
 complex_of_constructions_Dominican_monastery
 <= nrel_complex_of_buildings_decomposition:
         {
-            st_Thomas_Aquinas_church;
+            the_building_of_the_Dominican_monastery;
             the_Dominican_monastery_outbuilding_1;
             the_Dominican_monastery_outbuilding_2;
             residential_housing_of_the_Dominican_Monastery;
@@ -71,22 +50,8 @@ complex_of_constructions_Dominican_monastery
             the_Dominican_monastery_gates
         };;
 *](*
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1703];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1823];;
-            *);;
-        *);;
+    <- begin_date_1703;;
+    <- completion_date_1823;;
      
     *);;
 
@@ -96,7 +61,7 @@ concept_situation->[*
 complex_of_constructions_Dominican_monastery
 <= nrel_complex_of_buildings_decomposition:
         {
-            st_Thomas_Aquinas_church;
+            the_building_of_the_Dominican_monastery;
             the_Dominican_monastery_outbuilding_1;
             the_Dominican_monastery_outbuilding_2;
             residential_housing_of_the_Dominican_Monastery;
@@ -105,22 +70,8 @@ complex_of_constructions_Dominican_monastery
             the_Dominican_monastery_maids_house
         };;
 *](*
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1823];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1825];;
-            *);;
-        *);;
+    <- begin_date_1823;;
+    <- completion_date_1825;;
     *);;
 
    
@@ -128,7 +79,7 @@ concept_situation->[*
 complex_of_constructions_Dominican_monastery 
 <= nrel_complex_of_buildings_decomposition:
         {
-            st_Thomas_Aquinas_church;
+            the_building_of_the_Dominican_monastery;
             the_Dominican_monastery_outbuilding_1;
             the_Dominican_monastery_outbuilding_2;
             residential_housing_of_the_Dominican_Monastery;
@@ -138,22 +89,8 @@ complex_of_constructions_Dominican_monastery
             the_Dominican_monastery_barn_with_icehouse
         };;
 *](*
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1825];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1832];;
-            *);;
-        *);;
+    <- begin_date_1825;;
+    <- completion_date_1832;;
     *);;
 
     concept_situation->[*
@@ -170,20 +107,6 @@ complex_of_constructions_Dominican_monastery
             the_Dominican_monastery_barn_with_icehouse
         };;
 *](*
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1844];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1869];;
-            *);;
-        *);;
+    <- begin_date_1844;;
+    <- completion_date_1869;;
     *);;

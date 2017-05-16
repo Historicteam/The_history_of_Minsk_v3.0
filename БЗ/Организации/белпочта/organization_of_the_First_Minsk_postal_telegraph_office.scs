@@ -1,0 +1,28 @@
+organization_of_the_First_Minsk_postal_telegraph_office
+=> nrel_main_idtf:
+	[Первое минское почтово-телеграфное отделение]
+	(*
+	<- lang_ru;;
+	*);
+	[First Minsk postal telegraph office]
+	(*
+	<- lang_en;;
+	*);
+	[Першае мінскае паштова-тэлеграфнае аддзяленне]
+	(*
+	<- lang_by;;
+	*);
+ <- begin_date_1891;
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+
+concept_situation->[* organization_of_the_First_Minsk_postal_telegraph_office => nrel_location: Lifshitz_House ;;*]
+  (*
+    <- begin_date_1901;;
+    <- completion_date_1914;;
+*);;
+concept_situation->[* organization_of_the_First_Minsk_postal_telegraph_office => nrel_location:Brons_House ;;*]
+  (*
+    <- begin_date_1915;;
+    <- completion_date_1917;;
+*);;

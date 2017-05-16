@@ -1,0 +1,143 @@
+building_kazan_church
+
+=> nrel_main_idtf:
+	[Здание Свято-Казанской церкви]	
+	(*
+	<- lang_ru;;
+	*);
+	[Holy-Kazan church building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Свята-Казанскай царквы]	
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Привокзальная Казанская церковь была построена в начале ХХ в. на площади у Западного моста.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Прывакзальная Казанская царква была пабудавана ў пачатку ХХ ст. на плошчы каля Заходняга моста.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);	
+
+<- begin_date_1914;
+
+<- concept_terrain_object;
+
+=> nrel_material: material_stone;
+<- concept_building;;
+
+
+concept_situation->[*building_kazan_church
+	<- concept_arch_vizant;;
+*]
+(*
+	<- begin_date_1914;;
+		
+	<- completion_date_1936;;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_railway_church;;
+*]
+(*
+	<- begin_date_1914;;
+		
+	<- completion_date_1922;;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_KPB;;
+*]
+(*
+	<- begin_date_1922;;
+		
+	<- completion_date_1928;;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_LKSMB;;
+*]
+(*
+	<- begin_date_1922;;
+		
+	<- completion_date_1928;;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_evening_school;;
+*]
+(*
+	<- begin_date_1922;;
+		
+	<- completion_date_1928;;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_railway_club;;
+*]
+(*
+	<- begin_date_1932;;
+		
+	<- completion_date_1935;;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_club_13_october;;
+*]
+(*
+	<- begin_date_1935;;
+		
+	<- completion_date_1936;;
+*);;
+concept_situation->[*building_kazan_church
+	<-concept_administrative;;
+*]
+(*
+	<- begin_date_1922;;
+		
+	<- completion_date_1936;;
+*);;
+
+concept_situation->[*building_kazan_church
+	<-concept_building_god;;
+*]
+(*
+	<- begin_date_1914;;
+		
+	<- completion_date_1922;;
+*);;
+
+concept_situation->[*building_kazan_church
+	<-concept_lost_constructions;;
+*]
+(*
+	<- begin_date_1936;;
+*);;
+
+concept_situation->[*organization_railway_church=> nrel_personal_composition: pricht_holy_kazan
+(*
+->rrel_watchman: Grynyavitski_Adam_Iosifovich;;
+->rrel_deacon: Rusetskiy_Ivan_Fotievich;;
+*);;*]
+  (*
+    <- begin_date_1914;;
+    <- completion_date_1922;;
+*);;

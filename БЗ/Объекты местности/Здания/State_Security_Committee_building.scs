@@ -61,6 +61,7 @@ State_Security_Committee_building
 		*);;
 	*);
 
+=> nrel_osm_query: [way(35995634);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
@@ -87,17 +88,8 @@ State_Security_Committee_building
 		*);;
 	*);	
 
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1947];;
-            *);;
-        *);
-
-=>nrel_architectural_style: concept_arch_classicism;
-=>nrel_architector: Parusnikov_Mikhail_Pavlovich;
+<- begin_date_1947;
+=>nrel_architect: Parusnikov_Mikhail_Pavlovich;
 <- concept_terrain_object;
 <- concept_building;;
 
@@ -105,14 +97,7 @@ concept_situation->[*State_Security_Committee_building
 	<=nrel_location: organization_State_Security_Committee;;
 *]
 (*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1947];;
-            *);;
-        *);;
+	<- begin_date_1947;;
 *);;
 
 concept_situation->[*State_Security_Committee_building
@@ -131,12 +116,11 @@ concept_situation->[*State_Security_Committee_building
 *]
 
 (*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [2010];;
-            *);;
-        *);;
+	<- begin_date_2010;;
 *);;
+
+concept_situation->[*State_Security_Committee_building<- concept_arch_neoclassicism;;*]
+(*
+	<- begin_date_1947;;
+*);;
+

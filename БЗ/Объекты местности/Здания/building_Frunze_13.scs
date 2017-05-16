@@ -1,0 +1,57 @@
+building_Frunze_13
+=> nrel_main_idtf:
+	  [Здание Фрунзе, 13]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[The building Frunze, 13]
+  (*
+    <- lang_en;;
+  *);
+  [Будынак Фрунзе, 13]
+  (*
+    <- lang_by;;
+  *);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Frunze_13.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+
+
+	*);
+=> nrel_osm_query: [way(25431472);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9045262, 27.5763971]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9045262;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5763971;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<-concept_residential_building;
+<-concept_building;;

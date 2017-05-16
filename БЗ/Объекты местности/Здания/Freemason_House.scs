@@ -13,13 +13,7 @@ Freemason_House
     <- lang_by;;
   *);
 
-=> nrel_openstreetmap:
-	[Freemason_House] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
+=> nrel_osm_query: [way(25327511);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
@@ -93,6 +87,20 @@ Freemason_House
 			*);;
 		*);;
 	*);
+=> nrel_start_time: ...
+        (*
+	       <- begin_date_1880;;
+		<- completion_date_1899;;
+        *);
 <-concept_building;
-<-concept_terrain_object
-;;
+<-concept_terrain_object;;
+
+concept_situation->[*Choral_synagogue_building<-concept_arch_classicism;;*]
+(*
+=> nrel_start_time: ...
+        (*
+	       <- begin_date_1880;;
+		<- completion_date_1899;;
+        *);;
+*);;
+

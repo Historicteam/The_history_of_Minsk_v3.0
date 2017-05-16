@@ -1,5 +1,6 @@
 organization_In_Bel_Kult
 => nrel_main_idtf:
+<<<<<<< HEAD
 	[Институт белорусской культуры]
 	(*
 	<- lang_ru;;
@@ -222,3 +223,18 @@ employees_Institute_of_Belarusian_Culture
 
 
 
+=======
+	[Институт Белорусской культуры]
+	(*
+	<- lang_ru;;
+	*);
+	[Belorussian Science Institute]
+	(*
+	<- lang_en;;
+	*);
+	[Інстытут Беларускай культуры]
+	(*
+	<- lang_by;;
+	*);
+<-concept_educational_institution;;
+>>>>>>> d41a65908664f3295ad1d7ebb48573899e7711b3

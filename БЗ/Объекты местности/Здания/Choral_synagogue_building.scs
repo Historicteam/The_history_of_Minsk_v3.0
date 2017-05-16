@@ -1,0 +1,243 @@
+Choral_synagogue_building
+
+=> nrel_main_idtf:
+	[Здание хоральной синагоги]	
+	(*
+	<- lang_ru;;
+	*);
+	[Choral synagogue building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак харальнай сінагогі]	
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хоральная синагога была построена в конце XIX века в мавританском стиле.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Choral Synagogue was built in the late XIX century in the Moorish style.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Харальная сінагога была пабудавана ў канцы XIX стагоддзя ў маўрытанскім стылі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_architect: BBaklanov_architector;
+
+=> nrel_osm_query: [way(25387470);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.89839, 27.55127]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.89839;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.55127;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);	
+
+	=> nrel_start_time: ...
+        (*
+	       <- begin_date_1901;;
+		<- completion_date_1906;;
+        *);
+<- concept_terrain_object;
+<- concept_building;;
+
+concept_situation->[*Choral_synagogue_building<-concept_arch_mavritan;;*]
+(*
+ <- begin_date_1901;;
+<- completion_date_1944;;
+*);;
+concept_situation->[*Choral_synagogue_building	<-concept_arch_classicism;;*]
+(*
+<- begin_date_1944;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_Choral_synagogue;;
+*]
+(*
+	=> nrel_start_time: ...
+        (*
+	       <- begin_date_1901;;
+		
+		<- completion_date_1906;;
+        *);;
+	<- completion_date_1921;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_jewish_theatre;;
+*]
+(*
+	<- begin_date_1921;;
+	<- completion_date_1923;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_Work_club;;
+*]
+(*
+	<- begin_date_1923;;
+	<- completion_date_1926;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_belgoskino;;
+*]
+(*
+	<- begin_date_1926;;
+	<- completion_date_1941;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_Gorkiy_theatre;;
+*]
+(*
+	<- begin_date_1947;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/horal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	<- begin_date_1901;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/horal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	<- begin_date_1901;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/horal1942.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	<- begin_date_1942;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/horal1926.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	<- begin_date_1926;;
+*);;
+
+concept_situation->[* Choral_synagogue_building<= nrel_temporal_decomposition:jewish_theatre_building;; *]
+(*
+	<- begin_date_1921;;
+	<- completion_date_1923;;
+*);;
+
+concept_situation->[*Choral_synagogue_building<= nrel_temporal_decomposition:Work_club_building;; *]
+(*
+	<- begin_date_1923;;
+	<- completion_date_1926;;
+*);;
+
+concept_situation->[* Choral_synagogue_building<= nrel_temporal_decomposition:belgoskino_building;; *]
+(*
+	<- begin_date_1926;;
+	<- completion_date_1941;;
+*);;
+
+concept_situation->[* Choral_synagogue_building<= nrel_temporal_decomposition:Gorkiy_theatre_building;; *]
+(*
+	=> nrel_start_time: ...
+	(*
+		<- begin_date_1945;;
+		<- completion_date_1947;;
+	*);;
+*);;
+
+

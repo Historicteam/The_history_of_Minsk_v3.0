@@ -1,6 +1,5 @@
 organization_In_Bel_Kult
 => nrel_main_idtf:
-<<<<<<< HEAD
 	[Институт белорусской культуры]
 	(*
 	<- lang_ru;;
@@ -122,24 +121,6 @@ concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_president
     <- completion_date_2004;;
 *);;
 
-/*
-concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_сhairman_of_the_presidium: Myasnikovich_Mihail_Uladzimirovich;;*]
-(*
-    <- begin_date_2004;;
-    <- completion_date_2010;;
-*);;
-
-concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_сhairman_of_the_presidium: Rusetskiy_Anatoliy_Maksimovich;;*]
-(*
-    <- begin_date_2010;;
-    <- completion_date_2012;;
-*);;
-
-concept_situation->[*employees_Institute_of_Belarusian_Culture -> rrel_сhairman_of_the_presidium: Gusakou_Uladzimir_Grigorievich;;*]
-(*
-    <- begin_date_2013;;
-*);;
-*/
 
 
 
@@ -221,20 +202,3 @@ employees_Institute_of_Belarusian_Culture
 [ Персональный состав Института Белорусской Культуры ](*<-lang_ru;;*);;
 
 
-
-
-=======
-	[Институт Белорусской культуры]
-	(*
-	<- lang_ru;;
-	*);
-	[Belorussian Science Institute]
-	(*
-	<- lang_en;;
-	*);
-	[Інстытут Беларускай культуры]
-	(*
-	<- lang_by;;
-	*);
-<-concept_educational_institution;;
->>>>>>> d41a65908664f3295ad1d7ebb48573899e7711b3

@@ -41,7 +41,7 @@ concept_situation->[* organization_City_hospital_of_Minsk_charitable_institution
 
      organization_2_sovet_hospital
      => nrel_main_idtf:
-     		[2 советская больница]
+     		[2-я советская больница]
           (*
              <- lang_ru;;
           *);;
@@ -55,7 +55,7 @@ concept_situation->[* organization_City_hospital_of_Minsk_charitable_institution
 
 organization_2_clinic_city_of_Minsk
    => nrel_main_idtf:
-   		[2-ой клинический городок г. Минска]
+   		[2-ой клинический городок]
         (*
             <- lang_ru;;
          *);;

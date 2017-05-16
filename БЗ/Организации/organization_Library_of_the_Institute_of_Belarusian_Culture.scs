@@ -30,7 +30,6 @@ organization_Library_of_the_Institute_of_Belarusian_Culture
 => nrel_personal_composition: employees_Library_of_the_institute_of_Belarusian_Culture;
 =>nrel_be_founded_in_the_name_of:Mitskevich_Konstantin_Mihailovich;
 
-<-concept_library;
 <-concept_cultural_organization;
 <-concept_educational_institution;
 <-concept_formal_organization;;

@@ -1,0 +1,13 @@
+rrel_teacher_of_moral_theology
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[учитель нравстенного богословия']
+	(*
+		<-lang_ru;;
+	*);
+	[teacher of moral theology']
+	(*
+		<-lang_en;;
+	*);;

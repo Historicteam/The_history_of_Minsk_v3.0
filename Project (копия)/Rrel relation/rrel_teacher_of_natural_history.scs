@@ -1,0 +1,13 @@
+rrel_teacher_of_natural_history
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[учитель естественной истории']
+	(*
+		<-lang_ru;;
+	*);
+	[teacher of natural history']
+	(*
+		<-lang_en;;
+	*);;

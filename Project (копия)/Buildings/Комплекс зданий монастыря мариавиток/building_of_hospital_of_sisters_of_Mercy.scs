@@ -1,0 +1,55 @@
+building_of_hospital_of_sisters_of_Mercy
+=>nrel_main_idtf:
+	[Здание госпиталя сестёр милосердия]
+	(*
+		<-lang_ru;;
+	*);
+	[The building of the hospital of sisters of Mercy]
+	(*
+		<-lang_en;;
+	*);
+	[Будынак шпіталя сясцёр міласэрнасці]
+	(*
+		<-lang_by;;
+	*);;
+
+organization_hospital_of_sisters_of_mercy
+=>nrel_main_idtf:
+	[Госпиталь сестёр Милосердия]
+	(*
+		<-lang_ru;;
+	*);
+	[Hospital of sisters of Mercy]
+	(*
+		<-lang_en;;
+	*);
+	[Шпіталь сясцёр Міласэрнасці]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_situation->[*
+	building_of_hospital_of_sisters_of_Mercy
+	<=nrel_location: 
+	organization_hospital_of_sisters_of_mercy;;
+*]
+(*
+	=>nrel_main_idtf:[Контур периода времени расположения госпиталя сестёр Милосердия в здании]
+	(*
+		<-lang_ru;;
+	*);;
+	<-begin_date_1811
+	(*
+		=>nrel_main_idtf:[1811 год]
+			(*
+				<-lang_ru;;
+			*);;
+	*);;
+	<-completion_date_1854
+	(*
+		=>nrel_main_idtf:[1854 год]
+			(*
+				<-lang_ru;;
+			*);;
+	*);;
+*);;

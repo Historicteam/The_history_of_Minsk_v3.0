@@ -1,0 +1,180 @@
+concept_rank
+=>nrel_main_idtf:
+	[чин]
+	(*
+		<-lang_ru;;
+	*);
+	[rank]
+	(*
+		<-lang_en;;
+	*);
+	[чын]
+	(*
+		<-lang_by;;
+	*);
+<=nrel_subdividing: subdividing_of_groups
+	(*
+		->concept_civil_rank;;
+		->concept_military_rank;;
+		->concept_court_rank;;
+	*);;
+
+
+
+concept_civil_rank
+=>nrel_main_idtf:
+	[гражданский чин]
+	(*
+		<-lang_ru;;
+	*);
+	[civil rank]
+	(*
+		<-lang_en;;
+	*);
+	[гражданскі чын]
+	(*
+		<-lang_by;;
+	*);
+<=nrel_subdividing:subdividing_of_classes
+	(*
+		->concept_the_seven_class_of_the_civil_ranks;;
+	*);;
+
+concept_the_seven_class_of_the_civil_ranks
+=>nrel_main_idtf:
+	[VII класс гражданских чинов]
+	(*
+		<-lang_ru;;
+	*);;
+
+//concept_the_seven_class_of_the_civil_ranks
+//<=nrel_subdividing:subdividing_of_ranks
+	//(*
+		//->concept_сourt_councillor;;
+//	*);;
+
+concept_court_councillor
+=>nrel_main_idtf:
+	[надворный советник]
+	(*
+		<-lang_ru;;
+	*);
+	[court councillor]
+	(*
+		<-lang_en;;
+	*);;
+
+
+
+concept_military_rank
+=>nrel_main_idtf:
+	[военный чин]
+	(*
+		<-lang_ru;;
+	*);
+	[military rank]
+	(*
+		<-lang_en;;
+	*);
+	[ваенны чын]
+	(*
+		<-lang_by;;
+	*);
+<=nrel_subdividing: subdividing_of_subgroups
+	(*
+		->concept_military_rank_in_the_army;;
+		->concept_military_rank_in_the_fleet;;
+	*);;
+	
+
+concept_military_rank_in_the_army
+=>nrel_main_idtf:
+	[военный чин в армии]
+	(*
+		<-lang_ru;;
+	*);
+<=nrel_subdividing: subdividing_of_classes
+	(*
+		->concept_the_first_class_of_the_military_ranks_in_the_army;;
+		->concept_the_second_class_of_the_military_ranks_in_the_army;;
+		//и т.д
+		->concept_the_twelfth_class_of_the_military_ranks_in_the_army;;
+		->concept_the_thirteenth_class_of_the_military_ranks_in_the_army;;
+		->concept_the_fourteenth_class_of_the_military_ranks_in_the_army;;
+	*);;
+
+concept_the_thirteenth_class_of_the_military_ranks_in_the_army
+=>nrel_main_idtf:
+	[XIII класс военных чинов в армии]
+	(*
+		<-lang_ru;;
+	*);
+<=nrel_subdividing: subdividing_of_ranks
+	(*
+		->concept_poruchik;;
+	*);;
+
+concept_poruchik
+=>nrel_main_idtf:
+	[поручик]
+	(*
+		<-lang_ru;;
+	*);
+	[poruchik]
+	(*
+		<-lang_en;;
+	*);
+	[паручнік]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_idtf:
+	[порутчик]
+	(*
+		<-lang_ru;;
+	*);;
+
+
+concept_military_rank_in_the_fleet
+=>nrel_main_idtf:
+	[военный чин во флоте]
+	(*
+		<-lang_ru;;
+	*);;
+
+
+
+concept_court_rank
+=>nrel_main_idtf:
+	[светский чин]
+	(*
+		<-lang_ru;;
+	*);;
+///////////////////////////////////////////////////////////////////
+subdividing_of_groups
+=>nrel_main_idtf:
+	[разбиение на группы]
+	(*
+		<-lang_ru;;
+	*);;
+
+subdividing_of_subgroups
+=>nrel_main_idtf:
+	[разбиение на подгруппы]
+	(*
+		<-lang_ru;;
+	*);;
+
+subdividing_of_classes
+=>nrel_main_idtf:
+	[разбиение на классы]
+	(*
+		<-lang_ru;;
+	*);;
+
+subdividing_of_ranks
+=>nrel_main_idtf:
+	[разбиение на чины]
+	(*
+		<-lang_ru;;
+	*);;

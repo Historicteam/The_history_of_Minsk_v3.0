@@ -1,0 +1,15 @@
+the_city_of_Kiev
+=>nrel_main_idtf:
+	[Кие]
+	(*
+		<-lang_ru;;
+	*);
+	[Kiev]
+	(*
+		<-lang_en;;
+	*);
+	[Кіеў]
+	(*
+		<-lang_by;;
+	*);
+<-concept_city;;

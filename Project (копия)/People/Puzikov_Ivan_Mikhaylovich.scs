@@ -1,0 +1,15 @@
+Puzikov_Ivan_Mikhaylovich
+=> nrel_main_idtf:
+	[Пузиков Иван Михайлович]
+	(*
+		<-lang_ru;;
+	*);
+	[Puzikov Ivan Mikhaylovich]
+	(*
+		<-lang_en;;
+	*);
+	[Пузікаў Іван Міхайлавіч]
+	(*
+		<-lang_by;;	
+	*);
+<- concept_male;;

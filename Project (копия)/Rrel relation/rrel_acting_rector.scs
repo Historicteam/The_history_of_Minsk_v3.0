@@ -1,0 +1,13 @@
+rrer_acting_rector
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[и.о. ректора']
+	(*
+		<-lang_ru;;
+	*);
+	[acting rector']
+	(*
+		<-lang_en;;
+	*);;

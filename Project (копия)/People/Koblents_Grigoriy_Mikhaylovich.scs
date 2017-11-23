@@ -1,0 +1,15 @@
+Koblents_Grigoriy_Mikhaylovich
+=> nrel_main_idtf:
+	[Кобленц Григорий Михайлович]
+	(*
+		<-lang_ru;;
+	*);
+	[Koblents Grigoriy Mikhaylovich]
+	(*
+		<-lang_en;;
+	*);
+	[Кобленц Рыгор Міхайлавіч]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;

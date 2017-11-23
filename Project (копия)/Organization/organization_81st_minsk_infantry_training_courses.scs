@@ -1,0 +1,527 @@
+organization_81st_minsk_infantry_training_courses
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[81-е Минские пехотные подготовительные курсы]
+	(*
+		<- lang_ru;;
+	*);
+	[81st Minsk Infantry Training Courses]
+	(*
+		<- lang_en;;
+	*);
+	[81-е Мінскія пяхотныя падрыхтоўчыя курсы]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_05_02_1921;
+<- completion_date_03_1921;;
+
+organization_81st_minsk_trainin_courses_for_command_staff
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[81-е Минские подготовительные курсы командного состава]
+	(*
+		<- lang_ru;;
+	*);
+	[81st Minsk Trainin Courses For Command Staff]
+	(*
+		<- lang_en;;
+	*);
+	[81-е Мінскія падрыхтоўчыя курсы каманднага саставу]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_03_1921;
+<- completion_date_05_1921;;
+
+organization_81st_minsk_infantry_command_courses
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[81-е Минские пехотные командные курсы]
+	(*
+		<- lang_ru;;
+	*);
+	[81st Minsk Infantry Command Courses]
+	(*
+		<- lang_en;;
+	*);
+	[81-е Мінскія пяхотныя камандныя курсы]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_05_1921;
+<- completion_date_03_1923;;
+
+organization_6th_minsk_infantry_courses_of_the_workers_and_peasants_red_army
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[6-е Минские пехотные курсы Рабоче-крестьянской Красной армии]
+	(*
+		<- lang_ru;;
+	*);
+	[6th Minsk Infantry Courses of the Workers' and Peasants' Red Army]
+	(*
+		<- lang_en;;
+	*);
+	[6-е Мінскія пяхотныя курсы Рабоча-сялянскай Чырвонай арміі]
+	(*
+		<- lang_by;;
+	*);
+=> nrel_idtf:
+	[6-е Минские пехотные курсы РККА]
+	(*
+		<- lang_ru;;
+	*);
+	[6th Minsk Infantry Courses of the RKKA]
+	(*
+		<- lang_en;;
+	*);
+	[6-е Мінскія пяхотныя курсы РККА]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_03_1923;
+<- completion_date_03_1924;;
+
+organization_7th_united_belarussian_command_school
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[7-я Объединённая Белорусская командная школа]
+	(*
+		<- lang_ru;;
+	*);
+	[7th United Belarussian Command School]
+	(*
+		<- lang_en;;
+	*);
+	[7-я Аб'яднаная Беларуская камандная школа]
+	(*
+		<- lang_by;;
+	*);
+<-begin_date_03_1924;
+<-completion_date_10_1924;;
+
+organization_7th_united_belarussian_military_school
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[7-я Объединённая Белорусская военная школа]
+	(*
+		<- lang_ru;;
+	*);
+	[7th United Belarussian Military School]
+	(*
+		<- lang_en;;
+	*);
+	[7-я Аб'яднаная Беларуская ваенная школа]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_10_1924;
+<- completion_date_09_10_1924;;
+
+organization_7th_united_military_school_named_after_the_cec_of_the_bssr
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[7-я Объединённая военная школа имени ЦИК БССР]
+	(*
+		<- lang_ru;;
+	*);
+	[7th United Military School named after the CEC of the BSSR]
+	(*
+		<- lang_en;;
+	*);
+	[7-я Аб'яднаная ваенная школа імя ЦВК БССР]
+	(*
+		<- lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:organization_The_Central_Executive_Committee_of_the_BSSR;
+<- begin_date_09_10_1924;
+<- completion_date_1924;;
+
+organization_the_united_belarussian_military_school_named_after_the_cec_of_the_bssr
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[Объединённая Белорусская военная школа имени ЦИК БССР]
+	(*
+		<- lang_ru;;
+	*);
+	[The United Belarussian Military School named after the CEC of the BSSR]
+	(*
+		<- lang_en;;
+	*);
+	[Аб'яднаная Беларуская ваенная школа імя ЦВК БССР]
+	(*
+		<- lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:organization_The_Central_Executive_Committee_of_the_BSSR;
+<- begin_date_1924;
+<- completion_date_06_11_1933;;
+
+organization_the_united_belarussian_military_school_named_after_kalinin
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[Объединённая Белорусская военная школа имени М.И. Калинина]
+	(*
+		<- lang_ru;;
+	*);
+	[The United Belarussian Military School named after M.I. Kalinin]
+	(*
+		<- lang_en;;
+	*);
+	[Аб'яднаная Беларуская ваенная школа імя М.І. Калініна]
+	(*
+		<- lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:Kalinin_Mikhail_Ivanovich;
+<- begin_date_06_11_1933;
+<- completion_date_16_03_1937;;
+
+organization_the_minsk_military_infantry_school_named_after_kalinin
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[Минское военно-пехотное училище имени М.И. Калинина]
+	(*
+		<- lang_ru;;
+	*);
+	[The Minsk Military Infantry School named after M.I. Kalinin]
+	(*
+		<- lang_en;;
+	*);
+	[Мінскае ваенна-пяхотнае вучылішча імя М. І. Калініна]
+	(*
+		<- lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:Kalinin_Mikhail_Ivanovich;
+<-begin_date_16_03_1937;
+<-completion_date_1941;;
+
+
+
+
+concept_situation->[*organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_81st_minsk_trainin_courses_for_command_staff;;
+*]
+(*
+	<- begin_date_03_1921;;
+	<- completion_date_05_1921;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_81st_minsk_infantry_command_courses;;
+*]
+(*
+	<- begin_date_05_1921;;
+	<- completion_date_03_1923;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_6th_minsk_infantry_courses_of_the_workers_and_peasants_red_army;;
+*]
+(*
+	<- begin_date_03_1923;;
+	<- completion_date_03_1924;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_7th_united_belarussian_command_school;;
+*]
+(*
+	<- begin_date_03_1924;;
+	<- completion_date_10_1924;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_7th_united_belarussian_military_school;;
+*]
+(*
+	<- begin_date_10_1924;;
+	<- completion_date_09_10_1924;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_7th_united_military_school_named_after_the_cec_of_the_bssr;;
+*]
+(*
+	<- begin_date_09_10_1924;;
+	<- completion_date_1924;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_the_united_belarussian_military_school_named_after_the_cec_of_the_bssr;;
+*]
+(*
+	<- begin_date_1924;;
+	<- completion_date_06_11_1933;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_the_united_belarussian_military_school_named_after_kalinin;;
+*]
+(*
+	<- begin_date_06_11_1933;;
+	<- completion_date_16_03_1937;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_the_minsk_military_infantry_school_named_after_kalinin;;
+*]
+(*
+	<- begin_date_16_03_1937;;
+	<- completion_date_1941;;
+*);;
+
+
+concept_situation->[*building_of_the_female_mariavite_monastery
+<= nrel_location: organization_81st_minsk_infantry_training_courses;;*]
+(*
+	<- begin_date_05_02_1921;;
+	<- completion_date_03_1921;;
+*);;
+
+
+
+organization_81st_minsk_infantry_training_courses
+=>nrel_inclusion:
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	(*
+		=>nrel_main_idtf:
+		[Список учащихся и сотрудников Объединенной Белорусской военной школы]
+		(*
+			<-lang_ru;;
+		*);
+		[List of students and staff of the United Belarusian Military School]
+		(*
+			<-lang_en;;
+		*);
+		[Спіс навучэнцаў і супрацоўнікаў Аб'яднанай Беларускай ваеннай школы]
+		(*
+			<-lang_by;;
+		*);;
+	*);;
+	concept_situation->[*
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	=>nrel_personal_composition:
+	pers_comp_81st_Minsk_infantry_training_courses_1922_1923
+	(*
+		<-rrel_provost:Fabricius_Jan_Fritsevich;;
+	*);;*]
+	(*
+		<-begin_date_1922;;
+		<-completion_date_1923;;
+	*);;
+	pers_comp_81st_Minsk_infantry_training_courses_1922_1923
+	=>nrel_main_idtf:
+		[Персональный состав Объединенной Белорусской военной школы (1922-1923 гг.)]
+		(*
+			<-lang_ru;;
+		*);
+		[The staff of the United Belarusian Military School (1922-1923)]
+		(*
+			<-lang_en;;
+		*);
+		[Персанальны склад Аб'яднанай Беларускай ваеннай школы (1922-1923 гг.)]
+		(*
+			<-lang_by;;
+		*);;
+	concept_situation->[*
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	=>nrel_personal_composition:
+	pers_comp_81st_Minsk_infantry_training_courses_1923_1925
+	(*
+		<-rrel_provost:Laur_Zhan_Ivanovich;;
+	*);;*]
+	(*
+		<-begin_date_1923;;
+		<-completion_date_1925;;
+	*);;
+	pers_comp_81st_Minsk_infantry_training_courses_1923_1925
+	=>nrel_main_idtf:
+		[Персональный состав Объединенной Белорусской военной школы (1923-1925 гг.)]
+		(*
+			<-lang_ru;;
+		*);
+		[The staff of the United Belarusian Military School (1923-1925)]
+		(*
+			<-lang_en;;
+		*);
+		[Персанальны склад Аб'яднанай Беларускай ваеннай школы (1923-1925 гг.)]
+		(*
+			<-lang_by;;
+		*);;
+	concept_situation->[*
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	=>nrel_personal_composition:
+	pers_comp_81st_Minsk_infantry_training_courses_1928_1932
+	(*
+		<-rrel_provost:Vasilevich_Ivan_Ivanovich;;
+	*);;*]
+	(*
+		<-begin_date_12_1928;;
+		<-completion_date_01_1932;;
+	*);;
+	pers_comp_81st_Minsk_infantry_training_courses_1928_1932
+	=>nrel_main_idtf:
+		[Персональный состав Объединенной Белорусской военной школы (1928-январь 1932 гг.)]
+		(*
+			<-lang_ru;;
+		*);
+		[The staff of the United Belarusian Military School (1928-January 1932)]
+		(*
+			<-lang_en;;
+		*);
+		[Персанальны склад Аб'яднанай Беларускай ваеннай школы (1928-студзень 1932 гг.)]
+		(*
+			<-lang_by;;
+		*);;
+	concept_situation->[*
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	=>nrel_personal_composition:
+	pers_comp_81st_Minsk_infantry_training_courses_1932_1933
+	(*
+		<-rrel_provost:Koblents_Grigoriy_Mikhaylovich;;
+	*);;*]
+	(*
+		<-begin_date_01_1932;;
+		<-completion_date_04_1933;;
+	*);;
+	pers_comp_81st_Minsk_infantry_training_courses_1932_1933
+	=>nrel_main_idtf:
+		[Персональный состав Объединенной Белорусской военной школы (1932-апрель 1933 гг.)]
+		(*
+			<-lang_ru;;
+		*);
+		[The staff of the United Belarusian Military School (1932-April 1933)]
+		(*
+			<-lang_en;;
+		*);
+		[Персанальны склад Аб'яднанай Беларускай ваеннай школы (1928-красавік 1933 гг.)]
+		(*
+			<-lang_by;;
+		*);;
+	concept_situation->[*
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	=>nrel_personal_composition:
+	pers_comp_81st_Minsk_infantry_training_courses_1933_1937
+	(*
+		<-rrel_provost:Alyokhin_Yevgeniy_Stepanovich;;
+	*);;*]
+	(*
+		<-begin_date_04_1933;;
+		<-completion_date_07_1937;;
+	*);;
+	pers_comp_81st_Minsk_infantry_training_courses_1933_1937
+	=>nrel_main_idtf:
+		[Персональный состав Объединенной Белорусской военной школы (апрель 1933-июль 1937 гг.)]
+		(*
+			<-lang_ru;;
+		*);
+		[The staff of the United Belarusian Military School (April 1933-July 1937)]
+		(*
+			<-lang_en;;
+		*);
+		[Персанальны склад Аб'яднанай Беларускай ваеннай школы (красавік 1933-ліпень 1933 гг.)]
+		(*
+			<-lang_by;;
+		*);;
+	concept_situation->[*
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	=>nrel_personal_composition:
+	pers_comp_81st_Minsk_infantry_training_courses_1937
+	(*
+		<-rrel_provost:Lovyagin_Pyotr_Yermolayevich;;
+	*);;*]
+	(*
+		<-begin_date_07_1937;;
+		<-completion_date_11_1937;;
+	*);;
+	pers_comp_81st_Minsk_infantry_training_courses_1937
+	=>nrel_main_idtf:
+		[Персональный состав Объединенной Белорусской военной школы (июль-ноябрь 1937 г.)]
+		(*
+			<-lang_ru;;
+		*);
+		[The staff of the United Belarusian Military School (July-November 1937)]
+		(*
+			<-lang_en;;
+		*);
+		[Персанальны склад Аб'яднанай Беларускай ваеннай школы (ліпень-лістапад 1933 г.)]
+		(*
+			<-lang_by;;
+		*);;
+	concept_situation->[*
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	=>nrel_personal_composition:
+	pers_comp_81st_Minsk_infantry_training_courses_1938
+	(*
+		<-rrel_provost:Levashev_Aleksey_Fedorovich;;
+	*);;*]
+	(*
+		<-begin_date_02_1938;;
+		<-completion_date_03_1938;;
+	*);;
+	pers_comp_81st_Minsk_infantry_training_courses_1938
+	=>nrel_main_idtf:
+		[Персональный состав Объединенной Белорусской военной школы (февраль-март 1938 г.)]
+		(*
+			<-lang_ru;;
+		*);
+		[The staff of the United Belarusian Military School (February-March 1938)]
+		(*
+			<-lang_en;;
+		*);
+		[Персанальны склад Аб'яднанай Беларускай ваеннай школы (люты-сакавік 1938 г.)]
+		(*
+			<-lang_by;;
+		*);;
+	concept_situation->[*
+	students_and_staff_of_81st_Minsk_infantry_training_courses
+	=>nrel_personal_composition:
+	pers_comp_81st_Minsk_infantry_training_courses_1938_1941
+	(*
+		<-rrel_provost:Puzikov_Ivan_Mikhaylovich;;
+	*);;*]
+	(*
+		<-begin_date_03_1938;;
+		<-completion_date_03_1941;;
+	*);;
+	pers_comp_81st_Minsk_infantry_training_courses_1938_1941
+	=>nrel_main_idtf:
+		[Персональный состав Объединенной Белорусской военной школы (март 1938-март 1941 гг.)]
+		(*
+			<-lang_ru;;
+		*);
+		[The staff of the United Belarusian Military School (March 1938-March 1941)]
+		(*
+			<-lang_en;;
+		*);
+		[Персанальны склад Аб'яднанай Беларускай ваеннай школы (сакавік 1938-сакавік 1941 гг.)]
+		(*
+			<-lang_by;;
+		*);;

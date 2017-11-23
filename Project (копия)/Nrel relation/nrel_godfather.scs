@@ -1,0 +1,12 @@
+nrel_godfather
+<-sc_const;
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+	[крёстный отец*]
+	(*
+		<-lang_ru;;
+	*);
+	[godfather*]
+	(*
+		<-lang_en;;
+	*);;

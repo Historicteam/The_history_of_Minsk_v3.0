@@ -1,0 +1,31 @@
+Konopasievich_Sofronij
+=>nrel_main_idtf:
+	[Конопасевич Софроний]
+	(*
+		<-lang_ru;;
+	*);
+	[Konopasievich Sofronij]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Sofronij;
+=>nrel_surname:surname_Konopasievich;;
+
+concept_situation=>[*
+staff_of_the_orthodox_theological_seminary
+=>nrel_personal_composition:
+pers_comp_the_orthodox_theological_seminary_1865
+(*
+	->rrel_oeconomus:Konopasievich_Sofronij;;
+*);;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Конопасевич Софроний был экономом Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_31_12_1863;;
+	<-completion_date_1865;;
+*);;

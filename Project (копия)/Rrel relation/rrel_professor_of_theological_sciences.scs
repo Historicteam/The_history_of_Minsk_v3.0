@@ -1,0 +1,13 @@
+rrel_professor_of_theological_sciences
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[профессор теологических наук']
+	(*
+		<-lang_ru;;
+	*);
+	[professor of theological sciences']
+	(*
+		<-lang_en;;
+	*);;

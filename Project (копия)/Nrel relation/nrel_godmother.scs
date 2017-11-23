@@ -1,0 +1,12 @@
+nrel_godmother
+<-sc_const;
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+	[крёстная мать*]
+	(*
+		<-lang_ru;;
+	*);
+	[godmother*]
+	(*
+		<-lang_en;;
+	*);;

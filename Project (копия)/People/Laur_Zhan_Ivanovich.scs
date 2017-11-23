@@ -1,0 +1,15 @@
+Laur_Zhan_Ivanovich
+=> nrel_main_idtf:
+	[Лаур Жан Иванович]
+	(*
+		<-lang_ru;;
+	*);
+	[Laur Zhan Ivanovich]
+	(*
+		<-lang_en;;
+	*);
+	[Лаур Жан Іванавіч]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;

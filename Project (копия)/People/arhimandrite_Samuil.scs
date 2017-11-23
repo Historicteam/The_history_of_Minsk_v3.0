@@ -1,0 +1,45 @@
+archimandrite_Samuil
+=>nrel_main_idtf:
+	[Архимандрит Самуил]
+	(*
+		<-lang_ru;;
+	*);
+	[Archimandrite Samuil]
+	(*
+		<-lang_en;;
+	*);
+	[Архімандрыт Самуіл]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;;
+
+concept_situation=>[*
+staff_of_the_orthodox_theological_seminary
+=>nrel_personal_composition:
+pers_comp_the_orthodox_theological_seminary_1865
+(*
+	->rrer_acting_rector:archimandrite_Samuil;;
+	->rrel_professor_of_theological_sciences:archimandrite_Samuil;;
+*);;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда архимандрит Самуил был и.о. ректора Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда архимандрит Самуил был профессором теологических наук Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);;
+	<-...
+	(*
+		=>nrel_main_idtf:
+			[время начала - неизвестно]
+			(*
+				<-lang_ru;;
+			*);;
+	*);;
+	<-completion_date_1865;;
+*);;

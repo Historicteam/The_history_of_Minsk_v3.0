@@ -1,0 +1,13 @@
+rrel_teacher_of_holy_scripture
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[учитель Священного писания']
+	(*
+		<-lang_ru;;
+	*);
+	[teacher of Holy Scripture']
+	(*
+		<-lang_en;;
+	*);;

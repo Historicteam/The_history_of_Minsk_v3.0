@@ -1,0 +1,83 @@
+Zaustinskij_Konstantin_Antonovich
+=>nrel_main_idtf:
+	[Заустинский Константин Антонович]
+	(*
+		<-lang_ru;;
+	*);
+	[Zaustinskij Konstantin Antonovich]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Konstantin;
+=>nrel_surname:surname_Zaustinskij;
+=>nrel_parent:Zaustinskij_Anton;;
+
+concept_situation=>[*
+staff_of_the_orthodox_theological_seminary
+=>nrel_personal_composition:
+pers_comp_the_orthodox_theological_seminary_1865
+(*
+	->rrer_secretary:Zaustinskij_Konstantin_Antonovich;;
+*);;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Заустинский Константин Антонович был секретарем Правления Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_24_02_1864;;
+	<-completion_date_1865;;
+*);;
+
+concept_situation=>[*
+staff_of_the_orthodox_theological_seminary
+=>nrel_personal_composition:
+pers_comp_the_orthodox_theological_seminary_1865
+(*
+	->rrel_teacher_of_holy_scripture:
+	Zaustinskij_Konstantin_Antonovich;;
+	->rrel_teacher_of_patristic:Zaustinskij_Konstantin_Antonovich;;
+	->rrel_teacher_of_greek_language:
+	Zaustinskij_Konstantin_Antonovich;;
+	->rrel_teacher_of_latin_language:
+	Zaustinskij_Konstantin_Antonovich;;
+*);;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Заустинский Константин Антонович был учителем Священного писания Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Заустинский Константин Антонович был учителем патристики Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Заустинский Константин Антонович был учителем Латинского языка Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Заустинский Константин Антонович был учителем Греческого языка Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_29_09_1861;;
+	<-completion_date_1865;;
+*);;
+
+//////////////////////////////////
+Zaustinskij_Anton
+=>nrel_main_idtf:
+	[Заустинский Антон]
+	(*
+		<-lang_ru;;
+	*);
+	[Zaustinskij Anton]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Anton;
+=>nrel_surname:surname_Zaustinskij;;

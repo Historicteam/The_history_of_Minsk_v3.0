@@ -1,0 +1,39 @@
+concept_material
+=> nrel_main_idtf:
+[материал]
+(*
+<- lang_ru;;
+*);
+[material]
+(*
+<- lang_en;;
+*);
+[матэрыял]
+(*
+<- lang_by;;
+*);
+<-sc_const;
+<-sc_node_not_relation;
+
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Материал — предметы, вещества, идущие на изготовление чего-нибудь, сырьё. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Матэрыял - прадметы, рэчывы, якія ідуць на выраб чаго-небудзь, сыравіна. ]
+      (*
+<- lang_by;;
+      *);;
+  *);;
+*);;
+

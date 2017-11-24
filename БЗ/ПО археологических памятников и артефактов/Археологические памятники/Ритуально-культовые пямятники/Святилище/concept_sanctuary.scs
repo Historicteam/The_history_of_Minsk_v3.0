@@ -1,0 +1,65 @@
+concept_sanctuary
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[святилище]
+(*
+<- lang_ru;;
+*);
+[sanctuary]
+(*
+<- lang_en;;
+*);
+[святыня]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Святилище — священное место или алтарь, посвящённый божеству. Во многих религиях считается местопребыванием божества; в ряде культур служило местом убежища для преследуемых.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Святыня - святое месца або алтар, прысвечаны бажаству. У многіх рэлігіях лічыцца месцазнаходжаннем бажаства; у шэрагу культур служыла месцам прытулку для якіх пераследуюць.]
+      (*
+<- lang_by;;
+      *);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/sanctuary.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

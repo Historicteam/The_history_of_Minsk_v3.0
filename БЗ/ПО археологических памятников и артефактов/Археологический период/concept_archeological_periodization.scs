@@ -1,0 +1,47 @@
+concept_archeological_periodization
+=> nrel_main_idtf:
+[археологический период]
+(*
+<- lang_ru;;
+*);
+[archeological period]
+(*
+<- lang_en;;
+*);
+[археалагічны перыяд]
+(*
+<- lang_by;;
+*);
+<-sc_const;
+<-sc_node_not_relation;
+
+<= nrel_subdividing:
+{
+	concept_Stone_Age;
+      concept_Bronze_age;
+      concept_The_Iron_Age
+
+};
+
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Археологический период – эпоха истории человечества. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Археалагічны перыяд - эпоха гісторыі чалавецтва.]
+      (*
+<- lang_by;;
+      *);;
+  *);;
+*);;
+

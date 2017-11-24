@@ -1,0 +1,8 @@
+Bulganin_Nikolay_Alexandrovich
+
+=> nrel_main_idtf:
+        [Булганин Николай Александрович ] (* <- lang_ru;; *);
+	[Bulganin Nikolay Alexandrovich] (* <- lang_en;; *);
+	[Булганин Мікалай Аляксандравіч] (* <-lang_by;; *);
+
+<- concept_male;;

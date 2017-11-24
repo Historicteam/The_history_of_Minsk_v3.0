@@ -63,7 +63,7 @@ concept_educational_institution
 -> organization_gymnasium_of_St_Anne;
 -> organization_Minsk_Municipal_Public_Library_named_after_Pushkin;
 -> organization_Imperial_University_of_Dorpat;
--> Communist_Youth_of_Belarus;
+-> organization_Communist_Youth_of_Belarus;
 -> organization_institute_Warsaw_Music_Institute;
 -> organization_Nizhny_Novgorod_Male_Gymnasium;
 

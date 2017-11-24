@@ -1,0 +1,6 @@
+organization_The_Supreme_Soviet_of_the_USSR
+			=> nrel_main_idtf:
+				[Верховный Совет СССР]  (* <- lang_ru;; *);
+				[The Supreme Soviet of the USSR] (* <- lang_en;; *);
+				[Вярхоўны Савет СССР] (* <- lang_by;; *);
+<-concept_administrative_organization;;

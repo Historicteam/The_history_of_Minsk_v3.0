@@ -1,0 +1,65 @@
+concept_labyrinth
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[лабиринт]
+(*
+<- lang_ru;;
+*);
+[labyrinths]
+(*
+<- lang_en;;
+*);
+[ўшанаваныя месцы]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Лабиринт— какая-либо структура, состоящая из запутанных путей к выходу или путей, ведущих в тупик.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Лабірынт- якая-небудзь структура , якая складаецца з заблытаных шляхоў да выхаду або шляхоў, якія вядуць у тупік.]
+      (*
+<- lang_by;;
+      *);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/labyrinths.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

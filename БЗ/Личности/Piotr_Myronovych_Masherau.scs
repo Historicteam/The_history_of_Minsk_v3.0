@@ -64,13 +64,13 @@ Masherov_Piotr_Myronovych
 => nrel_dwelling:house_13_Red_Army_Street;
 
 => nrel_employee:
-	Regional_Committee_of_Komsomol_Molodechnensky;
-	Minsk_Regional_Committee_of_Komsomol;
-	Communist_Youth_of_Belarus;
-	Minsk_Regional_Party_Committee;
-	Brest_Regional_Committee_of_the_Communist_Party_of_Belarus;
-	The_Supreme_Soviet_of_the_USSR;
-	CC_CP_Belarus;
+	organization_Regional_Committee_of_Komsomol_Molodechnensky;
+	organization_Minsk_Regional_Committee_of_Komsomol;
+	organization_Communist_Youth_of_Belarus;
+	organization_Minsk_Regional_Party_Committee;
+	organization_Brest_Regional_Committee_of_the_Communist_Party_of_Belarus;
+	organization_The_Supreme_Soviet_of_the_USSR;
+	organization_CC_CP_Belarus;
 
 <- rrel_key_sc_element: Rank_Mosherova
 	(*

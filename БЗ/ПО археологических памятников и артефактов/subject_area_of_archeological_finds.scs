@@ -1,0 +1,35 @@
+subject_area_of_archeological_finds
+=>nrel_main_idtf:
+	[Предметная область археологических находок] (* <-lang_ru;; *);
+	[The subject area of archeological artifacts ] (* <-lang_en;; *);
+	[Прадметная вобласць археалагічных знаходак ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Предметная область археологических находок - предметная область, изучающая объекты материальной культуры, вещественные исторические источники.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+->rrel_maximum_studied_object_class:concept_archeological_finds;
+
+->rrel_explored_non_related_subject_domain_concept:concept_tool;
+->rrel_explored_non_related_subject_domain_concept:concept_clothes;
+->rrel_explored_non_related_subject_domain_concept:concept_weapon;
+->rrel_explored_non_related_subject_domain_concept:concept_dishes;
+->rrel_explored_non_related_subject_domain_concept:concept_ornaments;
+->rrel_explored_non_related_subject_domain_concept:nrel_owner;
+
+->rrel_not_maximum_studied_object_class: concept_treasure;
+->rrel_not_maximum_studied_object_class: concept_eco_facts;
+
+->rrel_explored_relation:nrel_artefact_storage_location;
+->rrel_explored_relation:nrel_archeological_matrix;
+->rrel_explored_relation:nrel_archeological_provenience;
+
+<-sc_node_not_relation;	
+<-sc_const;;

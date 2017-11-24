@@ -1,0 +1,34 @@
+concept_Ingumation_funerary_monument
+<-sc_const;
+<-sc_node_not_relation;
+<-concept_mound;
+=> nrel_main_idtf:
+[погребальный памятник со способом захоронения - трупоположение ]
+(*
+<- lang_ru;;
+*);
+[funerary monument with a method of burial -  ingumation]
+(*
+<- lang_en;;
+*);
+[пахавальны помнік са спосабам пахавання - трупапалажэнне]
+(*
+<- lang_by;;
+*);
+=> nrel_idtf:
+[погребальный памятник со способом захоронения - ингумация ]
+(*
+<- lang_ru;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Трупоположение - захоронение останков человека.]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+*);;

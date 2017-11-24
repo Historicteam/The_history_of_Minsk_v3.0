@@ -1,0 +1,69 @@
+concept_eco_facts
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[экофакты]
+(*
+<- lang_ru;;
+*);
+[eco-facts]
+(*
+<- lang_en;;
+*);
+[экафакты]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<= nrel_using_constants:
+	{
+		nrel_owner
+	};;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Экофакты — остатки пище, костей.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Экафакты - астаткі ежы, костак.]
+      (*
+<- lang_by;;
+      *);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/concept_eco_facts.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

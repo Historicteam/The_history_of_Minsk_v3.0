@@ -45,8 +45,8 @@ concept_state_organization
 
 -> organization_gymnasium_of_St_Anne;
 -> organization_Minsk_Male_Gymnasium;
--> The_Supreme_Soviet_of_the_USSR;
--> CC_CP_Belarus;
+-> organization_The_Supreme_Soviet_of_the_USSR;
+-> organization_CC_CP_Belarus;
 -> organization_Minsk_Municipal_Hobo_Shelter;
 -> organization_theater_Warsaw_Big_Teatr;
 -> organization_Imperial_University_of_Dorpat;

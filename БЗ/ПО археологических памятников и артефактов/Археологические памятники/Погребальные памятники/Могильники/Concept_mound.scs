@@ -1,0 +1,50 @@
+concept_mound
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[могильник]
+(*
+<- lang_ru;;
+*);
+[mound]
+(*
+<- lang_en;;
+*);
+[магільнік]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Могильник — комплекс погребений. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Магільнік - комплекс пахаванняў.]
+      (*
+<- lang_by;;
+      *);;
+*);;
+
+*);
+<- rrel_key_sc_element:
+...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/concept_mound.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

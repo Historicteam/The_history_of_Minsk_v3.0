@@ -1,0 +1,164 @@
+organization_Council_of_Peoples_Commissars
+=>nrel_main_idtf:
+	[Совет народных комиссаров] (* <-lang_ru;; *);
+	[Council of People's Commissars] (* <-lang_en;; *);
+	[Савет народных камісараў] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...
+	(* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Совет народных комиссаров — наименование советского правительства в Советской России, СССР и республиках Союза ССР.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+<- begin_date_22_10_1917;
+<- completion_date_15_03_1946;
+
+<-concept_government;;
+
+organization_Council_of_Ministers_of_the_USSR
+=>nrel_main_idtf:
+	[Совет министров СССР] (* <-lang_ru;; *);
+	[Council of Ministers of the USSR] (* <-lang_en;; *);
+	[Савет міністраў СССР] (* <-lang_by;; *);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars<= nrel_temporal_decomposition:organization_Council_of_Ministers_of_the_USSR;; *]
+(*
+    <- begin_date_15_03_1946;;
+    <- completion_date_01_02_1991;;
+*);;
+
+organization_USSR_Council_of_Ministerst
+=>nrel_main_idtf:
+	[Кабинет министров СССР] (* <-lang_ru;; *);
+	[USSR Council of Ministers] (* <-lang_en;; *);
+	[Кабінет міністраў СССР] (* <-lang_by;; *);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars<= nrel_temporal_decomposition:organization_USSR_Council_of_Ministerst;; *]
+(*
+    <- begin_date_01_02_1991;;
+<- completion_date_05_09_1991;;
+*);;
+
+organization_Committee_for_the_Operational_Management_of_the_National_Economy_of_the_USSR
+=>nrel_main_idtf:
+	[Комитет по оперативному управлению народным хозяйством СССР] (* <-lang_ru;; *);
+	[Committee for the Operational Management of the National Economy of the USSR] (* <-lang_en;; *);
+	[Камітэт па аператыўным кіраванні народнай гаспадаркай СССР] (* <-lang_by;; *);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars<= nrel_temporal_decomposition:organization_Committee_for_the_Operational_Management_of_the_National_Economy_of_the_USSR;; *]
+(*
+    <- begin_date_05_09_1991;;
+<- completion_date_26_12_1991;;
+*);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Lenin_Vladimir_Ilyich;;
+*]
+(*
+    <- begin_date_9_10_1917;;
+   <- completion_date_21_01_1924;;
+*);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Rykov_Alexey_Ivanovich;;
+*]
+(*
+    <- begin_date_2_02_1924;;
+   <- completion_date_19_12_1930;;
+*);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Molotov_Vyacheslav_Mikhailovich;;
+*]
+(*
+    <- begin_date_19_12_1930;;
+   <- completion_date_06_05_1941;;
+*);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Stalin_Joseph_Vissarionovich;;
+*]
+(*
+    <- begin_date_06_05_1941;;
+   <- completion_date_05_03_1953;;
+*);;
+
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Malenkov_Georgiy_Maximilianovich;;
+*]
+(*
+    <- begin_date_06_05_1941;;
+   <- completion_date_08_02_1955;;
+*);;
+
+
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Bulganin_Nikolay_Alexandrovich;;
+*]
+(*
+    <- begin_date_08_02_1955;;
+   <- completion_date_27_03_1958;;
+*);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Kosygin_Aleksey_Nikolaevich;;
+*]
+(*
+    <- begin_date_15_10_1964;;
+   <- completion_date_23_10_1980;;
+*);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Khrushchev_Nikita_Sergeevich;;
+*]
+(*
+    <- begin_date_15_01_1958;;
+   <- completion_date_15_10_1964;;
+*);;
+
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Tikhonov_Nikolay_Alexandrovich;;
+*]
+(*
+    <- begin_date_23_10_1980;;
+   <- completion_date_27_09_1985;;
+*);;
+
+concept_situation->[* organization_Council_of_Peoples_Commissars
+ ->rrel_chairman: Ryzhkov_Nikolay_Ivanovich;;
+*]
+(*
+    <- begin_date_27_09_1985;;
+   <- completion_date_14_01_1991;;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+organization_Minsk_Regional_Party_Committee
+			=> nrel_main_idtf:
+				[Минский обком партии] 					 (* <- lang_ru;; *);
+				[Minsk Regional Party Committee] (* <- lang_en;; *);
+				[Мінскі абкам партыі] (* <- lang_by;; *);
+<-concept_administrative_organization;;

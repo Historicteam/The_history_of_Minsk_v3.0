@@ -1,0 +1,8 @@
+Lenin_Vladimir_Ilyich
+
+=> nrel_main_idtf:
+        [Ленин Владимир Ильич] (* <- lang_ru;; *);
+	[Lenin Vladimir Ilyich] (* <- lang_en;; *);
+	[Ленін Уладзімір Ільіч] (* <-lang_by;; *);
+
+<- concept_male;;

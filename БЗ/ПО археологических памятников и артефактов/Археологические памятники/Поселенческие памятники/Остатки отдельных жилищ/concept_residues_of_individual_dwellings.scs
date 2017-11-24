@@ -1,0 +1,62 @@
+concept_residues_of_individual_dwellings
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[остатки отдельных жилищ]
+(*
+<- lang_ru;;
+*);
+[residues of individual dwellings]
+(*
+<- lang_en;;
+*);
+[астаткі асобных жылішчаў]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Остатки отдельных жилищ — тип археологического памятника, который является исторически значимым остатком сооружения, где раньше проживали люди.]
+
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Астаткі асобных жылішчаў - тып археалагічнага помніка, які з'яўляецца гістарычна значным астаткам будынка, дзе раней пражывалі людзі.]   
+ (*
+<- lang_by;;
+      *);;
+ *);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/concept_residues_of_individual_dwellings.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

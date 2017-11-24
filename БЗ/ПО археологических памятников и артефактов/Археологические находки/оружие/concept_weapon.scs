@@ -1,0 +1,36 @@
+concept_weapon
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[оружие]
+(*
+<- lang_ru;;
+*);
+[weapon]
+(*
+<- lang_en;;
+*);
+[зброя]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Оружие - всякое средство, приспособленное, технически пригодное для нападения или защиты.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Зброя - усякі сродак, прыстасаваны, тэхнічна прыдатны для нападу або абароны.]
+      (*
+<- lang_by;;
+      *);;
+*);;
+*);;

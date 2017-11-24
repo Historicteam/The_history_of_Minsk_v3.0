@@ -1,0 +1,6 @@
+organization_Communist_Youth_of_Belarus
+			=> nrel_main_idtf:
+				[ЦК ЛКСМ Белоруссии] 		(* <- lang_ru;; *);
+				[Communist Youth of Belarus]	(* <- lang_en;; *);
+				[ЦК ЛКСМ Беларусі] (* <- lang_by;; *);
+<-concept_administrative_organization;;

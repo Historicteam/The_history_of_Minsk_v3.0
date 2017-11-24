@@ -1,0 +1,29 @@
+nrel_artefact_storage_location
+<-sc_const;
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[место хранения*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[artefact storage*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[месца захоўвання*] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Место хранения* — бинарное отношение, связывающее археологический артефакт и здание, в котором он находится. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+  *);
+=>nrel_first_domain:concept_archaeological_monument;
+=>nrel_second_domain:concept_building;;
+
+

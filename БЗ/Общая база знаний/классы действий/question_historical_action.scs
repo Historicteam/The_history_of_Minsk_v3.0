@@ -1,0 +1,20 @@
+question_historical_action
+=>nrel_main_idtf:
+	[историческое действие] (* <-lang_ru;; *);
+	[historical action] (* <-lang_en;; *);
+	[гістарычнае дзеянне] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Историческое действие - любое действие в рамках истории.] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);		
+
+<-actions_class;;
+
+

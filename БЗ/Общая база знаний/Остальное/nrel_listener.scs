@@ -1,0 +1,26 @@
+nrel_listener
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[слушатель*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[ listener*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[слухач*] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Слушатель — тот, кто слушает что-нибудь. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+  *);;
+
+

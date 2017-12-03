@@ -1,0 +1,19 @@
+question_reproduce
+=>nrel_main_idtf:
+	[действие. воспроизводить] (* <-lang_ru;; *);
+	[action. reproduce] (* <-lang_en;; *);
+	[дзеянне. прайграваць] (* <-lang_by;; *);
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Воспроизводить - класс действий, обозначающих создание чего-либо по какому-либо образцу.] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);		
+
+<-actions_class;;
+
+

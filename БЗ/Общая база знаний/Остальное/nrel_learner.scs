@@ -1,0 +1,26 @@
+nrel_learner
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[ученик*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[ learner*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[вучань*] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Ученик — лицо, пользующееся уроками и наставлениями другого в какой-либо области знаний. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+  *);;
+
+

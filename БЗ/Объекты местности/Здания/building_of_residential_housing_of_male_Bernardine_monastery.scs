@@ -47,18 +47,18 @@ building_of_residential_housing_of_male_Bernardine_monastery
         <- completion_date_1864;;
         *);
 
-	building_of_the_Minsk_city_prison
+	building_prison_for_the_participants_of_the_uprising_of_1863
         (* 
         => nrel_main_idtf:
-            [Здание Минской городской тюрьмы]
+            [Здание тюрьмы для участников восстания 1863 года]
             (*
             <- lang_ru;;
             *);
-            [The building of Minsk city prison]
+            [The building prison for the participants of the uprising of 1863]
             (*
             <- lang_en;;
             *);
-            [Будынак Мінскай гарадской турмы]
+            [Будынак турмы для ўдзельнікаў паўстання 1863 года]
             (*
             <- lang_by;;
             *);;
@@ -187,7 +187,7 @@ concept_situation->[*
             <- completion_date_2020;;
 	*);;
 
-concept_situation->[*organization_Minsk_city_prison => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;*]
+concept_situation->[* organization_prison_for_the_participants_of_the_uprising_of_1863 => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;*]
 (*
     => nrel_main_idtf: 
     [Контур периода времени расположения тюрьмы в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);

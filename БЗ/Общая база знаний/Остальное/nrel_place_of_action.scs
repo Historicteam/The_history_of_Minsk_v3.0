@@ -1,0 +1,21 @@
+nrel_place_of_action
+=>nrel_main_idtf:
+	[место действия*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[place_of_action*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[месца действа*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [структурный элемент, определяющий пространственную локализацию описываемых событий] (* <-lang_ru;; *);;
+		*);; 
+	*);
+	
+<-sc_const;
+<-sc_node_norole_relation;;

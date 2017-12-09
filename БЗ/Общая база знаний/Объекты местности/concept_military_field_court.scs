@@ -1,0 +1,14 @@
+concept_military_field_court
+=> nrel_main_idtf:
+	[Полевой военный суд]
+	(*
+	<- lang_ru;;
+	*);
+	[Military field court]
+	(*
+	<- lang_en;;
+	*);
+	[Палявы ваенны суд]
+	(*
+	<- lang_by;;
+	*);;

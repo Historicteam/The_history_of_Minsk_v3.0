@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="wave" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wave">
+         <Option output="/home/shokalirina/newostis/ostis/sc-machine/bin/wave" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory/../sc-machine//bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory/../sc-machine/sc-memory" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/i386-linux-gnu" />
+            <Add directory="/usr/include/i386-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/i686-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/i386-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 wave" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wave/fast">
+         <Option output="/home/shokalirina/newostis/ostis/sc-machine/bin/wave" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory/../sc-machine//bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory/../sc-machine/sc-memory" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/i386-linux-gnu" />
+            <Add directory="/usr/include/i386-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/i686-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/i686-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/i386-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 wave/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shokalirina/newostis/ostis/wave_find_path_sc_memory-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory/utils.cpp">
+         <Option target="wave"/>
+      </Unit>
+      <Unit filename="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory/utils.h">
+         <Option target="wave"/>
+      </Unit>
+      <Unit filename="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory/wavefindpath.cpp">
+         <Option target="wave"/>
+      </Unit>
+      <Unit filename="/home/shokalirina/newostis/ostis/wave_find_path_sc_memory/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,10 +1,10 @@
 action_give_a_concert
 =>nrel_main_idtf:
-	[действие.дать концерт]
+	[действие. дать концерт]
 	(*
 		<-lang_ru;;
 	*);
-	[action.give a concert]
+	[action. to give a concert]
 	(*
 		<-lang_en;;
 	*);;

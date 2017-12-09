@@ -2,7 +2,7 @@ organization_the_moscow_university
 =>nrel_main_idtf:
 	[Московский университет]
 	(*
-		<-lang_;;
+		<-lang_ru;;
 	*);
 	[The Moscow University]
 	(*

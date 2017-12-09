@@ -1,3 +1,4 @@
+//необходимо добавить, что он был поручиком
 Liaskovskij_Stanislav_Vikientievich
 =>nrel_main_idtf:
 	[Лясковский Станислав Викентьевич]
@@ -24,13 +25,13 @@ Liaskovskij_Stanislav_Vikientievich
 <-concept_male;
 =>nrel_surname:surname_Liaskovskij;
 =>nrel_first_name:name_Stanislav;
-=>nrel_date_of_birth:date_21_01_1840;
+<-begin_date_21_01_1840;
+<-completion_date_1867;
 =>nrel_parent:Liaskovskij_Vikientij; 
 =>nrel_social_status:concept_ancestral_nobility;
 =>nrel_social_status:concept_hereditary_nobility;
-=>nrel_social_status:concept_poruchik;
 <-rrel_student:organization_Mikhailovskij_Artillery_Academy;
-
+<-concept_participant_of_the_uprising_1863;
 <-rrel_key_sc_element:...
 	(*
 		=>nrel_main_idtf:[Пояснение роли Станислава Лясковского в восстании 1863-1864 гг.]
@@ -46,3 +47,18 @@ Liaskovskij_Stanislav_Vikientievich
 					*);;
 			*);;
 	*);;
+
+concept_situation->[*
+Liaskovskij_Stanislav_Vikientievich
+<-rrel_director:organization_Stanislav_Lyaskovsky_squad;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Станислав Лясковский был руководителем отряда]
+		(*
+			<-lang_ru;;
+		*);;
+	<-time_point_1863;;
+*);;
+
+

@@ -1,0 +1,22 @@
+time_point_22_11_1834
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[22 ноября 1834]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[22 november of 1834]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[22 лістапада 1834]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [22];;
+   		<- number_of_month_in_year: [11];;
+   		<- number_of_year: [1834];;
+   	*);;

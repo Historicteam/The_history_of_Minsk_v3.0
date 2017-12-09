@@ -1,0 +1,20 @@
+time_point_09_02_1852
+=>nrel_main_idtf:
+	[9 февраля 1852]
+	(*
+		<-lang_ru;;
+	*);
+	[9 february of 1852]
+	(*
+		<-lang_en;;
+	*);
+	[9 лютага 1852]
+	(*
+		<-lang_by;;
+	*);
+=> nrel_Gregorian_calendar_scale:...
+	(*
+		<-number_of_day_in_month: [9];;
+		<-number_of_month_in_year: [2];;
+		<-number_of_year: [1852];;
+	*);;

@@ -1,0 +1,10 @@
+action_arrest
+=>nrel_main_idtf:
+	[действие. арест]
+	(*
+		<-lang_ru;;
+	*);
+	[action. arrest]
+	(*
+		<-lang_en;;
+	*);;

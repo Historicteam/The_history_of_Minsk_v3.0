@@ -1,6 +1,4 @@
 nrel_godmother
-<-sc_const;
-<-sc_node_norole_relation;
 =>nrel_main_idtf:
 	[крёстная мать*]
 	(*
@@ -9,4 +7,12 @@ nrel_godmother
 	[godmother*]
 	(*
 		<-lang_en;;
-	*);;
+	*);
+<-sc_node_norole_relation;
+<-binary_relation;
+<-antyreflexive_relation;
+<-antisymmetric_relation;
+<-antitransitive_relation;
+<-oriented_relation;
+=>nrel_first_domain:concept_person;
+=>nrel_second_domain:concept_woman;;

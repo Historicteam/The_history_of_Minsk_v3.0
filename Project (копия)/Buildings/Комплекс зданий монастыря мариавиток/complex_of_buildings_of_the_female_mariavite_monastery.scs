@@ -9,8 +9,9 @@ complex_of_buildings_of_the_female_mariavite_monastery
 		<-lang_en;;
 	*);
 <-concept_complex_of_buildings;
-=>nrel_architect:Chakhovskiy_Mikhail;//Мельников перестроил ее под нужды Духовной семинарии?
-=>nrel_architect:Zaborskiy_Georgiy_Vladimirovich;;//перестроил под нужды МСВУ (действия)
+=>nrel_architect:Chakhovskiy_Mikhail;
+=>nrel_architect:Zaborskiy_Georgiy_Vladimirovich;
+=>nrel_osm_query: [way(376987590);];; 
 
 complex_of_buildings_of_the_orthodox_theological_seminary
 =>nrel_main_idtf:

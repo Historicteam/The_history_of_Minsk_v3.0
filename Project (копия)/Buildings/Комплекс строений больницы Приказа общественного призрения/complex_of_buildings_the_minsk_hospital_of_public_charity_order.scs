@@ -10,7 +10,6 @@ complex_of_buildings_the_minsk_hospital_of_public_charity_order
 	*);
 <-concept_complex_of_buildings;
 ->building_of_psychiatry_of_minsk_hospital;
-//АВ пока разрешила так
 <-rrel_key_sc_element:...
 	(*
 		<-sc_illustration;;

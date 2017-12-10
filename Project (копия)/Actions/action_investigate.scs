@@ -7,4 +7,5 @@ action_investigate
 	[action. investigate]
 	(*
 		<-lang_en;;
-	*);;
+	*);
+<=nrel_inclusion:question;;

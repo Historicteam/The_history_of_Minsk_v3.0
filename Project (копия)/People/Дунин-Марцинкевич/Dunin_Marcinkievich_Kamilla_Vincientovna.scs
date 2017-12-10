@@ -85,7 +85,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna<=nrel_initiator:...
 			<-lang_ru;;
 		*);;
 	<-action_give_a_concert;;
-	=>nrel_location:the_city_of_Kiev;;
+	=>nrel_location:city_kiev;;
 *);;
 *]
 (*
@@ -152,7 +152,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 *);;
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
-=>nrel_location:the_city_of_Solikamsk;;
+=>nrel_location:city_Solikamsk;;
 *]
 (*
 	=>nrel_main_idtf:

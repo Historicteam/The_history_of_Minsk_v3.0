@@ -11,11 +11,11 @@ building_of_gym_of_the_minsk_suvorov_military_school
 =>nrel_architect:Zaborskiy_Georgiy_Vladimirovich;
 <=nrel_subdividing:
 	{
-		building_of_housing_2_1;
-		building_of_housing_2_7
+		building_of_gym_of_the_minsk_suvorov_military_school_housing_2_1;
+		building_of_gym_of_the_minsk_suvorov_military_school_housing_2_7
 	};;
 
-building_of_housing_2_1
+building_of_gym_of_the_minsk_suvorov_military_school_housing_2_1
 =>nrel_main_idtf:
 	[Корпус 2/1 Минского Суворовского военного училища]
 	(*
@@ -26,7 +26,7 @@ building_of_housing_2_1
 		<-lang_en;;
 	*);;
 
-building_of_housing_2_7
+building_of_gym_of_the_minsk_suvorov_military_school_housing_2_7
 =>nrel_main_idtf:
 	[Корпус 2/7 Минского Суворовского военного училища]
 	(*

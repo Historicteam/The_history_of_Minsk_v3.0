@@ -1,4 +1,5 @@
 building_of_gym_of_the_minsk_suvorov_military_school
+<-concept_building;
 =>nrel_main_idtf:
 	[Спортивный зал Минского Суворовского военного училища]
 	(*
@@ -16,6 +17,7 @@ building_of_gym_of_the_minsk_suvorov_military_school
 	};;
 
 building_of_gym_of_the_minsk_suvorov_military_school_housing_2_1
+<-concept_building;
 =>nrel_main_idtf:
 	[Корпус 2/1 Минского Суворовского военного училища]
 	(*
@@ -27,6 +29,7 @@ building_of_gym_of_the_minsk_suvorov_military_school_housing_2_1
 	*);;
 
 building_of_gym_of_the_minsk_suvorov_military_school_housing_2_7
+<-concept_building;
 =>nrel_main_idtf:
 	[Корпус 2/7 Минского Суворовского военного училища]
 	(*

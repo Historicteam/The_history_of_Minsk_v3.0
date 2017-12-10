@@ -24,6 +24,7 @@ organization_the_hall_of_noble_assembly
 		(*
 			<-lang_ru;;
 		*);;
-//располагался в 1840е - 1850е
+	<-begin_date_1840;;
+	<-completion_date_1860;;
 *);;
 	

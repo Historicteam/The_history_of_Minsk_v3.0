@@ -3,7 +3,7 @@ rrer_acting_rector
 <-binary_relation;
 <-oriented_relation;
 =>nrel_main_idtf:
-	[и.о. ректора']
+	[иcполняющий обязанности ректора']
 	(*
 		<-lang_ru;;
 	*);

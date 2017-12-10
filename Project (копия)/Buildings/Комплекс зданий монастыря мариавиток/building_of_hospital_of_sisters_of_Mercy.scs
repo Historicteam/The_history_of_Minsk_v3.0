@@ -1,4 +1,5 @@
 building_of_hospital_of_sisters_of_Mercy
+<-concept_building;;
 =>nrel_main_idtf:
 	[Здание госпиталя сестёр милосердия]
 	(*
@@ -14,6 +15,7 @@ building_of_hospital_of_sisters_of_Mercy
 	*);;
 
 organization_hospital_of_sisters_of_mercy
+<-concept_hospital;
 =>nrel_main_idtf:
 	[Госпиталь сестёр Милосердия]
 	(*
@@ -38,18 +40,6 @@ concept_situation->[*
 	(*
 		<-lang_ru;;
 	*);;
-	<-begin_date_1811
-	(*
-		=>nrel_main_idtf:[1811 год]
-			(*
-				<-lang_ru;;
-			*);;
-	*);;
-	<-completion_date_1854
-	(*
-		=>nrel_main_idtf:[1854 год]
-			(*
-				<-lang_ru;;
-			*);;
-	*);;
+	<-begin_date_1811;;
+	<-completion_date_1854;;
 *);;

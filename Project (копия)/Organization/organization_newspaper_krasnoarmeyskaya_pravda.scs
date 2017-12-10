@@ -67,7 +67,7 @@ organization_newspaper_krasnoarmeyskaya_pravda;;
  
 
 concept_situation->
-[*The_City_of_Smolensk
+[*city_of_smolensk
 <= nrel_location: 
 organization_newspaper_krasnoarmeyskaya_pravda;;
 *]
@@ -95,4 +95,3 @@ organization_newspaper_vo_slavu_rodiny_2;;
 (*
 	<-begin_date_08_05_2004;;
 *);;
-

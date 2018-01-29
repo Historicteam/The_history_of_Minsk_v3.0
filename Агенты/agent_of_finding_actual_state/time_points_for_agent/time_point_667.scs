@@ -1,0 +1,8 @@
+time_point -> time_point_667
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [667];;
+   *);;
+  => nrel_main_idtf: [667 год] (* <-lang_ru;;*);;
+*);;

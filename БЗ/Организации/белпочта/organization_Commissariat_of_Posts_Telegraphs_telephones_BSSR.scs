@@ -1,0 +1,152 @@
+organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR
+=> nrel_main_idtf:
+	[Народный комиссариат почт,телеграфов и телефонов БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[People's Commissariat of Posts, Telegraphs and telephones BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Народны камісарыят пошт, тэлеграфаў і тэлефонаў БССР]
+	(*
+	<- lang_by;;
+	*);
+  <- begin_date_06_01_1919;
+    <- completion_date_15_02_1919;
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+
+
+concept_situation->[* organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination:organization_of_the_Minsk_provincial_post_and_telegraph_office ;;*]
+  (*
+    <- begin_date_1899;;
+    <- completion_date_1917;;
+*);;
+
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination:organization_of_the_First_Minsk_postal_telegraph_office ;;*]
+  (*
+    <- begin_date_1891;;
+*);;
+
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination: organization_of_the_Second_Minsk_postal_telegraph_office;;*]
+  (*
+    <- begin_date_1914;;
+*);;
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination: organization_of_the_Third_Minsk_postal_telegraph_office;;*]
+  (*
+    <- begin_date_1916;;
+*);;
+
+
+organization_West_Regional_postal_and_telegraph_management
+=> nrel_main_idtf:
+	[Западно-областное почтово-телеграфное управление]
+	(*
+	<- lang_ru;;
+	*);
+	[West Regional postal and telegraph management]
+	(*
+	<- lang_en;;
+	*);
+	[Заходне-абласное паштова-тэлеграфнае кіраванне]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_West_Regional_postal_and_telegraph_management;;*]
+  (*
+    <- begin_date_15_02_1919;;
+    <- completion_date_01_03_1919;;
+*);;
+
+organization_department_of_public_communication_Minsk_provincial_Revolutionary_Committee
+=> nrel_main_idtf:
+	[Отдел народной связи Минского губернского революционного комитета]
+	(*
+	<- lang_ru;;
+	*);
+	[The department of public communication Minsk provincial Revolutionary Committee]
+	(*
+	<- lang_en;;
+	*);
+	[Аддзел народнай сувязі Мінскага губернскага рэвалюцыйнага камітэта]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_department_of_public_communication_Minsk_provincial_Revolutionary_Committee;;*]
+  (*
+    <- begin_date_11_07_1920;;
+    <- completion_date_01_08_1920;;
+*);;
+
+organization_Department_of_Public_Communications_of_the_Military_Revolutionary_Committee
+=> nrel_main_idtf:
+	[Отдел народной связи Военного революционного комитета БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[Department of Public Communications of the Military Revolutionary Committee BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Аддзел народнай сувязі Ваеннага рэвалюцыйнага камітэта БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_Department_of_Public_Communications_of_the_Military_Revolutionary_Committee;;*]
+  (*
+    <- begin_date_01_08_1920;;
+    <- completion_date_10_1920;;
+*);;
+
+organization_Peoples_Commissariat_of_Communications_BSSR_Voenrevkoma
+=> nrel_main_idtf:
+	[Комиссариат народной связи Военревкома БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[People's Commissariat of Communications BSSR Voenrevkoma]
+	(*
+	<- lang_en;;
+	*);
+	[Камісарыят народнай сувязі Военревкома БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_Peoples_Commissariat_of_Communications_BSSR_Voenrevkoma;;*]
+  (*
+    <- begin_date_10_1920;;
+    <- completion_date_12_1920;;
+*);;
+
+organization_Peoples_Commissariat_of_Posts_and_Telegraphs
+=> nrel_main_idtf:
+	[Народный комиссариат почт и телеграфов БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[People's Commissariat of Posts and Telegraphs BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Народны камісарыят пошт і тэлеграфаў БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_Peoples_Commissariat_of_Posts_and_Telegraphs;;*]
+  (*
+    <- begin_date_12_1920;;
+    <- completion_date_07_09_1934;;
+*);;
+
+

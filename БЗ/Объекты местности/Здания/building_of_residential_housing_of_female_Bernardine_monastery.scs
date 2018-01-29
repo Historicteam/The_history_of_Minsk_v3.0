@@ -1,0 +1,166 @@
+building_of_residential_housing_of_female_Bernardine_monastery
+
+=> nrel_main_idtf:
+	[Здание жилого корпуса монастыря бернардинок]
+	(*
+	<- lang_ru;;
+	*);
+	[building of residential housing of female monastery of Bernardine]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак жылога корпуса манастыра бернардынак]
+	(*
+	<- lang_by;;
+	*);
+
+<= nrel_temporal_decomposition: 
+    {
+        Residential_housing_of_female_Bernardine_monastery
+        (* 
+        => nrel_main_idtf:
+            [Жилой корпус монастыря бернардинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Residential housing of female Bernardine monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Жыллы корпус манастыра бернардынак]
+            (*
+            <- lang_by;;
+            *);;
+            
+        <- begin_date_1642;;
+        <- completion_date_1852;;
+        => nrel_section_base_order:
+            Residential_housing_of_Holy_Trinity_Monastery;;
+        *);
+
+	Residential_housing_of_Holy_Trinity_Monastery
+        (* 
+        => nrel_main_idtf:
+            [Жилой корпус Свято-Троицкого монастыря]
+            (*
+            <- lang_ru;;
+            *);
+            [Residential housing of Holy Trinity Monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Жылы корпус Свята-Траецкага манастыра]
+            (*
+            <- lang_by;;
+            *);;
+            
+        <- begin_date_1862;;
+        <- completion_date_1870;;
+        *)
+    };
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query: [way(25387248);];
+=> nrel_geographical_location: ...
+    (*
+    <-concept_mapped_point;;
+    => nrel_WGS_84_translation: [53.905184, 27.55594]
+            (*
+            -> ...
+                    (*
+                    <- concept_coordinate;;
+                    ->rrel_latitude: ...
+                            (*
+                            <=nrel_value: ...
+                                    (*
+                                    -> rrel_degree: 53.905184;;
+                                    *);;
+                            *);;
+                    ->rrel_longitude: ...
+                            (*
+                            <=nrel_value: ...
+                                    (*
+                                    -> rrel_degree: 27.55594;;
+                                    *);;
+                            *);;
+                    *);;
+            *);;
+    *);
+    
+<- rrel_key_sc_element: ...
+    (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+            ...
+            (*
+            ->rrel_example: "file://content/bernki_corpus.jpg"
+                    (*
+                    => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+    
+
+concept_situation->[*organization_community_of_nuns_Bernardine => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения общины монахинь в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання лучыны манашак у будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
+    <- begin_date_1642;;
+        <- completion_date_1852;;
+*);;
+
+concept_situation->[*organization_community_of_orthodox_brothers_Holy_Trinity_male_monastery => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения общины православных братьев Свято-Троицкого мужского монастыря в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Траецкага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
+    <- begin_date_1862;;
+        <- completion_date_1870;;
+*);;
+
+concept_situation->[*organization_community_of_orthodox_brothers_Holy_Spirit_male_monastery => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения общины православных братьев Свято-Духова мужского монастыря в здании жилого корпуса монастыря бернардинок (1870-1918)]
+    (*<-lang_ru;;*);
+    [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1870-1918)]
+    (*<-lang_by;;*);;
+    <- begin_date_1870;;
+        <- completion_date_1918;;
+*);;
+
+concept_situation->[*organization_community_of_orthodox_brothers_Holy_Spirit_male_monastery => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения общины православных братьев Свято-Духова мужского монастыря в здании жилого корпуса монастыря бернардинок (1943-1945)]
+    (*<-lang_ru;;*);
+    [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1943-1945)]
+    (*<-lang_by;;*);;
+     <- begin_date_1943;;
+        <- completion_date_1945;;
+*);;
+	
+concept_situation->[*organization_state_commission_of_inquiry => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения государственной следственной комиссии в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання дзяржаўнай следчай камісіі ў будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
+    <- begin_date_1863;;
+    <- completion_date_1864;;
+*);;
+
+concept_situation->[*concept_residential_building -> building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда здание жилого корпуса монастыря бернардинок было жилым](*<-lang_ru;;*);
+    [Контур перыяду часу калі будынак жылога корпуса манастыра бернардынак быў жылым](*<-lang_by;;*);;
+    <- begin_date_1951;;
+    <- completion_date_1980;;
+*);;

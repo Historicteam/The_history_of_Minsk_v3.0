@@ -1,0 +1,11 @@
+the_Dominican_monastery_outbuilding_2
+
+<- concept_building;
+=> nrel_main_idtf:
+	[флигель доминиканского монастыря 2] (* <- lang_ru;; *);
+	[Dominican monastery outbuilding 2] (* <- lang_en;; *);
+	[флігель дамініканскага манастыра 2] (* <- lang_by;; *);
+
+<- begin_date_1703;
+          
+<- completion_date_1950;;

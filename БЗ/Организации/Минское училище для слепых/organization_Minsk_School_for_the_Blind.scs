@@ -1,0 +1,168 @@
+organization_Minsk_School_for_the_Blind
+=> nrel_main_idtf:
+	[Минское училище для слепых детей Опекунства императрицы Марии Александровны]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk school for blind children Guardianship of Empress Maria Alexandrovna]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскае вучылішча для сляпых дзяцей апякунствам імператрыцы Марыі Аляксандраўны]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_founder:Zdanovich_Ivan_Ustinovich;
+<-concept_educational_institution;;
+
+concept_situation->[*^"file://description_organization_Minsk_School_for_the_Blind.scsi"*]
+(*
+   <- begin_date_01_03_1897;;
+    <- completion_date_07_11_1917;;
+*);;
+
+organization_School_for_Blind_Children
+=> nrel_main_idtf:
+	[Школа для слепых детей ]
+	(*
+	<- lang_ru;;
+	*);
+	[School for Blind Children]
+	(*
+	<- lang_en;;
+	*);
+	[Школа для сляпых дзяцей]
+	(*
+	<- lang_by;;
+	*);
+<-concept_educational_institution;;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_temporal_decomposition: organization_School_for_Blind_Children;;*]
+  (*
+    <- begin_date_07_11_1917;;
+    <- completion_date_1921;;
+*);;
+
+concept_situation->[*^"file://description_of_the_organization_School_for_Blind_Children.scsi"*]
+(*
+   <- begin_date_07_11_1917;;
+    <- completion_date_1929;;
+*);;
+
+organization_Minsk_school_blindly
+=> nrel_main_idtf:
+	[Минская школа слепых ]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk school blindly]
+	(*
+	<- lang_en;;
+	*);
+	[Мінская школа сляпых]
+	(*
+	<- lang_by;;
+	*);
+<-concept_educational_institution;;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_temporal_decomposition: organization_Minsk_school_blindly;;*]
+  (*
+    <- begin_date_1917;;
+    <- completion_date_1932;;
+*);;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_Revenskogo;;*]
+  (*
+    <- begin_date_26_01_1897;;
+    <- completion_date_26_09_1897;;
+*);;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_Frotskoy;;*]
+  (*
+    <- begin_date_26_09_1897;;
+    <- completion_date_01_09_1900;;
+*);;
+
+
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
+  (*
+    <- begin_date_1900;;
+    <- completion_date_1915;;
+*);;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: the_city_of_Meschevsk;;*]
+  (*
+    <- begin_date_08_09_1915;;
+    <- completion_date_1919;;
+*);;
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
+  (*
+    <- begin_date_1919;;
+    <- completion_date_1929;;
+*);;
+
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: Chyrvony_berah_village;;*]
+  (*
+    <- begin_date_1929;;
+    <- completion_date_1930;;
+*);;
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: the_city_of_Mogilev;;*]
+  (*
+    <- begin_date_1930;;
+    <- completion_date_1941;;
+*);;
+
+
+
+concept_situation->[* organization_Minsk_School_for_the_Blind
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
+*]
+  (*
+    <- begin_date_28_09_1897;;
+    <- completion_date_1910;;
+*);;
+
+concept_situation->[*organization_Minsk_School_for_the_Blind
+->rrel_director:Zdanovich_Ivan_Ustinovich;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;
+->rrel_teacher:Dickou_Ivan_Jehoravich;;
+*]
+  (*
+    <- begin_date_1905;;
+    <- completion_date_1908;;
+*);;
+
+concept_situation->[*organization_Minsk_School_for_the_Blind
+->rrel_director:Zdanovich_Ivan_Ustinovich;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;
+->rrel_teacher:Barysau_Alieksiej_Stiapanavich;;
+*]
+  (*
+    <- begin_date_1909;;
+    <- completion_date_1910;;
+*);;
+
+concept_situation->[*organization_Minsk_School_for_the_Blind
+->rrel_director:Zdanovich_Ivan_Ustinovich;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;
+->rrel_teacher:Barysau_Alieksiej_Stiapanavich;
+->rrel_teacher:Fiodar_Afanasjevich_Malyshau;
+->rrel_teacher:Vladzimir_Hrihorjevich_Khiraska;;
+*]
+  (*
+    <- begin_date_1910;;
+    <- completion_date_1915;;
+*);;
+
+concept_situation->[*organization_Minsk_School_for_the_Blind
+->rrel_director:Ivan_Vasiljevich_Hiaorhijeuski;;
+*]
+  (*
+    <- begin_date_1915;;
+    <- completion_date_1915;;
+*);;

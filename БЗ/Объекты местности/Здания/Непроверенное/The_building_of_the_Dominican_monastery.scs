@@ -1,0 +1,236 @@
+the_building_of_the_Dominican_monastery
+<- concept_building;
+<- concept_terrain_object;
+
+=> nrel_main_idtf:
+    [Здание доминиканского костёла Фомы Аквинского] (* <- lang_ru;; *);
+    [The building of the church of the Dominican Thomas Aquinas] (* <- lang_en;; *);
+    [Будынак дамініканскага касцёла Фамы Аквінскага] (* <- lang_by;; *);
+
+=> nrel_idtf:
+    [Здание доминиканского монастыря] (* <- lang_ru;; *);
+    [The building of the Dominican monastery] (* <- lang_en;; *);
+    [Будынак дамініканскага кляштара] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В 1615 году доминиканцы получили место для строительства каменного здания костела вместо сгоревшего деревянного. Костел был построен в 40-е годы XVII века и освящен в честь Святого Фомы Аквинского. После восстания 1830 года и запрета ордена доминиканцев, костел действовал как приходской храм святой Троицы. В начале XX века зданіе іспользовалось под пожарное депо. В 1926 году здание было взято под охрану государства как исторический памятник. В 1945 году Германия выплатила контрибуцию на восстановление здания БСССР, после чего, в 1950 году здание костела было снесено.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[In 1615 dominicans received the place for  the construction of the stone church building instead of burnt wood. The church was built in 40-ths of XVII century and sanctified in honor of Saint Thomas Aquinas. After the revolt in 1830 year and when the Dominican order was forbidden, the church worked as a parish church of Holy Trinity.  At the beginning of XX century the fire station located there. In 1926 the building got the state protection as a historical monument. In 1945 Germany paid  the contribution to the restoration of the building for the BSSR, and after all the buiding was demolished in 1950.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[У 1615 годзе дамініканцы атрымалі месца пад пабудову каменнага будынка касцёла замест спаленага драўлянага. Касцёл быў пабудаваны ў 40-я гады  XVII стагоддзя і асвечаны ў гонар Святога Томаша Аквінскага. Пасля паўстання 1830 года і забароны ордэна дамініканцаў, касцел дзейнічаў як парафіяльны храм святой Троіцы. На пачатку XX стагоддзя будынак выкарыстоўваўся пад пажаранае дэпо. У 1926 годзе будынак быў узяты пад ахову дзяржавай як гістарычны помнік. У 1945 годзе Германія сплаціла кантрыбуцыю на узнаўленне буынка БССР, пасля чаго, у 1950 годзе, будынак быў знесены.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+
+    => nrel_start_time: ...
+   
+            (*
+                <- begin_date_1615;;
+          
+                <- completion_date_1650;;
+            *);
+    
+=> nrel_geographical_location: ...
+    (*
+    <-concept_mapped_point;;
+    => nrel_WGS_84_translation: [53.903567, 27.558754]
+        (*
+        -> ...
+            (*
+            <- concept_coordinate;;
+            ->rrel_latitude: ...
+                (*
+                <=nrel_value: ...
+                    (*
+                    -> rrel_degree: 53.903567;;
+                    *);;
+                *);;
+            ->rrel_longitude: ...
+                (*
+                <=nrel_value: ...
+                    (*
+                    -> rrel_degree: 27.558754;;
+                    *);;
+                *);;
+            *);;
+        *);;
+    *);;
+
+concept_situation->[*organization_minsk_catholic_threological_archdiocese_seminary => nrel_location: the_building_of_the_Dominican_monastery;;*]
+(*
+=> nrel_main_idtf: [Контур периода времени расположения Католической духовной семинарии Минской архидиацезии в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
+        <- begin_date_1844;;
+    <- completion_date_1869;;
+ *);;    
+
+concept_situation->[*organization_minsk_catholic_threological_archdiocese_seminary => nrel_location: the_building_of_the_Dominican_monastery;;*]
+(*
+    => nrel_main_idtf: [Контур периода времени расположения Католической духовной семинарии Минской архидиацезии в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
+    <- begin_date_1918;;
+    <- completion_date_1920;;
+ *);;    
+
+concept_situation->[*organization_oficers_club => nrel_location: the_building_of_the_Dominican_monastery;;*]
+(*
+    => nrel_main_idtf: [Контур периода времени расположения Офицерского клуба в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
+    <- begin_date_1869;;
+    <- completion_date_1918;;
+ *);;    
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church
+(*  
+        <- sc_illustration;;
+        <= nrel_sc_text_translation: 
+        ... 
+        (*
+            -> rrel_example: "file://contents//Доминиканский костёл 1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+*);;
+*]
+(*
+=> nrel_start_time: ...
+                (*
+                <= nrel_time_period: ...
+                    (*
+                        <- begin_date_1800;;
+          
+                        <- completion_date_1899;;
+                    *);;
+                *);;
+*);;
+
+
+st_Thomas_Aquinas_church
+        => nrel_main_idtf:
+        [Костел святого Фомы Аквинского] (* <- lang_ru;; *);
+        [St. Thomas Aquinas church] (* <- lang_en;; *);
+        [Касцёл святога Фамы Аквінскага] (* <- lang_by;; *);
+       <- concept_building;
+<- concept_terrain_object;;
+
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: st_Thomas_Aquinas_church;;*]
+(*
+  => nrel_start_time: ...
+            (*
+                <- begin_date_1615;;
+          
+                <- completion_date_1650;;
+            *);;
+    <- completion_date_1702;;
+ *);;   
+
+
+
+ paraphy_Church_of_the_Holy_Trinity
+   
+    => nrel_main_idtf:
+        [Парафиальный костел Пресвятой Троицы] (* <- lang_ru;; *);
+        [Paraphy Church of the Holy Trinity] (* <- lang_en;; *);
+        [Парафіяльны касцёл Найсвяцейшай Тройцы] (* <- lang_by;; *);
+      <- concept_building;
+<- concept_terrain_object;;
+    
+
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: paraphy_Church_of_the_Holy_Trinity;;*]
+(*
+    <- begin_date_1832;;
+    <- completion_date_1840;;
+ *);;   
+
+
+minsk_catholic_theological_archdiocese_seminary_since_1844_to_1869
+
+    => nrel_main_idtf:
+        [Здание католической духовной семинарии минской архидиацезии] (* <- lang_ru;; *);
+        [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
+        [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);
+      <- concept_building;
+<- concept_terrain_object;;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: 
+    minsk_catholic_theological_archdiocese_seminary_since_1844_to_1869;;*]
+(*
+
+        <- begin_date_1844;;
+    <- completion_date_1869;;
+ *);;  
+
+officers_club_building
+    => nrel_main_idtf:
+        [Здание офицерского клуба] (* <- lang_ru;; *);
+        [Building of the Officers' Club] (* <- lang_en;; *);
+        [Будынак афіцэрскага клуба] (* <- lang_by;; *);
+      <- concept_building;
+<- concept_terrain_object;;
+
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: 
+    officers_club_building;;*]
+(*
+        <- begin_date_1869;;
+    <- completion_date_1918;;
+ *);;  
+
+
+    minsk_catholic_theological_archdiocese_seminary_since_10101918_to_1920
+
+    => nrel_main_idtf:
+        [Здание католической духовной семинарии минской архидиацезии] (* <- lang_ru;; *);
+        [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
+        [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);
+      <- concept_building;
+<- concept_terrain_object;;
+ 
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: 
+        minsk_catholic_theological_archdiocese_seminary_since_10101918_to_1920;;*]
+(*
+        <- begin_date_1918;;
+    <- completion_date_1920;;
+ *);; 
+concept_situation->[*the_building_of_the_Dominican_monastery<-concept_lost_constructions;;*]
+(*
+	 <- begin_date_1947;;
+  
+
+*);;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <-concept_arch_baroque;;*]
+(*
+    => nrel_start_time: ...
+   
+            (*
+                <- begin_date_1615;;
+          
+                <- completion_date_1650;;
+            *);;
+ *);; 
+ 
+

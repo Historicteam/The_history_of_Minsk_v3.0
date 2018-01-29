@@ -1,0 +1,8 @@
+time_point -> time_point_1876
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [1876];;
+   *);;
+  => nrel_main_idtf: [1876 год] (* <-lang_ru;;*);;
+*);;

@@ -1,0 +1,104 @@
+building_of_house_of_government
+=> nrel_main_idtf:
+		[Здание Дом правительства] (* <- lang_ru;; *);
+		[Building of Government house] (* <- lang_en;; *);
+		[Будынак Дом урада] (* <- lang_by;; *);
+<= nrel_architect:Langbard_Iosif;
+=> nrel_material:concept_brick;
+=> concept_square:indepence_square;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дом правительства Республики Беларусь  — здание правительства Республики Беларусь в Минске. Расположено на площади Независимости. Крупнейшее общественное здание объёмом 240 000 м³, один из лучших памятников конструктивизма, положило начало формированию нового центра города]
+			(*
+			<- lang_ru;;
+			*);;
+                 -> rrel_example:
+			[Конкурс на проектирование Дома Правительства БССР (главного административного здания республики) — проводился в 1929 году по заданию Центрального Исполнительного Комитета и Совета Народных Комиссаров республики.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/goq.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+
+
+	*);
+=> nrel_osm_query: [way(100041810);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.5346, 27.3241]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.5346;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.3241;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<-concept_building;;
+concept_situation->[*organization_Regional_Planning_Commission => nrel_location: building_of_house_of_government;;*]
+(*
+    <- begin_date_1935;;
+    <- completion_date_1940;;
+*);
+<-concept_building;;
+
+concept_situation->[*building_of_house_of_government<-concept_arch_constructivism;;*]
+(*
+    <- begin_date_1935;;
+
+*);;
+
+
+concept_situation->[*organization_Regional_management_Nargasuchet => nrel_location: building_of_house_of_government;;*]
+(*
+
+    <- begin_date_1935;;
+    <- completion_date_1940;;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_Regional_management_Upavnarkamzag => nrel_location: building_of_house_of_government;;*]
+(*
+
+    <- begin_date_1935;;
+    <- completion_date_1940;;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_depart_zagotzhiv => nrel_location: building_of_house_of_government;;*]
+(*
+
+    <- begin_date_1935;;
+    <- completion_date_1940;;
+*);;

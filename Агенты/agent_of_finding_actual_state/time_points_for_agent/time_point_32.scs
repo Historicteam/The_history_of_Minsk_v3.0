@@ -1,0 +1,8 @@
+time_point -> time_point_32
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [32];;
+   *);;
+  => nrel_main_idtf: [32 год] (* <-lang_ru;;*);;
+*);;

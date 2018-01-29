@@ -1,0 +1,8 @@
+time_point -> time_point_1897
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [1897];;
+   *);;
+  => nrel_main_idtf: [1897 год] (* <-lang_ru;;*);;
+*);;

@@ -1,0 +1,112 @@
+complex_of_constructions_Dominican_monastery
+<-concept_complex_of_buildings;
+
+=> nrel_main_idtf:
+    [Комплекс строений Доминиканского монастыря]
+    (*
+    <- lang_ru;;
+    *);
+    [Complex of constructions of the Dominican monastery]
+    (*
+    <- lang_en;;
+    *);
+    [Комплекс будынкаў Дамініканскага манастыра]
+    (*
+    <- lang_by;;
+    *);;
+
+
+
+concept_situation->[*
+complex_of_constructions_Dominican_monastery
+  <= nrel_complex_of_buildings_decomposition:
+        {
+            the_building_of_the_Dominican_monastery
+        };; 
+*](*
+     => nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                <- begin_date_1615;;
+          
+                <- completion_date_1650;;
+            *);;
+        *);;
+    <- completion_date_1702;;
+          
+	*);;
+
+
+concept_situation->[*
+complex_of_constructions_Dominican_monastery
+<= nrel_complex_of_buildings_decomposition:
+        {
+            the_building_of_the_Dominican_monastery;
+            the_Dominican_monastery_outbuilding_1;
+            the_Dominican_monastery_outbuilding_2;
+            residential_housing_of_the_Dominican_Monastery;
+            the_Dominican_monastery_stable;
+            the_Dominican_monastery_gates
+        };;
+*](*
+    <- begin_date_1703;;
+    <- completion_date_1823;;
+     
+    *);;
+
+    
+
+concept_situation->[*
+complex_of_constructions_Dominican_monastery
+<= nrel_complex_of_buildings_decomposition:
+        {
+            the_building_of_the_Dominican_monastery;
+            the_Dominican_monastery_outbuilding_1;
+            the_Dominican_monastery_outbuilding_2;
+            residential_housing_of_the_Dominican_Monastery;
+            the_Dominican_monastery_stable;
+            the_Dominican_monastery_gates;
+            the_Dominican_monastery_maids_house
+        };;
+*](*
+    <- begin_date_1823;;
+    <- completion_date_1825;;
+    *);;
+
+   
+concept_situation->[*
+complex_of_constructions_Dominican_monastery 
+<= nrel_complex_of_buildings_decomposition:
+        {
+            the_building_of_the_Dominican_monastery;
+            the_Dominican_monastery_outbuilding_1;
+            the_Dominican_monastery_outbuilding_2;
+            residential_housing_of_the_Dominican_Monastery;
+            the_Dominican_monastery_stable;
+            the_Dominican_monastery_gates;
+            the_Dominican_monastery_maids_house;
+            the_Dominican_monastery_barn_with_icehouse
+        };;
+*](*
+    <- begin_date_1825;;
+    <- completion_date_1832;;
+    *);;
+
+    concept_situation->[*
+complex_of_constructions_Dominican_monastery
+ <= nrel_complex_of_buildings_decomposition:
+        {
+            paraphy_Church_of_the_Holy_Trinity;
+            the_Dominican_monastery_outbuilding_1;
+            the_Dominican_monastery_outbuilding_2;
+            residential_housing_of_the_Dominican_Monastery;
+            the_Dominican_monastery_stable;
+            the_Dominican_monastery_gates;
+            the_Dominican_monastery_maids_house;
+            the_Dominican_monastery_barn_with_icehouse
+        };;
+*](*
+    <- begin_date_1844;;
+    <- completion_date_1869;;
+    *);;

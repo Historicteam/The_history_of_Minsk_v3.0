@@ -1,0 +1,8 @@
+time_point -> time_point_47
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [47];;
+   *);;
+  => nrel_main_idtf: [47 год] (* <-lang_ru;;*);;
+*);;

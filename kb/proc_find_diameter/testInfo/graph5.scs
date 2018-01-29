@@ -1,0 +1,12 @@
+undirected_graph->graph5(*
+	->rrel_vertex: V1;;
+	->rrel_vertex: V2;;
+	->rrel_vertex: V3;;
+	->rrel_vertex: V4;;
+	->rrel_vertex: V5;;
+	->rrel_edge: ( V1 <=> V2 );;
+	->rrel_edge: ( V2 <=> V3 );;
+	->rrel_edge: ( V1 <=> V3 );;
+	->rrel_edge: ( V3 <=> V4 );;
+	->rrel_edge: ( V3 <=> V5 );;
+*);;

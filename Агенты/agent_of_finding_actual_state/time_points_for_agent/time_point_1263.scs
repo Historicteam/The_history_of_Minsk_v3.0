@@ -1,0 +1,8 @@
+time_point -> time_point_1263
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [1263];;
+   *);;
+  => nrel_main_idtf: [1263 год] (* <-lang_ru;;*);;
+*);;

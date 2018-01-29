@@ -1,0 +1,175 @@
+Peter_and_Paul_Cathedral_Building
+<- concept_building;
+<- concept_terrain_object;
+=> nrel_idtf:
+	[Здание Святодуховской церкови]
+	(*
+	<- lang_ru;;
+	*);
+	[Church of the Holy Spirit]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Святадухоўскай царквы]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_main_idtf:
+	[Здание Петропавловского собора]
+	(*
+	<- lang_ru;;
+	*);
+	[Peter and Paul Cathedral Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Петрапаўлаўскага сабора]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание концертного зала "Верхний Город"]
+	(*
+	<- lang_ru;;
+	*);
+	[The "Verhniy Gorod" Concert Hall]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак канцэртнай залы "Верхні горад"]
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Строительство греко-католической церкви Святого духа было начато в 1636 году. На его строительство  выделил 20 000 злотых униатский митрополит Антоний Селява, за что и был похоронен в церкви после своей смерти. Именно в этом храме первоначально располагалась икона Минской божьей матери. После 1895 года униатская церковь была перестроена в Петропавловский православный собор. А 1936 году взорвана. В 2011 году здание было восстановлено в первоначальном виде.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будаўніцтва грэка-каталіцкай царквы Святога духа было пачата ў 1636 годзе. На яго будаўніцтва выдзеліў 20000 злотых уніятскі  мітрапаліт Антоній Сялява, за што і быў пахаваны ў царкве пасля сваёй смерці. Менавіта ў гэтым храме першапачаткова знаходзілася ікона Мінскай маці боскай. Пасля 1895 года уніятская царква была перабудавана ў Петрапаўлаўскі праваслаўны сабор. А у1936 годзе узарваная. У 2011 годзе будынак быў адноўлены ў першапачатковым выглядзе.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+
+=> nrel_osm_query: [node(2200275804);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.904128, 27.556955]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.904128;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.556955;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/CH_1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:"file://content/CH_2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/CH_3.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Holy_Sp_1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Holy_Sp_2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Holy_Sp_3.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+	<- begin_date_1613;;
+concept_situation->[*Peter_and_Paul_Cathedral_Building<-concept_russian_revival;;*]
+(*
+	<- begin_date_1613;;
+*);;
+
+concept_situation->[*Peter_and_Paul_Cathedral_Building <-concept_arch_renaissanse;;*]
+(*
+                <- begin_date_1636;;
+*);;

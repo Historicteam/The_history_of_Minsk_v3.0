@@ -1,0 +1,42 @@
+Building_Institute_Belpromproekt
+<- concept_building;
+=> nrel_main_idtf:
+	[Площадь Свободы, 17] (* <- lang_ru;; *);
+	[Freedom Square, 17] (* <- lang_en;; *);
+	[Плошча Свабоды, 17] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Здание было построено в 1969 году. Сейчас сдается под офисы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The building was built in 1969. Today is leased for offices.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будынак быў пабудавана ў 1969 годзе. Цяпер здаецца пад офісы.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+
+=> nrel_osm_query: [way(25387324);];
+=> nrel_have_a_number:
+	17;;

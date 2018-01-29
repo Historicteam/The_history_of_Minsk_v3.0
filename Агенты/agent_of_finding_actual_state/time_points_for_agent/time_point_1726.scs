@@ -1,0 +1,8 @@
+time_point -> time_point_1726
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [1726];;
+   *);;
+  => nrel_main_idtf: [1726 год] (* <-lang_ru;;*);;
+*);;

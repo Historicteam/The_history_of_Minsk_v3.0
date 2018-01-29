@@ -1,0 +1,8 @@
+time_point -> time_point_1996
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [1996];;
+   *);;
+  => nrel_main_idtf: [1996 год] (* <-lang_ru;;*);;
+*);;

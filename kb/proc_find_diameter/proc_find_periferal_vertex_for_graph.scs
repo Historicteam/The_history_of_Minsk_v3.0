@@ -1,0 +1,91 @@
+scp_program -> proc_find_periferal_vertex_for_graph (*
+
+	-> rrel_params: ... (*
+		-> rrel_1: rrel_in: _graph;;
+
+		-> rrel_2: rrel_out: _start_vertex;;
+		-> rrel_3: rrel_out: _last_vertex;;
+	*);;
+
+	-> rrel_operators: ... (*
+	
+// Создание узла для хранения минимального diametra.
+	-> rrel_init: ..proc_find_diametr_create_min_path (*
+			<- contAssign;;
+			-> rrel_1: rrel_assign: rrel_link: rrel_scp_var: _diametr;; 
+			-> rrel_2: rrel_fixed: rrel_scp_const: [0];; 
+			
+			=> nrel_goto: ..proc_find_diametr_create_vertex_set;;	
+		*);;
+
+// Создание множества всех вершин графа для поиска diametra.	
+	-> ..proc_find_diametr_create_vertex_set (*
+		<- searchSetStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _graph;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _vertex;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: rrel_vertex;;
+		
+		-> rrel_set_3: rrel_assign: rrel_scp_var: _graph_vertex_set;; // множество вершин графа
+
+		=> nrel_then: ..proc_find_diametr_find_vertex_in_set;;
+		=> nrel_else: ..proc_diametr_return;;
+	*);;
+
+// Поиск вершинки во множестве
+	-> ..proc_find_diametr_find_vertex_in_set (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _graph_vertex_set;;
+
+		-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;; // ребро, соединяющее множество вершин графа с самими вершинами
+		-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _current_vertex;; // одна из вершин
+
+		 => nrel_then: ..proc_find_diametr_delete_current_vertex_from_vertex_set;; // вершина найдена, можем ее удалить из множества
+		 => nrel_else: ..proc_diametr_return;; // печатаем нашу перефирийную вершину
+	*);;
+
+//----------------------------------------------------------------------------------------------
+// Удаляем вершинку из множества.
+	-> ..proc_find_diametr_delete_current_vertex_from_vertex_set (*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc1;;
+
+		=> nrel_goto: ..proc_find_diametr_find_path_for_current_vertex;;
+		*);;
+
+// Находим diametr для текущей вершины.
+	-> ..proc_find_diametr_find_path_for_current_vertex (*
+		<- call;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: proc_find_shortest_path_tree;;
+		-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+			-> rrel_1: rrel_fixed: rrel_scp_var: _graph;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _current_vertex;;
+
+			-> rrel_3: rrel_assign: rrel_scp_var: _last_vertex2;;
+			-> rrel_4: rrel_assign: rrel_scp_var: _length;;
+		*);;
+		-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_find_path_for_current_vertex_return;;
+	*);;
+
+	-> ..proc_find_diametr_find_path_for_current_vertex_return (*
+		<- waitReturn;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_diametr_return;;
+	*);;
+
+// Выход из программы
+	-> ..proc_diametr_return (*
+		<- return;;
+	*);;
+
+	*);;
+*);;
+
+
+
+
+

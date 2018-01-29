@@ -1,0 +1,51 @@
+complex_of_constructions_of_the_male_monastery_of_Bernardine
+
+=> nrel_main_idtf:
+    [Комплекс строений монастыря бернардинцев]
+    (*
+    <- lang_ru;;
+    *);
+    [Complex of constructions the male monastery of Bernardine]
+    (*
+    <- lang_en;;
+    *);
+    [Комплекс будынкаў манастыра бернардынаў]
+    (*
+    <- lang_by;;
+    *);
+	
+ <-concept_complex_of_buildings;;               
+       
+    concept_situation->[*
+	complex_of_constructions_of_the_male_monastery_of_Bernardine        
+        <= nrel_complex_of_buildings_decomposition:
+        {
+            building_of_the_wooden_church_of_Bernardine;
+            building_of_the_Convention
+        };;
+	*] (*
+	 <- begin_date_1630;;
+        <- completion_date_1644;;
+	*);;
+            
+   
+	concept_situation->[*
+	complex_of_constructions_of_the_male_monastery_of_Bernardine  
+	 <= nrel_complex_of_buildings_decomposition:
+            {
+            building_of_economic_housing_of_male_Bernardine_monastery;
+            building_of_residential_housing_of_male_Bernardine_monastery;
+            Building_trade_rows;
+            building_of_the_church_of_St_Joseph
+            };;
+	*] (*
+                
+        <- begin_date_1652;;
+        <- completion_date_1860;;
+          *);;  
+
+
+    
+    
+    
+    

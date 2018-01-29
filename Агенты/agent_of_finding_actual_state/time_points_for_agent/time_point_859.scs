@@ -1,0 +1,8 @@
+time_point -> time_point_859
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [859];;
+   *);;
+  => nrel_main_idtf: [859 год] (* <-lang_ru;;*);;
+*);;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 kb.bin
 sc-machine
 scp-machine
@@ -8,3 +9,6 @@ geometry.drawings
 web-scn-editor
 
 *.*~
+=======
+*.scs~
+>>>>>>> a33b8f2fac80321695043fc4f6aa209b7a170f7b

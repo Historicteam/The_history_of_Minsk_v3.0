@@ -1,0 +1,65 @@
+scp_program -> proc_run_testcase (*
+	
+	-> rrel_params: ... (*
+		-> rrel_1: rrel_in: _graph;;
+		-> rrel_2: rrel_in: _test_number;;
+	*);;
+
+	-> rrel_operators: ... (*
+
+	-> rrel_init: ..proc_print_test_start (*
+			<- print;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [---------------Test];; 		
+		
+			=> nrel_goto: ..proc_print_test_number;;	
+		*);;
+
+	-> ..proc_print_test_number (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _test_number;; 		
+		
+			=> nrel_goto: ..proc_run_testcase_operator1;;	
+		*);;
+
+	-> ..proc_run_testcase_operator1 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_find_periferal_vertex_for_graph;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _graph;;
+
+				-> rrel_2: rrel_assign: rrel_scp_var: _first_vertex;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _second_vertex;;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_testcase_operator2;;
+		*);;
+
+		-> ..proc_run_testcase_operator2 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_testcase_print_newline;;
+		*);;
+
+	-> ..proc_run_testcase_print_newline (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [;];;
+
+			=> nrel_goto: ..proc_run_testcase_print_test_finish;;
+		*);;
+
+//*****************************************************************************
+
+		-> ..proc_run_testcase_print_test_finish (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [---------------Test done!];;
+
+			=> nrel_goto: ..proc_run_testcase_operator_return;;
+		*);;
+
+		-> ..proc_run_testcase_operator_return (*
+			<- return;;
+		*);;
+	*);;
+*);;

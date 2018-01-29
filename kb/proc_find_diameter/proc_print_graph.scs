@@ -1,0 +1,220 @@
+scp_program -> proc_print_graph (*	
+	-> rrel_params: ... (*
+		-> rrel_1: rrel_in: _graph;;
+	*);;
+
+	-> rrel_operators: ... (*
+//	Формируем множество связок графа для итерации.
+		-> rrel_init: ..proc_print_graph_operator1 (*
+			 <- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _graph;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _el3;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_edge;;
+		
+			->rrel_set_3: rrel_assign: rrel_scp_var: _edges_set;;
+			=> nrel_then: ..proc_print_graph_operator2;;		
+		 	=> nrel_else: ..proc_print_graph_operator14;;	
+		*);;
+//	Создаем множество уже выведенных вершин.
+		-> ..proc_print_graph_operator2 (*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _printed_vertexes;;
+
+			=> nrel_goto: ..proc_print_graph_operator3;;
+		*);;
+//	Вывод всех ребер графа.
+		-> ..proc_print_graph_operator3 (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _edges_set;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _cur_edge;;
+
+			=> nrel_then: ..proc_print_graph_operator4;;
+			=> nrel_else: ..proc_print_graph_operator14;; 		
+		*);;
+
+		-> ..proc_print_graph_operator4 (*
+			<- eraseEl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc2;;
+
+			=> nrel_goto: ..proc_print_graph_operator5;;
+		*);;
+//	Получаем вершины, инцидентные ребру.
+		-> ..proc_print_graph_operator5 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_get_edge_vertexes;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _cur_edge;;
+				-> rrel_2: rrel_assign: rrel_scp_var: _first_inc_vertex;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _second_inc_vertex;;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_print_graph_operator6;;
+		*);;	
+
+		-> ..proc_print_graph_operator6 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_print_graph_operator7;;
+		*);;	
+//	Выводим идентификатор первой вершины.
+		-> ..proc_print_graph_operator7 (*
+			 <- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _first_inc_vertex;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _print_value;;
+			-> rrel_4: rrel_assign: rrel_pos: rrel_scp_var: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_system_identifier;;
+		
+			=> nrel_then: ..proc_print_graph_operator8;;		
+		 	=> nrel_else: ..proc_print_graph_operator_return;;
+		*);;
+
+		->..proc_print_graph_operator8 (*
+			<-print;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _print_value;;
+
+			=>nrel_goto: ..proc_print_graph_operator9;;
+		*);;
+
+		->..proc_print_graph_operator9 (*
+			<-print;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [ == ];;
+
+			=>nrel_goto: ..proc_print_graph_operator10;;
+		*);;
+
+//	Выводим идентификатор второй вершины.
+		-> ..proc_print_graph_operator10 (*
+			 <- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _second_inc_vertex;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _print_value;;
+			-> rrel_4: rrel_assign: rrel_pos: rrel_scp_var: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_system_identifier;;
+		
+			=> nrel_then: ..proc_print_graph_operator11;;		
+		 	=> nrel_else: ..proc_print_graph_operator_return;;
+		*);;
+
+		->..proc_print_graph_operator11 (*
+			<-printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _print_value;;
+
+			=>nrel_goto: ..proc_print_graph_operator12;;
+		*);;
+
+//	Добавляем вершины в множество выведенных.
+		-> ..proc_print_graph_operator12 (*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _printed_vertexes;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _first_inc_vertex;;
+
+			=> nrel_goto: ..proc_print_graph_operator13;;
+		*);;
+
+		-> ..proc_print_graph_operator13 (*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _printed_vertexes;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _second_inc_vertex;;
+
+			=> nrel_goto: ..proc_print_graph_operator3;;
+		*);;
+
+//	Удалим уже пустое множество выводимых ребер.
+		-> ..proc_print_graph_operator14 (*
+			<- eraseEl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _edges_set;;
+
+			=> nrel_goto: ..proc_print_graph_operator15;;
+		*);;
+
+//	Вывод всех вершин, которые не имеют инцидентных дуг.
+//   Формируем множество вершин графа для итерации.
+		-> ..proc_print_graph_operator15 (*
+			 <- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _graph;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _el3;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_vertex;;
+		
+			->rrel_set_3: rrel_assign: rrel_scp_var: _vertexes_set;;
+			=> nrel_then: ..proc_print_graph_operator16;;		
+		 	=> nrel_else: ..proc_print_graph_operator_return;;
+		*);;
+
+//	Цикл по вершинам.
+		-> ..proc_print_graph_operator16 (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _vertexes_set;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _cur_vertex;;
+
+			=> nrel_then: ..proc_print_graph_operator17;;
+			=> nrel_else: ..proc_print_graph_operator21;; 
+		*);;
+
+		-> ..proc_print_graph_operator17 (*
+			<- eraseEl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc2;;
+
+			=> nrel_goto: ..proc_print_graph_operator18;;
+		*);;
+//	Если вершина уже была выведена (т.е. она в множестве printed_vertexes)
+//	то переходим на следующую итерацию.
+		-> ..proc_print_graph_operator18 (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _printed_vertexes;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _cur_vertex;;
+
+			=> nrel_then: ..proc_print_graph_operator16;;
+			=> nrel_else: ..proc_print_graph_operator19;; 	
+		*);;
+
+		-> ..proc_print_graph_operator19 (*
+			 <- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _visited_vertex;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _print_value;;
+			-> rrel_4: rrel_assign: rrel_pos: rrel_scp_var: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_system_identifier;;
+		
+			=> nrel_then: ..proc_print_graph_operator20;;		
+		 	=> nrel_else: ..proc_print_graph_operator_return;;
+		*);;
+
+		->..proc_print_graph_operator20 (*
+			<-print;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _print_value;;
+
+			=>nrel_goto: ..proc_print_graph_operator16;;
+		*);;
+//	Подчистим память.
+		-> ..proc_print_graph_operator21 (*
+			<- eraseEl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _vertexes_set;;
+
+			=> nrel_goto: ..proc_print_graph_operator22;;
+		*);;
+
+		-> ..proc_print_graph_operator22 (*
+			<- eraseEl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _printed_vertexes;;
+
+			=> nrel_goto: ..proc_print_graph_operator_return;;
+		*);;
+
+		-> ..proc_print_graph_operator_return (*
+			<- return;;
+		*);;
+
+	*);;
+*);;

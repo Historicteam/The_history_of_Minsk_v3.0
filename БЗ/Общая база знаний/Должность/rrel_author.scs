@@ -1,0 +1,20 @@
+rrel_author
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[автор'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[author'] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Депутат — создатель какого-н. произведения.] (* <-lang_ru;; *);; 
+		*);;
+	*);;
+

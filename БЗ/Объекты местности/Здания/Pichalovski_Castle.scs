@@ -1,0 +1,22 @@
+
+Pichalovski_Castle
+=> nrel_main_idtf:
+	  [Пищаловски замок]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Pichalovski castle]
+  (*
+    <- lang_en;;
+  *);
+  [Пішалавскі замак]
+  (*
+    <- lang_by;;
+  *);
+
+<- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
+
+<-concept_prison;
+<-concept_building;
+<-concept_terrain_object
+;;

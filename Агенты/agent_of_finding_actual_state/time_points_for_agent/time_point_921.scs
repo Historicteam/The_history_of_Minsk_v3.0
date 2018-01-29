@@ -1,0 +1,8 @@
+time_point -> time_point_921
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [921];;
+   *);;
+  => nrel_main_idtf: [921 год] (* <-lang_ru;;*);;
+*);;

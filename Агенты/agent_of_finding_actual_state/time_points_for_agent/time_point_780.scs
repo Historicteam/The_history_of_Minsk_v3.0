@@ -1,0 +1,8 @@
+time_point -> time_point_780
+(*
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [780];;
+   *);;
+  => nrel_main_idtf: [780 год] (* <-lang_ru;;*);;
+*);;

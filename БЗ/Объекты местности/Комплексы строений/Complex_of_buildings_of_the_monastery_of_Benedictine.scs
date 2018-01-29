@@ -1,0 +1,68 @@
+complex_of_buildings_of_the_monastery_of_Benedictine
+
+<-concept_complex_of_buildings;
+=> nrel_main_idtf:
+    [Комплекс строений монастыря бенедиктинок]
+    (*
+    <- lang_ru;;
+    *);
+    [Complex of buildings of the monastery of Benedictine]
+    (*
+    <- lang_en;;
+    *);
+    [Комплекс будынкаў кляштара бенедыкцінак]
+    (*
+    <- lang_by;;
+    *);;
+
+concept_situation->[*
+        complex_of_buildings_of_the_monastery_of_Benedictine        
+	 <= nrel_complex_of_buildings_decomposition:
+        {
+            Church_of_St_Adalbert;
+            Residential_complex
+        };;
+*] (*         
+        => nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    <- begin_date_1647;;
+              
+                    <- completion_date_1682;;
+                *);;
+            *);;
+        <- completion_date_1871;;
+       *);;     
+      
+concept_situation->[*
+      complex_of_buildings_of_the_monastery_of_Benedictine
+	<= nrel_complex_of_buildings_decomposition:
+        {
+        Church_of_St_Adalbert;
+        Residential_complex;
+	    Building_ofitsiny;
+	    Building_Brovary;
+	    Stable
+        };;	
+*] (*             
+        <- begin_date_1682;;
+        <- completion_date_1871;;
+	*);;
+            
+
+concept_situation->[*          
+	complex_of_buildings_of_the_monastery_of_Benedictine
+	<= nrel_complex_of_buildings_decomposition:
+        {
+        Church_of_St_Adalbert;
+        Residential_complex;
+	    Building_ofitsiny;
+	    Building_Brovary;
+	    Stable
+        };;  
+*] (*
+
+        <- begin_date_1871;;
+        <- completion_date_1944;;
+	*);;

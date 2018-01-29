@@ -1,0 +1,176 @@
+complex_of_constructions_Jesuit_monastery
+<-concept_complex_of_buildings;
+=> nrel_main_idtf:
+	[Комплекс строений Иезуитского монастыря]
+	(*
+	<- lang_ru;;
+	*);
+	[complex of constructions of Jesuit monastery]
+	(*
+	<- lang_en;;
+	*);
+	[Комплекс будынкаў Езуіцкага манастыра]
+	(*
+	<- lang_by;;
+	*);;
+	
+
+concept_situation->[*
+	complex_of_constructions_Jesuit_monastery
+	<= nrel_complex_of_buildings_decomposition:
+        {
+		building_Jesuit_College;
+		The_sacristy_of_Jesuit_monastery
+        };;
+*] (*
+       => nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    <- begin_date_1678;;
+              
+                    <- completion_date_1678;;
+                *);;
+            *);;
+        <- completion_date_1699;;
+            
+
+                
+        *);;
+
+
+ concept_situation->[*
+	complex_of_constructions_Jesuit_monastery
+	<= nrel_complex_of_buildings_decomposition:
+        {
+        building_Jesuit_College;
+	The_sacristy_of_Jesuit_monastery;
+	The_building_of_the_Jesuit_school
+        };;
+*] (*                   
+        <- begin_date_1699;;
+        <- completion_date_1708;;
+            
+        *);;
+
+
+concept_situation->[*
+        complex_of_constructions_Jesuit_monastery        
+ <= nrel_complex_of_buildings_decomposition:
+        {
+        Tbuilding_Jesuit_College;
+	The_sacristy_of_Jesuit_monastery;
+	The_building_of_the_Jesuit_school;
+	The_building_of_the_Mariinsky_Cathedral
+        };;
+*] (*     
+        <- begin_date_1708;;
+        <- completion_date_1722;;
+     *);;
+
+concept_situation->[*
+        complex_of_constructions_Jesuit_monastery 
+ <= nrel_complex_of_buildings_decomposition:
+        {
+        building_Jesuit_College;
+	The_sacristy_of_Jesuit_monastery;
+	The_building_of_the_Jesuit_school;
+	The_building_of_the_Mariinsky_Cathedral;
+	The_building_of_the_chapel_of_Felician
+        };;
+ *] (*                  
+        <- begin_date_1722;;
+        <- completion_date_1732;;
+            
+       
+            
+        *);;
+
+      
+concept_situation->[*
+        complex_of_constructions_Jesuit_monastery 
+	<= nrel_complex_of_buildings_decomposition:
+        {
+        building_Jesuit_College;
+	The_sacristy_of_Jesuit_monastery;
+	The_building_of_the_Jesuit_school;
+	The_building_of_the_Mariinsky_Cathedral;
+	The_building_of_the_chapel_of_Felician
+        };;   
+ *] (*        
+        <- begin_date_1732;;
+        <- completion_date_1738;;
+            
+        
+            
+        *);;
+
+
+concept_situation->[*
+        complex_of_constructions_Jesuit_monastery 
+          <= nrel_complex_of_buildings_decomposition:
+        {
+        building_Jesuit_College;
+	The_sacristy_of_Jesuit_monastery;
+	The_building_of_the_Jesuit_school;
+	The_building_of_the_Mariinsky_Cathedral;
+	The_building_of_the_chapel_of_Felician;
+	The_Jesuit_tower_belfry
+        };;
+ *] (*
+        <- begin_date_1738;;
+        <- completion_date_1745;;
+            
+       
+            
+        *);;
+
+
+concept_situation->[*
+complex_of_constructions_Jesuit_monastery 
+<= nrel_complex_of_buildings_decomposition:
+        {
+        building_Jesuit_College;
+	The_sacristy_of_Jesuit_monastery;
+	The_building_of_the_Jesuit_school;
+	The_building_of_the_Mariinsky_Cathedral;
+	The_building_of_the_chapel_of_Felician;
+	The_Jesuit_tower_belfry;
+	The_Jesuit_building_of_the_refectory_and_kitchen
+        };;
+  *] (*               
+        <- begin_date_1745;;
+        <- completion_date_1747;;
+            
+        
+            
+        *);;
+
+	concept_situation->[*
+complex_of_constructions_Jesuit_monastery
+<= nrel_complex_of_buildings_decomposition:
+        {
+      building_Jesuit_College;
+	The_sacristy_of_Jesuit_monastery;
+	The_building_of_the_Jesuit_school;
+	The_building_of_the_Mariinsky_Cathedral;
+	The_building_of_the_chapel_of_Felician;
+	The_Jesuit_tower_belfry;
+	The_Jesuit_building_of_the_refectory_and_kitchen;
+	The_Jesuit_building_pharmacy_and_laboratory
+        };;
+   *] (*               
+        <- begin_date_1747;;
+        <- completion_date_1773;;
+            
+        
+            
+        *);;
+
+
+    
+    
+
+
+
+    

@@ -1,0 +1,38 @@
+concept_archeological_artifact
+=> nrel_main_idtf:
+[археологический артефакт]
+(*
+<- lang_ru;;
+*);
+[archaeological finds]
+(*
+<- lang_en;;
+*);
+[археалагічны артэфакт ]
+(*
+<- lang_by;;
+*);
+
+<-sc_const;
+<-sc_node_not_relation;
+
+<= nrel_subdividing:
+{
+	concept_archeological_finds;
+	concept_archaeological_monument
+
+};
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Археологический артефакт — любой материальный объект, изготовленный или модифицированный человеком прошлого и выполняющий определенную культурную функцию. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+*);;
+

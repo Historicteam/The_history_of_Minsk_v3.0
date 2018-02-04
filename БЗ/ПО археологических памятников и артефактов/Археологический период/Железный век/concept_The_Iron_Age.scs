@@ -1,0 +1,31 @@
+concept_The_Iron_Age
+=> nrel_main_idtf:
+[Железный век]
+(*
+<- lang_ru;;
+*);
+[ The Iron age]
+(*
+<- lang_en;;
+*);
+[Жалезны век]
+(*
+<- lang_by;;
+*);
+<-sc_const;
+<-sc_node_not_relation;
+
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Желе́зный век — эпоха в истории человечества, характеризующаяся использованием железа и изготовлением железных орудий. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+*);;
+

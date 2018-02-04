@@ -1,0 +1,18 @@
+question_apprehend
+=>nrel_main_idtf:
+	[действие. обжимать] (* <-lang_ru;; *);
+	[action. apprehend] (* <-lang_en;; *);
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Обжимать - класс действий, которые ограничивают в чем-либо. ] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);	
+
+<-actions_class;;
+
+

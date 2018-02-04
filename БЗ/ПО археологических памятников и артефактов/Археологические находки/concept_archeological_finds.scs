@@ -1,0 +1,43 @@
+concept_archeological_finds
+=> nrel_main_idtf:
+[археологические находки]
+(*
+<- lang_ru;;
+*);
+[archaeological finds]
+(*
+<- lang_en;;
+*);
+[археалагічныя знаходкі ]
+(*
+<- lang_by;;
+*);
+=> nrel_idtf:
+[вещественный источник]
+(*
+<- lang_ru;;
+*);
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_inclusion:concept_treasure;
+=> nrel_inclusion:concept_tool;
+=> nrel_inclusion:concept_clothes;
+=> nrel_inclusion:concept_weapon;
+=> nrel_inclusion:concept_dishes;
+=> nrel_inclusion:concept_ornaments;
+=> nrel_inclusion:concept_eco_facts;
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Археологическая находка — объект, подвергнутый в прошлом направленному механическому воздействию, обнаруженный в результате целенаправленных археологических раскопок или какого-либо единичного, иногда случайного события. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+*);;
+

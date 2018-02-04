@@ -1,0 +1,45 @@
+concept_Eneolithic
+=> nrel_main_idtf:
+[Энеолит]
+(*
+<- lang_ru;;
+*);
+[Eneolithic]
+(*
+<- lang_en;;
+*);
+[Энеаліт]
+(*
+<- lang_by;;
+*);
+=> nrel_idtf:
+[Медный век]
+(*
+<- lang_ru;;
+*);
+[Медно-каменный век]
+(*
+<- lang_ru;;
+*);
+[Халколит]
+(*
+<- lang_ru;;
+*);
+<-sc_const;
+<-sc_node_not_relation;
+
+
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ Энеолит — эпоха в развитии человечества, переходный период от неолита (каменного века) к бронзовому веку.  ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+*);;
+

@@ -1,0 +1,6 @@
+organization_CC_CP_Belarus
+			=> nrel_main_idtf:
+				[ЦК КП Белоруссии] (* <- lang_ru;; *);
+				[CC of Belarussian CP] 	 (* <- lang_en;; *);
+				[ЦК КП Беларусі] (* <- lang_by;; *);
+<-concept_administrative_organization;;

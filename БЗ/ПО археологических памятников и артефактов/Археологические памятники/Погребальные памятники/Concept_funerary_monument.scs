@@ -1,0 +1,68 @@
+concept_funerary_monument
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[погребальный памятник]
+(*
+<- lang_ru;;
+*);
+[funerary monument]
+(*
+<- lang_en;;
+*);
+[пахавальны помнік]
+(*
+<- lang_by;;
+*);
+<=nrel_subdividing: ...
+(*
+	=> nrel_main_idtf:
+	[Разбиение по обряду захоронения]
+	(*
+	<- lang_ru;;
+	*);;
+	->concept_Cemetery_funerary_monument;;
+	->concept_Ingumation_funerary_monument;;
+*);
+
+<=nrel_subdividing: ...
+(*
+	=> nrel_main_idtf:
+	[Разбиение по способу захоронения]
+	(*
+	<- lang_ru;;
+	*);;
+	->concept_mound;;
+	->concept_under_burial_mounds;;
+*);
+
+<- rrel_key_sc_element: 
+...
+(*
+<-sc_explanation;;
+<= nrel_using_constants:
+	{
+		concept_monument
+	};;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Погребальный памятник- особый вид памятников , который несет функция захоронения.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Пахавальны памятник- адмысловы выгляд помнікаў, які нясе функцыя захавання.]
+      (*
+<- lang_by;;
+      *);;
+  *);;
+*);
+
+=> nrel_inclusion:concept_cenotaph;
+=> nrel_inclusion:concept_necropolis;;
+

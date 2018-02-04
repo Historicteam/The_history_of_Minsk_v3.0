@@ -1,0 +1,19 @@
+question_store
+=>nrel_main_idtf:
+	[действие. скапливать] (* <-lang_ru;; *);
+	[action. store] (* <-lang_en;; *);
+	[дзеянне. накопліваць] (* <-lang_by;; *);
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Скапливать - класс действий, обозначающих постепенно собирать, сосредоточивать где-либо, сосредоточивать у кого-либо где-либо.] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);		
+
+<-actions_class;;
+
+

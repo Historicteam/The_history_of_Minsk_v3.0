@@ -1,0 +1,46 @@
+concept_Paleolithic
+=> nrel_main_idtf:
+[Палеолит]
+(*
+<- lang_ru;;
+*);
+[Paleolithic]
+(*
+<- lang_en;;
+*);
+[Палеаліт]
+(*
+<- lang_by;;
+*);
+<-sc_const;
+<-sc_node_not_relation;
+
+<= nrel_subdividing:
+{
+	concept_Early_Paleolithic;
+      concept_Middle_Paleolithic;
+      concept_Late_Paleolithic
+};
+
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Палеоли́т — первый исторический период каменного века с начала использования каменных орудий гоминидами. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Палеаліт - першы гістарычны перыяд каменнага веку з пачатку выкарыстання каменных прылад гамінідамі.]
+      (*
+<- lang_by;;
+      *);;
+  *);;
+*);;
+

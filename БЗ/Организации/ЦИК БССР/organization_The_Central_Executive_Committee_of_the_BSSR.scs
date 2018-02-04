@@ -34,10 +34,7 @@ organization_The_Central_Executive_Committee_of_the_SSR_of_Lithuania_and_Belarus
 	[Цэнтральны Выканаўчы Камітэт ССР Літвы і Беларусі ]
 	(*
 	<- lang_by;;
-	*);
-<-concept_state_organization;
-<-concept_administrative_organization;
-<-concept_political_organization;;
+	*);;
 
 organization_The_Supreme_Council_of_the_BSSR
 => nrel_main_idtf:
@@ -52,10 +49,7 @@ organization_The_Supreme_Council_of_the_BSSR
 	[Вярхоўны Савет БССР]
 	(*
 	<- lang_by;;
-	*);
-<-concept_state_organization;
-<-concept_administrative_organization;
-<-concept_political_organization;;
+	*);;
 
 organization_The_Supreme_Council_of_the_Republic_of_Belarus
 => nrel_main_idtf:
@@ -70,11 +64,8 @@ organization_The_Supreme_Council_of_the_Republic_of_Belarus
 	[Вярхоўны Савет Рэспублікі Беларусь]
 	(*
 	<- lang_by;;
-	*);
-<-concept_state_organization;
-<-concept_administrative_organization;
+	*);;
 
-<-concept_political_organization;;
 
 organization_National_Assembly_of_Belarus
 => nrel_main_idtf:
@@ -95,10 +86,7 @@ organization_National_Assembly_of_Belarus
         organization_Council_of_the_Republic_of_Belarus;
 	organization_House_of_Representatives_of_Belarus
 
-    };
-<-concept_state_organization;
-<-concept_administrative_organization;
-<-concept_political_organization;;
+    };;
 
 organization_Council_of_the_Republic_of_Belarus
  => nrel_main_idtf:
@@ -113,10 +101,7 @@ organization_Council_of_the_Republic_of_Belarus
             [Савет Рэспублікі Нацыянальнага сходу Беларусі]
             (*
             <- lang_by;;
-            *);
-<-concept_state_organization;
-<-concept_administrative_organization;
-<-concept_political_organization;;
+            *);;
 
 organization_House_of_Representatives_of_Belarus
  => nrel_main_idtf:
@@ -131,10 +116,7 @@ organization_House_of_Representatives_of_Belarus
             [Палата прадстаўнікоў Нацыянальнага сходу Беларусі]
             (*
             <- lang_by;;
-            *);
-<-concept_state_organization;
-<-concept_administrative_organization;
-<-concept_political_organization;;
+            *);;
 
 concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=>nrel_location:The_building_of_the_Jesuit_school;;*]
 (*

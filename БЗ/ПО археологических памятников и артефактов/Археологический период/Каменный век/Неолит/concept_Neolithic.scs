@@ -1,0 +1,36 @@
+concept_Neolithic
+=> nrel_main_idtf:
+[Неолит]
+(*
+<- lang_ru;;
+*);
+[Neolithic]
+(*
+<- lang_en;;
+*);
+[Неаліт]
+(*
+<- lang_by;;
+*);
+=> nrel_idtf:
+[новокаменный век]
+(*
+<- lang_ru;;
+*);
+<-sc_const;
+<-sc_node_not_relation;
+
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Неоли́т  — период человеческой истории. Характерные черты неолита — каменные шлифованные и просверленные орудия. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+*);;
+

@@ -1,0 +1,38 @@
+subject_area_of_historical_action
+=>nrel_main_idtf:
+	[Предметная область исторических действий] (* <-lang_ru;; *);
+	[The subject area of historical action] (* <-lang_en;; *);
+	[Прадметная вобласць гістарычных дзеянняў] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Предметная область исторических действий - предметная область, изучающая действия в рамках истории. ] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);
+->rrel_maximum_studied_object_class:question_historical_action;
+///////////////
+// =>nrel_primary_elements_class_private_subject_domain:subject_area_of_archeological_finds;
+// =>nrel_primary_elements_class_private_subject_domain:subject_area_of_archeological_monuments;
+///////////////
+
+->rrel_explored_relation:nrel_instrument;
+->rrel_explored_relation:nrel_location;
+->rrel_explored_relation:nrel_object;
+->rrel_explored_relation:nrel_initiator;
+->rrel_explored_relation:nrel_performer;
+
+->rrel_not_maximum_studied_object_class: question_teach;
+->rrel_not_maximum_studied_object_class: question_apprehend;
+->rrel_not_maximum_studied_object_class: question_create;
+->rrel_not_maximum_studied_object_class: question_reproduce;
+->rrel_not_maximum_studied_object_class: question_promote;
+->rrel_not_maximum_studied_object_class: question_store;     
+
+<-sc_node_not_relation;	
+<-sc_const;;

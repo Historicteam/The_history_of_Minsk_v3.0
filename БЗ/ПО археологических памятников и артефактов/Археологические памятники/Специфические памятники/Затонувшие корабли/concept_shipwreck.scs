@@ -1,0 +1,59 @@
+concept_swipwreck
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[затонувшие корабли]
+(*
+<- lang_ru;;
+*);
+[shipwreck]
+(*
+<- lang_en;;
+*);
+[патанулыя караблі]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ По данным ООН сейчас на дне океанов и морей находится около 3 миллионов затонувших судов. Одни потерпели крушение во время войны, другие из-за плохой видимости или несчастных случаев, а третьи были затоплены специально.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Па звестках ААН на дне акіянаў і мораў знаходзіцца каля 3 мільёнаў патанулых судоў. Адны пацярпелі крушэнне падчас вайны, іншыя з-за дрэннай бачнасці або няшчасных выпадкаў, а трэція былі затопленыя адмыслова.]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[According to the UN at the bottom of the oceans and seas, there are about 3 million wrecks. Some were wrecked during the war, others due to poor visibility or accidents, and others were flooded deliberately.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<- rrel_key_sc_element:
+...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/shipwreck.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

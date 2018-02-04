@@ -1,0 +1,26 @@
+nrel_instrument
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[инструмент*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[ instrument*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[інструмент*] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Инструме́нт — предмет, устройство, механизм, машина или алгоритм, используемые для воздействия на объект: его изменения или измерения в целях достижения полезного эффекта.  ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+  *);;
+
+

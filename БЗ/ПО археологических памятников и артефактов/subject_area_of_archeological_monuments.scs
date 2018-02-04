@@ -1,0 +1,60 @@
+subject_area_of_archeological_monuments
+=>nrel_main_idtf:
+	[Предметная область археологических памятников ] (* <-lang_ru;; *);
+	[The subject area of archaeological monument ] (* <-lang_en;; *);
+	[Прадметная вобласць археалагічных помнікау ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Предметная область археологических памятников - предметная область, изучающая недвижимые объекты культуры.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+->rrel_maximum_studied_object_class:concept_archaeological_monument;
+
+->rrel_not_maximum_studied_object_class: concept_funerary_monument;
+->rrel_not_maximum_studied_object_class: concept_necropolis;
+->rrel_not_maximum_studied_object_class: concept_memorial_complex;
+->rrel_not_maximum_studied_object_class: concept_cenotaph;
+->rrel_not_maximum_studied_object_class: concept_mound;
+->rrel_not_maximum_studied_object_class: concept_under_burial_mounds;
+->rrel_not_maximum_studied_object_class: concept_mausoleum;
+
+
+->rrel_not_maximum_studied_object_class: concept_settler_monument;
+->rrel_not_maximum_studied_object_class:concept_cave;
+->rrel_not_maximum_studied_object_class:concept_stand;
+->rrel_not_maximum_studied_object_class:concept_settlement;
+->rrel_not_maximum_studied_object_class:concept_residues_of_individual_dwellings;
+
+->rrel_not_maximum_studied_object_class: concept_ritual_and_religious_monuments;
+->rrel_not_maximum_studied_object_class: concept_revered_place;
+->rrel_not_maximum_studied_object_class: concept_sanctuary;
+->rrel_not_maximum_studied_object_class: concept_megaliths;
+->rrel_not_maximum_studied_object_class: concept_cairn;
+->rrel_not_maximum_studied_object_class: concept_dolmen;
+->rrel_not_maximum_studied_object_class: concept_cromlech;
+->rrel_not_maximum_studied_object_class: concept_menhir;
+
+->rrel_explored_non_related_subject_domain_concept:concept_fortification;
+->rrel_explored_non_related_subject_domain_concept:concept_hillfort;
+->rrel_explored_non_related_subject_domain_concept:concept_village;
+->rrel_explored_non_related_subject_domain_concept: concept_labyrinth;
+->rrel_explored_non_related_subject_domain_concept: nrel_land_area;
+->rrel_explored_non_related_subject_domain_concept: nrel_geographical_location;
+
+
+
+->rrel_not_maximum_studied_object_class: concept_specific_type_monuments;
+->rrel_not_maximum_studied_object_class: concept_swipwreck;
+->rrel_not_maximum_studied_object_class: concept_flooded_city;
+
+
+
+<-sc_node_not_relation;	
+<-sc_const;;

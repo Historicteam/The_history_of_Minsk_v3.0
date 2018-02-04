@@ -41,10 +41,10 @@ concept_non_governmental_organization
 
 	*);
 
--> Regional_Committee_of_Komsomol_Molodechnensky;
--> Minsk_Regional_Committee_of_Komsomol;
--> Minsk_Regional_Party_Committee;
--> Brest_Regional_Committee_of_the_Communist_Party_of_Belarus;
+-> organization_Regional_Committee_of_Komsomol_Molodechnensky;
+-> organization_Minsk_Regional_Committee_of_Komsomol;
+-> organization_Minsk_Regional_Party_Committee;
+-> organization_Brest_Regional_Committee_of_the_Communist_Party_of_Belarus;
 -> organization_Minsk_Municipal_Hobo_Shelter;
 
 

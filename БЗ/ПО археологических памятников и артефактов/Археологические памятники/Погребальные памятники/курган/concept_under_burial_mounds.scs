@@ -1,0 +1,48 @@
+concept_under_burial_mounds
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[курган]
+(*
+<- lang_ru;;
+*);
+[mound]
+(*
+<- lang_en;;
+*);
+[курган]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Курган - холм, в частности могильный холм у древних народов.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Курган -пагорак, у прыватнасці магільны пагорак ў старажытных народаў.]
+      (*
+<- lang_by;;
+      *);;
+*);;
+*);
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/under_burial_mounds.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

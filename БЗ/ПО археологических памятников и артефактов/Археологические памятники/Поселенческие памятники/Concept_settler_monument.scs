@@ -1,0 +1,58 @@
+concept_settler_monument
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[поселенческие памятники]
+(*
+<- lang_ru;;
+*);
+[settler monument]
+(*
+<- lang_en;;
+*);
+[пасяленчыскі помнік]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<= nrel_using_constants:
+	{
+		nrel_dwelling;
+		concept_person
+	};;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Поселенческий памятник- особый вид памятников, который обозначает место проживания людей.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Пасяленчыскі помнік- адмысловы выгляд помнікаў, які пазначае месца пражывання людзей.]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Settler monument- special kind of monuments, which denotes the place of residence of people.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+=> nrel_inclusion: concept_village;
+=> nrel_inclusion: concept_settlement;
+=> nrel_inclusion: concept_stand;
+=> nrel_inclusion: concept_hillfort;
+=> nrel_inclusion: concept_residues_of_individual_dwellings;
+=> nrel_inclusion: concept_fortification;
+=> nrel_inclusion: concept_cave;;
+

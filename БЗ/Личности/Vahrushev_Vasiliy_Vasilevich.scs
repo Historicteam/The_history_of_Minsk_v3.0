@@ -1,0 +1,8 @@
+Vahrushev_Vasiliy_Vasilevich
+
+=> nrel_main_idtf:
+        [Вахрушев Василий Васильевич  ] (* <- lang_ru;; *);
+	[Vahrushev Vasiliy Vasilevich] (* <- lang_en;; *);
+	[Вахрушев Васіль Васільевіч] (* <-lang_by;; *);
+
+<- concept_male;;

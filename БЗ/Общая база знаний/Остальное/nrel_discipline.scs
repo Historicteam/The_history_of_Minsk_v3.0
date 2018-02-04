@@ -1,0 +1,27 @@
+nrel_discipline
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[дисциплина*] (* <-lang_ru;; *);
+
+=>nrel_main_idtf:
+	[ discipline*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[дысцыпліна*] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Дисциплина — самостоятельная отрасль какой-либо науки.]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+  *);;
+
+

@@ -1,0 +1,51 @@
+subject_area_of_archeological_artifacts
+=>nrel_main_idtf:
+	[Предметная область археологических артефактов] (* <-lang_ru;; *);
+	[The subject area of archeological artifacts] (* <-lang_en;; *);
+	[Прадметная вобласць археалагічных артэфактаў] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Предметная область археологических артефактов  - предметная область, изучающая любой материальный предмет, изготовленный или модифицированный человеком.] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);
+->rrel_maximum_studied_object_class:concept_archeological_artifact;
+
+=>nrel_primary_elements_class_private_subject_domain:subject_area_of_archeological_finds;
+=>nrel_primary_elements_class_private_subject_domain:subject_area_of_archeological_monuments;
+
+->rrel_explored_relation:nrel_researcher;
+->rrel_explored_relation:nrel_material;
+->rrel_explored_relation:nrel_opening_date_of_the_artifact;
+
+
+
+->rrel_not_maximum_studied_object_class: concept_archaeological_culture;
+->rrel_not_maximum_studied_object_class: concept_archeological_finds;
+->rrel_not_maximum_studied_object_class: concept_archaeological_monument;
+->rrel_not_maximum_studied_object_class: concept_Stone_Age;
+->rrel_not_maximum_studied_object_class: concept_Paleolithic;
+     
+      
+      
+->rrel_not_maximum_studied_object_class:  concept_Mesolithic;
+->rrel_not_maximum_studied_object_class: concept_Neolithic;
+->rrel_not_maximum_studied_object_class:concept_Eneolithic;
+->rrel_not_maximum_studied_object_class: concept_Early_Paleolithic;
+      
+      
+->rrel_not_maximum_studied_object_class: concept_Middle_Paleolithic;
+->rrel_not_maximum_studied_object_class: concept_Late_Paleolithic;
+->rrel_not_maximum_studied_object_class:  concept_Bronze_age;
+      
+->rrel_not_maximum_studied_object_class: concept_The_Iron_Age;
+->rrel_not_maximum_studied_object_class: concept_archeological_periodization;
+
+<-sc_node_not_relation;	
+<-sc_const;;

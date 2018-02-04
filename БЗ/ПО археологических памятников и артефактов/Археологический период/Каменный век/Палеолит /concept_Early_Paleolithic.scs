@@ -1,0 +1,30 @@
+concept_Early_Paleolithic
+=> nrel_main_idtf:
+[Ранний Палеолит]
+(*
+<- lang_ru;;
+*);
+[Early Paleolithic]
+(*
+<- lang_en;;
+*);
+[Ранні Палеаліт]
+(*
+<- lang_by;;
+*);
+<-sc_const;
+<-sc_node_not_relation;
+    <- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Ранний Палеоли́т —  исторический период каменного века,где гоминиды жили за счёт природы.Важнейшим достижением этого периода является начало использования огня. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+*);;
+

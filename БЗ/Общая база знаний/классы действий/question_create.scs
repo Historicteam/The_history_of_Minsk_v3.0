@@ -1,0 +1,19 @@
+question_create
+=>nrel_main_idtf:
+	[действие. воссоздать] (* <-lang_ru;; *);
+	[action. create] (* <-lang_en;; *);
+	[дзеянне. стварыць] (* <-lang_by;; *);
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Воссоздать - класс действий, обозначающих создать вновь, повторить, представить себе. ] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);	
+
+<-actions_class;;
+
+

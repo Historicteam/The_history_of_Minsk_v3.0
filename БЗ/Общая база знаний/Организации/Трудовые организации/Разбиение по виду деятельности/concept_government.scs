@@ -1,0 +1,22 @@
+concept_government
+=>nrel_main_idtf:
+	[правительство] (* <-lang_ru;; *);
+	[government] (* <-lang_en;; *);
+	[ўрад] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_government 
+	(* 
+	=> nrel_main_idtf:
+		[Определение понятия "правительство"] (* <-lang_ru;; *);
+		[Definition of the government] (* <-lang_en;; *);
+		[Азначэнне паняцця "ўрад"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Правительство – совокупность центральных органов государственной власти, главный исполнительный и распорядительный орган государственной власти в стране.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;
+<-sc_const;;

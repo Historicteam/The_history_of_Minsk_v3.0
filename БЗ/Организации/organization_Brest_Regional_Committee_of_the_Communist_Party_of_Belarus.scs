@@ -1,0 +1,7 @@
+
+organization_Brest_Regional_Committee_of_the_Communist_Party_of_Belarus
+			=> nrel_main_idtf:
+				[Брестский обком Компартии Белоруссии] 											 (* <- lang_ru;; *);
+				[Brest Regional Committee of the Communist Party of Belarus] (* <- lang_en;; *);
+				[Брэсцкі абкам Кампартыі Беларусі] (* <- lang_by;; *);
+<-concept_administrative_organization;;

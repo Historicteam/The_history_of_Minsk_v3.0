@@ -1,0 +1,28 @@
+nrel_material
+<-sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[материал*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[ material*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[матэрыял *] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Материал — бинарное отношение, связывающее объект и материал, из которого он изготовлен. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);;
+  *);
+=>nrel_first_domain:concept_archeological_artifact;
+=>nrel_second_domain:concept_material;;
+
+

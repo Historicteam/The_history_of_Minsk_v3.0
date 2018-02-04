@@ -1,0 +1,6 @@
+organization_Regional_Committee_of_Komsomol_Molodechnensky
+			=> nrel_main_idtf:
+				[Молодечненский обком ЛКСМБ] (* <-lang_ru;; *);
+				[Regional Committee of Molodechnensky Komsomol]	(* <- lang_en;; *);
+				[Маладзечанскі абкам ЛКСМБ] (* <- lang_by;; *);
+<-concept_administrative_organization;;

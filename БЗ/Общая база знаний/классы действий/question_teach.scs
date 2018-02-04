@@ -1,0 +1,20 @@
+question_teach
+=>nrel_main_idtf:
+	[действие. обучать] (* <-lang_ru;; *);
+	[action. teach] (* <-lang_en;; *);
+	[дзеянне. вучыць] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Обучать - класс действий, обозначающих процесс передачи и усвоения знаний, умений, навыков деятельности.] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);		
+
+<-actions_class;;
+
+

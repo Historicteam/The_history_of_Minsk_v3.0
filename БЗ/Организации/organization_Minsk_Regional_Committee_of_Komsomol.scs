@@ -1,0 +1,7 @@
+organization_Minsk_Regional_Committee_of_Komsomol
+			=> nrel_main_idtf:
+				[Минский обком ЛКСМБ] (* <- lang_ru;; *);
+				[Minsk Regional Committee of Komsomol]	(* <- lang_en;; *);
+				[Мінскі абкам ЛКСМБ] (* <- lang_by;; *);
+
+<-concept_administrative_organization;;

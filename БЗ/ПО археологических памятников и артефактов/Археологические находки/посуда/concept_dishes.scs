@@ -1,0 +1,36 @@
+concept_dishes
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[посуда]
+(*
+<- lang_ru;;
+*);
+[dishes]
+(*
+<- lang_en;;
+*);
+[посуд]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Посуда — хозяйственная утварь для еды, питья, хранения припасов.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Посуд - гаспадарчая начынне для ежы, пітва, захоўвання харчоў.]
+      (*
+<- lang_by;;
+      *);;
+*);;
+*);;

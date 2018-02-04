@@ -1,0 +1,47 @@
+concept_specific_type_monuments
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[специфические памятники]
+(*
+<- lang_ru;;
+*);
+[specific monuments]
+(*
+<- lang_en;;
+*);
+[спецыфічныя помнікі]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<= nrel_using_constants:
+	{
+		concept_monument
+	};;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Специфические памятники- особый вид памятников, который включает в себя случайные находки.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Спецыфічныя помнікі- адмысловы выгляд помнікаў, які ўключае ў сябе выпадковыя знаходкі.]
+      (*
+<- lang_by;;
+      *);;
+  *);;
+*);
+=> nrel_inclusion: concept_swipwreck;
+=> nrel_inclusion: concept_flooded_city;;
+

@@ -1,0 +1,19 @@
+question_promote
+=>nrel_main_idtf:
+	[действие. пропагандировать] (* <-lang_ru;; *);
+	[action. promote] (* <-lang_en;; *);
+	[дзеянне. прапагандаваць] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Пропагандировать - класс действий, обозначающих распространение какой-либо идеи или учения.] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);	
+<-actions_class;;
+
+

@@ -1,0 +1,45 @@
+concept_ritual_and_religious_monuments
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[ритуально-культовые памятники]
+(*
+<- lang_ru;;
+*);
+[ritual and religious monuments]
+(*
+<- lang_en;;
+*);
+[рытуальна-культавыя помнікі]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Ритуально-культовые памятники- места, особо почитаемые людьми.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[  Рытуальна-культавыя помнікі- месца, асабліва ушанаваныя людзьмі.]
+      (*
+<- lang_by;;
+      *);;
+  *);;
+*);
+=> nrel_inclusion:concept_sanctuary;
+=> nrel_inclusion:concept_revered_place;
+=> nrel_inclusion:concept_labyrinth;
+=> nrel_inclusion:concept_megaliths;;
+

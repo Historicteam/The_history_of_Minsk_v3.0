@@ -14,12 +14,7 @@ Zaustinskij_Konstantin_Antonovich
 =>nrel_parent:Zaustinskij_Anton;;
 
 concept_situation=>[*
-staff_of_the_orthodox_theological_seminary
-=>nrel_personal_composition:
-pers_comp_the_orthodox_theological_seminary_1865
-(*
-	->rrer_secretary:Zaustinskij_Konstantin_Antonovich;;
-*);;
+organization_the_orthodox_theological_seminary->rrer_secretary:Zaustinskij_Konstantin_Antonovich;;
 *]
 (*
 	=>nrel_main_idtf:
@@ -32,18 +27,11 @@ pers_comp_the_orthodox_theological_seminary_1865
 *);;
 
 concept_situation=>[*
-staff_of_the_orthodox_theological_seminary
-=>nrel_personal_composition:
-pers_comp_the_orthodox_theological_seminary_1865
-(*
-	->rrel_teacher_of_holy_scripture:
-	Zaustinskij_Konstantin_Antonovich;;
-	->rrel_teacher_of_patristic:Zaustinskij_Konstantin_Antonovich;;
-	->rrel_teacher_of_greek_language:
-	Zaustinskij_Konstantin_Antonovich;;
-	->rrel_teacher_of_latin_language:
-	Zaustinskij_Konstantin_Antonovich;;
-*);;
+organization_the_orthodox_theological_seminary
+->rrel_teacher_of_holy_scripture:Zaustinskij_Konstantin_Antonovich;
+->rrel_teacher_of_patristic:Zaustinskij_Konstantin_Antonovich;
+->rrel_teacher_of_greek_language:Zaustinskij_Konstantin_Antonovich;
+->rrel_teacher_of_latin_language:Zaustinskij_Konstantin_Antonovich;;
 *]
 (*
 	=>nrel_main_idtf:

@@ -15,12 +15,4 @@ Shimkievich_Florian
 <-concept_male;
 =>nrel_first_name:name_Florian;
 =>nrel_surname:surname_Shimkievich;
-=>nrel_date_of_birth:...
-	(*
-		=>nrel_main_idtf:
-			[неизвестно]
-			(*
-				<-lang_ru;;
-			*);;
-	*);
-=>nrel_date_of_death:time_point_1840;;
+<-completion_date_1840;;

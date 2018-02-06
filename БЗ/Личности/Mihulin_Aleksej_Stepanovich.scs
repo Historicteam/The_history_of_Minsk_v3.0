@@ -14,16 +14,11 @@ Mihulin_Aleksej_Stepanovich
 =>nrel_parent:Mihulin_Stepan;;
 
 concept_situation=>[*
-staff_of_the_orthodox_theological_seminary
-=>nrel_personal_composition:
-pers_comp_the_orthodox_theological_seminary_1865
-(*
-	->rrel_assistant_to_the_rector_for_professorships:
-	Mihulin_Aleksej_Stepanovich;;
-	->rrel_teacher_of_homiletics:Mihulin_Aleksej_Stepanovich;;
-	->rrel_teacher_of_accusatory_theology:Mihulin_Aleksej_Stepanovich;;
-	->rrel_teacher_of_moral_theology:Mihulin_Aleksej_Stepanovich;;
-*);;
+organization_the_orthodox_theological_seminary
+->rrel_assistant_to_the_rector_for_professorships:Mihulin_Aleksej_Stepanovich;
+->rrel_teacher_of_homiletics:Mihulin_Aleksej_Stepanovich;
+->rrel_teacher_of_accusatory_theology:Mihulin_Aleksej_Stepanovich;
+->rrel_teacher_of_moral_theology:Mihulin_Aleksej_Stepanovich;;
 *]
 (*
 	=>nrel_main_idtf:

@@ -16,13 +16,9 @@ Zdanovich_Iustin_Ignatievich
 =>nrel_parent:Zdanovich_Ignatij;;
 
 concept_situation=>[*
-staff_of_the_orthodox_theological_seminary
-=>nrel_personal_composition:
-pers_comp_the_orthodox_theological_seminary_1865
-(*
-	->rrel_teacher_of_agriculture:Zdanovich_Iustin_Ignatievich;;
-	->rrel_teacher_of_natural_history:Zdanovich_Iustin_Ignatievich;;
-*);;
+organization_the_orthodox_theological_seminary
+->rrel_teacher_of_agriculture:Zdanovich_Iustin_Ignatievich;
+->rrel_teacher_of_natural_history:Zdanovich_Iustin_Ignatievich;;
 *]
 (*
 	=>nrel_main_idtf:

@@ -15,13 +15,9 @@ archimandrite_Samuil
 <-concept_male;;
 
 concept_situation=>[*
-staff_of_the_orthodox_theological_seminary
-=>nrel_personal_composition:
-pers_comp_the_orthodox_theological_seminary_1865
-(*
-	->rrer_acting_rector:archimandrite_Samuil;;
-	->rrel_professor_of_theological_sciences:archimandrite_Samuil;;
-*);;
+organization_the_orthodox_theological_seminary
+->rrer_acting_rector:archimandrite_Samuil;
+->rrel_professor_of_theological_sciences:archimandrite_Samuil;;
 *]
 (*
 	=>nrel_main_idtf:

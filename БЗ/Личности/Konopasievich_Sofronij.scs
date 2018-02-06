@@ -13,12 +13,8 @@ Konopasievich_Sofronij
 =>nrel_surname:surname_Konopasievich;;
 
 concept_situation=>[*
-staff_of_the_orthodox_theological_seminary
-=>nrel_personal_composition:
-pers_comp_the_orthodox_theological_seminary_1865
-(*
-	->rrel_oeconomus:Konopasievich_Sofronij;;
-*);;
+organization_the_orthodox_theological_seminary
+->rrel_oeconomus:Konopasievich_Sofronij;;
 *]
 (*
 	=>nrel_main_idtf:

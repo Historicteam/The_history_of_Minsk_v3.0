@@ -152,7 +152,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 *);;
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
-=>nrel_location:city_Solikamsk;;
+=>nrel_location:city_solikamsk;;
 *]
 (*
 	=>nrel_main_idtf:

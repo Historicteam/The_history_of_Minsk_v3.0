@@ -13,3 +13,11 @@ Koblents_Grigoriy_Mikhaylovich
 		<-lang_by;;
 	*);
 <- concept_male;;
+
+concept_situation->[*
+Koblents_Grigoriy_Mikhaylovich<-rrel_provost: organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_01_1932;;
+		<-completion_date_04_1933;;
+*);;

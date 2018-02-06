@@ -13,3 +13,11 @@ Puzikov_Ivan_Mikhaylovich
 		<-lang_by;;	
 	*);
 <- concept_male;;
+
+concept_situation->[*
+Puzikov_Ivan_Mikhaylovich<-rrel_provost:organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_03_1938;;
+		<-completion_date_03_1941;;
+*);;

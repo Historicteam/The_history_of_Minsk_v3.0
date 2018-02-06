@@ -32,8 +32,7 @@ organization_newspaper_proryv
 
 
 concept_situation->
-[*building_of_the_female_mariavite_monastery
-<= nrel_location: 
+[*building_of_the_female_mariavite_monastery<= nrel_location: 
 organization_newspaper_proryv;;
 *]
 (*

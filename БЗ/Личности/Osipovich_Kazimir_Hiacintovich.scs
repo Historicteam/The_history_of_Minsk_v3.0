@@ -22,7 +22,7 @@ Osipovich_Kazimir_Hiacintovich
 //////////////////////////////////////////
 concept_situation->[*
 Osipovich_Kazimir_Hiacintovich
-=>nrel_location:the_city_of_Solikamsk;;
+=>nrel_location:city_solikamsk;;
 *]
 (*
 	=>nrel_main_idtf:
@@ -63,12 +63,3 @@ Osipovich_Hiacint
 <-concept_male;
 =>nrel_first_name:name_Hiacint;
 =>nrel_surname:surname_Osipovich;;
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,109 @@
+scp_program -> proc_run_all_tests (*
+	
+	-> rrel_params: ... ;;
+
+	-> rrel_operators: ... (*
+
+	-> rrel_init: ..proc_run_test_1 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_run_testcase;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+				-> rrel_1: rrel_fixed: rrel_scp_const: graph1;;
+				-> rrel_2: rrel_fixed: rrel_scp_const: [1];;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_all_tests_wait_test_1;;
+		*);;
+	
+		-> ..proc_run_all_tests_wait_test_1 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_test_2;;
+		*);;
+
+
+		-> ..proc_run_test_2 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_run_testcase;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+				-> rrel_1: rrel_fixed: rrel_scp_const: graph2;;
+				-> rrel_2: rrel_fixed: rrel_scp_const: [2];;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_all_tests_wait_test_2;;
+		*);;
+
+		-> ..proc_run_all_tests_wait_test_2 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_test_3;;
+		*);;
+	
+		-> ..proc_run_test_3 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_run_testcase;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+				-> rrel_1: rrel_fixed: rrel_scp_const: graph3;;
+				-> rrel_2: rrel_fixed: rrel_scp_const: [3];;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_all_tests_wait_test_3;;
+		*);;
+
+		-> ..proc_run_all_tests_wait_test_3 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_test_4;;
+		*);;
+
+		-> ..proc_run_test_4 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_run_testcase;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+				-> rrel_1: rrel_fixed: rrel_scp_const: graph4;;
+				-> rrel_2: rrel_fixed: rrel_scp_const: [4];;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_all_tests_wait_test_4;;
+		*);;
+
+		-> ..proc_run_all_tests_wait_test_4 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_test_5;;
+		*);;
+		
+		-> ..proc_run_test_5 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_run_testcase;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+				-> rrel_1: rrel_fixed: rrel_scp_const: graph5;;
+				-> rrel_2: rrel_fixed: rrel_scp_const: [5];;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_all_tests_wait_test_5;;
+		*);;
+
+		-> ..proc_run_all_tests_wait_test_5 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_run_all_tests_operator_return;;
+		*);;
+
+
+
+		-> ..proc_run_all_tests_operator_return (*
+			<- return;;
+		*);;
+	*);;
+*);;

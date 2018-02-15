@@ -1,1 +1,14 @@
+<<<<<<< HEAD
+kb.bin
+sc-machine
+scp-machine
+sc-web
+ims.ostis.kb
+ims.ostis.kb_copy
+geometry.drawings
+web-scn-editor
+
+*.*~
+=======
 *.scs~
+>>>>>>> a33b8f2fac80321695043fc4f6aa209b7a170f7b

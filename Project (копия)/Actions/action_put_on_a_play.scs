@@ -8,4 +8,4 @@ action_put_on_a_play
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:question;;
+<=nrel_inclusion:concept_action;;

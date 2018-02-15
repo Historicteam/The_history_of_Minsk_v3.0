@@ -1,17 +1,19 @@
-time_point_16_12_1834
+completion_date_16_12_1834
 =>nrel_main_idtf:
-	[16 декабря 1834]
+	[время завершения - 16 декабря 1834]
 	(*
 		<-lang_ru;;
 	*);
-	[16 december of 1834]
+	[completion date - 16 december of 1834]
 	(*
 		<-lang_en;;
 	*);
-	[16 снежня 1834]
+	[час заканчэння - 16 снежня 1834]
 	(*
 		<-lang_by;;
 	*);
+<-completion;
+<-exact_value;
 => nrel_Gregorian_calendar_scale:...
 	(*
 		<-number_of_day_in_month: [16];;

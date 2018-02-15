@@ -1,16 +1,16 @@
-time_point_22_11_1834
+completion_date_22_11_1834
 <-exact_value;
-<-begin;
+<-completion;
 => nrel_main_idtf:
-	[22 ноября 1834]
+	[время завершения - 22 ноября 1834]
    	(*
    		<-lang_ru;;
    	*);
-   	[22 november of 1834]
+   	[completion date - 22 november of 1834]
    	(*
    		<-lang_en;;
    	*);
-   	[22 лістапада 1834]
+   	[час заканчэння - 22 лістапада 1834]
    	(*
    		<-lang_by;;
    	*);

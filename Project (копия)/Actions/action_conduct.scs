@@ -8,4 +8,4 @@ action_conduct
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:question;;
+<=nrel_inclusion:concept_action;;

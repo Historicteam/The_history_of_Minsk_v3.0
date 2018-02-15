@@ -42,8 +42,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 			*);;
 	*);
 <-concept_participant_of_the_uprising_1863;;
-/////////////////////////////////////////////////////
-/////////////////////////////////////////////////////
+
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
 =>nrel_godfather:Uminskij_Juzief;
@@ -55,7 +54,8 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 		(*
 			<-lang_ru;;
 		*);;
-	<-time_point_22_11_1834;;
+	<-begin_date_22_11_1834;;
+	<-completion_date_22_11_1834;;
 *);;
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
@@ -73,9 +73,10 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 		(*
 			<-lang_ru;;
 		*);;
-	<-time_point_16_12_1834;;
+	<-begin_date_16_12_1834;;
+	<-completion_date_16_12_1834;;
 *);;
-/////////////////////////////////////////////////////
+
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna<=nrel_initiator:...
 (*
@@ -136,7 +137,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna<=nrel_initiator:...
 		*);;
 	<-time_point_1850;;
 *);;
-/////////////////////////////////////////////////////
+
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
 =>nrel_location:the_city_of_Minsk;;
@@ -176,7 +177,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 	<-begin_date_1881;;
 	<-completion_date_1900;;
 *);;
-/////////////////////////////////////////////////////
+
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
 =>nrel_dwelling:building_the_home_of_vincent_dunin_marcinkievich;;
@@ -190,7 +191,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 	<-begin_date_22_11_1834;;
 	<-completion_date_1840;;
 *);;
-/////////////////////////////////////////////////////
+
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
 =>nrel_spouse:Osipovich_Kazimir_Hiacintovich;;
@@ -204,7 +205,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 	<-begin_date_1865;;
 	<-completion_date_25_07_1884;;	
 *);;
-/////////////////////////////////////////////////////
+
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
 =>nrel_surname:surname_Dunin_Marcinkievich;;
@@ -231,7 +232,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 	<-begin_date_1865;;
 	<-completion_date_1900;;	
 *);;
-/////////////////////////////////////////////////////
+
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
 <=nrel_object:...

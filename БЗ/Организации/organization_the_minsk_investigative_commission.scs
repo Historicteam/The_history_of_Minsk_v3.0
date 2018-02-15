@@ -12,7 +12,7 @@ organization_the_minsk_investigative_commission
 <-completion_date_1865;
 <-concept_formal_organization;
 <-concept_state_organization;;
-/////////////////////////////////////////////////////////////////
+
 concept_situation->[*
 organization_the_minsk_investigative_commission
 ->rrel_director:Riejkhart_B_K;;
@@ -26,7 +26,7 @@ organization_the_minsk_investigative_commission
 	<-begin_date_1863;;
 	<-completion_date_1865;;
 *);;
-/////////////////////////////////////////////////////////////////
+
 concept_situation->[*
 organization_the_minsk_investigative_commission
 =>nrel_location:building_of_the_church_of_St_Joseph;;

@@ -85,5 +85,6 @@ action_put_on_a_play->action_put_the_play_idilliya
 		(*
 			<-lang_ru;;
 		*);;
-	<-time_point_09_02_1852;;
+	<-begin_date_09_02_1852;;
+	<-completion_date_09_02_1852;;
 *);;

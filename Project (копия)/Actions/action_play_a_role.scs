@@ -8,4 +8,4 @@ action_play_a_role
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:question;;
+<=nrel_inclusion:concept_action;;

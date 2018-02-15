@@ -48,7 +48,7 @@ complex_of_buildings_of_the_minsk_suvorov_military_school
 		<-lang_en;;
 	*);
 <-concept_complex_of_buildings;;
-//////////////////////////////////////////////////////////////////
+
 concept_situation->[*
 	complex_of_buildings_of_the_female_mariavite_monastery
 	<=nrel_complex_of_buildings_decomposition:
@@ -126,7 +126,7 @@ concept_situation->[*
 		*);;
 	<-begin_date_1953;;
 *);;
-/////////////////////////////////////////////////////////////////
+
 concept_situation->[*
 	complex_of_buildings_of_the_female_mariavite_monastery
 	<=nrel_temporal_decomposition:
@@ -155,7 +155,7 @@ concept_situation->[*
 (*
 	<-begin_date_1953;;
 *);;
-////////////////////////////////////////////////////////////////
+
 concept_situation->[*
 	complex_of_buildings_of_the_female_mariavite_monastery
 	<-concept_arch_empire_style;;

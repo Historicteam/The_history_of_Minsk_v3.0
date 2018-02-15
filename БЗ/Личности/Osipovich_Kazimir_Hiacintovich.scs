@@ -19,7 +19,7 @@ Osipovich_Kazimir_Hiacintovich
 <-rrel_student:organization_the_moscow_university;
 <-begin_date_27_04_1835;
 <-completion_date_25_07_1884;;
-//////////////////////////////////////////
+
 concept_situation->[*
 Osipovich_Kazimir_Hiacintovich
 =>nrel_location:city_solikamsk;;
@@ -45,7 +45,7 @@ Osipovich_Kazimir_Hiacintovich
 	<-begin_date_1881;;
 	<-completion_date_25_07_1884;;
 *);;
-//////////////////////////////////////////
+
 Osipovich_Hiacint
 =>nrel_main_idtf:
 	[Осипович Гиацинт]

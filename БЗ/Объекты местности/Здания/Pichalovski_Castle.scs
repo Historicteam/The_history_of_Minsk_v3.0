@@ -1,4 +1,3 @@
-
 Pichalovski_Castle
 => nrel_main_idtf:
 	  [Пищаловски замок]
@@ -16,7 +15,7 @@ Pichalovski_Castle
 
 <- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
 
-=>nrel_subdividing: organization_Minsk_city_prison;
+<-organization_Minsk_city_prison;
 
 <-concept_building;
 <-concept_terrain_object

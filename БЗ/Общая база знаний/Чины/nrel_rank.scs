@@ -1,11 +1,11 @@
-nrel_chin
+nrel_rank
 <- sc_node_norole_relation;
 => nrel_main_idtf:
 	[чин*]
 	(*
 	<- lang_ru;;
 	*);
-	[chin*]
+	[rank*]
 	(*
 	<- lang_en;;
 	*);

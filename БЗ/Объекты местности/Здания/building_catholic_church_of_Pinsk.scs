@@ -3,4 +3,5 @@ building_catholic_church_of_Pinsk
 	[Костел города Пинска]
 	(*
 	<- lang_ru;;
-	*);;
+	*);
+<-concept_building;;

@@ -11,5 +11,4 @@ organization_Minsk_military_field_court
 	[Мінскі палявы ваенны суд]
 	(*
 	<- lang_by;;
-	*);
-<-concept_military_field_court;;
+	*);;

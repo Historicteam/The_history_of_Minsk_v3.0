@@ -11,4 +11,5 @@ organisation_Minsk_city_police
 	[Мінская гарадская паліцыя]
 	(*
 	<- lang_by;;
-	*);;
+	*);
+<-concept_organization;;

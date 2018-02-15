@@ -9,7 +9,6 @@ estate_Sliepianka
 	<- lang_en;;
 	*);
 <-concept_estate;
-<-concept_building;
 
 => nrel_geographical_location: ...
 	(*

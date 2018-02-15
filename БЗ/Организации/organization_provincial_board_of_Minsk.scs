@@ -1,10 +1,10 @@
 organization_provincial_board_of_Minsk
 => nrel_main_idtf:
-	[губернское правление Минска]
+	[Губернское правление Минска]
 	(*
 	<- lang_ru;;
 	*);
-	[provincial board of Minsk]
+	[Provincial board of Minsk]
 	(*
 	<- lang_en;;
 	*);

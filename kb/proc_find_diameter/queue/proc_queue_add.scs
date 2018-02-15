@@ -1,0 +1,111 @@
+// Добавление нового элемента в очередь 
+
+scp_program -> proc_queue_add (*
+	
+	-> rrel_params: ... (*
+		-> rrel_1: rrel_in: _queue_head;;
+		-> rrel_2: rrel_in: _queue_tail;;
+		-> rrel_3: rrel_in: _element_value;;
+	*);;
+
+	-> rrel_operators: ... (*
+
+		// Создаём новый элемент очереди со значением _element_value
+		-> rrel_init: ..proc_queue_add_create_element (*
+			<- genElStr5;;
+			-> rrel_1: rrel_assign: rrel_node: rrel_const: rrel_scp_var: _new_element;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _element_value;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_queue_value;;
+
+			=> nrel_goto: ..proc_queue_add_queue_is_empty;;
+		*);;
+		
+		// Проверяем, является ли очередь пустой
+		-> ..proc_queue_add_queue_is_empty (*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: rrel_node: _queue_tail;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _queue_last_element;;
+
+
+		 	=> nrel_then: ..proc_queue_add_elements_connection;; // если очередь не пустая
+		 	=> nrel_else: ..proc_queue_add_new_head;; // если очередь пустая
+		*);;
+
+		// Связываем новый элемент очереди с первым элементом очереди
+		-> ..proc_queue_add_elements_connection (*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_node: rrel_const: rrel_scp_var: _queue_last_element;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_node: rrel_const: rrel_scp_var: _new_element;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_queue_next;;
+
+			=> nrel_goto: ..proc_queue_add_new_tail;;
+		*);;
+
+		//	Устанавливаем конец очереди на новый элемент
+		-> ..proc_queue_add_new_tail (*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _queue_tail;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _new_element;;
+
+			=> nrel_goto: ..proc_queue_add_print;;
+		*);;
+
+
+// Если очередь пустая
+		//	Устанавливаем начало очереди на новый элемент
+		-> ..proc_queue_add_new_head (*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _queue_head;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _new_element;;
+
+			=> nrel_goto: ..proc_queue_add_new_tail;;
+		*);;
+
+// Вывод значения добавленного элемента
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		
+		-> ..proc_queue_add_print (*
+			<- print;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Element added to queue: ];;
+
+			=> nrel_goto: ..proc_queue_add_print_idtf;;
+		*);;
+
+		-> ..proc_queue_add_print_idtf (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_print_idtf;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _element_value;;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_queue_add_print_idtf_return;;
+		*);;
+
+		-> ..proc_queue_add_print_idtf_return (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+			=> nrel_goto: ..proc_queue_add_print_delimiter;;
+		*);;
+
+		-> ..proc_queue_add_print_delimiter (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [;];;
+
+			=> nrel_goto: ..proc_queue_add_return;;
+		*);;
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+		-> ..proc_queue_add_return (*
+			<-return;;
+		*);;
+	*);;
+*);;

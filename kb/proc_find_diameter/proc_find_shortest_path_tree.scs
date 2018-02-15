@@ -1,0 +1,446 @@
+scp_program -> proc_find_shortest_path_tree (*
+
+	-> rrel_params: ... (*
+		-> rrel_1: rrel_in: _graph;;
+		-> rrel_2: rrel_in: _root_vertex;;
+		
+		-> rrel_3: rrel_out: _last_vertex;;
+		-> rrel_4: rrel_out: _length_of_diametr;;
+	*);;
+
+	-> rrel_operators: ... (*
+
+//*****************************************************************************
+// Вывод в консоль начальной вершины
+
+	-> rrel_init: ..proc_find_diametr_print_start (*
+		<- print;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: [Searching diametr from vertex ];;
+
+		=> nrel_goto: ..proc_find_diametr_print_start_vertex;;
+		*);;
+
+	-> ..proc_find_diametr_print_start_vertex (*
+		<- call;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: proc_print_idtf;;
+		-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+			-> rrel_1: rrel_fixed: rrel_scp_var: _root_vertex;;
+		*);;
+		-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_print_start_vertex_return;;
+	*);;
+
+	-> ..proc_find_diametr_print_start_vertex_return (*
+		<- waitReturn;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_print_delimiter;;
+	*);;
+
+	-> ..proc_find_diametr_print_delimiter (*
+		<- printNl;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: [;];;
+
+		=> nrel_goto: ..proc_find_diametr_set_diametr_length_to_zero;;
+	*);;
+
+//*****************************************************************************
+
+// Обнуляем начальное значение длины diametra
+	-> ..proc_find_diametr_set_diametr_length_to_zero (*
+		<- contAssign;;
+		-> rrel_1: rrel_assign: rrel_link: rrel_scp_var: _length_of_diametr;; 
+		-> rrel_2: rrel_fixed: rrel_scp_const: [0];; 
+		
+		=> nrel_goto: ..proc_find_diametr_create_checked_vertexes;;
+		*);;
+
+// Создание множества использованных вершин.
+	-> ..proc_find_diametr_create_checked_vertexes (*
+		<- genEl;;
+		-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _used_vertexes;;
+		
+		=> nrel_goto: ..proc_find_diametr_create_queue_front;;
+		*);;
+
+// Создание головы очереди _queue_front
+	-> ..proc_find_diametr_create_queue_front (*
+		<- genEl;;
+		-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _queue_front;;
+
+		=> nrel_goto: ..proc_find_diametr_create_queue_back;;
+		*);;
+
+// Создание хвоста очереди _queue_back
+-> ..proc_find_diametr_create_queue_back (*
+		<- genEl;;
+		-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _queue_back;;
+
+		=> nrel_goto: ..proc_find_diametr_queue_add_root_vertex;;
+		*);;
+
+// Добавляем в очередь начальную вершину.
+	-> ..proc_find_diametr_queue_add_root_vertex (*
+		<- call;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: proc_queue_add;;
+		-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+			-> rrel_1: rrel_fixed: rrel_scp_var: _queue_front;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _queue_back;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _root_vertex;;
+		*);;
+		-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_queue_add_root_vertex_return;;
+	*);;
+
+	-> ..proc_find_diametr_queue_add_root_vertex_return (*
+		<- waitReturn;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_add_root_vertex;;
+	*);;
+
+//  Добавляем начальную вершину во множество использованных вершин.
+	-> ..proc_find_diametr_add_root_vertex (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _used_vertexes;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _root_vertex;;
+
+		=> nrel_goto: ..proc_find_diametr_main_loop_start;;
+	*);;
+
+
+// Начинаем основной цикл обхода графа в ширину.
+//####################################################################################
+
+// Проверяем, пустая ли очередь.
+	-> ..proc_find_diametr_main_loop_start (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _queue_front;;
+		-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+		-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _queue_element;;
+
+		 => nrel_then: ..proc_find_diametr_queue_pop;; // если очередь не пустая
+		 => nrel_else: ..proc_find_diametr_print_calc_diametr;; // если очередь пустая
+	*);;
+
+// Извлекаем вершину из очереди.
+//-------------------------------------------------------------------
+	-> ..proc_find_diametr_queue_pop (*
+		<- call;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: proc_queue_pop;;
+		-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+			-> rrel_1: rrel_fixed: rrel_scp_var: _queue_front;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _queue_back;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _current_vertex;;
+		*);;
+		-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_queue_pop_return;;
+	*);;
+
+	-> ..proc_find_diametr_queue_pop_return (*
+		<- waitReturn;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_set_last_vertex;;
+	*);;
+
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+// Записываем в переменную _last_vertex значение текущей вершины
+// таким образом мы запоминаем последнюю вершину пути
+	-> ..proc_find_diametr_set_last_vertex (*
+		<- varAssign;;
+		-> rrel_1: rrel_assign: rrel_scp_var: _last_vertex;;
+		-> rrel_2: rrel_fixed: rrel_scp_var: _current_vertex;;
+
+		=> nrel_goto: ..proc_find_diametr_create_edges_set ;;
+		*);;
+
+////^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+// Создание множества всех рёбер графа для поиска смежных вершин.	
+	-> ..proc_find_diametr_create_edges_set (*
+		<- searchSetStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _graph;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _edge;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: rrel_edge;;
+		
+		-> rrel_set_3: rrel_assign: rrel_scp_var: _graph_edges_set;;
+
+		=> nrel_then: ..proc_find_diametr_find_adjacent_vertex;;
+		=> nrel_else: ..proc_find_diametr_erase_used_vertexes;;
+	*);;
+
+// Цикл поиска вершин, смежных вершине _current_vertex
+//==================================================================
+
+	-> ..proc_find_diametr_find_adjacent_vertex (*
+		<- searchElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _current_vertex;;
+		-> rrel_2: rrel_assign: rrel_scp_var: _adjacent_vertex_edge;;
+		-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _adjacent_vertex;;
+		-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc4;;
+		-> rrel_5: rrel_fixed: rrel_scp_var: _graph_edges_set;;
+
+		 => nrel_then: ..proc_find_diametr_delete_adjacent_vertex_edge;;
+		 => nrel_else: ..proc_find_diametr_main_loop_start;;
+	*);;
+
+// Удаляем пройденное ребро из множества всех ребер
+	-> ..proc_find_diametr_delete_adjacent_vertex_edge (*
+			<- eraseEl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc4;;
+
+			=> nrel_goto: ..proc_find_diametr_adjacent_vertex_is_used;;
+		*);;
+
+// Проверка на принадлежность смежной вершины множеству использованных вершин
+	-> ..proc_find_diametr_adjacent_vertex_is_used (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _used_vertexes;;
+		-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _adjacent_vertex;;
+
+		 => nrel_then: ..proc_find_diametr_find_adjacent_vertex;;
+		 => nrel_else: ..proc_find_diametr_add_adjacent_vertex;;
+	*);;
+
+// Добавление смежную вершину в множество использованных вершин
+	-> ..proc_find_diametr_add_adjacent_vertex (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _used_vertexes;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _adjacent_vertex;;
+
+		=> nrel_goto: ..proc_find_diametr_queue_add_adjacent_vertex;;
+	*);;
+
+//  Добавляем в очередь смежную вершину
+//-------------------------------------------------------------------
+	-> ..proc_find_diametr_queue_add_adjacent_vertex (*
+		<- call;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: proc_queue_add;;
+		-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+			-> rrel_1: rrel_fixed: rrel_scp_var: _queue_front;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _queue_back;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _adjacent_vertex;;
+		*);;
+		-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_queue_add_adjacent_vertex_return;;
+	*);;
+
+	-> ..proc_find_diametr_queue_add_adjacent_vertex_return (*
+		<- waitReturn;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_set_previous_vertex;;
+	*);;
+//-------------------------------------------------------------------
+
+// Отмечаем предыдущую вершину для _adjacent_vertex
+	-> ..proc_find_diametr_set_previous_vertex (*
+		<- genElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _adjacent_vertex;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _current_vertex;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: rrel_previous_vertex;;
+
+		=> nrel_goto: ..proc_find_diametr_find_adjacent_vertex;;
+		*);;
+
+//==================================================================
+//####################################################################################
+//===================================================================
+// Нахождение длины пути
+
+	-> ..proc_find_diametr_print_calc_diametr (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Restoring diametr:];;
+
+			=> nrel_goto: ..proc_find_diametr_get_last_vertex;;
+		*);;
+
+	-> ..proc_find_diametr_get_last_vertex (*
+		<- varAssign;;
+		-> rrel_1: rrel_assign: rrel_scp_var: _v;;
+		-> rrel_2: rrel_fixed: rrel_scp_var: _last_vertex;;
+
+		=> nrel_goto: ..proc_find_diametr_increment_length_of_diametr ;;
+		*);;
+
+// Инкрементируем длину пути
+	-> ..proc_find_diametr_increment_length_of_diametr (*
+		<- contAdd;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _length_of_diametr;;
+		-> rrel_2: rrel_fixed: rrel_scp_var: _length_of_diametr;;
+
+		-> rrel_3: rrel_fixed: rrel_scp_const: [1];;
+
+		=> nrel_goto: ..proc_find_diametr_find_previous_for_vertex ;;
+	*);;
+
+// Нахождение предыдущей вершины для вершины _v.
+	-> ..proc_find_diametr_find_previous_for_vertex (*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _v;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _v;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_previous_vertex;;
+
+			=> nrel_goto: ..proc_find_diametr_print_diametr_vertex;;
+		*);;
+
+	-> ..proc_find_diametr_print_diametr_vertex (*
+		<- call;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: proc_print_idtf;;
+		-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+			-> rrel_1: rrel_fixed: rrel_scp_var: _v;;
+		*);;
+		-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_print_diametr_vertex_return;;
+	*);;
+
+	-> ..proc_find_diametr_print_diametr_vertex_return (*
+		<- waitReturn;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+		=> nrel_goto: ..proc_find_diametr_print_space;;
+	*);;
+
+	-> ..proc_find_diametr_print_space (*
+			<- print;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [ ];;
+
+			=> nrel_goto: ..proc_find_diametr_find_vertex_vertex_is_equal_to_root_vertex;;
+		*);;
+
+// Проверка не является ли текущая вершина _v начальной
+	-> ..proc_find_diametr_find_vertex_vertex_is_equal_to_root_vertex (*
+			<- ifCoin;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _root_vertex;;
+
+			-> rrel_2: rrel_fixed: rrel_scp_var: _v;;
+
+			=> nrel_then: ..proc_find_diametr_print_newline;;
+			=> nrel_else: ..proc_find_diametr_increment_length_of_diametr;;
+		*);;
+
+	-> ..proc_find_diametr_print_newline (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [ ];;
+
+			=> nrel_goto: ..proc_find_diametr_create_vertex_set_for_clear_parent;;
+		*);;
+
+//===================================================================
+
+// Удаление родителей(previous vertex)
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Создание множества всех вершин графа для удаления родителей.	
+	-> ..proc_find_diametr_create_vertex_set_for_clear_parent (*
+		<- searchSetStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _graph;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _vertex;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: rrel_vertex;;
+		
+		-> rrel_set_3: rrel_assign: rrel_scp_var: _graph_vertex_set;; // множество вершин графа
+
+		=> nrel_then: ..proc_find_diametr_find_vertex_in_set_for_clear_parent;;
+		=> nrel_else: ..proc_find_diametr_print_diametr_length_1;;
+	*);;
+
+// Поиск вершин во множестве
+	-> ..proc_find_diametr_find_vertex_in_set_for_clear_parent (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _graph_vertex_set;;
+		-> rrel_2: rrel_assign: rrel_scp_var: _arc12;; // ребро, соединяющее множество вершин графа с самими вершинами
+		-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _cur_vertex;; // одна из вершин
+
+		 => nrel_then: ..proc_find_mm_delete_current_vertex_from_vertex_set_for_clear_parent;; // вершина найдена, можем ее удалить из множества
+		 => nrel_else: ..proc_find_diametr_erase_used_vertexes;; // циклы найдены для всех вершин
+	*);;
+
+// Удаляем вершинку из множества.
+	-> ..proc_find_mm_delete_current_vertex_from_vertex_set_for_clear_parent (*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc12;;
+
+		/// неа, не туда
+		=> nrel_goto: ..proc_find_diametr_find_parent_for_vertex_for_clear_parent;;
+		*);;
+
+// Находим предыдущую для нашей вершины.
+-> ..proc_find_diametr_find_parent_for_vertex_for_clear_parent (*
+		<- searchElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _graph_vertex_set;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc21;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _cur_vertex;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc41;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: rrel_previous_vertex;;
+
+		=> nrel_then: ..proc_find_diametr_erase_parent_1;;
+		=> nrel_else: ..proc_find_diametr_erase_used_vertexes;;
+	*);;
+
+// Удаляем связь с предыдущей вершиной.
+	-> ..proc_find_diametr_erase_parent_1 (*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc21;;
+
+		=> nrel_goto: ..proc_find_diametr_erase_parent_2;;
+		*);;
+
+	-> ..proc_find_diametr_erase_parent_2 (*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc41;;
+
+		=> nrel_goto: ..proc_find_diametr_find_vertex_in_set_for_clear_parent;;
+		*);;
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// Удаление множества использованных вершин.
+	-> ..proc_find_diametr_erase_used_vertexes (*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _used_vertexes;;
+
+		=> nrel_goto: ..proc_find_diametr_print_diametr_length_1;;
+	*);;
+
+//(((((((((((((((((((((((((((((((((((((((())))))))))))))))))))))))))))))))))))))))
+// Вывод длины найденного diametra
+
+	
+-> ..proc_find_diametr_print_diametr_length_1 (*
+			<- print;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Diameter: ];;
+
+			=> nrel_goto: ..proc_find_diametr_print_diametr_length_2;;
+		*);;
+
+	-> ..proc_find_diametr_print_diametr_length_2 (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _length_of_diametr;;
+
+			=> nrel_goto: ..proc_diametr_return;;
+		*);;
+
+// Выход из программы
+	-> ..proc_diametr_return (*
+		<- return;;
+	*);;
+
+	*);;
+*);;

@@ -1,0 +1,17 @@
+ui_external_languages
+  -> openstreetmap_view;;
+
+openstreetmap_view => nrel_main_idtf: [Отображение Open Street Map] (*
+  <- lang_ru;;
+*);;
+
+format_openstreetmap_view => nrel_main_idtf: [Формат Open Street Map] (*
+  <- lang_ru;;
+*);;
+
+sc_node_norole_relation -> nrel_osm_query;;
+sc_relation -> nrel_osm_query;;
+nrel_osm_query
+	=> nrel_main_idtf: 
+		[ osm-запрос* ] (* <-lang_ru;; *);
+		[ osm-query* ] (* <-lang_en;; *);;

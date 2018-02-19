@@ -1,0 +1,17 @@
+concept_abbreviation
+=>nrel_main_idtf:
+	[аббревиатура] (* <-lang_ru;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+			-> rrel_example: [аббревиатура - условное сокращение слов на письме.] 
+						(* <-lang_ru;; *);;
+		*);;
+	*);
+	
+<-sc_const;;

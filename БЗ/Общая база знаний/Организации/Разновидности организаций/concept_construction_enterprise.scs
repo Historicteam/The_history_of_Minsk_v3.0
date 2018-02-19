@@ -1,0 +1,17 @@
+concept_construction_enterprise
+=>nrel_main_idtf:
+	[строительные предприятия] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Строительные предприятия – первичное звено строительного комплекса.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

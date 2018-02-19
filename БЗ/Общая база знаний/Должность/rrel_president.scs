@@ -1,0 +1,8 @@
+rrel_president
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[президент'] (* <-lang_ru;; *);
+	[president'] (* <-lang_en;; *);;

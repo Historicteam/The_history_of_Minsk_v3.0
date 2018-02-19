@@ -11,6 +11,8 @@ concept_organization
 	[арганізацыя] (* <-lang_by;; *);
 =>nrel_idtf:
 	[сацыяльная арганізацыя] (* <-lang_by;; *);
+
+=>nrel_inclusion: concept_legal_entity;
 	
 <-rrel_key_sc_element:
 	Definition_of_the_organization_concept 
@@ -36,7 +38,24 @@ concept_organization
 		*);;
 	*);
 <-sc_node_not_relation;	
-<-sc_const;;
+<-sc_const;
+
+<=nrel_subdividing:
+	subdividing_in_accordance_with_types_of_ownership
+	(*
+	=>nrel_main_idtf:
+		[разбиение организаций по формам собственности] (* <-lang_ru;; *);
+		[subdividing of organizations in accordance with types of ownership] (* <-lang_en;; *);
+		[разбіццё арганізацый па формах уласнасці] (* <-lang_by;; *);;
+		
+		->	concept_state_organization;
+				concept_cooperative_organization;
+				concept_joint_stock_company;
+				concept_labor_collective_organization;
+				concept_privately_held_organization;
+				concept_national_and_foreign_capital_organization;
+				concept_foreign_organization;;
+	*);;
 
 subdividing_into_formal_and_informal_organizations
 	=>nrel_main_idtf:

@@ -1,0 +1,7 @@
+Grozov_B_B
+=> nrel_main_idtf:
+		[Грозов Б. Б.]
+     (*
+        <- lang_ru;;
+     *);
+<- concept_male;;

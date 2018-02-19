@@ -1,0 +1,24 @@
+concept_female_education_RE
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[женское образование]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	
+	<-sc_explanation;;
+	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Предполагалось, что образование необходимо  только женщинам дворянского происхождения. А учебные заведения должны быть только закрытыми.  Так появились институты благородных девиц.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

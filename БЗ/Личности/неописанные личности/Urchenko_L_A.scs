@@ -1,0 +1,7 @@
+Urchenko_L_A
+=> nrel_main_idtf:
+		[Урченко Л. А.]
+     (*
+        <- lang_ru;;
+     *);
+<- concept_male;;

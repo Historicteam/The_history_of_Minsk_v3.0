@@ -1,0 +1,22 @@
+concept_university
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[университет]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[университет - высшее учебное заведение, где готовятся специалисты по фундаментальным и многим прикладным наукам.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

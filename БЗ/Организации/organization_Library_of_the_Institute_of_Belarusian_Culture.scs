@@ -24,9 +24,11 @@ organization_Library_of_the_Institute_of_Belarusian_Culture
 		[Бібліятэка Інстытута беларускай культуры] (* <- lang_by;; *);
 <- begin_date_1925;
 <- completion_date_1929;
-=>nrel_be_founded_in_the_name_of:Mitskevich_Konstantin_Mihailovich;
 
 <-concept_library;
+=> nrel_personal_composition: employees_Library_of_the_institute_of_Belarusian_Culture;
+=>nrel_be_founded_in_the_name_of:Mitskevich_Konstantin_Mihailovich;
+
 <-concept_cultural_organization;
 <-concept_educational_institution;
 <-concept_formal_organization;;
@@ -111,5 +113,85 @@ concept_situation->[* organization_Library_of_the_Institute_of_Belarusian_Cultur
 <- completion_date_25_05_1990;;
 *);;
 
+<<<<<<< HEAD
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Sereda_Ivan_Nikitovich;;*]
+(*
+    <- begin_date_1925;;
+    <- completion_date_1927;;
+*);;
+
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Gurvich;;*]
+(*
+    <- begin_date_1927;;
+    <- completion_date_1929;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Dougyallo_Dmitriy_Ivanovich;;*]
+(*
+    <- begin_date_1929;;
+    <- completion_date_1937;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Senko;;*]
+(*
+    <- begin_date_1937;;
+    <- completion_date_1937;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Kosareu;;*]
+(*
+    <- begin_date_1937;;
+    <- completion_date_1941;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Simanouskiy;;*]
+(*
+    <- begin_date_1941;;
+    <- completion_date_1950;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Vilgusevich;;*]
+(*
+    <- begin_date_1950;;
+    <- completion_date_1952;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Stepanuk;;*]
+(*
+    <- begin_date_1952;;
+    <- completion_date_1961;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Strezhonok;;*]
+(*
+    <- begin_date_1961;;
+    <- completion_date_1994;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Emelyanova;;*]
+(*
+    <- begin_date_1995;;
+    <- completion_date_1998;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Berezkina;;*]
+(*
+    <- begin_date_1999;;
+    <- completion_date_2013;;
+*);;
+
+concept_situation->[*employees_Library_of_the_institute_of_Belarusian_Culture -> rrel_head: Grusha;;*]
+(*
+    <- begin_date_2014;;
+*);;
+
+employees_Library_of_the_institute_of_Belarusian_Culture
+=> nrel_main_idtf:
+		[Персональный состав Библиотеки Института белорусской культуры] (* <- lang_ru;; *);;
+
+
+=======
+>>>>>>> d41a65908664f3295ad1d7ebb48573899e7711b3
 
 

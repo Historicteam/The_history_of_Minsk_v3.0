@@ -1,0 +1,5 @@
+Strezhonok
+=> nrel_main_idtf:
+		[Стрижонок]
+ (* <- lang_ru;; *);
+<- concept_male;;

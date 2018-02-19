@@ -1,0 +1,22 @@
+concept_high_school
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[старшая школа]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Старшая школа- школа, в которой получают общее среднее образование]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

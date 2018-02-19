@@ -1,0 +1,17 @@
+concept_agricultural_enterprise
+=>nrel_main_idtf:
+	[сельскохозяйственные предприятия] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сельскохозяйственное предприятие - организация, производящая сельскохозяйственную продукцию.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

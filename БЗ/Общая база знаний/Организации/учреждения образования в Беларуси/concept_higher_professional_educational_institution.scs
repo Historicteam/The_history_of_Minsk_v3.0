@@ -1,0 +1,31 @@
+concept_higher_professional_educational_institution
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[высшее профессиональное учреждение образования]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Учреждение образования — это учреждение, осуществляющее образовательный процесс, реализующее одну или несколько образовательных программ и/или обеспечивающее содержание и воспитание обучающихся.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+concept_higher_professional_educational_institution
+	<=nrel_subdividing: ...
+				(*
+						->	concept_college_of_higher_education;
+							concept_institute;
+							concept_university;
+							concept_academy;;
+				*);;

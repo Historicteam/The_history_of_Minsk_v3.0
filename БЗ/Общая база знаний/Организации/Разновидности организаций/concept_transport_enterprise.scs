@@ -1,0 +1,17 @@
+concept_transport_enterprise
+=>nrel_main_idtf:
+	[предприятия связи] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ предприятие связи - предприятие, осуществляющее свою хозяйственную деятельность для обеспечения функционирования средств, сооружений и сетей связи с целью предоставления услуг связи ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

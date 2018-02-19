@@ -11,7 +11,7 @@ concept_medical_organization
 		[Определение понятия "медицинская организация"] (* <-lang_ru;; *);
 		[Definition of the medical organization concept] (* <-lang_en;; *);
 		[Азначэнне паняцця "медыцынская арганізацыя"] (* <-lang_by;; *);;
-	<- sc_definition;;
+	<- sc_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(* 

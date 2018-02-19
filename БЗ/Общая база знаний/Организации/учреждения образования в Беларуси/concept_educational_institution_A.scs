@@ -1,0 +1,82 @@
+concept_educational_institution
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[учреждение образования]
+	(*
+	<- lang_ru;;
+	*);
+	[educational institution]
+	(*
+	<- lang_en;;
+	*);
+	[установа адукацыі]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[учебное учреждение]
+	(*
+	<- lang_ru;;
+	*);
+	[вучэбная установа]
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element:
+	Definition_of_the_educational_institution_concept
+	(*
+	=>nrel_main_idtf:
+		[Определение понятия "учреждение образования"] (* <-lang_ru;; *);
+		[Definition of the educational institution concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "установа адукацыі"] (* <-lang_by;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Учреждение образования — это учреждение, осуществляющее образовательный процесс, реализующее одну или несколько образовательных программ и/или обеспечивающее содержание и воспитание обучающихся.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Educational institution is an institution which implements an educational process and includes one or more educational programs and / or provides keeping and upbringing of students.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Установа адукацыі - гэта ўстанова, якая ажыццяўляе адукацыйны працэс, рэалізуе адну або некалькі адукацыйных праграм і / або якая забяспечвае ўтрыманне і выхаванне навучэнцаў.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;
+
+subdividing_by_stages
+	=>nrel_main_idtf:
+			[разбиение по ступеням] (* <-lang_ru;; *);;
+
+
+concept_educational_institution
+	<=nrel_subdividing: subdividing_by_stages
+				(*
+						->	concept_preschool_educational_institution;
+							concept_common_basic_educational_institution;
+							concept_overall_average_educational_institution;
+							concept_primary_professional_educational_institution;
+							concept_specialized_secondary_educational_institution;
+							concept_higher_professional_educational_institution;;
+				*);;
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+concept_specialized_secondary_educational_institution
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[стреднее специальное учреждение образования]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Учреждение образования — это учреждение, осуществляющее образовательный процесс, реализующее одну или несколько образовательных программ и/или обеспечивающее содержание и воспитание обучающихся.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+concept_specialized_secondary_educational_institution
+	<=nrel_subdividing: ...
+				(*
+						->	concept_technical_college;
+							concept_college;;
+				*);;

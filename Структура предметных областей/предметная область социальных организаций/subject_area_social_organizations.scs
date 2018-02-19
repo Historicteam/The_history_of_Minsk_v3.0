@@ -1,0 +1,30 @@
+subject_area_social_organizations
+=>nrel_main_idtf:
+	[Предметная область социальных организаций] (* <-lang_ru;; *);
+	
+
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Социальная организация - большая социальная группа, сформированная для достижения определенных целей. (Н. Смелзер)] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;
+
+<- rrel_maximum_class_of_research_objects: concept_organization;
+
+<- rrel_not_maximum_class_of_research_objects: concept_informal_organization; 
+<- rrel_not_maximum_class_of_research_objects: concept_labour_organization; 
+<- rrel_not_maximum_class_of_research_objects: concept_non_governmental_organization; 
+<- rrel_not_maximum_class_of_research_objects: concept_formal_organization; 
+
+<- rrel_research_relations:  nrel_email;
+<- rrel_research_relations:  nrel_site;
+<- rrel_research_relations:  nrel_abbreviation;
+<- rrel_research_relations:  nrel_phone_number;
+<- rrel_research_relations:  nrel_personal_composition;;

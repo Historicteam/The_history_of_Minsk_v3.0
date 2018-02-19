@@ -1,0 +1,22 @@
+concept_kindergarten
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[детский сад]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Детский сад — учреждение для общественного воспитания детей дошкольного возраста.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

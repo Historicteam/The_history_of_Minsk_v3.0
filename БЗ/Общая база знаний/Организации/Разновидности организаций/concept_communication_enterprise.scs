@@ -1,0 +1,17 @@
+concept_communication_enterprise
+=>nrel_main_idtf:
+	[транспортные предприятия] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Тра́нспортное предприя́тие — промышленное предприятие, основной задачей которого является перевозка людей и/или транспортировка грузов.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

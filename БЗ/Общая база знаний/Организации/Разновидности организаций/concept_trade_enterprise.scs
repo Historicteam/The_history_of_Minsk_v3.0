@@ -1,0 +1,17 @@
+concept_trade_enterprise
+=>nrel_main_idtf:
+	[предприятия торговли] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Торговое предприятие - это имущественный комплекс, используемый организацией для купли-продажи товаров и оказания услуг торговли.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

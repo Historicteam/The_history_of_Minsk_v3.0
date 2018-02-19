@@ -1,0 +1,17 @@
+concept_industrial_enterprise
+=>nrel_main_idtf:
+	[промышленные предприятия] (* <-lang_ru;; *);
+	
+<-rrel_key_sc_element: ...  
+	(* 
+	
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Промышленные предприятия — это комплекс средств производства, необходимых для выполнения производственного процесса, конечным итогом которого является изготовление конкретной продукции. ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

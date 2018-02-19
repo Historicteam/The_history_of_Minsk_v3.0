@@ -1,0 +1,42 @@
+concept_Russian_Empire_education_system
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[система образования в Российской Империи]
+	(*
+	<- lang_ru;;
+	*);
+	[Russian Empire education system]
+	(*
+	<- lang_en;;
+	*);
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[В начале XIX века в России становятся явственными изменения, порождавшиеся  развитием буржуазных отношений во всех областях экономики, а также растущими международными торговыми отношениями. Развитие промышленности, внедрение новых технических и агрономических  методов в сельском хозяйстве, растущие города, которые требовали развития транспорта, средств связи – все это усиливало потребность  не только в специалистах, но и просто в грамотных людях, которые могли бы соответствовать требованиям времени.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+concept_Russian_Empire_education_system
+	<=nrel_subdividing: ...
+				(*
+						->concept_public_education_RE;
+						  concept_female_education_RE;
+						  concept_private_guest_houses_RE;
+						  concept_home_education_RE;
+						  concept_closed_educational_institutions_for_noble_children_RE;;
+				*);;
+
+
+
+
+

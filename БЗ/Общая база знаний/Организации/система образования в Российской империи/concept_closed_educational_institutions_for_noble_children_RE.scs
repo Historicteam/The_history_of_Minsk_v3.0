@@ -1,0 +1,30 @@
+concept_closed_educational_institutions_for_noble_children_RE
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[закрытые учебные заведения для дворянских детей]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	
+	<-sc_explanation;;
+	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Система закрытых учебных заведений для дворянских детей в основном состояла из военных училищ (кадетских корпусов). Военная служба считалась престижной для дворян. Корпуса  давали воспитанникам общеобразовательную и военную подготовку.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+concept_closed_educational_institutions_for_noble_children_RE
+	<=nrel_subdividing: ...
+				(*
+						->concept_cadet_corps_RE;;
+				*);;

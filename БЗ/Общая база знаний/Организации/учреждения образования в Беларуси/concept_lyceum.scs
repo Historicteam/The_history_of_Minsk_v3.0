@@ -1,0 +1,22 @@
+concept_lyceum
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[лицей]
+	(*
+	<- lang_ru;;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[лицей - Наименование некоторых средних общеобразовательных и профессиональных учебных заведений, работающих по своим учебным программам.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

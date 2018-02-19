@@ -31,7 +31,7 @@ concept_educational_institution
 		[Определение понятия "учреждение образования"] (* <-lang_ru;; *);
 		[Definition of the educational institution concept] (* <-lang_en;; *);
 		[Азначэнне паняцця "установа адукацыі"] (* <-lang_by;; *);;
-	<-sc_definition;;
+	<-sc_explanation;;
 	<=nrel_sc_text_translation:
 		...
 		(*

@@ -1,0 +1,13 @@
+rrel_teacher_of_latin_language
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[учитель Латинского языка']
+	(*
+		<-lang_ru;;
+	*);
+	[teacher of Latin language']
+	(*
+		<-lang_en;;
+	*);;

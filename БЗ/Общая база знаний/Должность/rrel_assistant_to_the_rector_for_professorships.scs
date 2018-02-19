@@ -1,0 +1,13 @@
+rrel_assistant_to_the_rector_for_professorships
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[помощник ректора по профессорской должности']
+	(*
+		<-lang_ru;;
+	*);
+	[assistant to the rector for professorships']
+	(*
+		<-lang_en;;
+	*);;

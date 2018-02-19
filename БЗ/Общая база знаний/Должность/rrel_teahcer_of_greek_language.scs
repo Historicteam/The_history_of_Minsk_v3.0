@@ -1,0 +1,13 @@
+rrel_teacher_of_greek_language
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[учитель Греческого языка']
+	(*
+		<-lang_ru;;
+	*);
+	[teacher of Greek language']
+	(*
+		<-lang_en;;
+	*);;

@@ -1,0 +1,26 @@
+Vysokogo_rynka_squere
+=>nrel_main_idtf:
+	[Площадь Высокого рынка]
+	(*
+		<-lang_ru;;
+	*);
+	[Vysokogo rynka squere]
+	(*
+		<-lang_en;;
+	*);
+	[Плошча Высокага рынку]
+	(*
+		<-lang_by;;
+	*);
+<-concept_square;
+<=nrel_subdividing:
+{
+	building_the_hajdukievich_house;
+	building_the_minsk_city_theater
+};;
+
+concept_situation->[*
+Vysokogo_rynka_squere
+<=nrel_temporal_decomposition:
+Freedom_Square;;
+*];;

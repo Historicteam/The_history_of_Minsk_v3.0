@@ -1,0 +1,11 @@
+action_sing
+=>nrel_main_idtf:
+	[действие. петь]
+	(*
+		<-lang_ru;;
+	*);
+	[action. to sing]
+	(*
+		<-lang_en;;
+	*);
+<=nrel_inclusion:concept_action;;

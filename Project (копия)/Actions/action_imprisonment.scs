@@ -1,0 +1,11 @@
+action_imprisonment
+=>nrel_main_idtf:
+	[действие. заключение]
+	(*
+		<-lang_ru;;
+	*);
+	[action. imprisonment]
+	(*
+		<-lang_en;;
+	*);
+<=nrel_inclusion:concept_action;;

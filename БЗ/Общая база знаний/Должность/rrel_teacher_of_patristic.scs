@@ -1,0 +1,13 @@
+rrel_teacher_of_patristic
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[учитель патристики']
+	(*
+		<-lang_ru;;
+	*);
+	[teacher of patristic']
+	(*
+		<-lang_en;;
+	*);;

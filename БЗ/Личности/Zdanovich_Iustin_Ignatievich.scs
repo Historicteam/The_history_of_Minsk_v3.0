@@ -1,0 +1,49 @@
+Zdanovich_Iustin_Ignatievich
+=>nrel_main_idtf:
+	[Зданович Иустин Игнатьевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Zdanovich Iustin Ignat'ievich]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+<-concept_court_councillor;
+=>nrel_first_name:name_Iustin;
+=>nrel_surname:surname_Zdanovich;
+<=nrel_parent:Zdanovich_Ivan_Ustinovich;
+=>nrel_parent:Zdanovich_Ignatij;;
+
+concept_situation=>[*
+organization_the_orthodox_theological_seminary
+->rrel_teacher_of_agriculture:Zdanovich_Iustin_Ignatievich;
+->rrel_teacher_of_natural_history:Zdanovich_Iustin_Ignatievich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Зданович Иустин Игнатьевич был учителем сельского хозяйства Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Зданович Иустин Игнатьевич был учителем естественной истории Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_16_07_1846;;
+	<-completion_date_1865;;
+*);;
+
+Zdanovich_Ignatij
+=>nrel_main_idtf:
+	[Зданович Игнатий]
+	(*
+		<-lang_ru;;
+	*);
+	[Zdanovich Ignatij]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Ignatij;
+=>nrel_surname:surname_Zdanovich;;

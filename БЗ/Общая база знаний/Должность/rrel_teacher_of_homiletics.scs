@@ -1,0 +1,13 @@
+rrel_teacher_of_homiletics
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[учитель гомилетики']
+	(*
+		<-lang_ru;;
+	*);
+	[teacher of homiletics']
+	(*
+		<-lang_en;;
+	*);;

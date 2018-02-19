@@ -1,0 +1,90 @@
+organization_the_dunin_marcinkievich_theater
+=>nrel_main_idtf:
+	[Театр Дунина-Марцинкевича]
+	(*
+		<-lang_ru;;
+	*);
+	[The Dunin-Marcinkievuch theater]
+	(*
+		<-lang_en;;
+	*);
+	[Тэатр Дуніна-Марцінкевіча]
+	(*
+		<-lang_by;;
+	*);
+<-concept_theater;
+<-concept_cultural_organization;
+=>nrel_founder:Dunin_Marcinkievich_Vincent_Ivanovich;
+<-completion_date_1856;;
+
+concept_situation->[*
+organization_the_dunin_marcinkievich_theater
+->rrel_director:Dunin_Marcinkievich_Vincent_Ivanovich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Дунин-Марцинкевич Винцент был руководителем своего театра]
+		(*
+			<-lang_ru;;
+		*);;
+	<-completion_date_1856;;
+*);;
+
+concept_situation->[*
+organization_the_dunin_marcinkievich_theater
+->Dunin_Marcinkievich_Kamilla_Vincientovna;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Дунин-Марцинкевич Камилла Винцентовна была членом театра Дунина-Марцинкевича]
+		(*
+			<-lang_ru;;
+		*);;
+	<-completion_date_1856;;
+*);;
+
+concept_situation->[*
+action_put_on_a_play->action_put_the_play_idilliya
+	(*
+		=>nrel_main_idtf:
+			[действие. поставить пьесу "Идиллия"]
+			(*
+				<-lang_ru;;
+			*);;
+		=>nrel_initiator:Dunin_Marcinkievich_Vincent_Ivanovich;;
+		=>nrel_object:piece_idilliya;;
+		=>nrel_performer:organization_the_dunin_marcinkievich_theater;;
+		=>nrel_location:The_building_of_the_Minsk_City_Theatre;;
+		->action_conduct_the_libretto_of_piece_idilliya
+		(*
+			=>nrel_main_idtf:
+				[действие. дирижировать либретто пьесы "Идиллия"]
+				(*
+					<-lang_ru;;
+				*);;
+			<-action_conduct;;
+			=>nrel_performer:Moniuszko_Stanislav_Chieslavovich;;
+			=>nrel_object:action_perform_the_libretto_of_piece_idilliya;;			
+		*);;
+		->action_perform_the_libretto_of_piece_idilliya	
+		(*
+			=>nrel_main_idtf:
+				[действие. исполнить либретто пьесы "Идиллия"]
+				(*
+					<-lang_ru;;
+				*);;
+			<-action_perform_a_libretto;;
+			=>nrel_performer:Dunin_Marcinkievich_Kamilla_Vincientovna;;
+			=>nrel_object:libretto_of_piece_idilliya;;
+		*);;
+	*);;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени премьеры пьесы "Идиллия" Дунина-Марцинкевича Винцента]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_09_02_1852;;
+	<-completion_date_09_02_1852;;
+*);;

@@ -1,0 +1,43 @@
+Dunin_Marcinkievich_Vincent_Ivanovich
+=> nrel_main_idtf:
+	[Дунин-Марцинкевич Винцент Иванович]
+	(*
+	<- lang_ru;;
+	*);
+	[Dunin-Marcinkievich Vincient Ivanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Дунін-Марцінкевіч Вінцэнт Iванавiч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Vincient;
+=>nrel_middle_name:name_Jakub;
+=>nrel_surname:surname_Dunin_Marcinkievich;
+<-concept_participant_of_the_uprising_1863;;
+////////////////////////////////////////////////
+concept_situation->[*
+Dunin_Marcinkievich_Vincent_Ivanovich
+<=nrel_object:...
+	(*
+		=>nrel_main_idtf:
+			[действие. заключение Дунина-Марцинкевича Винцента Ивановича в Пищаловском замке]
+			(*
+				<-lang_ru;;
+			*);;
+		<-action_imprisonment;;
+		=>nrel_initiator:organization_the_minsk_investigative_commission;;
+		=>nrel_location:Pichalovski_Castle;;
+	*);;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени заключения Дунина-Марцинкевича Винцента Ивановича в Пищаловском замке]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1864;;
+	<-completion_date_1865;;
+*);;

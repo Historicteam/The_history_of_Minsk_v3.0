@@ -1,0 +1,13 @@
+rrel_professor_of_canon_law
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[профессор канонического права']
+	(*
+		<-lang_ru;;
+	*);
+	[professor of canon law']
+	(*
+		<-lang_en;;
+	*);;

@@ -1,0 +1,13 @@
+rrer_professor_of_church_history
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[профессор церковной истории']
+	(*
+		<-lang_ru;;
+	*);
+	[professor of church history']
+	(*
+		<-lang_en;;
+	*);;

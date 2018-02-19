@@ -1,4 +1,4 @@
-action_play_a_role
+action.play_a_role
 =>nrel_main_idtf:
 	[действие. играть роль]
 	(*
@@ -8,4 +8,4 @@ action_play_a_role
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:concept_action;;
+<=nrel_inclusion:actions_class;;

@@ -1,4 +1,4 @@
-action_sing
+action.sing
 =>nrel_main_idtf:
 	[действие. петь]
 	(*
@@ -8,4 +8,4 @@ action_sing
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:concept_action;;
+<=nrel_inclusion:actions_class;;

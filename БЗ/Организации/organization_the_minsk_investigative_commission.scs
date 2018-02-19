@@ -40,26 +40,3 @@ organization_the_minsk_investigative_commission
 	<-begin_date_1863;;
 	<-completion_date_1865;;
 *);;
-
-concept_situation->[*
-organization_the_minsk_investigative_commission
-<=nrel_performer:...
-	(*
-		=>nrel_main_idtf:
-			[действие. вести следствие по делу Дунин-Марцинкевич Камиллы Винцентовны]
-			(*
-				<-lang_ru;;
-			*);;
-		<-action_investigate;;
-		=>nrel_object:Dunin_Marcinkievich_Kamilla_Vincientovna;;
-		=>nrel_location:building_of_the_church_of_St_Joseph;;
-	*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени следствия по делу Дунин-Марцинкевич Камиллы Винцентовны]
-		(*
-			<-lang_ru;;
-		*);;
-	<-time_point_1863;;
-*);;

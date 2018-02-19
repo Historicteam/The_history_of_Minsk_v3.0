@@ -1,4 +1,4 @@
-action_perform_a_libretto
+action.perform_a_libretto
 =>nrel_main_idtf:
 	[действие. исполнить либретто]
 	(*
@@ -8,4 +8,4 @@ action_perform_a_libretto
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:concept_action;;
+<=nrel_inclusion:actions_class;;

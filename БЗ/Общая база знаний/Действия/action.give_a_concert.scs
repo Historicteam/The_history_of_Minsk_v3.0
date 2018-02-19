@@ -1,4 +1,4 @@
-action_give_a_concert
+action.give_a_concert
 =>nrel_main_idtf:
 	[действие. дать концерт]
 	(*
@@ -8,4 +8,4 @@ action_give_a_concert
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:concept_action;;
+<=nrel_inclusion:actions_class;;

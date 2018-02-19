@@ -1,4 +1,4 @@
-action_imprisonment
+action.imprisonment
 =>nrel_main_idtf:
 	[действие. заключение]
 	(*
@@ -8,4 +8,4 @@ action_imprisonment
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:concept_action;;
+<=nrel_inclusion:actions_class;;

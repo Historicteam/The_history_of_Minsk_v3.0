@@ -1,4 +1,4 @@
-action_put_on_a_play
+action.put_a_play
 =>nrel_main_idtf:
 	[действие. поставить пьесу]
 	(*
@@ -8,4 +8,4 @@ action_put_on_a_play
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:concept_action;;
+<=nrel_inclusion:actions_class;;

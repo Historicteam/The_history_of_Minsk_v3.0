@@ -1,4 +1,4 @@
-action_investigate
+action.investigate
 =>nrel_main_idtf:
 	[действие. вести следствие]
 	(*
@@ -8,4 +8,4 @@ action_investigate
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:concept_action;;
+<=nrel_inclusion:actions_class;;

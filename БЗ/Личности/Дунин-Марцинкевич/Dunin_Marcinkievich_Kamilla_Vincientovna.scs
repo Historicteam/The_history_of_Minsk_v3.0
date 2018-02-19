@@ -45,21 +45,9 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 
 concept_situation->[*
 Dunin_Marcinkievich_Kamilla_Vincientovna
-=>nrel_godfather:Uminskij_Juzief;
-=>nrel_godmother:Volotovskaja_Barbara;;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени, когда Дунин-Марцинкевич Камиллу Винцентовну крестили водой]
-		(*
-			<-lang_ru;;
-		*);;
-	<-begin_date_22_11_1834;;
-	<-completion_date_22_11_1834;;
-*);;
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna
 =>nrel_middle_name:name_Omalija;
+=>nrel_godfather:Uminskij_Juzief;
+=>nrel_godmother:Volotovskaja_Barbara;
 =>nrel_godfather:Liegatovich_Ignat;
 =>nrel_godfather:Shimkievich_Florian;
 =>nrel_godfather:Bochkovskij_Bohuslav;
@@ -69,73 +57,12 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 *]
 (*
 	=>nrel_main_idtf:
-		[Контур периода времени, когда Дунин-Марцинкевич Камиллу Винцентовну крестили святыми аллеями]
+		[Контур периода времени, когда Дунин-Марцинкевич Камиллу Винцентовну крестили]
 		(*
 			<-lang_ru;;
 		*);;
-	<-begin_date_16_12_1834;;
+	<-begin_date_22_11_1834;;
 	<-completion_date_16_12_1834;;
-*);;
-
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna<=nrel_initiator:...
-(*
-	=>nrel_main_idtf:
-		[действие. дать концерт в г. Киеве]
-		(*
-			<-lang_ru;;
-		*);;
-	<-action_give_a_concert;;
-	=>nrel_location:city_kiev;;
-*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени, когда Дунин-Марцинкевич Камилла Винцентовна давала концерт в г. Киеве]
-		(*
-			<-lang_ru;;
-		*);;
-	<-time_point_1849;;
-*);;
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna<=nrel_initiator:...
-(*
-	=>nrel_main_idtf:
-		[действие. дать концерт в г. Минске]
-		(*
-			<-lang_ru;;
-		*);;
-	<-action_give_a_concert;;
-	=>nrel_location:the_city_of_Minsk;;
-*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени, когда Дунин-Марцинкевич Камилла Винцентовна давала концерт в г. Минске]
-		(*
-			<-lang_ru;;
-		*);;
-	<-time_point_1850;;
-*);;
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna<=nrel_initiator:...
-(*
-	=>nrel_main_idtf:
-		[действие. дать концерт в Варшаве]
-		(*
-			<-lang_ru;;
-		*);;
-	<-action_give_a_concert;;
-	=>nrel_location:Warsaw;;
-*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени, когда Дунин-Марцинкевич Камилла Винцентовна давала концерт в Варшаве]
-		(*
-			<-lang_ru;;
-		*);;
-	<-time_point_1850;;
 *);;
 
 concept_situation->[*
@@ -231,117 +158,4 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 		*);;
 	<-begin_date_1865;;
 	<-completion_date_1900;;	
-*);;
-
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna
-<=nrel_object:...
-	(*
-		=>nrel_main_idtf:
-			[действие. арест Дунин-Марцинкевич Камиллы Винцентовны в 1861 г.]
-			(*
-				<-lang_ru;;
-			*);;
-		<-action_arrest;;
-		=>nrel_initiator:Kushelev_Serhei_Egorovich;;
-		=>nrel_performer:organization_the_minsk_investigative_commission;;
-		=>nrel_location:Mariinsky_Cathedra;;
-	*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени ареста Дунин-Марцинкевич Камиллы Винцентовны в 1861 г.]
-		(*
-			<-lang_ru;;
-		*);;
-	<-time_point_1861;;
-*);;
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna
-<=nrel_object:...
-	(*
-		=>nrel_main_idtf:
-			[действие. арест Дунин-Марцинкевич Камиллы Винцентовны в 1863 г.]
-			(*
-				<-lang_ru;;
-			*);;
-		<-action_arrest;;
-		=>nrel_initiator:Bojevnokov_Andrei_Lvovich;;
-		=>nrel_performer:organization_the_minsk_investigative_commission;;
-	*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени ареста Дунин-Марцинкевич Камиллы Винцентовны в 1863 г.]
-		(*
-			<-lang_ru;;
-		*);;
-	<-time_point_1863;;
-*);;
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna
-<=nrel_object:...
-	(*
-		=>nrel_main_idtf:
-			[действие. заключение Дунин-Марцинкевич Камиллы Винцентовны в психиатрическом отделении Минской больницы Приказа общественного призрения]
-			(*
-				<-lang_ru;;
-			*);;
-		<-action_imprisonment;;
-		=>nrel_performer:organization_Minsk_Hospital;;
-		=>nrel_location:building_of_psychiatry_of_minsk_hospital;;
-	*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени заключения Дунин-Марцинкевич Камиллы Винцентовны в психиатрическом отделении Минской больницы Приказа общественного призрения]
-		(*
-			<-lang_ru;;
-		*);;
-	<-begin_date_1861;;
-	<-completion_date_1862;;
-*);;
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna
-<=nrel_object:...
-	(*
-		=>nrel_main_idtf:
-			[действие. заключение Дунин-Марцинкевич Камиллы Винцентовны в здании жилого корпуса монастыря бернардинцев]
-			(*
-				<-lang_ru;;
-			*);;
-		<-action_imprisonment;;
-		=>nrel_initiator:organization_the_minsk_investigative_commission;;
-		=>nrel_location:building_of_residential_housing_of_male_Bernardine_monastery;;
-	*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени заключения Дунин-Марцинкевич Камиллы Винцентовны в здании жилого корпуса монастыря бернардинцев]
-		(*
-			<-lang_ru;;
-		*);;
-	<-time_point_1863;;
-*);;
-concept_situation->[*
-Dunin_Marcinkievich_Kamilla_Vincientovna
-<=nrel_object:...
-	(*
-		=>nrel_main_idtf:
-			[действие. заключение Дунин-Марцинкевич Камиллы Винцентовны в Пищаловском замке]
-			(*
-				<-lang_ru;;
-			*);;
-		<-action_imprisonment;;
-		=>nrel_initiator:organization_the_minsk_investigative_commission;;
-		=>nrel_location:Pichalovski_Castle;;
-	*);;
-*]
-(*
-	=>nrel_main_idtf:
-		[Контур периода времени заключения Дунин-Марцинкевич Камиллы Винцентовны в Пищаловском замке]
-		(*
-			<-lang_ru;;
-		*);;
-	<-time_point_1863;;
 *);;

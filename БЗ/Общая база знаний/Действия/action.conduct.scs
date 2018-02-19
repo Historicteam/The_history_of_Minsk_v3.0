@@ -1,4 +1,4 @@
-action_conduct
+action.conduct
 =>nrel_main_idtf:
 	[действие. дирижировать]
 	(*
@@ -8,4 +8,4 @@ action_conduct
 	(*
 		<-lang_en;;
 	*);
-<=nrel_inclusion:concept_action;;
+<=nrel_inclusion:actions_class;;

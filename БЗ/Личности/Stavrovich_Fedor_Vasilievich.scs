@@ -1,0 +1,75 @@
+Stavrovich_Fedor_Vasilievich
+=>nrel_main_idtf:
+	[Ставрович Фёдор Васильевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Stavrovich Fedor Vasil'ievich]
+	(*
+		<-lang_en;;
+	*);
+	[Стаўровіч Фёдар Васільевіч]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname:surname_Stavrovich;
+=>nrel_first_name:name_Fedor;
+=>nrel_parent:Stavrovich_Vasilij;;
+
+concept_situation=>[*
+organization_the_orthodox_theological_seminary->rrel_inspector:Stavrovich_Fedor_Vasilievich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Ставрович Фёдор Васильевич был инспектором Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_18_02_1863;;
+	<-completion_date_1865;;
+*);;
+
+concept_situation=>[*
+organization_the_orthodox_theological_seminary
+->rrer_professor_of_church_history:Stavrovich_Fedor_Vasilievich;
+->rrel_professor_of_canon_law:Stavrovich_Fedor_Vasilievich;
+->rrel_professor_of_liturgics:Stavrovich_Fedor_Vasilievich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Ставрович Фёдор Васильевич был профессором церковной истории Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Ставрович Фёдор Васильевич был профессором канонического права Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Ставрович Фёдор Васильевич был профессором литургики Минской духовной семинарии]
+				(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_27_12_1857;;
+	<-completion_date_1865;;
+*);;
+
+
+Stavrovich_Vasilij
+=>nrel_main_idtf:
+	[Ставрович Василий]
+	(*
+		<-lang_ru;;
+	*);
+	[Stavrovich Vasilij]
+	(*
+		<-lang_en;;
+	*);
+	[Стаўровіч Васілій]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname:surname_Stavrovich;
+=>nrel_first_name:name_Vasilij;;
+

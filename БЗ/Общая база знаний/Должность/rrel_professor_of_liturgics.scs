@@ -1,0 +1,13 @@
+rrel_professor_of_liturgics
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[профессор литургики']
+	(*
+		<-lang_ru;;
+	*);
+	[professor of liturgics']
+	(*
+		<-lang_en;;
+	*);;

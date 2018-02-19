@@ -1,0 +1,57 @@
+Mihulin_Aleksej_Stepanovich
+=>nrel_main_idtf:
+	[Мигулин Алексей Степанович]
+	(*
+		<-lang_ru;;
+	*);
+	[Mihulin Aleksej Stepanovich]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Alexey;
+=>nrel_surname:surname_Mihulin;
+=>nrel_parent:Mihulin_Stepan;;
+
+concept_situation=>[*
+organization_the_orthodox_theological_seminary
+->rrel_assistant_to_the_rector_for_professorships:Mihulin_Aleksej_Stepanovich;
+->rrel_teacher_of_homiletics:Mihulin_Aleksej_Stepanovich;
+->rrel_teacher_of_accusatory_theology:Mihulin_Aleksej_Stepanovich;
+->rrel_teacher_of_moral_theology:Mihulin_Aleksej_Stepanovich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Мигулин Алексей Степанович был помощником ректора по профессорской должности Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Мигулин Алексей Степанович был учителем гомилетики Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Мигулин Алексей Степанович был учителем обличительного богословия Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);
+		[Контур периода времени, когда Мигулин Алексей Степанович был учителем нравственного богословия Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_15_02_1864;;
+	<-completion_date_1865;;
+*);;
+
+Mihulin_Stepan
+=>nrel_main_idtf:
+	[Мигулин Степан]
+	(*
+		<-lang_ru;;
+	*);
+	[Mihulin_Stepan]
+	(*
+		<-lang_ru;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Stepan;
+=>nrel_surname:surname_Mihulin;;

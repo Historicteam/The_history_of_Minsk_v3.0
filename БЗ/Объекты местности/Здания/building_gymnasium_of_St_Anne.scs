@@ -12,6 +12,7 @@ building_Gymnasium_of_St_Anne
 	(*
 	<- lang_by;;
 	*);
+=>nrel_osm_query:[way(89430625);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

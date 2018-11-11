@@ -68,7 +68,9 @@ Freedom_Square
 		The_building_of_the_Minsk_City_Theatre;
 		Building_courtyard_seating;
 		The_building_of_the_Jesuit_school;
-		The_building_wing_urban_estate
+		The_building_wing_urban_estate;
+                building_Jesuit_College;
+                The_building_of_the_chapel_of_Felician
 	};
 <- rrel_key_sc_element: ...
 	(*

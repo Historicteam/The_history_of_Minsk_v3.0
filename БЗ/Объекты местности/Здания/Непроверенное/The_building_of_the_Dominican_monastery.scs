@@ -41,17 +41,12 @@ the_building_of_the_Dominican_monastery
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;
+	*);
 
-    => nrel_start_time: ...
-   
-            (*
-                <- begin_date_1615;;
+<- begin_date_1615;
           
-                <- completion_date_1650;;
-            *);
-    
+<- completion_date_1650;
+
 => nrel_geographical_location: ...
     (*
     <-concept_mapped_point;;
@@ -113,15 +108,11 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
 *);;
 *]
 (*
-=> nrel_start_time: ...
-                (*
-                <= nrel_time_period: ...
-                    (*
-                        <- begin_date_1800;;
+
+     <- begin_date_1800;;
           
-                        <- completion_date_1899;;
-                    *);;
-                *);;
+     <- completion_date_1899;;
+
 *);;
 
 
@@ -136,13 +127,8 @@ st_Thomas_Aquinas_church
 
 concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: st_Thomas_Aquinas_church;;*]
 (*
-  => nrel_start_time: ...
-            (*
-                <- begin_date_1615;;
-          
-                <- completion_date_1650;;
-            *);;
-    <- completion_date_1702;;
+   <- begin_date_1615;;
+   <- completion_date_1702;;
  *);;   
 
 
@@ -224,13 +210,10 @@ concept_situation->[*the_building_of_the_Dominican_monastery<-concept_lost_const
 
 concept_situation->[*the_building_of_the_Dominican_monastery <-concept_arch_baroque;;*]
 (*
-    => nrel_start_time: ...
-   
-            (*
-                <- begin_date_1615;;
+<- begin_date_1615;;
           
-                <- completion_date_1650;;
-            *);;
+<- completion_date_1650;;
+
  *);; 
  
 

@@ -48,6 +48,8 @@ Urban_homestead
 	[Urban homestead] (* <- lang_en;; *);
 	[Гарадская сядзіба] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(25387289);];
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

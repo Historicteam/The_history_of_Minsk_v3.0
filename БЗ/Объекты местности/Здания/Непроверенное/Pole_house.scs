@@ -6,6 +6,8 @@ Pole_house
 	[Pole house] (* <- lang_en;; *);
 	[Дом Паляка] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(25327595);];
+
 <- rrel_key_sc_element: Picture_House_Pole (*
 	=> nrel_main_idtf:
 		[Изображение дома Поляка] (* <- lang_ru;; *);

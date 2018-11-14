@@ -6,6 +6,8 @@ building_of_the_restaurant_Potsdam
 	[The restaurant Potsdam] (* <- lang_en;; *);
 	[Будынак рэстарацыі "Патсдам"] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(362537218);];
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

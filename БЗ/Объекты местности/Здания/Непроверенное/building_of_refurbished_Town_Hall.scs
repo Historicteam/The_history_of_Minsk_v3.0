@@ -5,6 +5,8 @@ building_of_refurbished_Town_Hall
 	[Refurbished Town Hall] (* <- lang_en;; *);
 	[Адноўлены будынак ратушы] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(25387231);];
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

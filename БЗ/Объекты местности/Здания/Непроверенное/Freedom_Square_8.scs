@@ -5,6 +5,8 @@ Freedom_Square_8
 	[Freedom Square, 8] (* <- lang_en;; *);
 	[Плошча Свабоды, 8] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(25387279);];
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

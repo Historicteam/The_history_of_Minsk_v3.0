@@ -37,3 +37,9 @@ building_of_refurbished_Town_Hall
 	2;
 
 <- begin_date_1598;;
+
+concept_situation->[*building_of_refurbished_Town_Hall <- concept_arch_classicism;;*]
+(*
+  <- begin_date_2003;;
+*);;
+

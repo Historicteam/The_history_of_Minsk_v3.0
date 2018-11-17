@@ -1,16 +1,83 @@
 Czapsky_house
+
 => nrel_main_idtf:
+
         [Дом Чапского]
+
 	(*
+
 	<- lang_ru;;
-	*);
-	[Czapsky house]
-	(*
-	<- lang_en;;
-	*);
-	[Дом Чапскага]
-	(*
-	<- lang_by;;
+
 	*);
 
+	[Czapsky house]
+
+	(*
+
+	<- lang_en;;
+
+	*);
+
+	[Дом Чапскага]
+
+	(*
+
+	<- lang_by;;
+
+	*);
+
+
+
+
 <- concept_building;;
+
+=> nrel_osm_query: [way(200662397);];
+=> nrel_geographical_location: ...
+
+  (*
+
+  <-concept_mapped_point;;
+
+  => nrel_WGS_84_translation: [53.746819, 27.331079]
+
+    (*
+
+    -> ...
+
+      (*
+
+      <- concept_coordinate;;
+
+      ->rrel_latitude: ...
+
+        (*
+
+        <=nrel_value: ...
+
+          (*
+
+          -> rrel_degree: 53.746819;;
+
+          *);;
+
+        *);;
+
+      ->rrel_longitude: ...
+
+        (*
+
+        <=nrel_value: ...
+
+          (*
+
+          -> rrel_degree: 27.331079;;
+
+          *);;
+
+        *);;
+
+      *);;
+
+    *);;
+
+  

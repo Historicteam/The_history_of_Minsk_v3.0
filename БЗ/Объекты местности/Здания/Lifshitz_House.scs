@@ -1,15 +1,78 @@
 Lifshitz_House 
+
 => nrel_main_idtf:
+
 		[Дом Лифшица]
+
 		(*
+
 		<- lang_ru;;
+
 		*);
+
 		[House Lifshitz ]
+
 		(*
+
 		<- lang_en;;
+
 		*);
+
 		[дом Ліфшыца]
+
 		(*
+
 		<- lang_by;;
+
 		*);
+
 		<-concept_building;;
+=> nrel_osm_query: [way(332888504);];
+
+=> nrel_geographical_location: ...
+
+  (*
+
+  <-concept_mapped_point;;
+
+  => nrel_WGS_84_translation: [53.901239, 27.553491]
+
+    (*
+
+    -> ...
+
+      (*
+
+      <- concept_coordinate;;
+
+      ->rrel_latitude: ...
+
+        (*
+
+        <=nrel_value: ...
+
+          (*
+
+          -> rrel_degree: 53.901239;;
+
+          *);;
+
+        *);;
+
+      ->rrel_longitude: ...
+
+        (*
+
+        <=nrel_value: ...
+
+          (*
+
+          -> rrel_degree: 27.553491;;
+
+          *);;
+
+        *);;
+
+      *);;
+
+    *);;

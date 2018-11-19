@@ -1,812 +1,225 @@
-{\rtf1\ansi\ansicpg1251\cocoartf1671
-{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red27\green31\blue34;\red21\green23\blue26;}
-{\*\expandedcolortbl;;\cssrgb\c14118\c16078\c18039;\cssrgb\c10588\c12157\c13725\c29804;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\deftab720
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clmgf \clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clmrg \clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-
-\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
-Female_Basilian_Monastery_Building\cell 
-\pard\intbl\itap1\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 <- concept_terrain_object;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 <- concept_building;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 => nrel_main_idtf:\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	[\uc0\u1047 \u1076 \u1072 \u1085 \u1080 \u1077  \u1078 \u1077 \u1085 \u1089 \u1082 \u1086 \u1075 \u1086  \u1073 \u1072 \u1079 \u1080 \u1083 \u1080 \u1072 \u1085 \u1089 \u1082 \u1086 \u1075 \u1086  \u1084 \u1086 \u1085 \u1072 \u1089 \u1090 \u1099 \u1088 \u1103 ]	\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<- lang_ru;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	[Female Basilian Monastery Building]\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<- lang_en;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	[\uc0\u1041 \u1091 \u1076 \u1099 \u1085 \u1072 \u1082  \u1078 \u1072 \u1085 \u1086 \u1095 \u1072 \u1075 \u1072  \u1073 \u1072 \u1079 \u1110 \u1083 \u1100 \u1103 \u1085 \u1089 \u1082 \u1072 \u1075 \u1072  \u1084 \u1072 \u1085 \u1072 \u1089 \u1090 \u1099 \u1088 \u1072 ]	\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<- lang_by;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 => nrel_idtf:\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	[\uc0\u1044 \u1077 \u1090 \u1089 \u1082 \u1072 \u1103  \u1084 \u1091 \u1079 \u1099 \u1082 \u1072 \u1083 \u1100 \u1085 \u1072 \u1103  \u1096 \u1082 \u1086 \u1083 \u1072  \u1080 \u1084 \u1077 \u1085 \u1080  \u1043 \u1083 \u1077 \u1073 \u1086 \u1074 \u1072 ]	\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<- lang_ru;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	[Children's music school named after Glebov]\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<- lang_en;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	[\uc0\u1044 \u1079 \u1110 \u1094 \u1103 \u1095 \u1072 \u1103  \u1084 \u1091 \u1079 \u1099 \u1095 \u1085 \u1072 \u1103  \u1096 \u1082 \u1086 \u1083 \u1072  \u1110 \u1084 \u1103  \u1043 \u1083 \u1077 \u1073 \u1072 \u1074 \u1072 ]	\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<- lang_by;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \
-\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 <- rrel_key_sc_element: \cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	...\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<- sc_definition;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<= nrel_sc_text_translation:\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		...\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		-> rrel_example:\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			[\uc0\u1057 \u1090 \u1088 \u1086 \u1080 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 \u1086  \u1079 \u1076 \u1072 \u1085 \u1080 \u1103  \u1085 \u1072 \u1095 \u1072 \u1083 \u1086 \u1089 \u1100  \u1074  1641 \u1075 \u1086 \u1076 \u1091  \u1087 \u1086  \u1092 \u1091 \u1085 \u1076 \u1072 \u1094 \u1080 \u1080  \u1090 \u1088 \u1086 \u1082 \u1089 \u1082 \u1086 \u1081  \u1082 \u1072 \u1089 \u1090 \u1077 \u1083 \u1103 \u1085 \u1096 \u1080  \u1047 \u1091 \u1079 \u1072 \u1085 \u1099  \u1043 \u1072 \u1085 \u1089 \u1077 \u1074 \u1089 \u1082 \u1086 \u1081 . \u1042 \u1086  \u1074 \u1088 \u1077 \u1084 \u1103  \u1077 \u1075 \u1086  \u1089 \u1090 \u1088 \u1086 \u1080 \u1090 \u1077 \u1083 \u1100 \u1089 \u1090 \u1074 \u1072  \u1073 \u1099 \u1083 \u1080  \u1080 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1086 \u1074 \u1072 \u1085 \u1099  \u1087 \u1086 \u1076 \u1074 \u1072 \u1083 \u1099  \u1080  \u1089 \u1090 \u1077 \u1085 \u1099  \u1090 \u1077 \u1093  \u1078 \u1080 \u1083 \u1099 \u1093  \u1079 \u1076 \u1072 \u1085 \u1080 \u1081 , \u1082 \u1086 \u1090 \u1086 \u1088 \u1099 \u1077  \u1085 \u1072 \u1093 \u1086 \u1076 \u1080 \u1083 \u1080 \u1089 \u1100  \u1085 \u1072  \u1101 \u1090 \u1086 \u1084  \u1084 \u1077 \u1089 \u1090 \u1077  \u1088 \u1072 \u1085 \u1077 \u1077 . \u1042  \u1079 \u1076 \u1072 \u1085 \u1080 \u1080  \u1088 \u1072 \u1089 \u1087 \u1086 \u1083 \u1072 \u1075 \u1072 \u1083 \u1089 \u1103  \u1084 \u1086 \u1085 \u1072 \u1089 \u1090 \u1099 \u1088 \u1100  \u1057 \u1074 \u1103 \u1090 \u1086 \u1075 \u1086  \u1076 \u1091 \u1093 \u1072  \u1073 \u1072 \u1079 \u1080 \u1083 \u1080 \u1072 \u1085 \u1086 \u1082 .]\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			<- lang_ru;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			*);;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		...\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		-> rrel_example:\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			[The building,sponsored by Trok\'92s castellan Zuzanna Hansevskaja, beganin 1641. During the building were used basements and walls of previous houses, located on this place. I the building the Holi spirit female basilian\'92s monastery was located.]\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			<- lang_en;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			*);;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		...\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		-> rrel_example:\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			[\uc0\u1041 \u1091 \u1076 \u1072 \u1118 \u1085 \u1110 \u1094 \u1090 \u1074 \u1072  \u1087 \u1072 \u1095 \u1072 \u1083 \u1086 \u1089 \u1103  \u1118  1641 \u1075 \u1086 \u1076 \u1079 \u1077  \u1087 \u1072  \u1092 \u1091 \u1085 \u1076 \u1072 \u1094 \u1099 \u1110  \u1090 \u1088 \u1086 \u1082 \u1089 \u1082 \u1072 \u1081  \u1082 \u1072 \u1089 \u1094 \u1103 \u1083 \u1103 \u1085 \u1096 \u1099  \u1047 \u1091 \u1079 \u1072 \u1085 \u1099  \u1043 \u1072 \u1085 \u1089 \u1077 \u1118 \u1089 \u1082 \u1072 \u1081 . \u1055 \u1072 \u1076 \u1095 \u1072 \u1089  \u1073 \u1091 \u1076 \u1072 \u1118 \u1085 \u1110 \u1094 \u1090 \u1074 \u1072  \u1073 \u1099 \u1083 \u1110  \u1074 \u1099 \u1082 \u1072 \u1088 \u1099 \u1089 \u1090 \u1072 \u1085 \u1099 \u1103  \u1087 \u1072 \u1076 \u1074 \u1072 \u1083 \u1099  \u1110  \u1089 \u1094 \u1077 \u1085 \u1099  \u1090 \u1099 \u1093  \u1078 \u1099 \u1083 \u1099 \u1093  \u1073 \u1091 \u1076 \u1099 \u1085 \u1082 \u1072 \u1118 , \u1103 \u1082 \u1110 \u1103  \u1088 \u1072 \u1079 \u1084 \u1103 \u1096 \u1095 \u1072 \u1083 \u1110 \u1089 \u1103  \u1090 \u1091 \u1090  \u1088 \u1072 \u1085 \u1077 \u1081 . \u1059  \u1073 \u1091 \u1076 \u1099 \u1085 \u1082 \u1091  \u1088 \u1072 \u1079 \u1084 \u1103 \u1096 \u1095 \u1072 \u1083 \u1089 \u1103  \u1084 \u1072 \u1085 \u1072 \u1089 \u1090 \u1099 \u1088  \u1057 \u1074 \u1103 \u1090 \u1086 \u1075 \u1072  \u1076 \u1091 \u1093 \u1072  \u1073 \u1072 \u1079 \u1110 \u1083 \u1110 \u1103 \u1085 \u1072 \u1082 .]\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			<- lang_by;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			*);;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		*);;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \
-\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 => nrel_osm_query: [node(1369959004);];\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \
-\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 <- rrel_key_sc_element: ...\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<-sc_illustration;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<=nrel_sc_text_translation:\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		...\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		->rrel_example: "file://content/wommon1.jpg"\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			=> nrel_format: format_jpg;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			*);;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		*);;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*);\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 <- rrel_key_sc_element: ...\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<-sc_illustration;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	<=nrel_sc_text_translation:\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		...\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		->rrel_example: "file://content/wommon2.jpg"\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			(*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			=> nrel_format: format_jpg;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 			*);;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 		*);;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 	*)\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 ;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 => nrel_geographical_location: ...\
-\cf3 \
-\cf2   (*\
-\cf3 \
-\cf2   <-concept_mapped_point;;\
-\cf3 \
-\cf2   => nrel_WGS_84_translation: [53.904185, 27.557831]\
-\cf3 \
-\cf2     (*\
-\cf3 \
-\cf2     -> ...\
-\cf3 \
-\cf2       (*\
-\cf3 \
-\cf2       <- concept_coordinate;;\
-\cf3 \
-\cf2       ->rrel_latitude: ...\
-\cf3 \
-\cf2         (*\
-\cf3 \
-\cf2         <=nrel_value: ...\
-\cf3 \
-\cf2           (*\
-\cf3 \
-\cf2           -> rrel_degree: 53.904185;;\
-\cf3 \
-\cf2           *);;\
-\cf3 \
-\cf2         *);;\
-\cf3 \
-\cf2       ->rrel_longitude: ...\
-\cf3 \
-\cf2         (*\
-\cf3 \
-\cf2         <=nrel_value: ...\
-\cf3 \
-\cf2           (*\
-\cf3 \
-\cf2           -> rrel_degree: 27.557831;;\
-\cf3 \
-\cf2           *);;\
-\cf3 \
-\cf2         *);;\
-\cf3 \
-\cf2       *);;\
-\cf3 \
-\cf2     *);;\cf2 \cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 \
-\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 concept_situation->[*Female_Basilian_Monastery_Building <- concept_arch_baroque;;*]\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2 (*\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2         <- begin_date_1641;;\cell \row
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth1000\clftsWidth3 \clminw1000 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clvertalt \clshdrawnil \clwWidth42880\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf3 \cell 
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf2  *);; \cell \lastrow\row
-}
+Female_Basilian_Monastery_Building
+
+<- concept_terrain_object;
+
+<- concept_building;
+
+=> nrel_main_idtf:
+
+[«дание женского базилианского монастыр€] 
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[Female Basilian Monastery Building]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[Ѕудынак жаночага баз≥ль€нскага манастыра] 
+
+(*
+
+<- lang_by;;
+
+*);
+
+=> nrel_idtf:
+
+[ƒетска€ музыкальна€ школа имени √лебова] 
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[Children's music school named after Glebov]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[ƒз≥ц€ча€ музычна€ школа ≥м€ √лебава] 
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element: 
+
+...
+
+(*
+
+<- sc_definition;;
+
+<= nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[—троительство здани€ началось в 1641 году по фундации трокской кастел€нши «узаны √ансевской. ¬о врем€ его строительства были использованы подвалы и стены тех жилых зданий, которые находились на этом месте ранее. ¬ здании располагалс€ монастырь —в€того духа базилианок.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[The building,sponsored by TrokТs castellan Zuzanna Hansevskaja, beganin 1641. During the building were used basements and walls of previous houses, located on this place. I the building the Holi spirit female basilianТs monastery was located.]
+
+(*
+
+<- lang_en;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[ЅудаҐн≥цтва пачалос€ Ґ 1641 годзе па фундацы≥ трокскай касц€л€ншы «узаны √ансеҐскай. ѕадчас будаҐн≥цтва был≥ выкарыстаны€ падвалы ≥ сцены тых жылых будынкаҐ, €к≥€ разм€шчал≥с€ тут раней. ” будынку разм€шчалс€ манастыр —в€тога духа баз≥л≥€нак.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);
+
+=> nrel_osm_query: [node(1369959004);];
+
+<- rrel_key_sc_element: ...
+
+(*
+
+<-sc_illustration;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+->rrel_example: "file://content/wommon1.jpg"
+
+(*
+
+=> nrel_format: format_jpg;;
+
+*);;
+
+*);;
+
+*);
+
+<- rrel_key_sc_element: ...
+
+(*
+
+<-sc_illustration;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+->rrel_example: "file://content/wommon2.jpg"
+
+(*
+
+=> nrel_format: format_jpg;;
+
+*);;
+
+*);;
+
+*)
+
+;;
+
+=> nrel_geographical_location: ...
+
+(*
+
+<-concept_mapped_point;;
+
+=> nrel_WGS_84_translation: [53.904185, 27.557831]
+
+(*
+
+-> ...
+
+(*
+
+<- concept_coordinate;;
+
+->rrel_latitude: ...
+
+(*
+
+<=nrel_value: ...
+
+(*
+
+-> rrel_degree: 53.904185;;
+
+*);;
+
+*);;
+
+->rrel_longitude: ...
+
+(*
+
+<=nrel_value: ...
+
+(*
+
+-> rrel_degree: 27.557831;;
+
+*);;
+
+*);;
+
+*);;
+
+*);;
+
+concept_situation->[*Female_Basilian_Monastery_Building <- concept_arch_baroque;;*]
+
+(*
+
+<- begin_date_1641;;
+
+*);;

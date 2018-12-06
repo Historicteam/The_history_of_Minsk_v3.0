@@ -1,0 +1,94 @@
+concept_internment
+=> nrel_main_idtf:
+	[концентрационный лагерь] (* <- lang_ru;; *);
+=> nrel_idtf: [множество концентрационных лагерей] (* <- lang_ru;; *);
+              [internment] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	 Definition_of_the_internment_concept
+	(* 
+		=> nrel_main_idtf:
+			[Опр. (концентрационный лагерь)]
+			(*
+			<- lang_ru;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Специально оборудованный центр массового принудительного заключения и содержания некоторых категорий граждан различных стран.] (* <-lang_ru;; *);; 
+			*);;
+                <=nrel_used_constants: ... (* -> nrel_citizen;; -> concept_country;; *);;
+	*);
+->rrel_example: Auschwitz;
+
+<- rrel_key_sc_element:	 
+         Statement_for_the_internment_concept
+	(* 
+		=> nrel_main_idtf:
+			[Утв. (термин, легерь, военнопленный, концентрационный лагерь)]
+			(*
+			<- lang_ru;;
+			*);;
+
+		<- sc_statement;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Первоначально термин использовался в основном в отношении лагерей для военнопленных и интернированных лиц, но в настоящее время он, как правило, ассоциируется в первую очередь с концентрационными лагерями Третьего рейха и потому стал пониматься как обозначение места массового заключения с крайне жестокими условиями содержания.] (* <-lang_ru;; *);; 
+			*);;
+	*);
+
+<= nrel_inclusion: concept_camp;
+
+<-sc_node_not_relation;;
+
+rrel_imprisoned
+=> nrel_main_idtf:
+	      [заключенный'] (* <- lang_ru;; *);
+=> nrel_idtf: [быть заключенным'] (* <- lang_ru;; *);
+              [imprisoned'] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	 Definition_of_the_rrel_imprisoned
+	(* 
+		=> nrel_main_idtf:
+			[Опр. (заключенный')]
+			(*
+			<- lang_ru;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Лицо, подвергнутое аресту в порядке меры пресечения, человек, лишённый свободы и отбывающий наказание в специальном учреждении — колонии, следственном изоляторе, тюрьме и тому подобное.] (* <-lang_ru;; *);; 
+			*);;
+                <=nrel_used_constants: ... (* -> concept_person;; *);;
+	*);
+
+<- binary_relation (* <- arity (* <- concept_parameter;; *);;
+                              => nrel_measurement: 2;;
+                           *);
+=> nrel_first_domain: 
+	concept_place_of_detention;
+
+=> nrel_second_domain: 
+	concept_person;
+
+=> nrel_definitional_domain: ... 
+                           (* <= nrel_combination: ...
+                                                 (* 
+                                                    <- concept_place_of_detention;;
+                                                    <- concept_person;;
+                                                 *);;
+                           *);
+<- role_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antitransitive_relation;
+<- antisymmetric_relation;
+
+<- sc_node_role_relation;;
+

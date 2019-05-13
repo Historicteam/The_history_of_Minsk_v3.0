@@ -42,8 +42,7 @@ the_building_of_the_Dominican_monastery
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;
+	*);
 
 => nrel_start_time: ...   
             (*
@@ -51,7 +50,7 @@ the_building_of_the_Dominican_monastery
           
                 <- completion_date_1650;;
             *);
-    
+
 => nrel_geographical_location: ...
     (*
     <-concept_mapped_point;;
@@ -124,7 +123,6 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
                     *);;
                 *);;
 *);;
-
 
 st_Thomas_Aquinas_church
         => nrel_main_idtf:

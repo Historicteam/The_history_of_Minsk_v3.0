@@ -1,0 +1,11 @@
+Kiseleva_Street
+	=> nrel_main_idtf:
+		[Улица Киселева](* <- lang_ru;; *);
+		[Kiseleva Street](* <- lang_en;; *);
+			[Вуліца Кісялева]
+			(*
+			<- lang_by;;
+			*);
+
+	<- concept_street;;
+

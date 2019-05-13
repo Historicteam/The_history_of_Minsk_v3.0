@@ -35,7 +35,7 @@ Church_of_St_Adalbert
 		<- completion_date_2016;;		
 		*);;
  *);
-
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 <= nrel_temporal_decomposition: 
     {
         Church_of_St_Adalbert_of_the_monastery_of_Benedictine
@@ -82,7 +82,7 @@ Church_of_St_Adalbert
 
          *)
       };
-
+=>nrel_osm_query:[way(35605529);];
    => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

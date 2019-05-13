@@ -1,0 +1,11 @@
+Frunze_Street
+	=> nrel_main_idtf:
+		[Улица Фрунзе](* <- lang_ru;; *);
+		[Frunze Street](* <- lang_en;; *);
+			[Вуліца Фрунзэ]
+			(*
+			<- lang_by;;
+			*);
+
+	<- concept_street;;
+

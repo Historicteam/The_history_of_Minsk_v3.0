@@ -9,7 +9,5 @@ International_Street
 	=> nrel_whole_part: 
 	house_31_International_street;
 	Moniuszkos_House;
-        Pole_house;
-
+  Pole_house;
 <- concept_street;;
-

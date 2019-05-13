@@ -3,4 +3,5 @@ Academic_Street
 		[Улица Академическая](*<-lang_ru;; *);
 		[academic street](*<-lang_en;; *);
 		[Вуліца Акадэмічная](*<-lang_by;; *);
+
 	<-concept_street;;

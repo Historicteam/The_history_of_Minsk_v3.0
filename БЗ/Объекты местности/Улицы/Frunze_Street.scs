@@ -6,5 +6,6 @@ Frunze_Street
 			(*
 			<- lang_by;;
 			*);
+
 	<- concept_street;;
 

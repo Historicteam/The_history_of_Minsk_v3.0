@@ -6,5 +6,6 @@ Krasnoarmiejskaja_street
 			(*
 			<- lang_by;;
 			*);
+
 	<- concept_street;;
 

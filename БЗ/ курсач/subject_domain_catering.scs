@@ -1,0 +1,24 @@
+subject_domain_catering
+=> nrel_main_idtf:
+	[Предметная область общественного питания] 
+	(* <- lang_ru;; *);
+	[Subject domain of catering]	
+	(* <- lang_en;; *);
+<- subject_domain;
+
+-> rrel_maximum_studied_object_class:
+    concept_catering_organization;
+
+-> rrel_not_maximum_studied_object_class:
+    concept_catering_chain;
+    concept_bar;
+    concept_canteen;
+    concept_coffee;
+    concept_cuisine;
+    concept_pizzeria;
+    concept_restaurant;
+    concept_sea_food;
+    concept_shawarma;
+
+-> rrel_explored_relation:
+	nrel_cuisine;;

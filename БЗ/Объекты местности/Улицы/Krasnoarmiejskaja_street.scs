@@ -6,9 +6,5 @@ Krasnoarmiejskaja_street
 			(*
 			<- lang_by;;
 			*);
-	<= nrel_subdividing: 
-	{
-	building_Council_of_the_Republic
-	};
 	<- concept_street;;
 

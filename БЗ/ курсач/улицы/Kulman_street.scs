@@ -1,10 +1,10 @@
-Kullmans_Street
-	=> nrel_main_idtf:
+Kulman_street
+=> nrel_main_idtf:
 			[Улица Кульман]
 			(*
 			<- lang_ru;;
 			*);
-			[Kullman's Street]
+			[Kulman street]
 			(*
 			<- lang_en;;
 			*);
@@ -12,9 +12,5 @@ Kullmans_Street
 			(*
 			<- lang_by;;
 			*);
-		<= nrel_subdividing:
-		{
-			house_15_Kullmans_Street
-		};
-		<-concept_street;;
-
+->house_15_Kullmans_Street;
+<-concept_street;;

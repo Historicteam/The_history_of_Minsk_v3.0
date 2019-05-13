@@ -31,8 +31,8 @@ Female_Basilian_Monastery_Building
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
-	<-key_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*

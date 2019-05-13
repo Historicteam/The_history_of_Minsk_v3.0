@@ -10,8 +10,8 @@ Building_courtyard_seating
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
-	<-key_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*

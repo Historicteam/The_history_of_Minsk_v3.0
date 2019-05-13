@@ -16,8 +16,8 @@ Malinins_house
 <- rrel_key_sc_element:
   ...
   (*
-	<-sc_definition;;
-	<-key_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<=nrel_sc_text_translation:
 	...
 	(*

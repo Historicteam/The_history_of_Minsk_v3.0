@@ -9,8 +9,8 @@ building_of_house_of_government
 <- rrel_key_sc_element:
 	...
 	(*
-	<-sc_definition;;
-	<-key_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<=nrel_sc_text_translation:
 		...
 		(*

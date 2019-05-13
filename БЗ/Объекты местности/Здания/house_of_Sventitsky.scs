@@ -25,7 +25,7 @@ house_of_Sventitsky
 <- rrel_key_sc_element:
   ...
   (*
-  <-sc_definition;;
+  <-sc_explanation;;
   <=nrel_sc_text_translation:
     ...
     (*
@@ -88,7 +88,7 @@ house_of_Sventitsky
 <- rrel_key_sc_element: 
   ...
   (*
-	<- sc_definition;;
+	<-sc_explanation;;
 	<- key_definition;;
 	<= nrel_sc_text_translation:
     ...

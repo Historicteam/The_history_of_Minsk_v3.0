@@ -10,5 +10,6 @@ International_Street
 	house_31_International_street;
 	Moniuszkos_House;
         Pole_house;
-	<- concept_street;;
+
+<- concept_street;;
 

@@ -9,6 +9,7 @@ Building_Institute_Belpromproekt
 	...
 	(*
 	<- sc_definition;;
+	<-key_definition;;
 	<= nrel_sc_text_translation:
 		...
 		(*

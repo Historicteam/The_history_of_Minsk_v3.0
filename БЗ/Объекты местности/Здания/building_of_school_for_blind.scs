@@ -10,6 +10,7 @@ building_of_school_for_blind
 	...
 	(*
 	<-sc_definition;;
+	<-key_definition;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -30,6 +31,7 @@ building_of_school_for_blind
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

@@ -24,25 +24,28 @@ concept_memorial_complex
 <=nrel_sc_text_translation: ...
   (*
 -> rrel_example:
-[Мемориа́льный ко́мплекс — территория c размещёнными на ней монументальными архитектурными сооружениями: мавзолеями, пантеонами, скульптурными группами, обелисками славы и памятниками, посвящёнными выдающимся событиям из истории страны и народа, её населяющего.]
+[Мемориа́льный ко́мплекс — территория c размещёнными на ней монументальными архитектурными сооружениями: мавзолеями, пантеонами, скульптурными группами, обелисками славы и <sc_element sys_idtf="concept_monument">памятниками</sc_element>, посвящёнными выдающимся событиям из истории страны и народа, её населяющего.]
       (*
 <- lang_ru;;
+=> nrel_format: format_html;;
       *);;
   *);
 ...
 (*
 -> rrel_example:
-[Мемарыяльны комплекс - тэрыторыя з размешчанымі на ёй манументальнымі архітэктурнымі збудаваннямі: маўзалеяў, пантэон, скульптурнымі групамі, абеліскамі славы і помнікамі, прысвечанымі выбітным падзеям з гісторыі краіны і народа, яе насяляюць.]
+[Мемарыяльны комплекс - тэрыторыя з размешчанымі на ёй манументальнымі архітэктурнымі збудаваннямі: маўзалеяў, пантэон, скульптурнымі групамі, абеліскамі славы і <sc_element sys_idtf="concept_monument">помнікамі</sc_element>, прысвечанымі выбітным падзеям з гісторыі краіны і народа, яе насяляюць.]
       (*
 <- lang_by;;
+=> nrel_format: format_html;;
       *);;
 *);
 ...
 (*
 -> rrel_example:
-[The memorial complex - the territory was placed with her monumental architectural constructions: mausoleums, pantheons, sculptural groups, obelisks and monuments of fame, dedicated to the outstanding events of the history of the country and the people inhabiting it.]
+[The memorial complex - the territory was placed with her monumental architectural constructions: mausoleums, pantheons, sculptural groups, obelisks and <sc_element sys_idtf="concept_monument">monuments</sc_element> of fame, dedicated to the outstanding events of the history of the country and the people inhabiting it.]
       (*
 <- lang_en;;
+=> nrel_format: format_html;;
       *);;
   *);;
 *)

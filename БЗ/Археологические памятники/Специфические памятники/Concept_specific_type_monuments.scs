@@ -24,25 +24,28 @@ concept_specific_type_monuments
 <=nrel_sc_text_translation: ...
   (*
 -> rrel_example:
-[ Специфические памятники- особый вид памятников ,который включает в себя клады ,затонувшие корабли,случайные находки,затопленные города или их части и другое]
+[Специфические памятники- особый вид <sc_element sys_idtf="concept_monument">памятников</sc_element>,который включает в себя <sc_element sys_idtf="concept_treasure">клады</sc_element>, <sc_element sys_idtf="concept_shipwreck">затонувшие корабли</sc_element>, <sc_element sys_idtf="concept_chance_find">случайные находки</sc_element>, <sc_element sys_idtf="concept_flooded_city">затопленные города</sc_element> или их части и другое]
       (*
 <- lang_ru;;
+=> nrel_format: format_html;;
       *);;
   *);
 ...
 (*
 -> rrel_example:
-[Спецыфічныя помнікі- адмысловы выгляд помнікаў, які ўключае ў сябе скарбы, патанулыя караблі, выпадковыя знаходкі, затопленыя горада ці іх часткі і іншае]
+[Спецыфічныя помнікі- адмысловы выгляд <sc_element sys_idtf="concept_monument">помнікаў</sc_element>, які ўключае ў сябе <sc_element sys_idtf="concept_treasure">скарбы</sc_element>, <sc_element sys_idtf="concept_shipwreck">патанулыя караблі</sc_element>, <sc_element sys_idtf="concept_chance_find">выпадковыя знаходкі</sc_element>, <sc_element sys_idtf="concept_flooded_city">затопленыя горада</sc_element> ці іх часткі і іншае]
       (*
 <- lang_by;;
+=> nrel_format: format_html;;
       *);;
   *);
 ...
 (*
 -> rrel_example:
-[Specific monuments- special kind of monuments, which includes treasures, shipwrecks, chance finds, flooded city or parts thereof, and more]
+[Specific monuments- special kind of <sc_element sys_idtf="concept_monument">monuments</sc_element>, which includes <sc_element sys_idtf="concept_treasure">treasures</sc_element>, <sc_element sys_idtf="concept_shipwreck">shipwrecks</sc_element>, <sc_element sys_idtf="concept_chance_find">chance finds</sc_element>, <sc_element sys_idtf="concept_flooded_city">flooded city</sc_element> or parts thereof, and more]
       (*
 <- lang_en;;
+=> nrel_format: format_html;;
       *);;
   *);;
 *);

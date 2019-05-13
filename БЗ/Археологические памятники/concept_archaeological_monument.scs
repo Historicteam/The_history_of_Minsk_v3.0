@@ -39,7 +39,7 @@ concept_archaeological_monument
 ...
   (*
 -> rrel_example:
-[Археологический памятник — объект материальной культуры, несущий в себе определённый объём информации о прошлом. Синонимом этого понятия может считаться термин «артефакт» ]
+[Археологический памятник — объект материальной культуры, несущий в себе определённый объём информации о прошлом.]
       (*
 <- lang_ru;;
       *);;
@@ -47,7 +47,7 @@ concept_archaeological_monument
 ...
 (*
 -> rrel_example:
-[ Archaeological monument - the object of material culture, carries a certain amount of information about the past. Synonymous with this concept, the term "artifact" can be considered]
+[ Archaeological monument - the object of material culture, carries a certain amount of information about the past.]
       (*
 <- lang_en;;
       *);;
@@ -55,7 +55,7 @@ concept_archaeological_monument
 ...
 (*
 -> rrel_example:
-[Археалагічны помнік - аб'ект матэрыяльнай культуры, які нясе ў сабе пэўны аб'ём інфармацыі пра мінулае. Сінонімам гэтага паняцця можа лічыцца тэрмін «артэфакт»]
+[Археалагічны помнік - аб'ект матэрыяльнай культуры, які нясе ў сабе пэўны аб'ём інфармацыі пра мінулае.]
       (*
 <- lang_by;;
       *);;

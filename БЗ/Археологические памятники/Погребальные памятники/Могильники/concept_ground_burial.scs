@@ -20,25 +20,28 @@ concept_ground_mound
 <=nrel_sc_text_translation: ...
   (*
 -> rrel_example:
-[Грунтовый могильник-могильник,в котором захоронения произвоились на грунтовой почве.]
+[Грунтовый могильник-<sc_element sys_idtf="concept_mound">могильник</sc_element>,в котором захоронения производились на грунтовой почве.]
       (*
 <- lang_ru;;
+=> nrel_format: format_html;;
       *);;
   *);
 ...
 (*
 -> rrel_example:
-[Грунтавы могільнік-магільнік, у якім пахавання вырабляліся на грунтавай глебе.]
+[Грунтавы могільнік-<sc_element sys_idtf="concept_mound">магільнік</sc_element>, у якім пахавання вырабляліся на грунтавай глебе.]
       (*
 <- lang_by;;
+=> nrel_format: format_html;;
       *);;
 *);
 ...
 (*
 -> rrel_example:
-[Ground mound- burial ground, where the burial ground on the dirt proizvoilis.]
+[Ground mound-<sc_element sys_idtf="concept_mound">mound</sc_element>, where the burial ground on the dirt proizvoilis.]
       (*
 <- lang_en;;
+=> nrel_format: format_html;;
       *);;
   *);;
 *)

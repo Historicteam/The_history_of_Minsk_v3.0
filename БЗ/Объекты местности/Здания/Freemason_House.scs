@@ -12,7 +12,7 @@ Freemason_House
   (*
     <- lang_by;;
   *);
-
+<=nrel_whole_part:Music_Backstreet;
 => nrel_osm_query: [way(25327511);];
 => nrel_geographical_location: ...
 	(*
@@ -78,6 +78,7 @@ Freemason_House
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

@@ -61,6 +61,7 @@ State_Security_Committee_building
 		*);;
 	*);
 
+<= nrel_whole_part: Independence_Avenue;
 => nrel_osm_query: [way(35995634);];
 => nrel_geographical_location: ...
 	(*
@@ -104,6 +105,7 @@ concept_situation->[*State_Security_Committee_building
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

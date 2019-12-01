@@ -29,5 +29,3 @@ concept_hookah_place
 	*);
 <=nrel_inclusion:concept_specialized_catering_organization;
 <-sc_node_not_relation;;
-
-

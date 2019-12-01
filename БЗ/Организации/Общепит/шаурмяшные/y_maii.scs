@@ -1,0 +1,35 @@
+Y_Maii
+=>nrel_main_idtf:
+    [У Маі](*<-lang_by;;*);
+    [У Майи](*<-lang_ru;;*);
+    [At maya](*<-lang_en;;*);
+<-concept_catering_organization;
+<-concept_shawarma;
+<-concept_catering_with_counter_service;
+=>nrel_working_hours: Mon_Sun_10_00_06_00;
+=>nrel_location:house_9_Kulman_street;;
+=>nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.92144, 27.57944]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.92144;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.57944;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;

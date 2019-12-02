@@ -2,7 +2,6 @@ Beer_and_wine
 =>nrel_main_idtf:
     [Beer&Wine](*<-lang_ru;;*);
     [Beer And Wine](*<-lang_en;;*);
-<-concept_catering_organization;
 <-concept_bar;
 <-concept_catering_with_waiter_service;
 <-concept_catering_with_bar_service;

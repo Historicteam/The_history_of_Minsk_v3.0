@@ -2,7 +2,6 @@ Myata_Lounge
 =>nrel_main_idtf:
     [Myata Lounge](*<-lang_ru;;*);
     [Myata Lounge](*<-lang_en;;*);
-<-concept_catering_organization;
 <-concept_hookah_place;
 <-concept_catering_with_waiter_service;
 <-concept_catering_with_bar_service;

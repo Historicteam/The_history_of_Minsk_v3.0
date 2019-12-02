@@ -2,7 +2,6 @@ The_office
 =>nrel_main_idtf:
     [The office](*<-lang_ru;;*);
     [The office](*<-lang_en;;*);
-<-concept_catering_organization;
 <-concept_hookah_place;
 <-concept_catering_with_waiter_service;
 <-concept_catering_with_bar_service;

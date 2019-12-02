@@ -2,7 +2,6 @@ Mensk
 =>nrel_main_idtf:
     [Кафе  Менск](*<-lang_ru;;*);
     [Cafe  Mensk](* <-lang_en;;*);
-<-concept_catering_organization;
 =>nrel_cuisine:european_cuisine;
 =>nrel_cuisine:belarussian_cuisine;
 <-concept_catering_with_waiter_service;

@@ -2,7 +2,6 @@ old_town
 =>nrel_main_idtf:
     [Старый город](*<-lang_ru;;*);
     [Old town](* <-lang_en;;*);
-<-concept_catering_organization;
 <-concept_catering_with_waiter_service;
 <-concept_catering_with_bar_service;
 <-european_cuisine;

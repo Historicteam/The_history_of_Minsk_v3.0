@@ -2,7 +2,6 @@ pancake_house_on_Bogdanovicha_23
 =>nrel_main_idtf:
     [блинная](*<-lang_ru;;*);
     [pancake house](* <-lang_en;;*);
-<-concept_catering_organization;
 <-concept_catering_with_counter_service;
 <-concept_pancake_house;
 =>nrel_working_hours: Mon_Fri_9_00_22_00;

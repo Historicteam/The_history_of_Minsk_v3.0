@@ -2,7 +2,6 @@ cafe_at_Sovetskaya_14
 =>nrel_main_idtf:
     [Кафе на Советской 14](*<-lang_ru;;*);
     [Cafe at Sovetskaya 14](* <-lang_en;;*);
-<-concept_catering_organization;
 =>nrel_cuisine:home_cuisine;
 =>nrel_cuisine:european_cuisine;
 =>nrel_cuisine:belarussian_cuisine;

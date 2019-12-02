@@ -24,5 +24,6 @@ Warsaw_Grand_Theatre_Building
 
                 <- completion_date_1833;;
             *);
-
+            
+<-concept_cultural_building;
 <-concept_building;;

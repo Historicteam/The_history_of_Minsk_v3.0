@@ -1,0 +1,25 @@
+nrel_date_of_create
+=>nrel_main_idtf:
+	[дата создания*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[date of creation*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[дата стварэння*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[дата, которая показывает начало создания чего либо] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[дата, которая показывает начало создания чего либо] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

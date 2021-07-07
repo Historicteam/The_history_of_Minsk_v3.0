@@ -1,0 +1,37 @@
+concept_compositor
+	=> nrel_main_idtf: [композитор] (* <- lang_ru;; *);
+											[composer] (* <- lang_en;; *);
+										 [кампазітар] (* <- lang_by;; *);;
+
+											
+
+concept_compositor <-rrel_key_sc_element:...
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Композитор - сочинитель музыкальных произведений. ]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(композитор)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_compositor
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Профессия композитора предполагает наличие творческого дарования и требует специального обучения технике композиции, музыкально-теоретическим и музыкально-историческим дисциплинам. ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Композитор, профессия, дарование)] (* <-lang_ru;; *);;
+				*);;
+
+concept_compositor->rrel_example:[Композитор Генрих Матусович Вагнер](*<-lang_ru;;*);
+<=nrel_author:concept_musical_composition;
+=> nrel_inclusion:
+	Bronislavovish_Dmitri_Smolski;
+	Shirma_Grigori_Romanovich;
+	Genrah_Matusavich_Vagner;
+	Mulyavin_Vladimir_Grigorievich;;
+
+
+
+

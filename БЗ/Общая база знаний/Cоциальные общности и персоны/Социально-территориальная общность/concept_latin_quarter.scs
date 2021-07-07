@@ -1,0 +1,5 @@
+concept_latin_quarter
+=>nrel_main_idtf:
+	[латинский квартал] (* <-lang_ru;; *);
+	[latin quarter] (* <-lang_en;; *);
+	[лацінская квартал] (* <-lang_by;; *);;

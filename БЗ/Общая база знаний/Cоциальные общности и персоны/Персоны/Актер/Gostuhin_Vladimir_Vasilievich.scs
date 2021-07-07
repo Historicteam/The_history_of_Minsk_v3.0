@@ -1,0 +1,120 @@
+Gostuhin_Vladimir_Vasilievich
+=> nrel_main_idtf:
+	[Гостюхин Владимир Васильевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Gostyukhin Vladimir Vasilyevich]
+	(*
+	<- lang_en;;
+	*);
+	[Гасцюхін Уладзімір Васільевіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Gostuhin.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 10_03_1946
+	(*
+	=> nrel_main_idtf:
+		[10 марта 1946]
+		(*
+		<- lang_ru;;
+		*);
+		[10 March 1946]
+		(*
+		<- lang_en;;
+		*);
+		[10 сакавіка 1946]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+=>nrel_place_of_birth: the_city_of_sverdlovsk
+(*
+	=> nrel_main_idtf:
+		[Свердловск]
+		(*
+		<- lang_ru;;
+		*);
+		[Sverdlovsk]
+		(*
+		<- lang_en;;
+		*);
+		[Свердловск]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+<=nrel_role_in_the: fedorivanocivh
+	(*
+	=> nrel_main_idtf:
+		[  Фёдор Иванович в фильме : "Дальнобойщики"]
+		(*
+			<- lang_ru;;
+		*);
+		[Fedor Ivanovich in the film: "Truckers"]
+		(*
+			<- lang_en;;
+		*);
+		[Фёдар Іванавіч у фільме: "Дальнабойшчыкі"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_role_in_the: sinzaotca
+	(*
+	=> nrel_main_idtf:
+		[Тиханович в фильме : "Сын за отца"]
+		(*
+			<- lang_ru;;
+		*);
+		[Tikhanovich in the film: "Son for father"]
+		(*
+			<- lang_en;;
+		*);
+		[Ціхановіч ў фільме: "Сын за бацьку"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_role_in_the: tihiidon
+	(*
+	=> nrel_main_idtf:
+		[Пётр Мелехов в фильме : " Тихий Дон"]
+		(*
+			<- lang_ru;;
+		*);
+		[Peter Melekhov in the film: "Quiet Flows the Don"]
+		(*
+			<- lang_en;;
+		*);
+		[Пётр Мелехов у фільме: "Ціхі Дон"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

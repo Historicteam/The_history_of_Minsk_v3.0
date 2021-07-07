@@ -1,0 +1,33 @@
+concept_nation01
+	
+=> nrel_main_idtf: [нация] (* <- lang_ru;; *);
+											[nation] (* <- lang_en;; *);
+										 [нацыя] (* <- lang_by;; *);;
+											
+
+concept_nation01 <-rrel_key_sc_element:...
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Нация - собрание лиц, адаптированных под одну биологическую среду, и имеющих взаимодополняющие параметры, и по этим параметрам определяющих себе подобных.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(Нация)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_nation01
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Нация присваивается человеку при его рождении ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Человек, нация, рождение)] (* <-lang_ru;; *);;
+				*);;
+
+concept_nation01->rrel_example:[Славняская нация](*<-lang_ru;;*);
+=> nrel_inclusion:
+	concept_arb_nation;
+concept_frc_nation;;
+	
+	
+	

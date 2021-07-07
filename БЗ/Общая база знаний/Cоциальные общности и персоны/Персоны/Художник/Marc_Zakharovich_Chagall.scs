@@ -1,0 +1,147 @@
+
+Marc_Zakharovich_Chagall
+=> nrel_main_idtf:
+	[Марк Заха́рович (Моисе́й Ха́цкелевич) Шага́л]
+	(*
+	<- lang_ru;;
+	*);
+	[Marc Zakharovich Chagall]
+	(*
+	<- lang_en;;
+	*);
+	[Марк Захаравіч Шагал]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+
+
+
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Shagal_Choumoff.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+<=nrel_author: ssassa
+	(*
+	=> nrel_main_idtf:
+		[Картина:  Над городом]
+		(*
+			<- lang_ru;;
+		*);
+		[Picture: Above the city]
+		(*
+			<- lang_en;;
+		*);
+		[Карціна: Над горадам]
+		(*
+			<- lang_by;;
+		*);;
+<- rrel_key_sc_element: ...
+(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Picture1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+
+
+	
+<=nrel_author: obruchenie_tower
+	(*
+	=> nrel_main_idtf:
+		[Картина:Обрученные и Эйфелева башня ]
+		(*
+			<- lang_ru;;
+		*);
+		[Picture:Betrothed and the Eiffel Tower ]
+		(*
+			<- lang_en;;
+		*);
+		[Карціна:Заручаныя і Эйфелева вежа ]
+		(*
+			<- lang_by;;
+		*);;
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Picture2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+	
+
+
+	
+
+
+
+
+
+=>nrel_date_of_birth: 07_07_1887
+	(*
+	=> nrel_main_idtf:
+		[07 июля 1887]
+		(*
+		<- lang_ru;;
+		*);
+		[July 7, 1887]
+		(*
+		<- lang_en;;
+		*);
+		[07 ліпеня 1887]
+
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 25_03_1985
+	(*
+	=> nrel_main_idtf:
+		[28 марта 1985]
+		(*
+		<- lang_ru;;
+		*);
+		[March 28, 1985]
+		(*
+		<- lang_en;;
+		*);
+		[28 сакавіка 1985]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth:the_city_of_Vitebsk;;
+
+
+
+					
+
+
+

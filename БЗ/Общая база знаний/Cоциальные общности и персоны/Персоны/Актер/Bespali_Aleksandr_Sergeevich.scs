@@ -1,0 +1,135 @@
+Bespali_Aleksandr_Sergeevich
+=> nrel_main_idtf:
+	[Беспалый Алекснадр Сергеевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Bespaly Alexander Sergeevich]
+	(*
+	<- lang_en;;
+	*);
+	[Бяспалы Аляксандр Сяргеевіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Bespali.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 08_11_1948
+	(*
+	=> nrel_main_idtf:
+		[8 ноября 1948 года]
+		(*
+		<- lang_ru;;
+		*);
+		[November 8, 1948]
+		(*
+		<- lang_en;;
+		*);
+		[8 лістапада 1948]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 22_08_2016
+	(*
+	=> nrel_main_idtf:
+		[22 августа 2016 года]
+		(*
+		<- lang_ru;;
+		*);
+		[August 22, 2016]
+		(*
+		<- lang_en;;
+		*);
+		[22 чэрвеня 2016 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: the_city_of_polotsk
+(*
+	=> nrel_main_idtf:
+		[Полоцк]
+		(*
+		<- lang_ru;;
+		*);
+		[Polock]
+		(*
+		<- lang_en;;
+		*);
+		[Полацк]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_place_of_death: the_city_of_Minsk;
+<=nrel_role_in_the: bratiakaramazovi
+	(*
+	=> nrel_main_idtf:
+		[Ильинский батюшка в фильме : "Братья Карамазовы"]
+		(*
+			<- lang_ru;;
+		*);
+		[Ilyinsky father in the film: "The Brothers Karamazov"]
+		(*
+			<- lang_en;;
+		*);
+		[Ільінскі бацюшка ў фільме: "Браты Карамазавы"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_role_in_the: raneni_zvezdopad
+	(*
+	=> nrel_main_idtf:
+		[Раненный в фильме : "Звездопад"]
+		(*
+			<- lang_ru;;
+		*);
+		[Wounded in the movie: "Starfall" ]
+		(*
+			<- lang_en;;
+		*);
+		[Паранены ў фільме: "Зарапад"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_role_in_the: gorod_zert
+	(*
+	=> nrel_main_idtf:
+		[Малечук в фильме : "Я любил вас больше жизни "]
+		(*
+			<- lang_ru;;
+		*);
+		[Malechuk in the film: "I loved you more than life"]
+		(*
+			<- lang_en;;
+		*);
+		[Малечук у фільме: "Я любіў вас больш за жыццё"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

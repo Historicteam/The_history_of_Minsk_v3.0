@@ -1,0 +1,106 @@
+Bronislavovish_Dmitri_Smolski
+
+=> nrel_main_idtf:
+	[Смольский Дмитрий Брониславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Smolsky Dmitry Bronislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Смольскі Дзмітрый Браніслававіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Smolski.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 25_07_1937
+	(*
+	=> nrel_main_idtf:
+		[25 июля 1937]
+		(*
+		<- lang_ru;;
+		*);
+		[July 25, 1937]
+		(*
+		<- lang_en;;
+		*);
+		[25 ліпеня 1937]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+
+=>nrel_place_of_birth: the_city_of_Minsk;
+<=nrel_author: poem_petrus
+	(*
+	=> nrel_main_idtf:
+		[ Поэма «Петрусь»]
+		(*
+			<- lang_ru;;
+		*);
+		[Poem "Petrus"]
+		(*
+			<- lang_en;;
+		*);
+		[Паэма «Пятрусь»]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_author: poem_belarus_smolski
+	(*
+	=> nrel_main_idtf:
+		[поэма «Беларусь»]
+		(*
+			<- lang_ru;;
+		*);
+		[Poem "Belarus"]
+		(*
+			<- lang_en;;
+		*);
+		[паэма «Беларусь»]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_author: simon_muzika_smolski
+	(*
+	=> nrel_main_idtf:
+		[«Сымон музыка»]
+		(*
+			<- lang_ru;;
+		*);
+		["Symon music"]
+		(*
+			<- lang_en;;
+		*);
+		["Сымон музыка»]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

@@ -1,0 +1,37 @@
+concept_social_community
+	=> nrel_main_idtf: [социальная общность] (* <- lang_ru;; *);
+											[social community] (* <- lang_en;; *);
+										 [сацыяльная супольнасць] (* <- lang_by;; *);;
+											
+
+concept_social_community <-rrel_key_sc_element:...
+	
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Социальная общность -  реальное объединение людей, объективно заданное способом их устойчивой взаимосвязи, при котором они выступают (проявляют себя) как коллективный субъект социального действия.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(социальная общность)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_social_community
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[ Социальные общности различного типа определяются тем или иным способом (типом) взаимосвязи людей.  ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(социальная общность, взаимодействие людей)] (* <-lang_ru;; *);;
+				*);;
+
+concept_social_community->rrel_example:[Социальная обшность:"Социально-территориальная общность"](*<-lang_ru;;*);
+
+=> nrel_inclusion: 
+	concept_social_strate;
+	concept_social_territory;
+	concept_social_organization;
+	concept_etnos_social;;
+
+
+
+

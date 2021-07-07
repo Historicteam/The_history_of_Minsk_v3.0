@@ -1,0 +1,106 @@
+Pesnyari
+
+
+=> nrel_main_idtf:
+	[Песняры]
+	(*
+	<- lang_ru;;
+	*);
+	[Pesnyari]
+	(*
+	<- lang_en;;
+	*);
+	[ Песняры]
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Pesnyari.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_create: 25_07_1969
+	(*
+	=> nrel_main_idtf:
+		[25 июля 1969]
+		(*
+		<- lang_ru;;
+		*);
+		[July 25, 1969]
+		(*
+		<- lang_en;;
+		*);
+		[25 ліпеня 1969]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+
+=>nrel_place_of_create: the_city_of_Minsk;
+<=nrel_author: song_alesya
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Алеся"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Alesya"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Алеся"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_author: song_perapelochka
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Перапёлачка"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Perapelochka"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Перапёлачка"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_author: song_throughout_the_war
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Через всю войну"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Throughout the war"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Праз усю вайну"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

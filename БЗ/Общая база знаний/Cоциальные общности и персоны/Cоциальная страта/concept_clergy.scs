@@ -1,0 +1,5 @@
+concept_clergy
+=>nrel_main_idtf:
+	[духовенство] (* <-lang_ru;; *);
+	[clergy] (* <-lang_en;; *);
+	[духавенства] (* <-lang_by;; *);;

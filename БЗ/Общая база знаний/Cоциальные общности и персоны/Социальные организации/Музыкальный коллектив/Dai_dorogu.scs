@@ -1,0 +1,105 @@
+Dai_dorogu
+
+=> nrel_main_idtf:
+	[Дай Дорогу]
+	(*
+	<- lang_ru;;
+	*);
+	[Give the gift]
+	(*
+	<- lang_en;;
+	*);
+	[Дай дарогу]
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Dai_dorogu.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_create: 25_07_1998
+	(*
+	=> nrel_main_idtf:
+		[25 июля 1998]
+		(*
+		<- lang_ru;;
+		*);
+		[July 25, 1998]
+		(*
+		<- lang_en;;
+		*);
+		[25 ліпеня 1998]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+
+=>nrel_place_of_create: the_city_of_Minsk;
+<=nrel_author: song_tankist
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Танкист"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Tankist"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Танкіст"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_author: song_uvolte
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Увольте"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Dismiss"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Звольніце"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_author: song_new_Year
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Новый год"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "New Year"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Новы год"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

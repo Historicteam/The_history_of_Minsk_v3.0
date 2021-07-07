@@ -1,0 +1,30 @@
+concept_picture
+	=> nrel_main_idtf: [картина] (* <- lang_ru;; *);
+											[picture] (* <- lang_en;; *);
+										 [карцина] (* <- lang_by;; *);;
+											
+
+concept_picture <-rrel_key_sc_element:...
+	
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Картина в живописи — произведение искусства, обладающее законченным характером (в отличие от эскиза и этюда) и самостоятельным художественным значением.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(картина)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_picture
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[ Картина — один из наиболее типичных видов станкового искусства.  ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Картина, станковое искусство)] (* <-lang_ru;; *);;
+				*);;
+
+concept_paintre->rrel_example:[Картина " Черный квадрат"](*<-lang_ru;;*);;
+	
+
+

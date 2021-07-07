@@ -1,0 +1,5 @@
+concept_nobility
+=>nrel_main_idtf:
+	[дворянство] (* <-lang_ru;; *);
+	[nobility] (* <-lang_en;; *);
+	[дваранства] (* <-lang_by;; *);;

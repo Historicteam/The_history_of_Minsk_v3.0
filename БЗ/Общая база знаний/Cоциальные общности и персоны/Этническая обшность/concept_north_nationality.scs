@@ -1,0 +1,5 @@
+concept_north_nationality
+=>nrel_main_idtf:
+	[северная народность] (* <-lang_ru;; *);
+	[north nationality] (* <-lang_en;; *);
+	[северная народнасць] (* <-lang_by;; *);;

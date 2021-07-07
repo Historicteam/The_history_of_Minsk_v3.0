@@ -1,0 +1,35 @@
+concept_caste01
+	=> nrel_main_idtf: [каста] (* <- lang_ru;; *);
+											[каста] (* <- lang_en;; *);
+										 [каста] (* <- lang_by;; *);;
+											
+
+concept_caste01 <-rrel_key_sc_element:
+	Definition_of_caste
+				(*<-sc_definition;;
+				<=nrel_sc_text_translation:
+					...
+						(*->[Каста это одна из форм социальной стратификации, в которой социальная позиция индивида жестко фиксирована от рождения и не может меняться на протяжении жизни.]  (* <-lang_ru;; *);;
+						*);;	
+				=>nrel_main_idtf:[Опр.(Каста)](* <-lang_ru;; *);;
+				*);;
+
+																									
+concept_caste01
+	<-rrel_key_sc_element:...
+				(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*->[Между индивидами, принадлежащими различным кастам, практически не бывает браков. ] (* <-lang_ru;; *);;
+									*);;
+				=>nrel_main_idtf:[Утв.(Каста, брак)] (* <-lang_ru;; *);;
+				*);;
+
+concept_caste01->rrel_example:[Каста брахманов в Индии](*<-lang_ru;;*);
+
+
+=> nrel_inclusion: 
+concept_sudras;
+concept_vaishyas;
+	concept_brahmanas;;
+	
+	

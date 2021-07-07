@@ -1,0 +1,5 @@
+concept_chinesse_quarter
+=>nrel_main_idtf:
+	[китайский квартал] (* <-lang_ru;; *);
+	[сhinatown] (* <-lang_en;; *);
+	[кітайскі квартал] (* <-lang_by;; *);;

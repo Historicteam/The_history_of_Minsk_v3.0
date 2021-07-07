@@ -1,0 +1,135 @@
+Genrah_Matusavich_Vagner
+=> nrel_main_idtf:
+	[Генрах Матусович Вагнер]
+	(*
+	<- lang_ru;;
+	*);
+	[Henry Waаgner]
+	(*
+	<- lang_en;;
+	*);
+	[Генрах Матусович Вагнер]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Vahner.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 03_11_1882
+	(*
+	=> nrel_main_idtf:
+		[3 ноября 1882 года]
+		(*
+		<- lang_ru;;
+		*);
+		[November 3, 1882]
+		(*
+		<- lang_en;;
+		*);
+		[3 лістапада 1882]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 13_08_1956
+	(*
+	=> nrel_main_idtf:
+		[13 августа 1956 года]
+		(*
+		<- lang_ru;;
+		*);
+		[June 6, 1872]
+		(*
+		<- lang_en;;
+		*);
+		[6 чэрвеня 1872 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: the_jiraduf
+(*
+	=> nrel_main_idtf:
+		[Жирадув]
+		(*
+		<- lang_ru;;
+		*);
+		[Жирадув]
+		(*
+		<- lang_en;;
+		*);
+		[Жирадув]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_place_of_death: the_city_of_Minsk;
+<=nrel_author: teleopera_morning
+	(*
+	=> nrel_main_idtf:
+		[Телеопера:  Утро]
+		(*
+			<- lang_ru;;
+		*);
+		[раніца]
+		(*
+			<- lang_en;;
+		*);
+		[Morning]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_author: opera_topoyjizni
+	(*
+	=> nrel_main_idtf:
+		[Опера: Тропою жизни]
+		(*
+			<- lang_ru;;
+		*);
+		[Opera: The path of life ]
+		(*
+			<- lang_en;;
+		*);
+		[Опера: Сцежкаю жыцця ]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_author: balet_nevesta
+	(*
+	=> nrel_main_idtf:
+		[Балет : Подставная невеста]
+		(*
+			<- lang_ru;;
+		*);
+		[Ballet: False bride]
+		(*
+			<- lang_en;;
+		*);
+		[Балет: Падстаўная нявеста]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

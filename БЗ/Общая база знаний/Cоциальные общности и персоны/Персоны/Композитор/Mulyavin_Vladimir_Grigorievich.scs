@@ -1,0 +1,150 @@
+Mulyavin_Vladimir_Grigorievich
+=> nrel_main_idtf:
+	[Мулявин Владимир Георгиевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Mulyavin Vladimir Georgievich]
+	(*
+	<- lang_en;;
+	*);
+	[Мулявін Уладзімір Георгіевіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://MulavinVG.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 12_01_1941
+	(*
+	=> nrel_main_idtf:
+		[12 января 1941]
+		(*
+		<- lang_ru;;
+		*);
+		[January 12, 1941]
+		(*
+		<- lang_en;;
+		*);
+		[12 студзеня 1941]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 26_01_2003
+	(*
+	=> nrel_main_idtf:
+		[26 января 2003]
+		(*
+		<- lang_ru;;
+		*);
+		[January 26, 2003]
+		(*
+		<- lang_en;;
+		*);
+		[26 студзеня 2003]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: the_jiraduf
+(*
+	=> nrel_main_idtf:
+		[Свердловск]
+		(*
+		<- lang_ru;;
+		*);
+		[Sverdlovsk]
+		(*
+		<- lang_en;;
+		*);
+		[Свердловск]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_place_of_death: the_city_of_Moscou
+(*
+	=> nrel_main_idtf:
+		[Москва]
+		(*
+		<- lang_ru;;
+		*);
+		[Moscou]
+		(*
+		<- lang_en;;
+		*);
+		[Масква]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+<=nrel_author: yas_i_yanina
+	(*
+	=> nrel_main_idtf:
+		[ Ясь и Янина]
+		(*
+			<- lang_ru;;
+		*);
+		[Yas and Ioannina]
+		(*
+			<- lang_en;;
+		*);
+		[Ясь і Яніна]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_author: a_takze_cirk
+	(*
+	=> nrel_main_idtf:
+		[ А также цирк]
+		(*
+			<- lang_ru;;
+		*);
+		[And also the circus]
+		(*
+			<- lang_en;;
+		*);
+		[А таксама цырк ]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_author: komedianta
+	(*
+	=> nrel_main_idtf:
+		[Комедиант]
+		(*
+			<- lang_ru;;
+		*);
+		[Comedian]
+		(*
+			<- lang_en;;
+		*);
+		[камедыянт]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

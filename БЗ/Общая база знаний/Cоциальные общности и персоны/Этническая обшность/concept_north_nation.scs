@@ -1,0 +1,5 @@
+concept_frc_nation
+=>nrel_main_idtf:
+	[французская нация] (* <-lang_ru;; *);
+	[france nation] (* <-lang_en;; *);
+	[французская нацыя] (* <-lang_by;; *);;

@@ -1,0 +1,136 @@
+Yankovski_Rostislav_Ivanovich
+=> nrel_main_idtf:
+	[Янковский Ростислав Иванович]
+	(*
+	<- lang_ru;;
+	*);
+	[Yankovsky Rostislav Ivanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Янкоўскі Расціслаў Іванавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yankovski.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_birth: 05_02_1930
+	(*
+	=> nrel_main_idtf:
+		[5 февраля 1930]
+		(*
+		<- lang_ru;;
+		*);
+		[February 5, 1930]
+		(*
+		<- lang_en;;
+		*);
+		[5 лютага 1930]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 26_06_2016
+	(*
+	=> nrel_main_idtf:
+		[26 июня 2016]
+		(*
+		<- lang_ru;;
+		*);
+		[June 26, 2016]
+		(*
+		<- lang_en;;
+		*);
+		[26 чэрвеня 2016]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+=>nrel_place_of_birth: the_city_odessa
+(*
+	=> nrel_main_idtf:
+		[Одесса]
+		(*
+		<- lang_ru;;
+		*);
+		[Odessa]
+		(*
+		<- lang_en;;
+		*);
+		[Адэсса]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+<=nrel_role_in_the: redleavels
+	(*
+	=> nrel_main_idtf:
+		[Виктор в фильме : "Красные листья"]
+		(*
+			<- lang_ru;;
+		*);
+		[Victor in the film: "Red Leaves"]
+		(*
+			<- lang_en;;
+		*);
+		[Віктар у фільме: "Чырвоныя лісце"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_role_in_the: moviedirk
+	(*
+	=> nrel_main_idtf:
+		[директор школы в фильме : " Кортик"]
+		(*
+			<- lang_ru;;
+		*);
+		[Director of the school in the movie: "Dirk"]
+		(*
+			<- lang_en;;
+		*);
+		[дырэктар школы ў фільме: "Корцік"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_role_in_the: companionserved
+	(*
+	=> nrel_main_idtf:
+		[ Васильчиков в фильме : " Служили два товарища"]
+		(*
+			<- lang_ru;;
+		*);
+		[Vasilchikov in the film: "Two Companions Served"]
+		(*
+			<- lang_en;;
+		*);
+		[АВасільчык у фільме: "Служылі два таварыша"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

@@ -1,0 +1,5 @@
+concept_avstraloid
+=>nrel_main_idtf:
+	[австралоид] (* <-lang_ru;; *);
+	[australoid] (* <-lang_en;; *);
+	[австралоид] (* <-lang_by;; *);;

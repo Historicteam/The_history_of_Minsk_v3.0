@@ -1,0 +1,105 @@
+Lyapis_Trubeckoi
+
+=> nrel_main_idtf:
+	[Ляпис Трубецкой]
+	(*
+	<- lang_ru;;
+	*);
+	[Lyapis Trubetskoy]
+	(*
+	<- lang_en;;
+	*);
+	[ Ляпіс Трубяцкой]
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Lyapis.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+
+=>nrel_date_of_create: 25_07_1989
+	(*
+	=> nrel_main_idtf:
+		[25 июля 1989]
+		(*
+		<- lang_ru;;
+		*);
+		[July 25, 1989]
+		(*
+		<- lang_en;;
+		*);
+		[25 ліпеня 1989]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+
+
+=>nrel_place_of_create: the_city_of_Minsk;
+<=nrel_author: song_kapital
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Капитал"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Kapital"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Капитал"]
+		(*
+			<- lang_by;;
+		*);;
+
+	
+	*);
+<=nrel_author: song_rabkor
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Рабкор"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Rabkor"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Рабкор"]
+		(*
+			<- lang_by;;
+		*);;
+
+	*);
+<=nrel_author: song_matreshka
+	(*
+	=> nrel_main_idtf:
+		[ Песня "Матрешка"]
+		(*
+			<- lang_ru;;
+		*);
+		[The song "Matreshka"]
+		(*
+			<- lang_en;;
+		*);
+		[Песня "Матрешка"]
+		(*
+			<- lang_by;;
+		*);;
+	
+	*);;
+
+
+

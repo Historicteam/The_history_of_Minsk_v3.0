@@ -1,0 +1,5 @@
+concept_sudras
+=>nrel_main_idtf:
+	[шудры] (* <-lang_ru;; *);
+	[sudras] (* <-lang_en;; *);
+	[шудры] (* <-lang_by;; *);;
